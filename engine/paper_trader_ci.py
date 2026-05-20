@@ -127,8 +127,13 @@ def run_paper_pass():
             if markets:
                 close_time = markets[0].get("close_time")
 
+            # Extract all thresholds from actual Kalshi markets so the model
+            # generates probabilities for granular brackets (57%, 58%, 62%, etc.)
+            market_thresholds = [m["threshold"] for m in markets if m.get("threshold") is not None]
+
             prediction = predict_distribution(
                 reviews, critic_db, movie_summary=summary, close_time=close_time,
+                extra_thresholds=market_thresholds,
             )
             if prediction["n_reviews"] == 0:
                 continue

@@ -109,8 +109,12 @@ def run_pass(critic_db, kalshi, mapper, live=False, bankroll=None):
         elif markets:
             close_time_str = markets[0].get("close_time")
 
+        # Pass actual Kalshi thresholds so model covers granular brackets
+        market_thresholds = [m["threshold"] for m in markets if m.get("threshold") is not None]
+
         prediction = predict_distribution(
             reviews, critic_db, movie_summary=summary, close_time=close_time_str,
+            extra_thresholds=market_thresholds,
         )
         if prediction["n_reviews"] == 0:
             continue

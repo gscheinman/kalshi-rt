@@ -7,7 +7,8 @@ from model.drift import predict_drift, drift_adjusted_mean
 import config
 
 
-def predict_distribution(reviews, critic_db, movie_summary=None, close_time=None):
+def predict_distribution(reviews, critic_db, movie_summary=None, close_time=None,
+                         extra_thresholds=None):
     """
     Given early reviews, produce a Beta posterior distribution over the
     final Tomatometer score and threshold probabilities.
@@ -168,9 +169,13 @@ def predict_distribution(reviews, critic_db, movie_summary=None, close_time=None
     mean = dist.mean()
     ci_low, ci_high = dist.ppf(0.025), dist.ppf(0.975)
 
-    # Threshold probabilities
+    # Threshold probabilities -- include both standard thresholds and any
+    # extra thresholds from actual Kalshi markets (47%, 52%, 56-59%, 62%, etc.)
+    all_thresholds = set(config.KALSHI_THRESHOLDS)
+    if extra_thresholds:
+        all_thresholds.update(extra_thresholds)
     threshold_probs = {}
-    for t in config.KALSHI_THRESHOLDS:
+    for t in sorted(all_thresholds):
         threshold_probs[t] = float(1.0 - dist.cdf(t / 100.0))
 
     naive_pct = naive_pct_tmp  # already computed above for drift

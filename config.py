@@ -31,6 +31,9 @@ CORRELATION_DISCOUNT = 0.6
 SHRINKAGE_N = 15
 
 # Kalshi threshold brackets we model.
+# Base set: every 5% from 5 to 95. Kalshi also creates granular thresholds
+# (47%, 52%, 56-59%, 62%, etc.) for popular movies. Those are added dynamically
+# by predict_distribution when market data is available.
 KALSHI_THRESHOLDS = list(range(5, 100, 5))
 
 
@@ -58,6 +61,13 @@ MIN_EDGE = 0.05
 # Filters out long-shot bets where model is very uncertain.
 # UNVALIDATED -- should be validated from backtest.
 MIN_WIN_PROB = 0.25
+
+# Minimum ask price to consider a position. Markets priced below this
+# (e.g., 2-3c) have near-zero liquidity, no realistic exit, and the
+# "edge" is misleading because the model's tail probability isn't reliable
+# enough to trust on long-shot bets.
+# UNVALIDATED -- adjust based on observed fill rates.
+MIN_ENTRY_PRICE = 0.05
 
 
 # --- Confidence-based sizing multipliers ---

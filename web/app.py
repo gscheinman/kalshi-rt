@@ -127,12 +127,16 @@ def api_analyze():
     if not reviews:
         return jsonify({"error": "No reviews provided"}), 400
 
-    result = predict_distribution(reviews, critic_db, movie_summary=movie_summary)
-    calibrated = calibrate_thresholds(result["threshold_probs"], result["n_reviews"])
-
+    # Get market data first so we know what thresholds to generate probs for
     market_prices = []
     if event_ticker:
         market_prices = kalshi.get_markets(event_ticker)
+
+    # Pass actual Kalshi thresholds for granular brackets (57%, 58%, 62%, etc.)
+    extra_thresholds = [m["threshold"] for m in market_prices if m.get("threshold") is not None]
+    result = predict_distribution(reviews, critic_db, movie_summary=movie_summary,
+                                  extra_thresholds=extra_thresholds)
+    calibrated = calibrate_thresholds(result["threshold_probs"], result["n_reviews"])
 
     opportunities = []
     if market_prices:

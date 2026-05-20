@@ -77,9 +77,12 @@ def take_snapshot():
                         reviews = scrape_reviews(ems_id, slug=rt_slug, max_pages=5)
                         if reviews:
                             close_time = markets[0].get("close_time") if markets else None
+                            # Include actual Kalshi thresholds for granular brackets
+                            mkt_thresholds = [m["threshold"] for m in markets if m.get("threshold") is not None]
                             pred = predict_distribution(
                                 reviews, critic_db,
                                 movie_summary=summary, close_time=close_time,
+                                extra_thresholds=mkt_thresholds,
                             )
                             calibrated = calibrate_thresholds(
                                 pred["threshold_probs"], pred["n_reviews"]
