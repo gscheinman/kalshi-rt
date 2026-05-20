@@ -62,12 +62,6 @@ MIN_EDGE = 0.05
 # UNVALIDATED -- should be validated from backtest.
 MIN_WIN_PROB = 0.25
 
-# Minimum ask price to consider a position. Markets priced below this
-# (e.g., 2-3c) have near-zero liquidity, no realistic exit, and the
-# "edge" is misleading because the model's tail probability isn't reliable
-# enough to trust on long-shot bets.
-# UNVALIDATED -- adjust based on observed fill rates.
-MIN_ENTRY_PRICE = 0.05
 
 
 # --- Confidence-based sizing multipliers ---

@@ -63,11 +63,6 @@ def find_alpha(model_result, market_prices, bankroll=None, kalshi_client=None,
         if win_prob < config.MIN_WIN_PROB:
             continue
 
-        # Skip ultra-low-price markets with near-zero liquidity
-        min_price = getattr(config, "MIN_ENTRY_PRICE", 0.05)
-        if quoted_cost < min_price:
-            continue
-
         ob_result = None
         if kalshi_client and m.get("ticker"):
             ob_result = _optimal_size_from_orderbook(

@@ -159,9 +159,8 @@ def _find_candidate_positions(market_state, sizing_mult, bankroll, kalshi_client
         ticker = state["ticker"]
 
         # BUY YES: cost = yes_ask, win if outcome = 1
-        min_price = getattr(config, "MIN_ENTRY_PRICE", 0.05)
         edge_yes = model_p - yes_ask
-        if edge_yes > config.MIN_EDGE and model_p >= config.MIN_WIN_PROB and yes_ask >= min_price:
+        if edge_yes > config.MIN_EDGE and model_p >= config.MIN_WIN_PROB and yes_ask > 0:
             # Try orderbook simulation for realistic sizing
             ob_result = None
             if kalshi_client and ticker:
@@ -199,7 +198,7 @@ def _find_candidate_positions(market_state, sizing_mult, bankroll, kalshi_client
 
         # BUY NO: cost = no_cost, win if outcome = 0
         edge_no = (1 - model_p) - no_cost
-        if edge_no > config.MIN_EDGE and (1 - model_p) >= config.MIN_WIN_PROB and no_cost >= min_price and no_cost < 1:
+        if edge_no > config.MIN_EDGE and (1 - model_p) >= config.MIN_WIN_PROB and no_cost > 0 and no_cost < 1:
             ob_result = None
             if kalshi_client and ticker:
                 ob_result = _simulate_position(
