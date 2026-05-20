@@ -45,6 +45,17 @@
       "suggested_size": 50.0,
       "avg_fill": 39.3,
       "contracts": 127.3
+    },
+    {
+      "timestamp": "2026-05-20T11:33:01.241264+00:00",
+      "market_ticker": "KXRT-STA-62",
+      "direction": "BUY YES",
+      "threshold": 62,
+      "model_prob": 54.0,
+      "edge": 26.4,
+      "suggested_size": 50.0,
+      "avg_fill": 27.7,
+      "contracts": 180.6
     }
   ]
 }
