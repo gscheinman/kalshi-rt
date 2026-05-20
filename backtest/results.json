@@ -1,0 +1,723 @@
+{
+  "5": {
+    "n_movies": 3591,
+    "n_big_movies": 85,
+    "mae_model": 14.91,
+    "mae_naive": 11.81,
+    "mae_improvement": -3.1,
+    "big_movie_mae_model": 11.53,
+    "big_movie_mae_naive": 12.05,
+    "big_movie_mae_improvement": 0.52,
+    "brier_score": 0.1274,
+    "calibration_error": 0.093,
+    "calibration_buckets": [
+      {
+        "bucket_center": 0.15,
+        "predicted_avg": 0.195,
+        "actual_rate": 0.0,
+        "count": 3,
+        "gap": 0.195
+      },
+      {
+        "bucket_center": 0.25,
+        "predicted_avg": 0.263,
+        "actual_rate": 0.0,
+        "count": 217,
+        "gap": 0.263
+      },
+      {
+        "bucket_center": 0.35,
+        "predicted_avg": 0.359,
+        "actual_rate": 0.001,
+        "count": 766,
+        "gap": 0.358
+      },
+      {
+        "bucket_center": 0.45,
+        "predicted_avg": 0.464,
+        "actual_rate": 0.164,
+        "count": 2798,
+        "gap": 0.301
+      },
+      {
+        "bucket_center": 0.55,
+        "predicted_avg": 0.554,
+        "actual_rate": 0.139,
+        "count": 2416,
+        "gap": 0.415
+      },
+      {
+        "bucket_center": 0.65,
+        "predicted_avg": 0.653,
+        "actual_rate": 0.422,
+        "count": 5173,
+        "gap": 0.231
+      },
+      {
+        "bucket_center": 0.75,
+        "predicted_avg": 0.75,
+        "actual_rate": 0.54,
+        "count": 6492,
+        "gap": 0.21
+      },
+      {
+        "bucket_center": 0.85,
+        "predicted_avg": 0.849,
+        "actual_rate": 0.754,
+        "count": 11153,
+        "gap": 0.095
+      },
+      {
+        "bucket_center": 0.95,
+        "predicted_avg": 0.968,
+        "actual_rate": 0.955,
+        "count": 39211,
+        "gap": 0.014
+      }
+    ],
+    "model_accuracy": 77.4,
+    "naive_accuracy": 86.3,
+    "simulated_pnl": 19095.64,
+    "simulated_roi": 58.4,
+    "win_rate": 82.1,
+    "total_trades": 65442,
+    "sharpe": 0.78
+  },
+  "10": {
+    "n_movies": 1713,
+    "n_big_movies": 85,
+    "mae_model": 12.32,
+    "mae_naive": 8.55,
+    "mae_improvement": -3.77,
+    "big_movie_mae_model": 9.73,
+    "big_movie_mae_naive": 9.36,
+    "big_movie_mae_improvement": -0.36,
+    "brier_score": 0.1047,
+    "calibration_error": 0.0803,
+    "calibration_buckets": [
+      {
+        "bucket_center": 0.05,
+        "predicted_avg": 0.076,
+        "actual_rate": 0.0,
+        "count": 136,
+        "gap": 0.076
+      },
+      {
+        "bucket_center": 0.15,
+        "predicted_avg": 0.159,
+        "actual_rate": 0.0,
+        "count": 216,
+        "gap": 0.159
+      },
+      {
+        "bucket_center": 0.25,
+        "predicted_avg": 0.253,
+        "actual_rate": 0.002,
+        "count": 443,
+        "gap": 0.251
+      },
+      {
+        "bucket_center": 0.35,
+        "predicted_avg": 0.354,
+        "actual_rate": 0.011,
+        "count": 720,
+        "gap": 0.343
+      },
+      {
+        "bucket_center": 0.45,
+        "predicted_avg": 0.454,
+        "actual_rate": 0.174,
+        "count": 1413,
+        "gap": 0.28
+      },
+      {
+        "bucket_center": 0.55,
+        "predicted_avg": 0.552,
+        "actual_rate": 0.164,
+        "count": 1376,
+        "gap": 0.388
+      },
+      {
+        "bucket_center": 0.65,
+        "predicted_avg": 0.65,
+        "actual_rate": 0.443,
+        "count": 2463,
+        "gap": 0.207
+      },
+      {
+        "bucket_center": 0.75,
+        "predicted_avg": 0.751,
+        "actual_rate": 0.611,
+        "count": 3196,
+        "gap": 0.139
+      },
+      {
+        "bucket_center": 0.85,
+        "predicted_avg": 0.854,
+        "actual_rate": 0.823,
+        "count": 4812,
+        "gap": 0.031
+      },
+      {
+        "bucket_center": 0.95,
+        "predicted_avg": 0.969,
+        "actual_rate": 0.979,
+        "count": 17772,
+        "gap": 0.01
+      }
+    ],
+    "model_accuracy": 81.0,
+    "naive_accuracy": 89.9,
+    "simulated_pnl": 10136.46,
+    "simulated_roi": 65.1,
+    "win_rate": 85.5,
+    "total_trades": 31150,
+    "sharpe": 0.95
+  },
+  "15": {
+    "n_movies": 1045,
+    "n_big_movies": 85,
+    "mae_model": 9.74,
+    "mae_naive": 7.1,
+    "mae_improvement": -2.64,
+    "big_movie_mae_model": 8.39,
+    "big_movie_mae_naive": 8.07,
+    "big_movie_mae_improvement": -0.32,
+    "brier_score": 0.0873,
+    "calibration_error": 0.0855,
+    "calibration_buckets": [
+      {
+        "bucket_center": 0.05,
+        "predicted_avg": 0.067,
+        "actual_rate": 0.0,
+        "count": 316,
+        "gap": 0.067
+      },
+      {
+        "bucket_center": 0.15,
+        "predicted_avg": 0.151,
+        "actual_rate": 0.0,
+        "count": 279,
+        "gap": 0.151
+      },
+      {
+        "bucket_center": 0.25,
+        "predicted_avg": 0.25,
+        "actual_rate": 0.003,
+        "count": 341,
+        "gap": 0.247
+      },
+      {
+        "bucket_center": 0.35,
+        "predicted_avg": 0.355,
+        "actual_rate": 0.012,
+        "count": 516,
+        "gap": 0.343
+      },
+      {
+        "bucket_center": 0.45,
+        "predicted_avg": 0.454,
+        "actual_rate": 0.061,
+        "count": 686,
+        "gap": 0.392
+      },
+      {
+        "bucket_center": 0.55,
+        "predicted_avg": 0.552,
+        "actual_rate": 0.218,
+        "count": 1020,
+        "gap": 0.334
+      },
+      {
+        "bucket_center": 0.65,
+        "predicted_avg": 0.654,
+        "actual_rate": 0.421,
+        "count": 1324,
+        "gap": 0.233
+      },
+      {
+        "bucket_center": 0.75,
+        "predicted_avg": 0.751,
+        "actual_rate": 0.636,
+        "count": 1661,
+        "gap": 0.114
+      },
+      {
+        "bucket_center": 0.85,
+        "predicted_avg": 0.851,
+        "actual_rate": 0.848,
+        "count": 2363,
+        "gap": 0.002
+      },
+      {
+        "bucket_center": 0.95,
+        "predicted_avg": 0.967,
+        "actual_rate": 0.99,
+        "count": 11349,
+        "gap": 0.023
+      }
+    ],
+    "model_accuracy": 84.0,
+    "naive_accuracy": 91.8,
+    "simulated_pnl": 6653.0,
+    "simulated_roi": 70.3,
+    "win_rate": 88.2,
+    "total_trades": 18925,
+    "sharpe": 1.12
+  },
+  "20": {
+    "n_movies": 740,
+    "n_big_movies": 85,
+    "mae_model": 8.73,
+    "mae_naive": 6.14,
+    "mae_improvement": -2.59,
+    "big_movie_mae_model": 7.42,
+    "big_movie_mae_naive": 7.28,
+    "big_movie_mae_improvement": -0.14,
+    "brier_score": 0.0748,
+    "calibration_error": 0.0765,
+    "calibration_buckets": [
+      {
+        "bucket_center": 0.05,
+        "predicted_avg": 0.056,
+        "actual_rate": 0.002,
+        "count": 459,
+        "gap": 0.053
+      },
+      {
+        "bucket_center": 0.15,
+        "predicted_avg": 0.149,
+        "actual_rate": 0.004,
+        "count": 278,
+        "gap": 0.146
+      },
+      {
+        "bucket_center": 0.25,
+        "predicted_avg": 0.251,
+        "actual_rate": 0.003,
+        "count": 343,
+        "gap": 0.248
+      },
+      {
+        "bucket_center": 0.35,
+        "predicted_avg": 0.352,
+        "actual_rate": 0.016,
+        "count": 430,
+        "gap": 0.336
+      },
+      {
+        "bucket_center": 0.45,
+        "predicted_avg": 0.451,
+        "actual_rate": 0.121,
+        "count": 514,
+        "gap": 0.33
+      },
+      {
+        "bucket_center": 0.55,
+        "predicted_avg": 0.547,
+        "actual_rate": 0.289,
+        "count": 714,
+        "gap": 0.259
+      },
+      {
+        "bucket_center": 0.65,
+        "predicted_avg": 0.652,
+        "actual_rate": 0.486,
+        "count": 840,
+        "gap": 0.166
+      },
+      {
+        "bucket_center": 0.75,
+        "predicted_avg": 0.752,
+        "actual_rate": 0.694,
+        "count": 1043,
+        "gap": 0.058
+      },
+      {
+        "bucket_center": 0.85,
+        "predicted_avg": 0.854,
+        "actual_rate": 0.878,
+        "count": 1411,
+        "gap": 0.024
+      },
+      {
+        "bucket_center": 0.95,
+        "predicted_avg": 0.969,
+        "actual_rate": 0.993,
+        "count": 8028,
+        "gap": 0.024
+      }
+    ],
+    "model_accuracy": 87.0,
+    "naive_accuracy": 92.8,
+    "simulated_pnl": 5042.34,
+    "simulated_roi": 75.2,
+    "win_rate": 90.8,
+    "total_trades": 13415,
+    "sharpe": 1.34
+  },
+  "25": {
+    "n_movies": 542,
+    "n_big_movies": 85,
+    "mae_model": 7.72,
+    "mae_naive": 5.64,
+    "mae_improvement": -2.08,
+    "big_movie_mae_model": 6.45,
+    "big_movie_mae_naive": 6.24,
+    "big_movie_mae_improvement": -0.22,
+    "brier_score": 0.061,
+    "calibration_error": 0.0613,
+    "calibration_buckets": [
+      {
+        "bucket_center": 0.05,
+        "predicted_avg": 0.043,
+        "actual_rate": 0.002,
+        "count": 550,
+        "gap": 0.041
+      },
+      {
+        "bucket_center": 0.15,
+        "predicted_avg": 0.149,
+        "actual_rate": 0.003,
+        "count": 287,
+        "gap": 0.145
+      },
+      {
+        "bucket_center": 0.25,
+        "predicted_avg": 0.251,
+        "actual_rate": 0.025,
+        "count": 326,
+        "gap": 0.226
+      },
+      {
+        "bucket_center": 0.35,
+        "predicted_avg": 0.351,
+        "actual_rate": 0.095,
+        "count": 358,
+        "gap": 0.256
+      },
+      {
+        "bucket_center": 0.45,
+        "predicted_avg": 0.451,
+        "actual_rate": 0.262,
+        "count": 432,
+        "gap": 0.19
+      },
+      {
+        "bucket_center": 0.55,
+        "predicted_avg": 0.552,
+        "actual_rate": 0.382,
+        "count": 427,
+        "gap": 0.17
+      },
+      {
+        "bucket_center": 0.65,
+        "predicted_avg": 0.649,
+        "actual_rate": 0.601,
+        "count": 549,
+        "gap": 0.048
+      },
+      {
+        "bucket_center": 0.75,
+        "predicted_avg": 0.752,
+        "actual_rate": 0.786,
+        "count": 635,
+        "gap": 0.033
+      },
+      {
+        "bucket_center": 0.85,
+        "predicted_avg": 0.854,
+        "actual_rate": 0.917,
+        "count": 812,
+        "gap": 0.064
+      },
+      {
+        "bucket_center": 0.95,
+        "predicted_avg": 0.971,
+        "actual_rate": 0.996,
+        "count": 5922,
+        "gap": 0.025
+      }
+    ],
+    "model_accuracy": 90.1,
+    "naive_accuracy": 93.2,
+    "simulated_pnl": 3958.12,
+    "simulated_roi": 80.3,
+    "win_rate": 93.4,
+    "total_trades": 9861,
+    "sharpe": 1.67
+  },
+  "30": {
+    "n_movies": 437,
+    "n_big_movies": 85,
+    "mae_model": 6.84,
+    "mae_naive": 5.29,
+    "mae_improvement": -1.55,
+    "big_movie_mae_model": 5.66,
+    "big_movie_mae_naive": 5.3,
+    "big_movie_mae_improvement": -0.35,
+    "brier_score": 0.0527,
+    "calibration_error": 0.0499,
+    "calibration_buckets": [
+      {
+        "bucket_center": 0.05,
+        "predicted_avg": 0.035,
+        "actual_rate": 0.0,
+        "count": 591,
+        "gap": 0.035
+      },
+      {
+        "bucket_center": 0.15,
+        "predicted_avg": 0.15,
+        "actual_rate": 0.0,
+        "count": 255,
+        "gap": 0.15
+      },
+      {
+        "bucket_center": 0.25,
+        "predicted_avg": 0.252,
+        "actual_rate": 0.039,
+        "count": 257,
+        "gap": 0.213
+      },
+      {
+        "bucket_center": 0.35,
+        "predicted_avg": 0.351,
+        "actual_rate": 0.125,
+        "count": 257,
+        "gap": 0.226
+      },
+      {
+        "bucket_center": 0.45,
+        "predicted_avg": 0.449,
+        "actual_rate": 0.278,
+        "count": 291,
+        "gap": 0.171
+      },
+      {
+        "bucket_center": 0.55,
+        "predicted_avg": 0.552,
+        "actual_rate": 0.436,
+        "count": 314,
+        "gap": 0.116
+      },
+      {
+        "bucket_center": 0.65,
+        "predicted_avg": 0.649,
+        "actual_rate": 0.586,
+        "count": 331,
+        "gap": 0.063
+      },
+      {
+        "bucket_center": 0.75,
+        "predicted_avg": 0.75,
+        "actual_rate": 0.778,
+        "count": 428,
+        "gap": 0.028
+      },
+      {
+        "bucket_center": 0.85,
+        "predicted_avg": 0.853,
+        "actual_rate": 0.912,
+        "count": 558,
+        "gap": 0.059
+      },
+      {
+        "bucket_center": 0.95,
+        "predicted_avg": 0.977,
+        "actual_rate": 0.996,
+        "count": 5021,
+        "gap": 0.018
+      }
+    ],
+    "model_accuracy": 91.5,
+    "naive_accuracy": 93.5,
+    "simulated_pnl": 3280.15,
+    "simulated_roi": 81.8,
+    "win_rate": 94.2,
+    "total_trades": 8017,
+    "sharpe": 1.8
+  },
+  "40": {
+    "n_movies": 296,
+    "n_big_movies": 85,
+    "mae_model": 5.55,
+    "mae_naive": 4.67,
+    "mae_improvement": -0.88,
+    "big_movie_mae_model": 4.67,
+    "big_movie_mae_naive": 4.68,
+    "big_movie_mae_improvement": 0.0,
+    "brier_score": 0.0442,
+    "calibration_error": 0.05,
+    "calibration_buckets": [
+      {
+        "bucket_center": 0.05,
+        "predicted_avg": 0.032,
+        "actual_rate": 0.0,
+        "count": 473,
+        "gap": 0.032
+      },
+      {
+        "bucket_center": 0.15,
+        "predicted_avg": 0.147,
+        "actual_rate": 0.0,
+        "count": 154,
+        "gap": 0.147
+      },
+      {
+        "bucket_center": 0.25,
+        "predicted_avg": 0.25,
+        "actual_rate": 0.019,
+        "count": 155,
+        "gap": 0.231
+      },
+      {
+        "bucket_center": 0.35,
+        "predicted_avg": 0.348,
+        "actual_rate": 0.107,
+        "count": 150,
+        "gap": 0.241
+      },
+      {
+        "bucket_center": 0.45,
+        "predicted_avg": 0.451,
+        "actual_rate": 0.199,
+        "count": 176,
+        "gap": 0.252
+      },
+      {
+        "bucket_center": 0.55,
+        "predicted_avg": 0.55,
+        "actual_rate": 0.384,
+        "count": 172,
+        "gap": 0.166
+      },
+      {
+        "bucket_center": 0.65,
+        "predicted_avg": 0.651,
+        "actual_rate": 0.614,
+        "count": 207,
+        "gap": 0.037
+      },
+      {
+        "bucket_center": 0.75,
+        "predicted_avg": 0.752,
+        "actual_rate": 0.764,
+        "count": 237,
+        "gap": 0.011
+      },
+      {
+        "bucket_center": 0.85,
+        "predicted_avg": 0.853,
+        "actual_rate": 0.917,
+        "count": 314,
+        "gap": 0.064
+      },
+      {
+        "bucket_center": 0.95,
+        "predicted_avg": 0.979,
+        "actual_rate": 0.997,
+        "count": 3586,
+        "gap": 0.019
+      }
+    ],
+    "model_accuracy": 93.1,
+    "naive_accuracy": 94.8,
+    "simulated_pnl": 2282.59,
+    "simulated_roi": 83.9,
+    "win_rate": 95.3,
+    "total_trades": 5438,
+    "sharpe": 2.04
+  },
+  "50": {
+    "n_movies": 211,
+    "n_big_movies": 85,
+    "mae_model": 4.67,
+    "mae_naive": 4.16,
+    "mae_improvement": -0.51,
+    "big_movie_mae_model": 4.34,
+    "big_movie_mae_naive": 4.28,
+    "big_movie_mae_improvement": -0.06,
+    "brier_score": 0.0376,
+    "calibration_error": 0.0515,
+    "calibration_buckets": [
+      {
+        "bucket_center": 0.05,
+        "predicted_avg": 0.029,
+        "actual_rate": 0.0,
+        "count": 331,
+        "gap": 0.029
+      },
+      {
+        "bucket_center": 0.15,
+        "predicted_avg": 0.149,
+        "actual_rate": 0.0,
+        "count": 100,
+        "gap": 0.149
+      },
+      {
+        "bucket_center": 0.25,
+        "predicted_avg": 0.248,
+        "actual_rate": 0.0,
+        "count": 100,
+        "gap": 0.248
+      },
+      {
+        "bucket_center": 0.35,
+        "predicted_avg": 0.349,
+        "actual_rate": 0.036,
+        "count": 83,
+        "gap": 0.313
+      },
+      {
+        "bucket_center": 0.45,
+        "predicted_avg": 0.451,
+        "actual_rate": 0.182,
+        "count": 110,
+        "gap": 0.269
+      },
+      {
+        "bucket_center": 0.55,
+        "predicted_avg": 0.55,
+        "actual_rate": 0.336,
+        "count": 110,
+        "gap": 0.213
+      },
+      {
+        "bucket_center": 0.65,
+        "predicted_avg": 0.655,
+        "actual_rate": 0.568,
+        "count": 125,
+        "gap": 0.087
+      },
+      {
+        "bucket_center": 0.75,
+        "predicted_avg": 0.75,
+        "actual_rate": 0.743,
+        "count": 136,
+        "gap": 0.008
+      },
+      {
+        "bucket_center": 0.85,
+        "predicted_avg": 0.851,
+        "actual_rate": 0.925,
+        "count": 200,
+        "gap": 0.074
+      },
+      {
+        "bucket_center": 0.95,
+        "predicted_avg": 0.98,
+        "actual_rate": 0.999,
+        "count": 2714,
+        "gap": 0.019
+      }
+    ],
+    "model_accuracy": 94.0,
+    "naive_accuracy": 95.2,
+    "simulated_pnl": 1661.56,
+    "simulated_roi": 85.3,
+    "win_rate": 96.0,
+    "total_trades": 3897,
+    "sharpe": 2.24
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "critic_agreement": {
+    "median": 0.8,
+    "mean": 0.7919966112440966
+  },
+  "critic_avg_fresh": {
+    "median": 0.812,
+    "mean": 0.8068723296888141
+  },
+  "critic_avg_rotten": {
+    "median": 0.5479999999999999,
+    "mean": 0.5465631752603998
+  },
+  "critic_big_agreement": {
+    "median": 0.8108,
+    "mean": 0.8019566267710422
+  },
+  "critic_big_avg_fresh": {
+    "median": 0.82,
+    "mean": 0.8148387785469366
+  },
+  "critic_big_avg_rotten": {
+    "median": 0.58,
+    "mean": 0.5783918483534969
+  },
+  "critic_big_movie_count": {
+    "median": 4.0,
+    "mean": 9.773850035582583
+  },
+  "critic_big_spread": {
+    "median": 0.22700000000000004,
+    "mean": 0.2317896487028531
+  },
+  "critic_fresh_rate": {
+    "median": 0.7879,
+    "mean": 0.766942428673093
+  },
+  "critic_n_reviews": {
+    "median": 100.0,
+    "mean": 83.05550883095037
+  },
+  "critic_selectivity": {
+    "median": 0.21209999999999996,
+    "mean": 0.23305757132690685
+  },
+  "critic_spread": {
+    "median": 0.25000000000000006,
+    "mean": 0.2518536714757068
+  },
+  "movie_is_big": {
+    "median": 0.0,
+    "mean": 0.11788833538202756
+  },
+  "movie_total_reviews": {
+    "median": 14.0,
+    "mean": 30.109089732807142
+  },
+  "review_has_numeric": {
+    "median": 1.0,
+    "mean": 0.6016691466649414
+  },
+  "review_intensity": {
+    "median": 0.65,
+    "mean": 0.6470084284103488
+  },
+  "review_is_fresh": {
+    "median": 1.0,
+    "mean": 0.7659701106294883
+  },
+  "review_numeric_score": {
+    "median": 0.5,
+    "mean": 0.018805672377483446
+  }
+}

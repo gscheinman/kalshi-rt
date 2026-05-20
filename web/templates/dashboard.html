@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalshi RT</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --surface2: #242836;
+      --border: #2e3344;
+      --text: #e4e6ed;
+      --text2: #8b8fa3;
+      --green: #00d26a;
+      --green-dim: rgba(0,210,106,0.12);
+      --red: #ff4757;
+      --red-dim: rgba(255,71,87,0.12);
+      --blue: #4c9aff;
+      --blue-dim: rgba(76,154,255,0.12);
+      --yellow: #ffc400;
+      --yellow-dim: rgba(255,196,0,0.12);
+      --orange: #ff8c42;
+      --radius: 12px;
+      --radius-sm: 8px;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      min-height: 100vh;
+    }
+
+    .container { max-width: 1120px; margin: 0 auto; padding: 0 24px; }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      padding: 20px 0;
+      position: sticky;
+      top: 0;
+      background: var(--bg);
+      z-index: 100;
+    }
+
+    header .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+
+    .logo span { color: var(--blue); }
+
+    nav { display: flex; gap: 8px; }
+
+    nav button {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text2);
+      padding: 8px 16px;
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      font-size: 14px;
+      transition: all 0.15s;
+    }
+
+    nav button:hover { border-color: var(--text2); color: var(--text); }
+    nav button.active { background: var(--surface2); border-color: var(--blue); color: var(--blue); }
+
+    main { padding: 32px 0 60px; }
+
+    .loading {
+      text-align: center;
+      padding: 80px 0;
+      color: var(--text2);
+    }
+
+    .loading .spinner {
+      display: inline-block;
+      width: 32px;
+      height: 32px;
+      border: 3px solid var(--border);
+      border-top-color: var(--blue);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* Market Cards */
+    .market-grid {
+      display: grid;
+      gap: 16px;
+    }
+
+    .market-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px 24px;
+      cursor: pointer;
+      transition: all 0.15s;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 16px;
+      align-items: center;
+    }
+
+    .market-card:hover {
+      border-color: var(--blue);
+      transform: translateY(-1px);
+    }
+
+    .market-card.has-alpha {
+      border-left: 3px solid var(--green);
+    }
+
+    .movie-info h3 {
+      font-size: 17px;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .movie-meta {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .meta-tag {
+      font-size: 13px;
+      color: var(--text2);
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .meta-tag .val { color: var(--text); font-weight: 500; }
+
+    .market-stats {
+      text-align: right;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 6px;
+    }
+
+    .forecast-badge {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .alpha-pills {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      margin-top: 8px;
+    }
+
+    .alpha-pill {
+      font-size: 12px;
+      font-weight: 600;
+      padding: 3px 10px;
+      border-radius: 20px;
+      white-space: nowrap;
+    }
+
+    .alpha-pill.buy-yes { background: var(--green-dim); color: var(--green); }
+    .alpha-pill.buy-no { background: var(--red-dim); color: var(--red); }
+
+    /* Movie Detail Panel */
+    .panel-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.6);
+      z-index: 200;
+      display: none;
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+
+    .panel-overlay.open { display: block; opacity: 1; }
+
+    .panel {
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 580px;
+      max-width: 100vw;
+      height: 100vh;
+      background: var(--bg);
+      border-left: 1px solid var(--border);
+      z-index: 201;
+      transform: translateX(100%);
+      transition: transform 0.25s ease;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .panel.open { transform: translateX(0); }
+
+    .panel-header {
+      padding: 20px 24px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      background: var(--bg);
+      z-index: 1;
+    }
+
+    .panel-header h2 { font-size: 18px; font-weight: 600; }
+
+    .close-btn {
+      background: none;
+      border: none;
+      color: var(--text2);
+      font-size: 24px;
+      cursor: pointer;
+      padding: 4px 8px;
+      line-height: 1;
+    }
+
+    .close-btn:hover { color: var(--text); }
+
+    .panel-body { padding: 24px; flex: 1; }
+
+    .panel-section {
+      margin-bottom: 28px;
+    }
+
+    .panel-section h3 {
+      font-size: 13px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: var(--text2);
+      margin-bottom: 12px;
+    }
+
+    .stat-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+
+    .stat-box {
+      background: var(--surface);
+      border-radius: var(--radius-sm);
+      padding: 14px;
+    }
+
+    .stat-box .label {
+      font-size: 12px;
+      color: var(--text2);
+      margin-bottom: 4px;
+    }
+
+    .stat-box .value {
+      font-size: 20px;
+      font-weight: 700;
+    }
+
+    /* Review Entry */
+    .review-form {
+      background: var(--surface);
+      border-radius: var(--radius-sm);
+      padding: 16px;
+    }
+
+    .review-row {
+      display: grid;
+      grid-template-columns: 1fr 100px 60px;
+      gap: 8px;
+      margin-bottom: 8px;
+      align-items: center;
+    }
+
+    .review-row input, .review-row select {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 8px 12px;
+      border-radius: 6px;
+      font-size: 14px;
+      outline: none;
+    }
+
+    .review-row input:focus, .review-row select:focus {
+      border-color: var(--blue);
+    }
+
+    .review-row select {
+      appearance: none;
+      cursor: pointer;
+    }
+
+    .remove-review {
+      background: none;
+      border: none;
+      color: var(--text2);
+      cursor: pointer;
+      font-size: 18px;
+      padding: 4px;
+    }
+
+    .remove-review:hover { color: var(--red); }
+
+    .form-actions {
+      display: flex;
+      gap: 8px;
+      margin-top: 12px;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      border-radius: var(--radius-sm);
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      border: none;
+      transition: all 0.15s;
+    }
+
+    .btn-primary { background: var(--blue); color: white; }
+    .btn-primary:hover { opacity: 0.9; }
+    .btn-primary:disabled { opacity: 0.4; cursor: not-allowed; }
+    .btn-secondary { background: var(--surface2); color: var(--text); border: 1px solid var(--border); }
+    .btn-secondary:hover { border-color: var(--text2); }
+    .btn-sm { padding: 6px 14px; font-size: 13px; }
+
+    /* Threshold Table */
+    .threshold-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .threshold-table th {
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text2);
+      text-align: left;
+      padding: 8px 10px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .threshold-table th:not(:first-child) { text-align: right; }
+
+    .threshold-table td {
+      padding: 10px;
+      font-size: 14px;
+      border-bottom: 1px solid var(--border);
+      font-variant-numeric: tabular-nums;
+    }
+
+    .threshold-table td:not(:first-child) { text-align: right; }
+
+    .threshold-table tr.best-row {
+      background: var(--blue-dim);
+    }
+
+    .threshold-table tr.best-row td:first-child::after {
+      content: " BEST";
+      font-size: 10px;
+      font-weight: 700;
+      color: var(--blue);
+      letter-spacing: 0.5px;
+    }
+
+    .edge-positive { color: var(--green); font-weight: 600; }
+    .edge-negative { color: var(--red); font-weight: 600; }
+
+    .signal-tag {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+
+    .signal-tag.yes { background: var(--green-dim); color: var(--green); }
+    .signal-tag.no { background: var(--red-dim); color: var(--red); }
+
+    /* Best Signal Card */
+    .best-signal {
+      background: var(--surface);
+      border: 1px solid var(--green);
+      border-radius: var(--radius);
+      padding: 20px;
+    }
+
+    .best-signal .direction {
+      font-size: 24px;
+      font-weight: 800;
+      margin-bottom: 4px;
+    }
+
+    .best-signal .direction.yes { color: var(--green); }
+    .best-signal .direction.no { color: var(--red); }
+
+    .best-signal .details {
+      color: var(--text2);
+      font-size: 14px;
+    }
+
+    .best-signal .details strong { color: var(--text); }
+
+    /* Critic List */
+    .critic-list {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .critic-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 12px;
+      background: var(--surface);
+      border-radius: 6px;
+      font-size: 13px;
+    }
+
+    .critic-name { font-weight: 500; }
+    .critic-tier { color: var(--text2); font-size: 12px; }
+    .critic-fresh { color: var(--green); }
+    .critic-rotten { color: var(--red); }
+
+    /* History */
+    .history-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 16px 20px;
+      margin-bottom: 12px;
+    }
+
+    .history-card .movie-title {
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .history-card .timestamp {
+      font-size: 12px;
+      color: var(--text2);
+    }
+
+    .history-signals {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 8px;
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--text2);
+    }
+
+    .empty-state h3 { color: var(--text); margin-bottom: 8px; }
+
+    /* Paper Trading Tab */
+    .paper-summary {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+
+    .paper-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .paper-table th {
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text2);
+      text-align: left;
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    .paper-table td {
+      padding: 12px;
+      font-size: 14px;
+      border-bottom: 1px solid var(--border);
+      font-variant-numeric: tabular-nums;
+    }
+
+    .paper-table tr:hover {
+      background: var(--surface);
+    }
+
+    .status-winning { color: var(--green); font-weight: 600; }
+    .status-losing { color: var(--red); font-weight: 600; }
+    .status-pending { color: var(--text2); }
+
+    .paper-group-header {
+      background: var(--surface);
+      padding: 14px 16px;
+      border-radius: var(--radius-sm);
+      margin-bottom: 2px;
+      margin-top: 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .paper-group-header h4 {
+      font-size: 15px;
+      font-weight: 600;
+    }
+
+    .paper-group-header .rt-live {
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    @media (max-width: 640px) {
+      .market-card { grid-template-columns: 1fr; }
+      .market-stats { align-items: flex-start; flex-direction: row; gap: 16px; }
+      .stat-grid { grid-template-columns: repeat(2, 1fr); }
+      .panel { width: 100vw; }
+      .review-row { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">Kalshi <span>RT</span></div>
+      <nav>
+        <button class="active" onclick="showView('markets')">Markets</button>
+        <button onclick="showView('paper')">Paper Trading</button>
+        <button onclick="showView('history')">History</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div id="markets-view"></div>
+      <div id="paper-view" style="display:none"></div>
+      <div id="history-view" style="display:none"></div>
+    </div>
+  </main>
+
+  <!-- Movie Detail Panel -->
+  <div class="panel-overlay" id="overlay" onclick="closePanel()"></div>
+  <div class="panel" id="panel">
+    <div class="panel-header">
+      <h2 id="panel-title">Movie</h2>
+      <button class="close-btn" onclick="closePanel()">&times;</button>
+    </div>
+    <div class="panel-body" id="panel-body"></div>
+  </div>
+
+  <script>
+    let currentView = 'markets';
+    let scanData = null;
+
+    function showView(view) {
+      currentView = view;
+      document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
+      const idx = view === 'markets' ? 1 : view === 'paper' ? 2 : 3;
+      document.querySelector(`nav button:nth-child(${idx})`).classList.add('active');
+      document.getElementById('markets-view').style.display = view === 'markets' ? 'block' : 'none';
+      document.getElementById('paper-view').style.display = view === 'paper' ? 'block' : 'none';
+      document.getElementById('history-view').style.display = view === 'history' ? 'block' : 'none';
+      if (view === 'markets') loadMarkets();
+      if (view === 'paper') loadPaperTrades();
+      if (view === 'history') loadHistory();
+    }
+
+    async function loadMarkets() {
+      const el = document.getElementById('markets-view');
+      el.innerHTML = '<div class="loading"><div class="spinner"></div><p style="margin-top:12px">Scanning Kalshi markets...</p></div>';
+
+      const resp = await fetch('/api/scan');
+      scanData = await resp.json();
+      renderMarkets(scanData);
+    }
+
+    function renderMarkets(data) {
+      const el = document.getElementById('markets-view');
+      if (!data.length) {
+        el.innerHTML = '<div class="empty-state"><h3>No active RT markets</h3><p>Check back when Kalshi lists new movies.</p></div>';
+        return;
+      }
+
+      el.innerHTML = '<div class="market-grid">' + data.map(m => {
+        const tomato = m.tomatometer !== null ? `${m.tomatometer}%` : '--';
+        const tomatoColor = m.tomatometer !== null ? (m.tomatometer >= 60 ? 'var(--green)' : 'var(--red)') : 'var(--text2)';
+        const forecast = m.kalshi_forecast !== null ? `~${m.kalshi_forecast}%` : '--';
+        const alphaCount = m.alpha_flags.length;
+
+        const settleStr = m.close_time ? new Date(m.close_time).toLocaleDateString('en-US', {month: 'short', day: 'numeric'}) : '--';
+
+        const pills = m.alpha_flags.slice(0, 3).map(a => {
+          const cls = a.direction === 'BUY YES' ? 'buy-yes' : 'buy-no';
+          return `<span class="alpha-pill ${cls}">${a.direction} Above ${a.threshold}% at ${a.price}c</span>`;
+        }).join('');
+
+        return `
+          <div class="market-card ${alphaCount ? 'has-alpha' : ''}" data-ticker="${m.event_ticker}" onclick="openMovie('${m.event_ticker}')">
+            <div class="movie-info">
+              <h3>${esc(m.movie_name)}</h3>
+              <div class="movie-meta">
+                <span class="meta-tag" style="color:${tomatoColor};font-weight:600">${tomato}</span>
+                <span class="meta-tag">Reviews <span class="val">${m.review_count || '--'}</span></span>
+                <span class="meta-tag">Settles <span class="val">${settleStr}</span></span>
+              </div>
+              ${pills ? `<div class="alpha-pills">${pills}</div>` : ''}
+              ${alphaCount > 3 ? `<div style="font-size:12px;color:var(--text2);margin-top:4px">+${alphaCount - 3} more signals</div>` : ''}
+            </div>
+            <div class="market-stats">
+              <div style="display:flex;gap:20px;align-items:flex-end">
+                <div style="text-align:right">
+                  <div class="forecast-badge">${forecast}</div>
+                  <div style="font-size:11px;color:var(--text2)">Kalshi</div>
+                </div>
+                <div style="text-align:right">
+                  <div class="forecast-badge model-forecast" style="color:var(--blue)">--</div>
+                  <div style="font-size:11px;color:var(--text2)">Model</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('') + '</div>';
+    }
+
+    async function openMovie(ticker) {
+      document.getElementById('panel-title').textContent = 'Loading...';
+      document.getElementById('panel-body').innerHTML = '<div class="loading"><div class="spinner"></div></div>';
+      document.getElementById('overlay').classList.add('open');
+      document.getElementById('panel').classList.add('open');
+      document.body.style.overflow = 'hidden';
+
+      const resp = await fetch(`/api/movie/${ticker}`);
+      const data = await resp.json();
+
+      document.getElementById('panel-title').textContent = data.movie_name;
+      renderMoviePanel(data);
+    }
+
+    function renderMoviePanel(data) {
+      const tomato = data.tomatometer !== null ? `${data.tomatometer}%` : '--';
+      const body = document.getElementById('panel-body');
+      const hasReviews = data.reviews && data.reviews.length > 0;
+
+      const settleStr = data.close_time ? new Date(data.close_time).toLocaleDateString('en-US', {month: 'short', day: 'numeric', year: 'numeric'}) : '--';
+
+      body.innerHTML = `
+        <div class="panel-section">
+          <div class="stat-grid">
+            <div class="stat-box">
+              <div class="label">Tomatometer</div>
+              <div class="value" style="color:${data.tomatometer !== null ? (data.tomatometer >= 60 ? 'var(--green)' : 'var(--red)') : 'var(--text)'}">${tomato}</div>
+            </div>
+            <div class="stat-box">
+              <div class="label">Reviews</div>
+              <div class="value">${data.review_count || '--'}</div>
+            </div>
+            <div class="stat-box">
+              <div class="label">Settles</div>
+              <div class="value" style="font-size:16px">${settleStr}</div>
+            </div>
+          </div>
+        </div>
+
+        ${hasReviews ? `
+          <div class="panel-section">
+            <h3>Reviews Scraped</h3>
+            <p style="font-size:13px;color:var(--text2);margin-bottom:12px">
+              ${data.reviews.length} critic reviews loaded from RT. Running model...
+            </p>
+          </div>
+        ` : `
+          <div class="panel-section">
+            <h3>No Reviews Available</h3>
+            <p style="font-size:13px;color:var(--text2);margin-bottom:12px">
+              This movie doesn't have critic reviews on RT yet. The model needs reviews to generate predictions.
+            </p>
+          </div>
+        `}
+
+        <div id="results-section">${hasReviews ? '<div class="loading"><div class="spinner"></div><p style="margin-top:8px;color:var(--text2)">Analyzing...</p></div>' : ''}</div>
+      `;
+
+      // Auto-analyze if we have scraped reviews
+      if (hasReviews) {
+        runAnalysis(data.event_ticker, data.movie_name, data.rt_slug || '', data.reviews);
+      }
+    }
+
+    async function runAnalysis(ticker, movieName, rtSlug, reviews) {
+      const resp = await fetch('/api/analyze', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ reviews, event_ticker: ticker, movie_name: movieName, rt_slug: rtSlug }),
+      });
+
+      const result = await resp.json();
+      renderResults(result);
+
+      // Update the model forecast on the market card
+      const cardEl = document.querySelector(`[data-ticker="${ticker}"] .model-forecast`);
+      if (cardEl && result.model_mean != null) {
+        cardEl.textContent = `~${Math.round(result.model_mean)}%`;
+      }
+    }
+
+    function renderResults(r) {
+      const el = document.getElementById('results-section');
+
+      let bestHtml = '';
+      if (r.best_signal) {
+        const s = r.best_signal;
+        const dirClass = s.direction === 'BUY YES' ? 'yes' : 'no';
+        const realPrice = s.avg_fill != null ? `${Math.round(s.avg_fill)}c` : (s.buy_price != null ? `${Math.round(s.buy_price)}c` : '--');
+        const profitStr = s.profit_if_win != null ? `$${s.profit_if_win.toFixed(0)}` : null;
+        const contractsStr = s.contracts != null ? `${Math.round(s.contracts)}` : null;
+
+        bestHtml = `
+          <div class="panel-section">
+            <h3>Top Signal</h3>
+            <div class="best-signal">
+              <div class="direction ${dirClass}">${s.direction} "Above ${s.threshold}%" at ${realPrice}</div>
+              <div class="details">
+                Spend <strong>$${s.size.toFixed(0)}</strong>
+                ${contractsStr ? ` for <strong>${contractsStr}</strong> contracts` : ''}
+                ${profitStr ? ` &rarr; Profit if correct: <strong style="color:var(--green)">${profitStr}</strong>` : ''}
+              </div>
+              <div class="details" style="margin-top:6px">
+                Model: <strong>${s.model_prob}%</strong> &nbsp;|&nbsp;
+                Kalshi: <strong>${s.market_prob}%</strong> &nbsp;|&nbsp;
+                Edge after slippage: <strong>${s.edge > 0 ? '+' : ''}${s.edge}%</strong>
+              </div>
+            </div>
+          </div>
+        `;
+      }
+
+      const statsHtml = `
+        <div class="panel-section">
+          <h3>Model Output</h3>
+          <div class="stat-grid">
+            <div class="stat-box">
+              <div class="label">Predicted Score</div>
+              <div class="value">${r.model_mean}%</div>
+            </div>
+            <div class="stat-box">
+              <div class="label">95% Range</div>
+              <div class="value" style="font-size:16px">${r.model_ci[0]}% - ${r.model_ci[1]}%</div>
+            </div>
+            <div class="stat-box">
+              <div class="label">Confidence</div>
+              <div class="value" style="font-size:16px;color:${r.confidence === 'HIGH' ? 'var(--green)' : r.confidence === 'MEDIUM' ? 'var(--yellow)' : 'var(--orange)'}">${r.confidence}</div>
+            </div>
+          </div>
+          <div style="font-size:13px;color:var(--text2);margin-top:8px">
+            ${r.n_reviews} reviews analyzed (${r.n_known} known critics, ${r.known_pct}% coverage)
+          </div>
+        </div>
+      `;
+
+      const tableRows = r.thresholds.filter(t => t.market_prob !== null || t.model_prob > 1).map(t => {
+        const isBest = r.best_signal && t.threshold === r.best_signal.threshold;
+        const edgeHtml = t.edge !== null
+          ? `<span class="${t.edge > 0 ? 'edge-positive' : 'edge-negative'}">${t.edge > 0 ? '+' : ''}${t.edge.toFixed(1)}%</span>`
+          : '--';
+        const signalHtml = t.direction
+          ? `<span class="signal-tag ${t.direction === 'BUY YES' ? 'yes' : 'no'}">${t.direction}</span>`
+          : '--';
+        const priceHtml = t.avg_fill != null
+          ? `<span${t.avg_fill > (t.buy_price || 0) * 1.1 ? ' style="color:var(--orange)"' : ''}>${Math.round(t.avg_fill)}c</span>`
+          : (t.buy_price != null ? `${Math.round(t.buy_price)}c` : '--');
+        return `<tr class="${isBest ? 'best-row' : ''}">
+          <td>Above ${t.threshold}%</td>
+          <td>${t.model_prob.toFixed(1)}%</td>
+          <td>${t.market_prob !== null ? t.market_prob + '%' : '--'}</td>
+          <td>${edgeHtml}</td>
+          <td>${signalHtml}</td>
+          <td>${priceHtml}</td>
+          <td>${t.size !== null ? '$' + t.size.toFixed(0) : '--'}</td>
+        </tr>`;
+      }).join('');
+
+      const tableHtml = `
+        <div class="panel-section">
+          <h3>Threshold Analysis</h3>
+          <table class="threshold-table">
+            <thead>
+              <tr><th>Threshold</th><th>Model</th><th>Kalshi</th><th>Edge</th><th>Signal</th><th>Price</th><th>Size</th></tr>
+            </thead>
+            <tbody>${tableRows}</tbody>
+          </table>
+        </div>
+      `;
+
+      const criticsHtml = r.critic_details && r.critic_details.length ? `
+        <div class="panel-section">
+          <h3>Critic Breakdown</h3>
+          <div class="critic-list">
+            ${r.critic_details.map(c => `
+              <div class="critic-row">
+                <div>
+                  <span class="critic-name">${esc(c.critic_name)}</span>
+                  <span class="critic-tier">${c.known ? c.tier : 'Unknown'}</span>
+                </div>
+                <div>
+                  <span class="${c.sentiment === 'Fresh' ? 'critic-fresh' : 'critic-rotten'}">${c.sentiment}</span>
+                  <span style="color:var(--text2);margin-left:8px">${(c.weight * 100).toFixed(0)}% weight</span>
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      ` : '';
+
+      el.innerHTML = bestHtml + statsHtml + tableHtml + criticsHtml;
+    }
+
+    async function loadPaperTrades() {
+      const el = document.getElementById('paper-view');
+      el.innerHTML = '<div class="loading"><div class="spinner"></div><p style="margin-top:12px">Loading paper trades...</p></div>';
+
+      const resp = await fetch('/api/paper-trades');
+      const trades = await resp.json();
+
+      if (!trades.length) {
+        el.innerHTML = '<div class="empty-state"><h3>No paper trades yet</h3><p>Run the paper trader to start generating simulated positions.</p></div>';
+        return;
+      }
+
+      // Compute summary stats
+      const totalSpend = trades.reduce((s, t) => s + (t.suggested_size || 0), 0);
+      const totalPayout = trades.reduce((s, t) => s + (t.payout_if_correct || 0), 0);
+      const winning = trades.filter(t => t.status === 'winning').length;
+      const losing = trades.filter(t => t.status === 'losing').length;
+      const pending = trades.filter(t => t.status === 'pending').length;
+
+      // Group by movie
+      const byMovie = {};
+      trades.forEach(t => {
+        const key = t.event_ticker || t.movie;
+        if (!byMovie[key]) byMovie[key] = { movie: t.movie, ticker: key, trades: [], tomato: t.current_tomatometer, reviewCount: t.current_review_count };
+        byMovie[key].trades.push(t);
+        if (t.current_tomatometer !== null) byMovie[key].tomato = t.current_tomatometer;
+        if (t.current_review_count) byMovie[key].reviewCount = t.current_review_count;
+      });
+
+      let html = `
+        <div class="paper-summary">
+          <div class="stat-box">
+            <div class="label">Total Deployed</div>
+            <div class="value">$${totalSpend.toFixed(0)}</div>
+          </div>
+          <div class="stat-box">
+            <div class="label">Max Payout</div>
+            <div class="value" style="color:var(--green)">$${totalPayout.toFixed(0)}</div>
+          </div>
+          <div class="stat-box">
+            <div class="label">Positions</div>
+            <div class="value">${trades.length}</div>
+          </div>
+          <div class="stat-box">
+            <div class="label">Status</div>
+            <div class="value" style="font-size:15px">
+              <span style="color:var(--green)">${winning}W</span>
+              <span style="color:var(--red);margin-left:4px">${losing}L</span>
+              <span style="color:var(--text2);margin-left:4px">${pending}P</span>
+            </div>
+          </div>
+        </div>
+      `;
+
+      for (const [key, group] of Object.entries(byMovie)) {
+        const tomatoStr = group.tomato !== null ? `${group.tomato}%` : '--';
+        const tomatoColor = group.tomato !== null ? (group.tomato >= 60 ? 'var(--green)' : 'var(--red)') : 'var(--text2)';
+        const groupSpend = group.trades.reduce((s, t) => s + (t.suggested_size || 0), 0);
+        const groupPayout = group.trades.reduce((s, t) => s + (t.payout_if_correct || 0), 0);
+
+        html += `
+          <div class="paper-group-header">
+            <h4>${esc(group.movie)}</h4>
+            <div>
+              <span class="rt-live" style="color:${tomatoColor}">RT: ${tomatoStr}</span>
+              <span style="color:var(--text2);margin-left:12px;font-size:13px">${group.reviewCount || 0} reviews</span>
+              <span style="color:var(--text2);margin-left:12px;font-size:13px">$${groupSpend.toFixed(0)} deployed</span>
+            </div>
+          </div>
+          <table class="paper-table">
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Position</th>
+                <th>Fill Price</th>
+                <th>Contracts</th>
+                <th>Cost</th>
+                <th>Payout if Win</th>
+                <th>Edge</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+        `;
+
+        for (const t of group.trades) {
+          const date = t.timestamp ? new Date(t.timestamp).toLocaleDateString('en-US', {month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit'}) : '--';
+          const dirClass = t.direction === 'BUY YES' ? 'yes' : 'no';
+          const statusClass = t.status === 'winning' ? 'status-winning' : t.status === 'losing' ? 'status-losing' : 'status-pending';
+          const statusIcon = t.status === 'winning' ? '+' : t.status === 'losing' ? '-' : '?';
+          const ob = t.ob_simulated ? ' (OB)' : '';
+
+          html += `
+            <tr>
+              <td style="font-size:12px;color:var(--text2)">${date}</td>
+              <td><span class="signal-tag ${dirClass}">${t.direction}</span> Above ${t.threshold}%</td>
+              <td>${t.avg_fill}c${ob}</td>
+              <td>${typeof t.contracts === 'number' ? t.contracts.toFixed(0) : t.contracts}</td>
+              <td>$${(t.suggested_size || 0).toFixed(2)}</td>
+              <td style="color:var(--green);font-weight:600">$${(t.payout_if_correct || 0).toFixed(2)}</td>
+              <td>${t.edge ? (t.edge > 0 ? '+' : '') + t.edge + '%' : '--'}</td>
+              <td><span class="${statusClass}">${statusIcon} ${t.status}</span></td>
+            </tr>
+          `;
+        }
+
+        html += '</tbody></table>';
+      }
+
+      el.innerHTML = html;
+    }
+
+    async function loadHistory() {
+      const el = document.getElementById('history-view');
+      el.innerHTML = '<div class="loading"><div class="spinner"></div></div>';
+
+      const resp = await fetch('/api/history');
+      const data = await resp.json();
+
+      if (!data.length) {
+        el.innerHTML = '<div class="empty-state"><h3>No predictions yet</h3><p>Analyze a movie from the Markets tab to start tracking predictions.</p></div>';
+        return;
+      }
+
+      el.innerHTML = data.map(r => {
+        const date = new Date(r.timestamp).toLocaleDateString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' });
+        const signals = (r.signals || []).map(s => {
+          const cls = s.direction === 'BUY YES' ? 'buy-yes' : 'buy-no';
+          return `<span class="alpha-pill ${cls}">${s.direction} Above ${s.threshold}% (${s.edge > 0 ? '+' : ''}${s.edge}%)</span>`;
+        }).join('');
+        const status = r.resolved
+          ? `<span style="color:var(--green)">Resolved: ${r.actual_score}%</span>`
+          : `<span style="color:var(--yellow)">Pending</span>`;
+        return `
+          <div class="history-card">
+            <div class="movie-title">${esc(r.movie)}</div>
+            <div class="timestamp">${date} &middot; ${r.n_reviews} reviews &middot; Model: ${r.model_mean}% &middot; ${status}</div>
+            ${signals ? `<div class="history-signals">${signals}</div>` : ''}
+          </div>
+        `;
+      }).join('');
+    }
+
+    function closePanel() {
+      document.getElementById('overlay').classList.remove('open');
+      document.getElementById('panel').classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') closePanel(); });
+
+    function esc(s) {
+      const d = document.createElement('div');
+      d.textContent = s || '';
+      return d.innerHTML;
+    }
+
+    loadMarkets();
+  </script>
+</body>
+</html>

@@ -1,0 +1,1506 @@
+critic_name,top_critic,publisher_name,total_reviews,agreement_rate,big_movie_agreement_rate,fresh_rate,tier
+A.C. Koch,False,Spectrum Culture,68,0.7941,1.0,0.7059,established
+A.S. Hamrah,True,,100,0.5455,0.4286,0.49,veteran
+Aaron Guttenplan,False,MovieJawn,9,0.8889,,0.8889,newcomer
+Aaron Peterson,True,,100,0.7576,0.75,0.68,veteran
+Aaron Pruner,False,IGN Movies,13,0.8462,0.8889,0.8462,newcomer
+Aarón Rodríguez Serrano,False,El antepenúltimo mohicano,27,0.7083,,0.7037,newcomer
+Abby Monteil,False,Chicago Reader,22,0.6667,,0.5909,newcomer
+Abby Olcese,True,,100,0.732,0.8182,0.76,veteran
+Abe Beame,False,In Review Online,5,0.8,,0.8,newcomer
+Abhimanyu Mathur,False,Hindustan Times,36,0.6944,0.75,0.7222,established
+Abhishek Srivastava,False,The Times of India,100,0.8333,0.9167,0.83,veteran
+Abigail Stevens,False,Screen Rant,18,1.0,,0.7778,newcomer
+Adam Chitwood,False,Collider,84,0.8333,,0.8571,established
+Adam Matthews,False,Film Ireland Magazine,8,0.8333,,0.875,newcomer
+Adam Olinger,True,,100,0.71,0.8049,0.53,veteran
+Adam Schoales,False,That Shelf,14,0.7143,0.6667,0.7143,newcomer
+Adam Solomons,False,IndieWire,100,0.85,,0.84,veteran
+Adam Sweeting,False,The Arts Desk,100,0.7879,0.875,0.85,veteran
+Adam Woodward,False,Little White Lies,100,0.79,,0.63,veteran
+Adrian Ruiz,False,But Why Tho?,28,0.5714,,0.7857,newcomer
+Aglaia Berlutti,True,,100,0.9,0.9762,0.82,veteran
+Agustín Pérez,True,,50,0.8,0.8056,0.76,established
+Aidan Kelley,False,Collider,58,0.8182,1.0,0.7414,established
+Aisha Harris,True,,100,0.84,0.8261,0.82,veteran
+Al Horner,False,Empire Magazine,17,0.7647,,0.8235,newcomer
+Alaka Sahani,False,The Indian Express,12,0.9,,0.4167,newcomer
+Alan Jones,False,Radio Times,100,0.76,0.6667,0.91,veteran
+Alan Mount,False,Starburst,24,0.7778,,0.9167,newcomer
+Alan Pergament,True,,9,0.6667,,0.7778,newcomer
+Alan Sepinwall,True,,38,0.8056,,0.7632,established
+Alan Zilberman,True,,100,0.7419,0.8889,0.67,veteran
+Alberto Carlos,False,Espinof,10,0.8889,,0.7,newcomer
+Alci Rengifo,True,,100,0.86,0.9565,0.87,veteran
+Alec Bojalad,False,Den of Geek,17,0.8824,,0.5294,newcomer
+Alejandra Martinez,False,Austin Chronicle,96,0.8681,1.0,0.8854,established
+Alejandro Lingenti,False,La Nación (Argentina),100,0.8493,,0.84,veteran
+Alex Davidson,False,Sight & Sound,6,1.0,,1.0,newcomer
+Alex Harrison,True,,100,0.75,0.75,0.73,veteran
+Alex Hudson,True,,100,0.7447,0.8,0.76,veteran
+Alex Lei,False,AV Club,15,0.9231,,0.8667,newcomer
+Alex Nguyen,False,The Young Folks,42,0.7381,,0.6667,established
+Alex Papaioannou,False,InSession Film,100,0.8958,1.0,0.9,veteran
+Alex Saveliev,False,Film Threat,100,0.7935,1.0,0.87,veteran
+Alex Southey,False,That Shelf,17,0.7143,,0.7647,newcomer
+Alex Valencia,True,,31,0.9565,,0.9355,established
+Alexa Dalby,True,,100,0.9157,,0.96,veteran
+Alexa Margorian,False,Exclaim!,10,0.75,,0.7,newcomer
+Alexander Mooney,False,Slant Magazine,36,0.5833,0.7143,0.4722,established
+Alexander Walker,False,Daily Mail (UK),100,0.71,,0.67,veteran
+Ali Benzekri,False,AwardsWatch,17,0.8235,,0.8824,newcomer
+Ali López,True,,40,0.7436,,0.675,established
+Ali Shutler,False,NME (New Musical Express),6,0.8,,1.0,newcomer
+Alice Saville,False,Time Out,6,0.8333,,0.8333,newcomer
+Alice Shih,False,Original Cin,5,1.0,,1.0,newcomer
+Alicia Gilstorf,True,,64,0.7302,,0.8281,established
+Alicia P. Ferreirós,False,Sensacine,25,0.68,0.7143,0.96,newcomer
+Alireza Hatamvand,False,FILMINK (Australia),14,0.7,,0.7143,newcomer
+Alisha Mughal,True,,57,0.8889,0.6667,0.7895,established
+Alison Herman,True,,48,0.8936,,0.8542,established
+Alison Lanier,False,Pajiba,34,0.9032,,0.8529,established
+Alison Willmore,True,,100,0.75,0.6667,0.59,veteran
+Alissa Simon,True,,100,0.8873,,0.85,veteran
+Alistair Harkness,False,Film4,100,0.7959,0.7667,0.71,veteran
+Alistair Lawrence,False,Common Sense Media,100,0.7216,,0.55,veteran
+Alistair Ryder,True,,100,0.7097,0.8077,0.62,veteran
+Allan Hunter,True,,100,0.8824,,0.96,veteran
+Allen Almachar,True,,100,0.78,0.7742,0.68,veteran
+Allie Gregory,False,Exclaim!,5,0.6,,0.6,newcomer
+Allie Lembo,False,MovieJawn,6,0.8333,,0.8333,newcomer
+Allison Nichols,True,,11,0.3636,,0.6364,newcomer
+Allison Rose,True,,100,0.73,0.7576,0.91,veteran
+Allyson Johnson,True,,100,0.8763,0.4,0.79,veteran
+Alton Williams,False,Battle Royale With Cheese,39,0.8235,,0.8205,established
+Alyshia Kelly,False,The Young Folks,22,0.7727,1.0,0.6364,newcomer
+Amanda Luberto,False,Arizona Republic,18,0.9444,0.8,0.9444,newcomer
+Amanda Sink,True,,77,0.84,,0.8701,established
+Amber Dowling,False,TV Guide,12,0.8,,1.0,newcomer
+Amber Wilkinson,True,,100,0.9178,1.0,0.96,veteran
+Amelia Berry,False,"Flicks (AU, NZ, UK)",16,0.9375,,0.8125,newcomer
+Amelia Harvey,True,,100,0.86,0.84,0.86,veteran
+Amon Warmann,False,Empire Magazine,100,0.78,,0.71,veteran
+Amparo Cabal,False,EscribiendoCine,46,0.9459,,0.913,established
+Amy Amatangelo,True,,55,0.7636,,0.6545,established
+Amy Thomasson,False,InSession Film,19,0.8421,,0.8421,newcomer
+Amy West,True,,100,0.85,,0.81,veteran
+Ana Yorke,True,,47,0.9362,1.0,0.9362,established
+Anandu Suresh,False,The Indian Express,26,0.6923,,0.3077,newcomer
+Andi Zeisler,False,Bitch Media,12,0.6667,,1.0,newcomer
+Andiee Paviour,True,,100,0.9684,0.9444,1.0,veteran
+Andre Meadows,True,,100,0.79,0.6667,0.89,veteran
+Andrea Beach,False,Common Sense Media,100,0.7143,,0.75,veteran
+Andrea Chase,True,,100,0.8469,0.8108,0.82,veteran
+Andrea G. Bermejo,False,Cinemanía (Spain),100,0.9231,1.0,0.99,veteran
+Andrea Schmidt,False,MovieJawn,8,0.7143,,0.875,newcomer
+Andrea Thompson,True,,100,0.7604,0.7,0.73,veteran
+Andrea Zamora,False,Sensacine,100,0.8256,0.9167,0.92,veteran
+Andres Cabrera,False,Geeks of Color,17,1.0,1.0,1.0,newcomer
+Andrew Chan,False,Film Comment Magazine,23,0.6522,,0.6087,newcomer
+Andrew Dex,False,Starburst,21,0.8095,1.0,0.9048,newcomer
+Andrew Dignan,False,Slant Magazine,100,0.5051,0.625,0.3,veteran
+Andrew Fukui,False,Geek Vibes Nation,20,0.6316,,0.95,newcomer
+Andrew Gruttadaro,False,The Ringer,8,0.75,,0.875,newcomer
+Andrew Jankowski,False,Willamette Week,9,0.4286,,0.5556,newcomer
+Andrew Lawrence,False,Guardian,20,0.75,,0.65,newcomer
+Andrew Mack,False,ScreenAnarchy,76,0.875,,0.9474,established
+Andrew Marzoni,False,The New Republic,7,0.7143,,0.7143,newcomer
+Andrew Osborne,False,culturevulture.net,32,0.8966,,0.9062,established
+Andrew Osmond,False,Empire Magazine,56,0.7321,,0.7143,established
+Andrew Parker,True,,100,0.7727,0.8,0.73,veteran
+Andrew Reichel,False,In Review Online,12,0.6364,,0.5833,newcomer
+Andrew Webster,False,The Verge,71,0.8,1.0,0.7887,established
+André Hereford,True,,100,0.8261,0.8148,0.74,veteran
+Andrés Salas,False,Cinemanía (Spain),16,0.7692,,0.875,newcomer
+Andy Dehnart,True,,14,0.6667,,0.7143,newcomer
+Andy Howell,False,Film Threat,85,0.8378,,0.9412,established
+Andy Punter,False,InSession Film,11,1.0,,0.8182,newcomer
+Angelo Muredda,False,Film Freak Central,100,0.7396,0.5455,0.71,veteran
+Anita Singh,False,Daily Telegraph (UK),67,0.8723,,0.8657,established
+Ankit Ojha,True,,100,0.798,,0.79,veteran
+Ann Marie Hourihane,False,Irish Independent,11,0.625,,0.5455,newcomer
+Anna Menta,True,,80,0.7875,,0.85,established
+Anna Miller,True,,61,0.9508,1.0,0.8689,established
+Anna Stafford,False,Globe and Mail,5,1.0,,1.0,newcomer
+Anne Brodie,True,,100,0.8916,1.0,0.9,veteran
+Anne T. Donahue,False,Globe and Mail,47,0.913,,0.7447,established
+Annette Basile,False,FILMINK (Australia),100,0.7033,,0.86,veteran
+Anni Glissman,False,Mediaversity Reviews,5,0.8,,0.2,newcomer
+Annie Berke,False,AV Club,7,0.5714,0.3333,0.7143,newcomer
+Anthony Breznican,False,Associated Press,11,0.8182,,0.6364,newcomer
+Anthony Gagliardi,False,The Movie Podcast,22,0.9091,0.8462,0.9545,newcomer
+Anthony O'Connor,False,FILMINK (Australia),100,0.87,0.8788,0.88,veteran
+Anthony Whyte,True,,48,0.8,0.875,0.8542,established
+Antonio Trashorras,False,Fotogramas,100,0.8367,0.8571,0.95,veteran
+Anuj Kumar,True,,100,0.7889,,0.47,veteran
+Anupama Chopra,True,,100,0.7753,1.0,0.53,veteran
+Anushka Halve,False,Film Companion,24,0.8696,0.6,0.8333,newcomer
+Anzhe Zhang,False,Slant Magazine,11,0.6364,,0.2727,newcomer
+Aparita Bhandari,False,Toronto Star,96,0.8617,1.0,0.7917,established
+April Neale,False,AWFJ.org,10,0.875,,1.0,newcomer
+Aprillé Morris,True,,9,0.6667,0.6667,0.7778,newcomer
+Aramide Tinubu,True,,100,0.8438,,0.88,veteran
+Archi Sengupta,True,,100,0.7647,0.6667,0.48,veteran
+Archika Khurana,False,The Times of India,100,0.6707,,0.79,veteran
+Ard Vijn,True,,100,0.8052,,0.94,veteran
+Arjun Menon,False,The Indian Express,6,0.6667,,0.6667,newcomer
+Arjun Sajip,False,Sight & Sound,10,0.7,,0.9,newcomer
+Armond White,True,,100,0.433,0.1786,0.44,veteran
+Ashley Bissette Sumerel,True,,12,0.75,,0.9167,newcomer
+Ashley Morales,False,MovieJawn,11,1.0,,0.8182,newcomer
+Ashley Moulton,False,Common Sense Media,22,0.8333,,1.0,newcomer
+Asyia Iftikhar,False,metro.co.uk,9,0.8889,,0.7778,newcomer
+Audrey Vann,False,"The Stranger (Seattle, WA)",8,0.8333,,0.875,newcomer
+Avi Offer,True,,100,0.7595,0.75,0.7,veteran
+Aviva Dove-Viebahn,True,,64,0.9194,,0.9375,established
+Awais Irfan,True,,27,0.8077,0.875,0.8148,newcomer
+Barbara Shulgasser,False,Chicago Tribune,100,0.5965,,0.43,veteran
+Barry Levitt,False,Empire Magazine,65,0.7812,,0.7077,established
+Beatrice Loayza,False,New York Times,100,0.7872,0.7143,0.74,veteran
+Beatrine Shahzad,False,Discussing Film,8,0.75,1.0,0.75,newcomer
+Beatriz Martínez,False,Sensacine,100,0.8734,,0.97,veteran
+Becky Darke,False,Total Film,5,0.8,,0.8,newcomer
+Bedatri D. Choudhury,True,,72,0.8939,,0.9167,established
+Begoña Piña,False,Cinemanía (Spain),23,0.9167,,0.8261,newcomer
+Belen Prieto,False,Espinof,50,0.9268,1.0,0.94,established
+Ben Allen,False,Radio Times,9,0.5556,0.5,0.6667,newcomer
+Ben Dowell,False,The Times (UK),25,0.9375,,1.0,newcomer
+Ben Glidden,False,Film Threat,9,1.0,,1.0,newcomer
+Ben Kenigsberg,True,,100,0.7582,,0.72,veteran
+Ben Lindbergh,False,The Ringer,10,1.0,,0.8,newcomer
+Ben Miller,False,InSession Film,15,0.8667,,0.8,newcomer
+Ben Morganti,False,CBR,7,1.0,1.0,1.0,newcomer
+Ben Pearson,False,Slashfilm,76,0.8684,,0.8553,established
+Ben Robins,False,HeyUGuys,60,0.85,,0.8833,established
+Ben Sears,False,Loud and Clear Reviews,16,0.8,,0.8125,newcomer
+Ben Sherlock,False,Screen Rant,15,0.8667,,0.7333,newcomer
+Ben Travers,True,,43,0.7317,,0.6512,established
+Ben Travis,False,Empire Magazine,100,0.73,1.0,0.82,veteran
+Ben Wasserman,True,,67,0.8507,0.9524,0.8806,established
+Benjamin Franz,False,Film Threat,100,0.8594,,0.99,veteran
+Benjamin Gummery,True,,97,0.8333,,0.8763,established
+Benjamin H. Smith,False,Decider,100,0.7586,,0.81,veteran
+Benjamín Harguindey,False,EscribiendoCine,100,0.7778,1.0,0.66,veteran
+Benji Wilson,False,Daily Telegraph (UK),22,0.8571,,0.8182,newcomer
+Beth Webb,False,Empire Magazine,94,0.8723,0.75,0.8617,established
+Bethan Ackerley,True,,10,1.0,1.0,0.9,newcomer
+Bethany Jean Clement,False,Seattle Times,8,1.0,,0.875,newcomer
+Bethany Lola,False,Loud and Clear Reviews,29,0.7857,,1.0,newcomer
+Betsy Sherman,True,,100,0.8065,,0.78,veteran
+Bilge Ebiri,True,,100,0.8485,0.9643,0.8,veteran
+Bill Bria,False,Slashfilm,100,0.64,0.7895,0.92,veteran
+Bill Brioux,True,,64,0.9483,,0.9219,established
+Bill Cooper,False,Spectrum Culture,19,0.4667,,0.4211,newcomer
+Billie Anderson,False,MovieJawn,10,1.0,1.0,0.9,newcomer
+Billie Melissa,True,,29,0.7586,0.8333,0.8621,newcomer
+Billie Walker,False,Little White Lies,19,0.6842,,0.4211,newcomer
+Blai Morell,False,Fotogramas,73,0.7692,0.75,0.9178,established
+Blake Simons,False,Sight & Sound,16,0.9091,,0.8125,newcomer
+Bob Ross,True,,100,0.84,,0.82,veteran
+Bob Strauss,True,,100,0.8384,0.8333,0.77,veteran
+Brad Wheeler,False,Globe and Mail,100,0.8367,,0.79,veteran
+Bradley Russell,False,Total Film,5,0.6,0.3333,1.0,newcomer
+Brady Langmann,False,Esquire Magazine,11,0.8182,,0.7273,newcomer
+Brandon Lewis,True,,81,0.8333,0.92,0.9136,established
+Brandon Zachary,False,Screen Rant,100,0.7273,,0.86,veteran
+Branyan Towe,False,InSession Film,79,0.7089,0.8,0.9494,established
+Breeze Riley,True,,20,0.75,1.0,0.8,newcomer
+Bren Murphy,False,RTÉ (Ireland),35,0.8667,1.0,0.9143,established
+Brennan Klein,False,Screen Rant,15,0.5714,,0.6667,newcomer
+Brent Simon,True,,100,0.77,,0.53,veteran
+Brett McCracken,True,,100,0.81,0.7059,0.82,veteran
+Brian Bisesi,False,Horror Movie Club Podcast,100,0.73,0.8571,0.83,veteran
+Brian Bromberger,False,Bay Area Reporter,100,0.8925,1.0,0.93,veteran
+Brian Lowry,True,,100,0.76,0.8571,0.68,veteran
+Brian Moylan,False,Guardian,28,0.7037,,0.7857,newcomer
+Brian Orndorf,True,,100,0.7416,0.6,0.6,veteran
+Brian Tallerico,True,,100,0.8313,1.0,0.68,veteran
+Brian Ó Tiomáin,False,Film Ireland Magazine,12,1.0,,1.0,newcomer
+Brittany Frederick,True,,11,0.6364,,0.7273,newcomer
+Brogan Luke Bouwhuis,False,But Why Tho?,41,0.7561,0.8,0.7561,established
+Brooke Obie,True,,80,0.6667,0.375,0.6125,established
+Burt Peterson,False,SciFiNow,42,0.7381,0.5,0.9524,established
+C.J. Prince,True,,100,0.7143,,0.59,veteran
+Cain Noble-Davies,False,FILMINK (Australia),100,0.7753,0.75,0.81,veteran
+Caitlin Kennedy,True,,100,0.77,0.8,0.78,veteran
+Caitlin Wyneken,False,Tell-Tale TV,9,0.8571,,1.0,newcomer
+Caleb Hammond,False,In Review Online,28,0.7857,1.0,0.7143,newcomer
+Callie Hanna,False,FandomWire,26,0.68,,0.7692,newcomer
+Calum Baker,False,Radio Times,100,0.9022,,0.91,veteran
+Calum Marsh,False,New York Times,100,0.6263,,0.42,veteran
+Calvin Law,False,AwardsWatch,36,0.9355,,1.0,established
+Cameron Frew,True,,100,0.9192,0.8333,0.82,veteran
+Cameron Ritter,False,InSession Film,100,0.875,1.0,0.83,veteran
+Candice McMillan,True,,100,0.82,0.8302,0.67,veteran
+Cara O'Doherty,True,,7,0.8571,0.8,1.0,newcomer
+Caralynn Matassa,True,,32,0.875,0.9,0.7812,established
+Carissa Pavlica,True,,56,0.72,,0.9821,established
+Carl Wilson,False,Slate,9,0.5556,,0.3333,newcomer
+Carla Renata,True,,100,0.866,0.9375,0.92,veteran
+Carlos Cañas,False,El antepenúltimo mohicano,5,0.8,,0.6,newcomer
+Carlos Marañón,False,Cinemanía (Spain),100,0.8667,,0.9,veteran
+Carlos Morales,False,IGN Movies,9,0.8889,,0.6667,newcomer
+Carlota Mosegui,False,Otroscines.com,49,0.8636,,0.9184,established
+Carly Lane,True,,15,0.9333,,1.0,newcomer
+Carmen Bryce,False,Film Ireland Magazine,6,0.8333,,0.8333,newcomer
+Carolina G. Guerrero,False,EscribiendoCine,16,0.9231,,0.8125,newcomer
+Caroline Framke,True,,30,0.8966,,0.7667,established
+Carrie McClain,False,Black Nerd Problems,5,0.8,,0.8,newcomer
+Cat Woods,False,The Age (Australia),10,0.9,,0.9,newcomer
+Cate Young,True,,100,0.79,0.7,0.79,veteran
+Catherine Springer,True,,100,0.78,,0.7,veteran
+Catherine Wheatley,False,Sight & Sound,29,0.8276,,0.931,newcomer
+Chalice Williams,False,Black Girl Nerds,19,0.6,0.75,1.0,newcomer
+Charles Barfield,False,The Playlist,46,0.7609,,0.6304,established
+Charles Bramesco,True,,100,0.7879,1.0,0.58,veteran
+Charles Hartford,False,But Why Tho?,89,0.6627,,0.7978,established
+Charles Johnston,False,Spectrum Culture,54,0.78,,0.7037,established
+Charles Koplinski,True,,100,0.72,0.8387,0.74,veteran
+Charles Lyons-Burt,False,Slant Magazine,40,0.7,0.3333,0.725,established
+Charles Pulliam-Moore,True,,100,0.71,0.8,0.61,veteran
+Charlotte O'Sullivan,True,,100,0.81,,0.83,veteran
+Charlotte Simmons,True,,100,0.7604,0.7895,0.78,veteran
+Chase Hutchinson,True,,100,0.7805,0.4375,0.73,veteran
+Chelsea Alexandra,False,MovieJawn,14,0.7273,,0.7857,newcomer
+Chitra Ramaswamy,False,Guardian,6,1.0,,1.0,newcomer
+Chris Azzopardi,False,New York Times,39,0.8108,,0.6667,established
+Chris Bennion,False,The Times (UK),39,0.7895,,0.8974,established
+Chris Bumbray,True,,100,0.8081,0.7059,0.84,veteran
+Chris Cassingham,True,,61,0.7347,,0.6721,established
+Chris Gallardo,False,Tell-Tale TV,7,0.4286,,0.8571,newcomer
+Chris Joyce,True,,100,0.7755,0.8519,0.76,veteran
+Chris Knight,True,,100,0.8295,1.0,0.79,veteran
+Chris Nashawaty,False,Entertainment Weekly,100,0.68,0.6667,0.75,veteran
+Chris Richards,False,Washington Post,5,0.6,,0.4,newcomer
+Chris Tait,True,,15,0.8,0.875,1.0,newcomer
+Chris Tilly,True,,100,0.7475,0.9,0.89,veteran
+Chris Ward,False,Flickering Myth,87,0.7,,0.7356,established
+Chris Wasser,False,Sunday Independent (Ireland),100,0.7849,0.7333,0.67,veteran
+Chris Willman,False,Variety,96,0.8824,,0.7396,established
+Christen McCurdy,False,Bitch Media,6,0.6667,,0.8333,newcomer
+Christian Blauvelt,False,Slant Magazine,61,0.9138,,0.918,established
+Christian Craig,False,In Review Online,27,0.7917,1.0,0.6296,newcomer
+Christian Holub,False,TV Guide,63,0.7619,1.0,0.5873,established
+Christian Jones,False,Starburst,13,0.75,,0.8462,newcomer
+Christian Toto,True,,100,0.6458,0.6471,0.74,veteran
+Christian Zilko,False,IndieWire,100,0.8182,,0.87,veteran
+Christina Brennan,False,Vague Visages,7,0.4,,0.5714,newcomer
+Christina Izzo,False,AV Club,7,0.7143,,0.4286,newcomer
+Christina Tucker,False,Slate,13,0.6154,,0.6154,newcomer
+Christopher Connor,True,,74,0.9324,1.0,0.9324,established
+Christopher Harris,False,Globe and Mail,8,1.0,,0.375,newcomer
+Christopher La Vigna,False,MovieJawn,5,0.8,,0.8,newcomer
+Christopher Lloyd,True,,100,0.6941,0.6667,0.76,veteran
+Christopher Machell,True,,100,0.8333,,0.83,veteran
+Christopher Schobert,True,,100,0.88,,0.85,veteran
+Cinemanía Staff,False,Cinemanía (Spain),14,0.6923,,0.9286,newcomer
+CJ Sheu,True,,100,0.7937,1.0,0.82,veteran
+Claire Di Maio,False,The Young Folks,21,0.8,0.6667,0.9048,newcomer
+Clara Cuccaro,False,In Review Online,15,0.6923,,0.6,newcomer
+Clarence Tsui,False,The Hollywood Reporter,100,0.8649,,0.84,veteran
+Claudia Connell,False,Daily Mail (UK),19,0.7,,0.7895,newcomer
+Clement Tyler Obropta,False,Film Inquiry,55,0.64,,0.6182,established
+Clint Cage,False,IGN Movies,15,0.9333,0.9091,0.8667,newcomer
+Clint Gage,False,IGN Movies,7,1.0,1.0,1.0,newcomer
+Clotilde Chinnici,True,,100,0.8229,0.7143,0.91,veteran
+Coleman Spilde,False,Salon.com,100,0.732,0.5938,0.72,veteran
+Colette Maude,False,,27,0.7407,,0.5185,newcomer
+Colin Biggs,False,Movie Mezzanine,89,0.8539,1.0,0.7079,established
+Collider Staff,False,Collider,7,0.7143,,1.0,newcomer
+Colton Peregoy,False,MovieJawn,9,0.875,,0.7778,newcomer
+Connor Lightbody,True,,100,0.7778,0.6429,0.75,veteran
+Conor Bryce,False,Film Ireland Magazine,11,0.8182,,1.0,newcomer
+Conor O'Donnell,False,The Film Stage,50,0.7959,1.0,0.8,established
+Corey Atad,False,Little White Lies,14,0.8571,,0.7857,newcomer
+Cortlyn Kelly,False,Chicago Reader,23,0.6667,0.75,0.7391,newcomer
+Courtney Howard,True,,100,0.6869,0.7188,0.67,veteran
+Craig D. Lindsey,True,,100,0.74,1.0,0.59,veteran
+Craig Mathieson,False,Sydney Morning Herald,100,0.8,,0.78,veteran
+Cris Kennedy,True,,100,0.7474,0.6923,0.94,veteran
+Cris Parker,True,,91,0.8242,0.8667,0.7802,established
+Cristina Escobar,True,,42,0.7805,,0.9762,established
+Crystal Bell,False,MTV,5,1.0,,1.0,newcomer
+Custodio Guerrero,False,Sensacine,11,0.8182,0.6667,1.0,newcomer
+Cynthia Vinney,False,CBR,83,0.5783,0.6667,0.6024,established
+D. Patrick Rodgers,False,Nashville Scene,32,0.9375,1.0,0.8438,established
+Dais Johnston,False,Inverse,29,0.6897,,0.6552,newcomer
+Dale Kearney,False,Film Ireland Magazine,6,0.8333,,0.8333,newcomer
+Damien Straker,True,,100,0.7475,0.9167,0.69,veteran
+Dan Barnes,False,Flickering Myth,40,0.875,,0.75,established
+Dan Casey,False,Nerdist,35,0.8182,,1.0,established
+Dan Einav,False,Little White Lies,46,0.9024,,0.9565,established
+Dan Friedman,False,The Forward,5,1.0,1.0,1.0,newcomer
+Dan Rubins,False,Slant Magazine,33,0.7273,0.6667,0.6061,established
+Dan Tabor,True,,100,0.8621,0.8824,0.92,veteran
+Dana Kennedy,False,AARP Movies for Grownups,13,0.7692,,1.0,newcomer
+Dana Stevens,True,,100,0.84,0.7714,0.72,veteran
+Danae Stahlnecker,False,Common Sense Media,8,1.0,,0.875,newcomer
+Danette Chavez,True,,23,0.9565,,0.7391,newcomer
+Daniel Allen,False,In Review Online,100,0.9348,,0.91,veteran
+Daniel Baptista,False,The Movie Podcast,36,0.8611,0.9375,0.9167,established
+Daniel Barnes,True,,100,0.9192,0.75,0.63,veteran
+Daniel Bayer,False,AwardsWatch,22,0.6818,,0.9545,newcomer
+Daniel Chin,False,The Ringer,12,1.0,,0.75,newcomer
+Daniel D'Addario,False,Variety,42,0.6,,0.5714,established
+Daniel Eagan,True,,100,0.8242,1.0,0.81,veteran
+Daniel Hart,True,,100,0.6875,1.0,0.72,veteran
+Daniel Kurland,True,,60,0.8704,,0.8667,established
+Daniel Pemberton,False,Spectrum Culture,24,0.875,,0.7917,newcomer
+Daniel Rester,False,Film Threat,100,0.7938,0.88,0.74,veteran
+Daniella Mazzio,False,Chicago Reader,6,0.8333,,0.8333,newcomer
+Danielle Ryan,True,,10,0.8,,0.8,newcomer
+Danielle Solzman,True,,100,0.7283,0.7143,0.85,veteran
+Dann Gire,True,,100,0.69,0.6875,0.66,veteran
+Danny Brogan,False,Common Sense Media,100,0.7872,,0.78,veteran
+Danny Minton,True,,100,0.82,0.9,0.84,veteran
+DarkSkyLady,True,,100,0.8191,0.7826,0.83,veteran
+Darryl Griffiths,True,,36,1.0,,0.9722,established
+Dave Canfield,False,ScreenAnarchy,12,0.9167,,1.0,newcomer
+Dave Giannini,False,InSession Film,100,0.9213,1.0,0.82,veteran
+Dave Golder,False,Radio Times,100,0.6735,,0.69,veteran
+Dave Lee,True,,100,0.67,0.7778,0.95,veteran
+David Armstrong,False,San Francisco Examiner,31,0.8065,,0.871,established
+David Bianculli,True,,56,0.7963,,0.8214,established
+David Browne,False,Rolling Stone,10,0.9,,0.8,newcomer
+David Chen,True,,34,0.8529,0.85,0.7059,established
+David Cuevas,False,In Review Online,39,0.7353,,0.6923,established
+David Elliott,True,,100,0.6837,,0.57,veteran
+David Gelmini,False,Dread Central,30,0.76,,1.0,established
+David Hogan,True,,100,0.8586,1.0,0.73,veteran
+David Hughes,False,Empire Magazine,100,0.8081,,0.83,veteran
+David Jenkins,False,Time Out,100,0.7849,0.8235,0.72,veteran
+David Kaplan,True,,100,0.8,0.7931,0.9,veteran
+David Katz,False,Sight & Sound,77,0.8108,,0.8182,established
+David Klion,False,The New Republic,13,0.7692,0.8,0.7692,newcomer
+David Nusair,True,,100,0.596,0.6667,0.65,veteran
+David Opie,True,,57,0.8545,1.0,0.8596,established
+David Poland,True,,100,0.8,0.8293,0.84,veteran
+David Reddish,True,,100,0.87,1.0,0.89,veteran
+David Robb,False,Slant Magazine,50,0.5745,,0.46,established
+David Sexton,False,London Evening Standard,100,0.78,0.7391,0.72,veteran
+David Sims,True,,100,0.87,0.8378,0.83,veteran
+David Tejero Nogales,False,El antepenúltimo mohicano,22,0.8095,,1.0,newcomer
+David Tusing,False,The National (UAE),10,0.8,,0.6,newcomer
+David Walsh,True,,100,0.5217,0.2857,0.47,veteran
+David-Elijah Nahmod,False,Bay Area Reporter,70,0.9508,,0.9714,established
+Debashine Thangevelo,False,Independent Online (South Africa),43,0.6905,,0.5581,established
+Debi Enker,False,The Age (Australia),7,1.0,,1.0,newcomer
+Deborah Ross,True,,100,0.73,0.6538,0.68,veteran
+Deepa Gahlot,False,Scroll.in,29,0.7917,,0.4828,newcomer
+Del Winters,False,MovieJawn,8,0.7143,,0.75,newcomer
+Denise Zubizarreta,True,,17,0.8,,0.8235,newcomer
+Dennis Harvey,True,,100,0.7849,0.6,0.8,veteran
+Dennis King,False,Tulsa World,100,0.95,,0.86,veteran
+Dennis Perkins,False,AV Club,24,0.8421,,0.8333,newcomer
+Dennis Schwartz,True,,100,0.7742,1.0,0.58,veteran
+Derek Chen,False,,17,0.7333,,0.4118,newcomer
+Derrick Murray,True,,100,0.8586,0.8333,0.75,veteran
+Dessi Gomez,False,Deadline Hollywood Daily,6,0.8333,1.0,1.0,newcomer
+Devan Suber,False,IGN Movies,14,0.9231,,0.8571,newcomer
+Devesh Sharma,False,Filmfare,100,0.6571,0.8667,0.86,veteran
+Dex Wesley Parra,False,Austin Chronicle,16,0.6875,,0.8125,newcomer
+Dhruv Goyal,False,In Review Online,35,0.75,,0.5714,established
+Diedre Johnson,True,,6,0.5,,1.0,newcomer
+Diego Batlle,False,Otroscines.com,100,0.9014,0.9091,0.83,veteran
+Diego Semerene,False,Slant Magazine,100,0.6667,,0.64,veteran
+Dillon Gonzales,False,InSession Film,28,0.8519,,1.0,newcomer
+Dina Kaur,False,Arizona Republic,19,0.8421,,0.8947,newcomer
+Dirk Libbey,False,CinemaBlend,69,0.8116,,0.6957,established
+DJ BenHaMeen,False,For All Nerds Podcast,12,0.6667,0.6364,0.8333,newcomer
+Dolores Quintana,True,,100,0.8021,1.0,0.94,veteran
+Dom Fisher,False,Geek Vibes Nation,40,0.8718,0.8571,0.925,established
+Dominic Baez,False,Seattle Times,19,0.6842,0.75,0.7895,newcomer
+Dominic Patten,True,,15,0.8,,0.6667,newcomer
+Don Aucoin,False,Boston Globe,12,0.9091,,0.75,newcomer
+Don Kaye,False,Den of Geek,100,0.75,0.6667,0.59,veteran
+Don R. Lewis,True,,100,0.8021,,0.85,veteran
+Donald Liebenson,False,Chicago Tribune,15,1.0,,0.8,newcomer
+Doug Walker,True,,100,0.7,0.75,0.57,veteran
+Dov Kornits,True,,47,0.766,,0.8723,established
+Drew Gillis,False,PopMatters,7,0.8571,,1.0,newcomer
+Dulcie Pearce,False,The Sun (UK),100,0.7755,0.7568,0.77,veteran
+Dustin Rowles,True,,100,0.7449,0.8333,0.58,veteran
+Dónal Lynch,False,Independent (UK),27,0.84,,0.8148,newcomer
+Ed Cumming,False,Daily Telegraph (UK),29,0.875,,0.7931,newcomer
+Eddie Harrison,True,,100,0.6082,0.8571,0.93,veteran
+Edgar Ortega,True,,27,0.84,0.8182,0.8148,newcomer
+Edward Frumkin,False,The Film Stage,13,0.7273,,0.7692,newcomer
+Edwin Arnaudin,True,,100,0.73,0.8421,0.72,veteran
+Eileen G'Sell,False,"Metro Times (Detroit, MI)",72,0.8429,,0.8611,established
+Eilidh Akilade,False,The Skinny,5,0.8,,1.0,newcomer
+Eleanor Halls,False,Daily Telegraph (UK),5,1.0,,0.6,newcomer
+Eleanor O'Sullivan,True,,100,0.7,,0.67,veteran
+Elena Lazic,True,,100,0.631,,0.73,veteran
+Eli Friedberg,False,Slant Magazine,40,0.7,0.8,0.65,established
+Elijah Fischer,False,MovieJawn,10,0.8333,,0.6,newcomer
+Elijah Gonzalez,True,,23,0.7727,,0.7391,newcomer
+Elisa Guimarães,False,Collider,21,0.8095,,0.8095,newcomer
+Elisabeth Vincentelli,False,New York Times,72,0.7746,,0.6528,established
+Elissa Suh,True,,100,0.7347,0.5714,0.72,veteran
+Elizabeth Kerr,False,The Hollywood Reporter,100,0.7778,,0.79,veteran
+Elizabeth Weitzman,True,,100,0.8673,,0.76,veteran
+Elle Hunt,False,Guardian,5,1.0,,1.0,newcomer
+Ellen E Jones,False,Empire Magazine,100,0.7419,0.6667,0.65,veteran
+Elliott Cuff,False,Loud and Clear Reviews,10,0.875,,0.8,newcomer
+Ema Sasic,False,Next Best Picture,100,0.8163,0.8,0.8,veteran
+Emedo Ashibeze,False,Screen Rant,11,1.0,,0.4545,newcomer
+Emiliano Basile,False,EscribiendoCine,100,0.7326,,0.82,veteran
+Emilie Black,True,,100,0.6557,,0.8,veteran
+Emilio Luna,False,El antepenúltimo mohicano,16,0.9375,,1.0,newcomer
+Emily Bernard,False,Collider,21,0.8571,,1.0,newcomer
+Emily Garbutt,False,Total Film,5,0.8,1.0,0.8,newcomer
+Emily von Seele,False,Daily Dead,35,0.8529,,0.9429,established
+Emma Badame,False,That Shelf,51,0.8936,0.875,0.902,established
+Emma Fraser,True,,8,0.75,,1.0,newcomer
+Emma Kiely,True,,84,0.7195,1.0,0.5714,established
+Emma Stefansky,True,,100,0.7374,0.6667,0.84,veteran
+Enrique Abenia,False,Cinemanía (Spain),46,0.5778,,0.8043,established
+Eric Deggans,True,,42,0.8462,,0.9048,established
+Eric Francisco,False,Total Film,35,0.7714,,0.6,established
+Eric Langberg,True,,100,0.8333,1.0,0.95,veteran
+Eric Marchen,True,,100,0.7604,0.7708,0.66,veteran
+Erik Adams,True,,30,0.8621,,0.8,established
+Erik Kain,True,,49,0.6531,0.6667,0.6735,established
+Erik Piepenburg,False,New York Times,22,0.5909,,0.4545,newcomer
+Erik Reeds,False,Spectrum Culture,52,0.8571,,0.7885,established
+Erin Maxwell,False,L.A. Weekly,49,0.7347,1.0,0.6939,established
+Erin Strecker,False,Entertainment Weekly,9,0.8889,,0.7778,newcomer
+Esther Rosenfield,False,Little White Lies,8,0.75,,0.75,newcomer
+Ethan Dayton,False,That Shelf,11,0.8,,0.6364,newcomer
+Ethan J. Rosenberg,False,In Review Online,28,0.5,0.2857,0.3929,newcomer
+Ethan Padgett,False,Film Threat,60,0.8276,,1.0,established
+Eulàlia Iglesias,False,Fotogramas,88,0.9,,0.8523,established
+Evan Griffin,False,The Young Folks,22,0.8636,,0.7273,newcomer
+Evan Valentine,False,Collider,13,0.7692,,0.6923,newcomer
+Farah Cheded,True,,100,0.9375,,0.92,veteran
+Fatima Sheriff,False,Little White Lies,23,0.8571,,0.7826,newcomer
+Felipe Rangel,False,Screen Rant,6,0.4,,0.6667,newcomer
+Fernanda Camargo,False,Common Sense Media,11,1.0,,1.0,newcomer
+Fernando Brenner,False,EscribiendoCine,5,1.0,,1.0,newcomer
+Film4 Staff,False,Film4,100,0.7732,,0.73,veteran
+Fiona Rae,False,Film Threat,5,1.0,,1.0,newcomer
+Fran Chico,False,Fotogramas,39,0.6923,0.8,0.9231,established
+Fran Winston,False,Daily Express (UK),11,0.8,,0.8182,newcomer
+Francesca Steele,False,Sight & Sound,100,0.79,0.8235,0.69,veteran
+Frank Bruni,False,Detroit Free Press,20,0.8,,0.7,newcomer
+Frank Scheck,False,The Hollywood Reporter,100,0.7938,0.8462,0.6,veteran
+Frank Swietek,True,,100,0.5204,0.4242,0.32,veteran
+Frank Wilkins,True,,100,0.89,0.9032,0.81,veteran
+Frantz Jerome,False,Black Nerd Problems,26,0.8077,,0.8077,newcomer
+Fred Topel,True,,100,0.7526,0.7273,0.81,veteran
+Gabriel Tate,False,The Times (UK),16,0.9,,0.8125,newcomer
+Gabriela Meza,True,,93,0.7283,0.7941,0.6989,established
+Gaius Bolling,False,Geek Vibes Nation,19,0.8947,0.8571,0.8947,newcomer
+Ganesh Aaglave,False,Firstpost,100,0.6849,0.9583,0.83,veteran
+Gary M. Kramer,True,,100,0.7955,1.0,0.76,veteran
+Gary Susman,True,,52,0.6346,,0.7115,established
+Gautam Anand,False,The Cinemaholic,7,0.5714,,0.5714,newcomer
+Gavia Baker-Whitelaw,False,Empire Magazine,100,0.7778,,0.64,veteran
+Gavin Spoors,True,,100,0.7979,0.8,0.7,veteran
+Gemma Wilson,False,Seattle Times,8,0.375,,0.875,newcomer
+Genevieve Koski,True,,61,0.75,,0.5902,established
+Geoff Andrew,False,Time Out,100,0.8776,,0.85,veteran
+Geoffrey Macnab,False,Sight & Sound,100,0.77,0.7143,0.68,veteran
+Geordie Gray,False,The Australian,19,0.9412,,0.9474,newcomer
+George and Josh Bate,False,ScreenAnarchy,22,0.5238,0.3333,0.4545,newcomer
+George Bate,False,ScreenAnarchy,5,0.8,,0.8,newcomer
+George White,False,Cultured Vultures,17,0.8235,,0.5294,newcomer
+Georgi Petkov,False,Loud and Clear Reviews,13,0.8889,,0.8462,newcomer
+Gerald Peary,True,,100,0.7742,,0.8,veteran
+Germain Lussier,False,io9.com,100,0.8,0.8974,0.71,veteran
+Giancarlo F. Ciprian,False,Cinencuentro,5,1.0,,1.0,newcomer
+Giovanni Marchini Camia,False,Sight & Sound,90,0.7333,,0.7333,established
+Gisela Savdie,True,,100,0.8842,0.7647,0.9,veteran
+Glen Weldon,False,NPR,100,0.77,0.8235,0.72,veteran
+Glenn Garner,False,Deadline Hollywood Daily,45,0.7674,,0.9333,established
+Glenn Heath Jr.,True,,100,0.6989,,0.75,veteran
+Glenn Kenny,True,,100,0.8065,1.0,0.92,veteran
+Glenn Whipp,True,,100,0.84,,0.64,veteran
+Gracie Lowes,False,Tell-Tale TV,6,0.6667,,0.3333,newcomer
+Graeme Blundell,False,The Australian,10,0.7143,,0.9,newcomer
+Graeme Virtue,False,Guardian,17,0.875,,0.6471,newcomer
+Gregg Shapiro,False,Bay Area Reporter,100,0.8454,0.6,0.85,veteran
+Gregory Nussen,False,Screen Rant,100,0.8021,0.7273,0.69,veteran
+Griffin Schiller,True,,42,0.7619,0.8824,0.7857,established
+Guillermo Courau,False,La Nación (Argentina),100,0.716,1.0,0.6,veteran
+Gustavo Herrera Taboada,False,Cinencuentro,55,0.8571,,0.8545,established
+Hailey Passmore,False,Nerdspin,13,0.7692,,0.6923,newcomer
+Hannah Bae,False,San Francisco Chronicle,11,1.0,,1.0,newcomer
+Hannah Brown,True,,100,0.7126,0.5714,0.8,veteran
+Hannah Cronk,False,Film Threat,19,0.625,,1.0,newcomer
+Hannah Gearan,False,Screen Rant,14,0.6923,,0.5,newcomer
+Hannah Lodge,True,,97,0.8144,0.9,0.701,established
+Hannah Rose,False,Bust Magazine,66,0.7424,0.8571,0.9242,established
+Hannah Strong,True,,100,0.7609,0.7857,0.71,veteran
+Harper Barnes,False,St. Louis Post-Dispatch,100,0.83,,0.79,veteran
+Harper Rochel Goldman,False,MovieJawn,13,0.8182,,0.7692,newcomer
+Harrison Richlin,False,IndieWire,6,1.0,,1.0,newcomer
+Harry Stainer,False,Empire Magazine,9,0.8889,,0.7778,newcomer
+Hayden Mears,True,,40,0.875,0.5,0.75,established
+Heather Schwedel,False,Slate,8,0.5,,0.375,newcomer
+Heidi Krull,False,MovieJawn,13,0.8,,0.6923,newcomer
+Heidy Morales,True,,90,0.961,,0.9778,established
+Helen Brown,False,Daily Telegraph (UK),6,0.8333,,0.8333,newcomer
+Helen Hawkins,False,Time Out,83,0.8125,0.8333,0.8072,established
+Henry K. Miller,False,Sight & Sound,21,0.8571,,0.7619,newcomer
+Henry Wong,True,,23,0.5652,0.4615,0.5652,newcomer
+Hilary A White,True,,100,0.8621,0.8095,0.93,veteran
+Holly Hazelwood,False,Spectrum Culture,37,0.6765,0.6667,0.5405,established
+Hugo Davenport,False,Daily Telegraph (UK),69,0.7391,,0.6667,established
+Hugo Emmerzael,False,In Review Online,12,0.5833,1.0,0.4167,newcomer
+Hugo Hernández Valdivia,True,,100,0.7755,0.7857,0.79,veteran
+Iain Robertson,False,Starburst,16,0.9375,,0.875,newcomer
+Ian Gormely,False,Exclaim!,8,0.75,,0.75,newcomer
+Ian Sandwell,False,Digital Spy,100,0.88,0.9375,0.81,veteran
+Iana Murray,False,Empire Magazine,84,0.8333,0.5,0.869,established
+Ignacio Navarro,False,El antepenúltimo mohicano,100,0.8542,1.0,0.89,veteran
+Ignatiy Vishnevetsky,False,Chicago Reader,100,0.64,0.6667,0.35,veteran
+Imogen West-Knights,False,Slate,18,0.9444,,0.8889,newcomer
+India Block,False,London Evening Standard,15,0.8667,0.8571,0.8667,newcomer
+Inkoo Kang,True,,100,0.701,,0.61,veteran
+Isabella Cantillano-Sanchez,False,InBetweenDrafts,7,0.7143,,0.4286,newcomer
+Isabella Liistro,False,Loud and Clear Reviews,11,0.9091,,1.0,newcomer
+Isabella Soares,False,Collider,43,0.6905,,0.7442,established
+Isaiah Colbert,False,IGN Movies,20,0.8421,,0.8,newcomer
+Ishita Sengupta,True,,100,0.7912,,0.49,veteran
+Ishmeet Nagpal,False,Common Sense Media,26,0.8462,,0.6923,newcomer
+J Hurtado,True,,100,0.871,0.6,0.84,veteran
+J. Don Birnam,True,,100,0.701,,0.7,veteran
+J. Kelly Nestruck,False,Globe and Mail,25,0.7727,,0.8,newcomer
+J. Kim Murphy,False,Variety,23,0.5714,,0.4348,newcomer
+Jack Hamilton,False,Slate,20,0.7,,0.6,newcomer
+Jack King,False,New York Magazine/Vulture,77,0.8831,0.9,0.8182,established
+Jack Martin,True,,100,0.8586,0.9286,0.68,veteran
+Jack Seale,False,Radio Times,22,0.9333,,0.9545,newcomer
+Jack Shepherd,False,Total Film,17,0.875,,0.7647,newcomer
+Jack Walters,True,,92,0.8916,0.9,0.8152,established
+Jackie K. Cooper,True,,100,0.6667,0.8333,0.65,veteran
+Jacob Hall,False,New York Daily News,46,0.8478,1.0,0.8913,established
+Jacob Mauceri,False,InSession Film,6,1.0,,0.6667,newcomer
+Jacob Oller,True,,100,0.7273,0.8182,0.49,veteran
+Jacob Throneberry,False,AwardsWatch,17,0.8824,,0.7647,newcomer
+Jacob Walker,False,Starburst,26,0.7273,,0.7692,newcomer
+Jada Yuan,False,Washington Post,8,1.0,,0.875,newcomer
+Jagger Blaec,False,Willamette Week,8,1.0,1.0,1.0,newcomer
+Jake Cole,False,Slant Magazine,100,0.8316,0.7273,0.81,veteran
+Jake Cunningham,False,Empire Magazine,18,0.9444,,0.8889,newcomer
+Jake Howell,False,NOW Toronto,7,0.6667,,0.7143,newcomer
+Jake Kleinman,False,Polygon,14,0.7143,1.0,0.7143,newcomer
+Jake Kring-Schreifels,False,Paste Magazine,78,0.7436,,0.7308,established
+Jake Peffer,False,Battle Royale With Cheese,31,0.7,0.8571,0.7419,established
+Jake Pitre,False,Slant Magazine,14,0.7692,,0.7143,newcomer
+Jake Tropila,False,In Review Online,100,0.6979,,0.58,veteran
+Jake Wilson,False,Sydney Morning Herald,100,0.6211,0.6897,0.56,veteran
+James D. Williams,False,InSession Film,14,0.9167,,0.8571,newcomer
+James Delingpole,False,The Spectator,13,0.6154,,0.6154,newcomer
+James Dyer,False,Empire Magazine,68,0.7353,,0.7206,established
+James Factora,False,them.,5,1.0,,0.8,newcomer
+James Greenberg,False,The Hollywood Reporter,100,0.8485,,0.83,veteran
+James Hadfield,False,Japan Times,100,0.6333,,0.62,veteran
+James Jackson,False,The Times (UK),53,1.0,,1.0,established
+James Parker,False,Boston Globe,6,0.8333,,0.8333,newcomer
+James Perkins,False,Starburst,100,0.7802,,0.8,veteran
+James Phelan,False,Film Ireland Magazine,9,1.0,,0.8889,newcomer
+James Plath,True,,100,0.7629,,0.8,veteran
+James Poniewozik,True,,23,0.8261,,0.8696,newcomer
+James Sanford,True,,100,0.798,,0.64,veteran
+James Saynor,False,The Arts Desk,54,0.8302,1.0,0.7963,established
+James Scott,False,Austin Chronicle,10,0.8,1.0,0.6,newcomer
+James Verniere,True,,100,0.7778,0.84,0.78,veteran
+James Walton,False,Daily Telegraph (UK),26,0.7778,,0.5769,newcomer
+James Whitbrook,False,io9.com,17,0.8235,,0.7647,newcomer
+Jami Bernard,True,,100,0.86,,0.72,veteran
+Jamie Parker,False,CBR,10,0.6,,0.7,newcomer
+Janet Reinschmidt,False,MovieJawn,5,1.0,,1.0,newcomer
+Jara Yáñez,False,Caimán Cuadernos de Cine,53,0.7333,,0.7736,established
+Jared Mobarak,True,,100,0.8696,0.7333,0.93,veteran
+Jarrod Jones,False,Paste Magazine,36,0.8286,0.7778,0.6667,established
+Jasmine Blu,False,TV Fanatic,21,0.4,,0.9048,newcomer
+Jasneet Singh,False,Collider,11,0.8,,0.8182,newcomer
+Jason Adams,True,,100,0.7755,0.5484,0.81,veteran
+Jason Anderson,True,,100,0.8646,,0.88,veteran
+Jason Blake,False,Sydney Morning Herald,56,0.9038,,0.9107,established
+Jason Clinkscales,False,Decider,6,1.0,,1.0,newcomer
+Jason Gorber,True,,100,0.8506,0.9167,0.86,veteran
+Jason Miller,False,Nerdspin,16,0.8125,0.8571,1.0,newcomer
+Jason Shawhan,False,AV Club,100,0.8842,0.8333,0.91,veteran
+Jason Tabrys,False,Screen Rant,8,0.8571,,1.0,newcomer
+Jason Zinoman,False,New York Times,57,0.8824,,0.8246,established
+Jasper Rees,False,Daily Telegraph (UK),100,0.8333,,0.8,veteran
+Javier Alejandro Ramos,False,Cinencuentro,5,1.0,1.0,1.0,newcomer
+Javier Ocaña,False,El Pais (Spain),100,0.7083,0.6471,0.68,veteran
+Jay Boyar,True,,100,0.85,,0.79,veteran
+Jay Ledbetter,False,Film Inquiry,28,0.9643,1.0,0.7143,newcomer
+Jaylan Salah,False,MovieJawn,69,0.8929,,0.942,established
+Jayne Nelson,False,Total Film,100,0.8025,,0.62,veteran
+Jeanine T. Abraham,True,,100,0.8298,0.7826,0.77,veteran
+Jeff Nelson,True,,100,0.7677,0.75,0.66,veteran
+Jeff Strickler,False,Minneapolis Star Tribune,100,0.74,,0.8,veteran
+Jefferson Everest Crawford,False,In Review Online,10,0.5,,0.5,newcomer
+Jeffrey Edalatpour,True,,100,0.7857,,0.74,veteran
+Jeffrey Lyles,True,,100,0.7444,0.7586,0.72,veteran
+Jen Maravegias,False,Pajiba,22,0.8,,0.6364,newcomer
+Jenn Adams,True,,100,0.8105,0.7778,0.9,veteran
+Jenna Anderson,False,The Mary Sue,17,0.7647,,0.9412,newcomer
+Jenna Scherer,False,Rolling Stone,13,0.8462,,0.6154,newcomer
+Jennie Kermode,True,,100,0.875,1.0,0.89,veteran
+Jennifer Borget,False,Common Sense Media,81,0.6842,,0.8395,established
+Jenny Nixon,False,Common Sense Media,13,0.5,,0.7692,newcomer
+Jeremy Aspinall,False,Radio Times,100,0.8333,0.9,0.87,veteran
+Jeremy Jahns,True,,100,0.85,0.8478,0.63,veteran
+Jeremy Looney,False,Common Sense Media,10,0.75,,1.0,newcomer
+Jeremy Mathai,False,Slashfilm,50,0.72,0.875,0.62,established
+Jericho Tadeo,True,,92,0.8941,0.8333,0.8587,established
+Jerrica Tisdale,False,Tell-Tale TV,24,0.6667,,0.9167,newcomer
+Jess Saunders,False,MovieJawn,7,0.7143,,0.5714,newcomer
+Jesse Doppelt,False,Spectrum Culture,33,0.6364,1.0,0.4242,established
+Jesse Schedeen,False,IGN Movies,23,0.9091,,0.8696,newcomer
+Jessi Cape,False,Austin Chronicle,26,0.85,,0.9615,newcomer
+Jessica Gonzales,False,Geek Vibes Nation,22,0.8095,,0.9545,newcomer
+Jessica Kiang,True,,100,0.8734,0.8333,0.8,veteran
+Jessica Toomer,False,Collider,8,1.0,,0.875,newcomer
+Jessica Winter,False,Slate,100,0.7755,,0.47,veteran
+Jessie Gender,True,,29,0.8929,,0.7931,newcomer
+Jessie Wallace,False,Pajiba,5,0.8,,0.8,newcomer
+Jill Vranken,False,MovieJawn,5,0.6,,0.6,newcomer
+Jim Laczkowski,True,,100,0.866,0.8,0.83,veteran
+Jim Ross,True,,100,0.8866,0.88,0.78,veteran
+Jim Slotek,True,,100,0.8421,0.7647,0.82,veteran
+Jim Vejvoda,False,IGN Movies,100,0.77,,0.83,veteran
+Jinal Bhatt,True,,12,0.8,,0.8333,newcomer
+JK Sooja,False,Common Sense Media,100,0.7403,,0.48,veteran
+Joanna Langfield,True,,100,0.82,0.7879,0.85,veteran
+Joanne Laurier,True,,100,0.6452,,0.72,veteran
+Joanne Soh,True,,100,0.7576,1.0,0.73,veteran
+Joe Botten,False,Loud and Clear Reviews,37,0.6486,0.8,0.7568,established
+Joe Brown,False,Washington Post,74,0.7432,,0.6216,established
+Joe Carlough,False,MovieJawn,8,0.4,,0.5,newcomer
+Joe George,True,,47,0.8723,0.8571,0.8511,established
+Joe Gross,False,Austin Chronicle,100,0.8737,,0.83,veteran
+Joe Leydon,True,,100,0.7629,,0.84,veteran
+Joe Muldoon,False,Battle Royale With Cheese,46,0.8837,,0.9348,established
+Joe Passmore,True,,25,0.84,,0.88,newcomer
+Joel Keller,False,Cinematical,100,0.9277,,0.92,veteran
+Joelle Monique,True,,45,0.8864,,0.8444,established
+Joey Shapiro,False,Chicago Reader,20,0.6,,0.65,newcomer
+Johanna Steinmetz,False,Chicago Tribune,26,0.7692,,0.5,newcomer
+John Anderson,True,,100,0.8861,,0.86,veteran
+John Berra,False,Screen International,100,0.8462,,0.8,veteran
+John DeVore,False,Premiere Magazine,7,0.5714,,0.2857,newcomer
+John Dotson,False,InSession Film,6,1.0,,0.8333,newcomer
+John Flickinger,True,,46,0.913,0.9167,0.6087,established
+John Kirk,False,Original Cin,80,0.6883,1.0,0.7625,established
+John Lyttle,False,New Statesman,8,0.625,,0.625,newcomer
+John Noonan,False,FILMINK (Australia),100,0.8105,,0.88,veteran
+John Nugent,False,Empire Magazine,100,0.8061,0.9091,0.77,veteran
+John Paul King,False,Washington Blade,100,0.9368,0.9167,0.99,veteran
+John Rocha,True,,48,0.8333,0.8571,0.7917,established
+John Semley,False,Slant Magazine,100,0.62,,0.51,veteran
+John Serba,False,MLive.com,100,0.7895,0.8,0.64,veteran
+John Stark,True,,100,0.7531,0.7778,0.73,veteran
+John Wenzel,False,Denver Post,55,0.7778,,0.6909,established
+John Wilmes,False,Chicago Reader,10,0.8,,0.6,newcomer
+Johnny Loftus,False,Decider,100,0.8125,,0.94,veteran
+Johnny Oleksinski,False,New York Post,100,0.75,0.6957,0.55,veteran
+Joly Herman,False,Common Sense Media,60,0.5741,,0.8167,established
+Jon Abrams,False,Daily Grindhouse,5,0.8,,0.8,newcomer
+Jon Frosch,True,,100,0.83,,0.6,veteran
+Jon Winkler,False,The Young Folks,100,0.69,0.7083,0.46,veteran
+Jonathan Anderson,False,Starburst,37,0.7568,,0.9459,established
+Jonathan Rosenbaum,True,,100,0.7204,,0.67,veteran
+Jonathan Sim,False,ComingSoon.net,100,0.71,0.7111,0.68,veteran
+Jonathan W. Hickman,True,,100,0.76,0.75,0.73,veteran
+Joonatan Itkonen,True,,100,0.7011,0.5556,0.63,veteran
+Jordan Bassett,False,NME (New Musical Express),23,0.7391,0.8333,0.7826,newcomer
+Jordan Crucchiola,False,New York Magazine/Vulture,15,0.4,,0.8667,newcomer
+Jordan Hoffman,True,,100,0.7374,0.7857,0.77,veteran
+Jordan King,True,,17,0.9412,,0.7059,newcomer
+Jordan Mintzer,False,Variety,100,0.8889,,0.86,veteran
+Jordan Raup,True,,100,0.7857,,0.78,veteran
+Jordan Ruimy,True,,100,0.62,0.55,0.59,veteran
+Jordon Searle,False,Loud and Clear Reviews,13,0.8182,,0.6923,newcomer
+Jorge Rivera Rubio,True,,100,0.8,0.871,0.94,veteran
+Jose Cordova,False,The Young Folks,7,0.8571,,0.7143,newcomer
+Joseph Garcia,False,Dynamic Duel Podcast,46,0.7609,0.75,0.8261,established
+Joseph Neff,False,Spectrum Culture,31,0.8621,1.0,0.7419,established
+Joseph Stanichar,False,Paste Magazine,5,0.6,,0.4,newcomer
+Joseph Tomastik,False,Loud and Clear Reviews,100,0.8404,0.875,0.72,veteran
+Josh Davis,False,Pop Culture Leftovers,47,0.9149,,0.8936,established
+Josh Larsen,True,,100,0.8351,0.7826,0.9,veteran
+Josh Parham,False,AwardsWatch,100,0.7473,0.9091,0.63,veteran
+Josh Rosenberg,False,Esquire Magazine,7,1.0,,0.7143,newcomer
+Josh Sorokach,False,Decider,30,0.7778,,0.9333,established
+Josh Winning,False,Total Film,100,0.7879,,0.9,veteran
+Joshua Bogatin,False,In Review Online,15,0.4167,,0.6,newcomer
+Joshua M. Patton,False,CBR,18,0.75,,1.0,newcomer
+Joshua Mbonu,False,AwardsWatch,49,0.7917,0.9091,0.6327,established
+Joshua Peinado,False,In Review Online,16,0.4167,,0.5625,newcomer
+Joshua Polanski,True,,100,0.65,0.5,0.67,veteran
+Joshua Starnes,True,,100,0.7778,0.6,0.71,veteran
+Joshua Stevens,False,Loud and Clear Reviews,29,0.92,,0.8966,newcomer
+Josiah Teal,False,Film Threat,100,0.8784,1.0,0.86,veteran
+José de Jesús Chávez Martínez,False,EscribiendoCine,10,0.5714,,0.9,newcomer
+Juan Barquin,True,,100,0.7576,0.5,0.75,veteran
+Juan Carlos Ugarelli,False,Cinencuentro,45,0.9512,,0.9778,established
+Juan Pablo Pugliese,False,EscribiendoCine,24,0.7778,,0.6667,newcomer
+Juan Pando,False,Fotogramas,100,0.875,,0.98,veteran
+Juanma González,False,Cinemanía (Spain),6,0.8,,0.6667,newcomer
+Judith Lewis,False,L.A. Weekly,6,0.8333,,0.6667,newcomer
+Judy Berman,True,,44,0.8605,,0.6818,established
+Julia Raeside,True,,11,0.6,,0.5455,newcomer
+Julia Swift,True,,100,0.7576,0.75,0.75,veteran
+Julian Roman,True,,100,0.7653,0.8276,0.78,veteran
+Julian Singleton,True,,100,0.9149,1.0,0.94,veteran
+Julian Wood,False,FILMINK (Australia),100,0.8229,1.0,0.91,veteran
+Julio Fernando Navas,True,,91,0.7865,,0.7912,established
+Justin Bower,False,Loud and Clear Reviews,22,0.8235,,0.7273,newcomer
+Justin Brown,False,Medium Popcorn,100,0.6869,0.8824,0.66,veteran
+Justin Carreiro,False,The Young Folks,15,0.9333,0.6667,0.4667,newcomer
+Justin Carter,False,io9.com,5,1.0,,1.0,newcomer
+Justin Kim,False,Loud and Clear Reviews,66,0.697,0.6667,0.5455,established
+Kaitlin Thomas,True,,7,0.8571,,0.8571,newcomer
+Kaitlyn Booth,True,,100,0.81,0.84,0.76,veteran
+Karen M. Peterson,True,,100,0.75,0.75,0.8,veteran
+Karl Quinn,False,Sydney Morning Herald,63,0.9107,1.0,0.873,established
+Karlie Rogers,False,Exclaim!,9,0.8889,0.75,0.7778,newcomer
+Kat Halstead,False,Common Sense Media,100,0.7931,,0.81,veteran
+Kat Hughes,True,,100,0.8475,0.7333,0.96,veteran
+Kate Beach,False,MovieJawn,7,1.0,,0.8571,newcomer
+Kate Stables,True,,100,0.8283,,0.9,veteran
+Katelyn Nelson,True,,56,0.8864,,0.9643,established
+Katherine McLaughlin,True,,100,0.8687,0.9,0.95,veteran
+Katherine Singh,False,Refinery29,13,0.9167,,0.8462,newcomer
+Kathleen Newman-Bremang,False,MTV,9,0.7778,,1.0,newcomer
+Kathryn Bromwich,False,,5,1.0,,0.8,newcomer
+Kathryn VanArendonk,True,,43,0.8649,,0.814,established
+Katie Doll,True,,14,0.9286,,0.8571,newcomer
+Katie Hogan,True,,100,0.7979,1.0,0.8,veteran
+Katie McCabe,False,Time Out,15,0.9286,,0.8667,newcomer
+Katie Rosseinsky,False,Independent (UK),11,1.0,,1.0,newcomer
+Katie Smith-Wong,True,,100,0.8763,0.8824,0.88,veteran
+Katie Walsh,True,,100,0.8,0.8444,0.71,veteran
+Kaveh Jalinous,False,Under the Radar,43,0.907,,0.8605,established
+Kay-B,True,,35,0.8571,,0.8571,established
+Kayla Kumari Upadhyaya,True,,47,0.8,,0.7447,established
+Keith Watson,False,Daily Telegraph (UK),16,1.0,,0.8125,newcomer
+Kelli Weston,False,New York Times,28,0.8214,,0.75,newcomer
+Kelly Lawler,True,,22,0.9091,,0.5,newcomer
+Kelly McClure,False,New York Magazine/Vulture,6,1.0,,1.0,newcomer
+Kelly Vance,True,,100,0.697,0.5,0.74,veteran
+Kenneth Seward Jr.,True,,48,0.7083,,0.7708,established
+Kent Garrison,False,Mad About Movies Podcast,100,0.83,0.8095,0.73,veteran
+Kent M. Wilhelm,True,,30,0.9286,,0.8667,established
+Kent Turner,True,,100,0.8191,0.7778,0.81,veteran
+Kevin Bourne,True,,65,0.8033,0.6667,0.9231,established
+Kevin Brackett,True,,48,0.75,,0.8125,established
+Kevin Carr,True,,100,0.64,0.7059,0.71,veteran
+Kevin Fox Jr.,False,Paste Magazine,36,0.7273,,0.75,established
+Kevin Fullerton,False,The List,7,0.8571,,0.8571,newcomer
+Kevin Harley,False,Total Film,100,0.8526,1.0,0.72,veteran
+Kevin Sampson,True,,20,1.0,1.0,0.65,newcomer
+Kevin Slane,True,,40,0.875,0.8235,0.725,established
+Kevin Wight,True,,100,0.8462,,0.75,veteran
+Khanaphot Saengchai,False,Bangkok Post,10,0.9,0.8,0.9,newcomer
+Khushi Jain,False,Film Ireland Magazine,5,0.8,,0.8,newcomer
+Kieron Moore,False,Starburst,33,0.7812,,0.8788,established
+Killian Faith-Kelly,False,GQ Magazine [UK],6,0.6667,,0.8333,newcomer
+Kim Hughes,True,,100,0.8298,1.0,0.88,veteran
+Kim Newman,False,Empire Magazine,100,0.73,0.8462,0.82,veteran
+Kimberly Leszak,False,Fangoria,5,0.6,,1.0,newcomer
+Kip Mooney,True,,100,0.8333,0.8846,0.84,veteran
+Kit Stone,True,,37,0.8333,0.8333,0.9459,established
+Kristen Baldwin,True,,8,0.875,,0.875,newcomer
+Kristen Lopez,True,,100,0.74,0.7347,0.71,veteran
+Kristen Maldonado,True,,100,0.7475,0.6,0.7,veteran
+Kristi Turnquist,True,,25,0.875,,0.76,newcomer
+Kristy Strouse,True,,100,0.8706,,0.97,veteran
+Krithika,False,MovieJawn,7,0.7143,,0.7143,newcomer
+Kshitij Rawat,True,,100,0.7938,0.75,0.66,veteran
+Kurt Halfyard,False,ScreenAnarchy,80,0.8421,1.0,0.95,established
+Kyle Amato,True,,57,0.807,0.7333,0.6491,established
+Kyle Foley,False,But Why Tho?,7,0.8333,,1.0,newcomer
+Kyle Mullin,False,Under the Radar,22,0.7273,,0.7727,newcomer
+Kyle Pinion,True,,100,0.78,0.8636,0.75,veteran
+Kyle Turner,False,New York Times,100,0.6122,,0.54,veteran
+Kylie Cheung,False,Salon.com,10,0.9,,0.9,newcomer
+Kylie Northover,False,Sydney Morning Herald,9,1.0,,0.8889,newcomer
+Lachmi Deb Roy,False,Firstpost,100,0.6341,0.7778,0.79,veteran
+Lacy Baugher,True,,11,1.0,,0.8182,newcomer
+Lady Jenevia,True,,51,0.82,0.7083,0.8431,established
+Lakshana N Palat,False,Gulf News (UAE),8,0.875,,0.5,newcomer
+Lalo Ortega,False,Cine Premiere,32,0.7812,0.8333,0.6875,established
+Lane Mills,False,InSession Film,21,0.7619,1.0,0.5714,newcomer
+LaNeysha Campbell,False,But Why Tho?,32,0.6452,,0.9375,established
+Larry Fried,False,POV Magazine,20,0.8125,,0.85,newcomer
+Larushka Ivan-Zadeh,True,,100,0.8776,0.8333,0.72,veteran
+Laslo Rojas Contreras,False,Cinencuentro,8,1.0,,1.0,newcomer
+Latoya Austin,True,,72,0.8676,1.0,0.9861,established
+Laura Miller,False,Slate,32,0.5,,0.4688,established
+Laura Moreno,False,Bay Area Reporter,13,0.9091,,0.9231,newcomer
+Laura N. Vitali,False,EscribiendoCine,19,0.6875,,0.7895,newcomer
+Laura Nowak,False,TV Fanatic,11,0.3333,,1.0,newcomer
+Laura Pérez,False,Fotogramas,50,0.8889,0.5,0.94,established
+Laura Sirikul,True,,31,0.8387,,0.8065,established
+Laura Stott,False,The Sun (UK),40,0.85,0.8,0.75,established
+Lauren Chval,False,AV Club,59,0.7288,,0.5763,established
+Lauren LaMagna,False,Next Best Picture,58,0.7895,0.75,0.9138,established
+Lauren Wissot,False,Slant Magazine,70,0.6615,,0.6286,established
+Laurence Boyce,True,,100,0.8488,,0.86,veteran
+Leaf Arbuthnot,False,Guardian,18,0.8,1.0,0.6111,newcomer
+Leah Schnelbach,True,,18,0.8333,1.0,1.0,newcomer
+Lee Marshall,False,Screen International,100,0.8475,,0.86,veteran
+Lee McCoy,True,,100,0.7576,0.7647,0.82,veteran
+Lee Zumpe,True,,100,0.866,0.8667,0.79,veteran
+Lena Wilson,False,New York Times,100,0.6701,,0.58,veteran
+Leonardo D'Esposito,False,La Nación (Argentina),8,0.8333,,0.875,newcomer
+Leonie Cooper,False,NME (New Musical Express),19,0.8947,,0.8421,newcomer
+Lex Briscuso,True,,100,0.8485,0.75,0.87,veteran
+Lex Pryor,False,The Ringer,8,1.0,,1.0,newcomer
+Liam Hanlon,False,Film Ireland Magazine,32,0.9,,0.8438,established
+Liam Mathews,False,TV Guide,12,0.75,,1.0,newcomer
+Lili Loofbourow,True,,39,0.8205,,0.7692,established
+Lily Moayeri,False,Under the Radar,5,0.8,,0.8,newcomer
+Linda Holmes,True,,100,0.899,0.9375,0.86,veteran
+Lindsay Press,False,Culturess,31,0.8387,,0.4839,established
+Lindsey Romain,True,,56,0.8393,0.3333,0.8393,established
+Lisa Johnson Mandell,True,,100,0.7041,0.7436,0.79,veteran
+Lisa Nystrom,False,FILMINK (Australia),56,0.7692,,0.6964,established
+Lisa Trifone,True,,100,0.84,0.7273,0.86,veteran
+Lisa Wright,False,NME (New Musical Express),6,1.0,,1.0,newcomer
+Liselotte Vanophem,False,Geek Vibes Nation,43,0.8158,0.5,0.8837,established
+Lissete Lanuza Sáenz,True,,70,0.7424,,0.8143,established
+Liz Shannon Miller,True,,100,0.8485,0.8043,0.84,veteran
+Lonita Cook,True,,100,0.6768,,0.8,veteran
+Lorraine Ali,True,,29,0.8571,,0.7931,newcomer
+Lou Thomas,True,,86,0.8929,0.9,0.9535,established
+Louis Roberts,False,Loud and Clear Reviews,41,0.7273,,0.8293,established
+Louise Rugendyke,False,Sydney Morning Herald,6,1.0,,1.0,newcomer
+Lucy Mangan,True,,67,0.913,,0.9104,established
+Lucy Peters,False,Little White Lies,8,1.0,,1.0,newcomer
+Luis Pomales-Diaz,True,,15,0.9286,0.75,0.6,newcomer
+Luke Hearfield,False,We Got This Covered,17,0.75,,0.7647,newcomer
+Luke Spafford,False,Starburst,19,0.7333,,0.8947,newcomer
+Luna Guthrie,False,Collider,54,0.5957,,0.7593,established
+Lynden Barber,True,,100,0.8687,,0.87,veteran
+Lyvie Scott,True,,90,0.7889,0.9444,0.7444,established
+Lé Baltar,False,In Review Online,7,0.8571,,0.8571,newcomer
+M.V. Moorhead,True,,100,0.81,0.8611,0.87,veteran
+Maddy Mussen,False,London Evening Standard,11,0.8,0.8,0.7273,newcomer
+Mads Misasi,False,Tell-Tale TV,6,1.0,,1.0,newcomer
+Mae Abdulbaki,True,,100,0.77,0.9231,0.8,veteran
+Maggie Boccella,True,,17,0.7059,,0.6471,newcomer
+Maggie Lovitt,True,,100,0.7475,1.0,0.85,veteran
+Mahmoud Mahdy,True,,48,0.7917,0.7143,0.7708,established
+Malcolm Johnson,False,Hartford Courant,100,0.75,,0.65,veteran
+Manu Yáñez,True,,100,0.883,0.8333,0.96,veteran
+Marah Eakin,False,Chicago Reader,14,0.7857,,0.6429,newcomer
+Marc Burrows,False,HeyUGuys,28,0.8214,,0.8571,newcomer
+Marcelo Stiletano,False,La Nación (Argentina),100,0.7684,0.7742,0.78,veteran
+Margaret Lyons,True,,9,0.875,,0.7778,newcomer
+Margot Harrison,True,,100,0.9184,0.8636,0.95,veteran
+Marianna Neal,True,,100,0.92,0.9545,0.82,veteran
+Marie Saadeh,False,Exclaim!,12,0.8182,,0.8333,newcomer
+Mariló Delgado,False,Espinof,58,0.9231,,0.9655,established
+Marina Ashioti,False,Little White Lies,87,0.8519,,0.8276,established
+Marisa Carpico,True,,100,0.76,1.0,0.78,veteran
+Marjorie Baumgarten,True,,100,0.7895,,0.77,veteran
+Mark Demetrius,False,FILMINK (Australia),100,0.8571,0.75,0.89,veteran
+Mark Hughes,True,,100,0.84,0.9091,0.93,veteran
+Mark Jackson,False,Epoch Times,100,0.7263,0.68,0.66,veteran
+Mark Johnson,True,,100,0.81,1.0,0.83,veteran
+Mark Keizer,True,,100,0.7604,0.9,0.56,veteran
+Mark Kennedy,False,Associated Press,100,0.69,0.6875,0.53,veteran
+Mark Kermode,True,,100,0.8144,0.8286,0.77,veteran
+Mark Leydorf,False,Bloomberg News,13,0.7692,0.8333,0.7692,newcomer
+Mark R. Leeper,True,,100,0.7812,,0.82,veteran
+Mark Schilling,False,Screen International,100,0.92,,0.92,veteran
+Markie Robson-Scott,False,The Arts Desk,100,0.8438,,0.89,veteran
+Marko Djurdjić,False,Exclaim!,26,0.56,0.25,0.4615,newcomer
+Marlon Wallace,True,,100,0.6771,0.6111,0.61,veteran
+Marriska Fernandes,True,,51,0.8235,,0.7451,established
+Marta Medina Pérez,True,,100,0.8298,1.0,0.71,veteran
+Martin Robinson,False,London Evening Standard,9,0.8889,0.6667,0.7778,newcomer
+Martin Tsai,True,,100,0.7,0.7647,0.62,veteran
+Martin Unsworth,False,Starburst,100,0.7286,,0.97,veteran
+Marty Brown,False,Common Sense Media,21,0.9444,,0.7619,newcomer
+Martín Fernández Cruz,False,La Nación (Argentina),26,0.8696,,0.9231,newcomer
+Mary Kassel,False,Screen Rant,63,0.7903,0.75,0.7619,established
+Mary McNamara,False,Los Angeles Times,34,0.8182,,0.7059,established
+Mary Siroky,False,Consequence,21,0.8571,,0.8095,newcomer
+Mathew DeKinder,True,,100,0.8,0.8,0.86,veteran
+Mathew Rodriguez,False,Out Magazine,8,0.625,0.6667,0.5,newcomer
+Matt Brunson,True,,100,0.84,0.6,0.69,veteran
+Matt Campbell,False,MovieJawn,8,1.0,,1.0,newcomer
+Matt Donato,True,,100,0.8352,0.65,0.73,veteran
+Matt Fernandez,False,Geeks of Color,27,0.5926,0.75,0.8519,newcomer
+Matt Fowler,False,IGN Movies,100,0.7172,,0.66,veteran
+Matt Hambidge,False,FandomWire,34,0.7059,1.0,0.5588,established
+Matt Hudson,True,,100,0.8211,0.8696,0.68,veteran
+Matt Lynch,False,In Review Online,100,0.62,0.5714,0.39,veteran
+Matt Mahler,False,PopMatters,5,1.0,,1.0,newcomer
+Matt Maytum,False,Total Film,100,0.81,0.75,0.82,veteran
+Matt McCracken,False,In Review Online,22,0.5789,,0.5909,newcomer
+Matt Neal,True,,100,0.83,0.8095,0.87,veteran
+Matt Oakes,True,,100,0.78,0.7209,0.74,veteran
+Matt Patches,True,,100,0.87,,0.89,veteran
+Matt Purslow,False,IGN Movies,5,0.8,,0.8,newcomer
+Matt Rodgers,False,Flickering Myth,89,0.7955,0.8,0.764,established
+Matt Rodriguez,True,,100,0.73,0.6957,0.75,veteran
+Matt Roush,True,,88,0.8675,,0.8523,established
+Matt Schimkowitz,False,AV Club,29,0.7586,,0.7241,newcomer
+Matt Schley,False,Japan Times,55,0.8571,,0.7455,established
+Matt Singer,True,,100,0.8,0.8636,0.63,veteran
+Matt Wolf,False,Variety,100,0.73,,0.59,veteran
+Matt Zoller Seitz,True,,100,0.7742,0.75,0.8,veteran
+Matthew Aguilar,False,ComicBook.com,8,0.5,,1.0,newcomer
+Matthew Bond,False,Daily Mail (UK),100,0.75,0.8,0.65,veteran
+Matthew Briody,False,Film Ireland Magazine,17,1.0,,1.0,newcomer
+Matthew Carey,False,Deadline Hollywood Daily,23,0.9048,,1.0,newcomer
+Matthew Haynes,True,,14,1.0,1.0,0.8571,newcomer
+Matthew Huff,True,,34,0.7647,0.9091,0.6765,established
+Matthew Jackson,True,,100,0.9381,0.95,0.89,veteran
+Matthew Koss,True,,100,0.7778,0.7105,0.83,veteran
+Matthew Monagle,True,,100,0.78,0.6667,0.76,veteran
+Matthew Passantino,True,,100,0.74,0.6667,0.63,veteran
+Matthew Singer,False,Time Out,14,0.8571,,0.7857,newcomer
+Matías Mora Montero,False,EscribiendoCine,23,0.913,,0.913,newcomer
+Maureen Lee Lenker,False,Entertainment Weekly,84,0.8333,0.8182,0.7619,established
+Mauricio Jarufe Caballero,False,Cinencuentro,35,0.9412,0.8889,0.9143,established
+Max Allen,False,Horror Movie Talk,40,0.775,0.4,0.7,established
+Max Borg,False,Next Best Picture,30,0.7407,,0.8333,established
+Max Cea,False,Salon.com,20,0.85,,0.9,newcomer
+Max Fainaru-Wada,False,Willamette Week,6,0.6667,,0.5,newcomer
+Max Gao,True,,8,0.75,,1.0,newcomer
+Max Weiss,True,,100,0.88,0.85,0.89,veteran
+Maxance Vincent,True,,100,0.7292,0.7778,0.65,veteran
+Maxwell Rabb,False,Chicago Reader,100,0.6939,0.8065,0.59,veteran
+Mayukh Sen,False,,6,0.6667,,0.6667,newcomer
+MD Russell,False,MovieJawn,7,0.5714,,0.5714,newcomer
+Meg Watson,False,Sydney Morning Herald,10,0.7,,0.6,newcomer
+Megan Fisher,False,Loud and Clear Reviews,56,0.7925,,0.8036,established
+Megan Loucks,False,InSession Film,47,0.7273,,0.8936,established
+Megan McLachlan,True,,37,0.9706,1.0,1.0,established
+Megan Rosenfeld,False,Washington Post,13,0.8462,,0.5385,newcomer
+Meghan O'Keefe,True,,22,0.8095,0.6667,0.8182,newcomer
+Melanie Fischer,False,Pajiba,41,0.7561,0.5,0.3659,established
+Melanie McDonagh,False,London Evening Standard,6,0.8333,,1.0,newcomer
+Melanie McFarland,True,,100,0.8763,,0.73,veteran
+Melissa Hannon,True,,70,0.8,,0.9571,established
+Melody McCune,True,,29,0.8276,,0.8966,newcomer
+Meredith G. White,False,Arizona Republic,24,0.7917,1.0,0.7917,newcomer
+Meredith Jill Brown,True,,100,0.3929,,0.8,veteran
+Meredith Loftus,False,Collider,7,0.8571,,0.5714,newcomer
+Mia Pflueger,True,,23,0.6364,,0.6087,newcomer
+Mia Staub,False,Christianity Today,7,1.0,1.0,1.0,newcomer
+Michael Andor Brodeur,False,Boston Globe,8,1.0,,1.0,newcomer
+Michael Balderston,False,AwardsCircuit.com,88,0.7955,0.8571,0.7273,established
+Michael Bonner,False,Uncut Magazine [UK],100,0.94,,0.94,veteran
+Michael Cook,False,Geek Vibes Nation,39,0.8462,,0.9487,established
+Michael Hogan,False,Radio Times,29,0.8125,,0.6897,newcomer
+Michael Lee,False,Film Ireland Magazine,31,0.9032,1.0,0.871,established
+Michael Medved,True,,100,0.8384,0.9,0.82,veteran
+Michael Nordine,True,,100,0.9,0.8788,0.86,veteran
+Michael O'Sullivan,True,,100,0.68,,0.59,veteran
+Michael Rechtshaffen,True,,100,0.8889,,0.76,veteran
+Michael Scoular,False,In Review Online,27,0.4231,,0.3704,newcomer
+Michael Sowell,False,Nerdspin,7,0.7143,0.6,1.0,newcomer
+Michael Talbot-Haynes,False,Film Threat,100,0.8222,,0.95,veteran
+Michael Walsh,False,AV Club,47,0.7447,0.9091,0.8298,established
+Michael Ward,True,,100,0.8105,0.7273,0.72,veteran
+Michael Wood,False,Slate,87,0.8621,1.0,0.8851,established
+Michelle Kisner,True,,100,0.8602,0.875,0.89,veteran
+Michelle Swope,True,,100,0.8506,1.0,0.95,veteran
+Mick Jordan,False,Film Ireland Magazine,9,0.8571,,1.0,newcomer
+Mick LaSalle,True,,100,0.65,0.7857,0.73,veteran
+Miguel Castelo,False,EscribiendoCine,5,1.0,,1.0,newcomer
+Mikal CG,False,Film Threat,18,0.5714,,1.0,newcomer
+Mike DeAngelo,False,The Playlist,11,0.9091,,0.9091,newcomer
+Mike Manalo,False,Geeks of Color,12,0.9167,0.875,0.9167,newcomer
+Mike McCahill,True,,100,0.7586,,0.5,veteran
+Mike McGranaghan,True,,100,0.7653,0.7895,0.77,veteran
+Mike Patrick,False,MovieJawn,9,0.8889,0.6667,0.7778,newcomer
+Mike Pearson,False,Denver Rocky Mountain News,23,0.5217,,0.7391,newcomer
+Mike Reyes,False,CinemaBlend,100,0.64,,0.79,veteran
+Mikel Zorrilla,True,,100,0.8687,0.8571,0.78,veteran
+Mikkel Frederiksen,False,Film Threat,5,1.0,,1.0,newcomer
+Mikkel Synder,False,Black Nerd Problems,5,1.0,,1.0,newcomer
+Milo Garner,False,In Review Online,6,0.8333,,0.3333,newcomer
+Milton Calopiña,False,Cinencuentro,8,0.875,1.0,0.875,newcomer
+Mini Anthikad-Chhibber,True,,100,0.86,0.8571,0.73,veteran
+Mira Fox,True,,11,0.7778,,0.5455,newcomer
+Miranda Collinge,True,,23,0.7273,0.5714,0.7826,newcomer
+Miriam Balanescu,False,Sight & Sound,14,0.8571,,0.9286,newcomer
+Miyako Pleines,False,,92,0.6854,,0.5217,established
+Moira MacDonald,True,,100,0.85,0.8333,0.81,veteran
+Molly Edwards,False,Total Film,7,0.5714,0.6667,0.8571,newcomer
+Monica Hesse,False,Washington Post,7,1.0,1.0,0.7143,newcomer
+Monica Reid,True,,100,0.9462,,0.98,veteran
+Monique Jones,True,,100,0.8495,,0.87,veteran
+Monita Roy Mohan,True,,54,0.6078,0.3333,0.6111,established
+Morgan Rojas,True,,100,0.9107,1.0,0.95,veteran
+Morgan Shaunette,False,Willamette Week,60,0.8246,1.0,0.7167,established
+Morris Yang,False,In Review Online,100,0.7209,,0.59,veteran
+Murjani Rawls,True,,100,0.7879,0.7391,0.55,veteran
+Mutale Kampuni,False,Film Ireland Magazine,8,0.8333,,1.0,newcomer
+Nadine Whitney,True,,100,0.8989,0.8462,0.8,veteran
+Nadir Samara,False,Screen Rant,87,0.8256,,0.7586,established
+Nadira Begum,False,Paste Magazine,6,1.0,,0.8333,newcomer
+Nadira Goffe,False,Slate,20,0.95,1.0,0.8,newcomer
+Nadya Martinez,True,,51,0.8627,0.8125,0.7647,established
+Naemi Victoria,False,Film Ireland Magazine,9,1.0,,0.8889,newcomer
+Nagier Chambers,True,,87,0.8095,0.8537,0.8506,established
+Nairon Santos de Morais,False,Loud and Clear Reviews,21,0.5294,,0.6667,newcomer
+Nando Salvá,False,Cinemanía (Spain),100,0.87,1.0,0.89,veteran
+Natalia Keogan,True,,100,0.7629,0.8,0.65,veteran
+Natalia Trzenko,False,La Nación (Argentina),57,0.75,1.0,0.6316,established
+Natalia Winkelman,True,,100,0.7576,,0.7,veteran
+Nataliia Serebriakova,False,FILMINK (Australia),7,1.0,,0.8571,newcomer
+Natasha Alvar,True,,100,0.7677,0.8947,0.76,veteran
+Nate Adams,True,,100,0.7576,0.78,0.53,veteran
+Nate Tinner-Williams,True,,20,0.5263,,0.65,newcomer
+Nathan Chizen,False,Exclaim!,10,0.9,,0.6,newcomer
+Nathan McVay,False,HeyUGuys,50,0.898,,0.98,established
+Nathaniel Bell,True,,44,0.8409,,0.8409,established
+Nathaniel Fetalvero,False,The New Paper (Singapore),14,0.5385,0.8,0.7857,newcomer
+Nathaniel Muir,True,,100,0.7765,,0.93,veteran
+Nathaniel Rogers,True,,100,0.8163,,0.67,veteran
+Naveen Kumar,False,Washington Post,13,0.8462,0.6667,0.7692,newcomer
+Ned Lannamann,False,"The Stranger (Seattle, WA)",88,0.7841,,0.5682,established
+Neely Swanson,True,,100,0.8557,0.5,0.87,veteran
+Neil Alcock,False,Empire Magazine,14,0.8571,,0.7143,newcomer
+Neil Jillett,False,The Age (Australia),100,0.6364,,0.52,veteran
+Neil McCormick,False,Sight & Sound,16,1.0,,1.0,newcomer
+Neil Smith,False,BBC.com,100,0.8,,0.77,veteran
+Neil Soans,False,The Times of India,100,0.8673,1.0,0.85,veteran
+Nelson Acosta,True,,100,0.75,0.7368,0.65,veteran
+Nicholas Brooks,False,CBR,45,0.6667,0.6667,0.8444,established
+Nicholas Laskin,False,The Playlist,10,0.8,,0.7,newcomer
+Nicholas Oon,True,,67,0.9545,,0.9104,established
+Nick Boyd,False,Battle Royale With Cheese,31,1.0,,1.0,established
+Nick Bradshaw,False,L.A. Weekly,48,0.8511,,0.7083,established
+Nick Bythrow,False,Screen Rant,28,0.92,,0.8214,newcomer
+Nick Hasted,False,Sight & Sound,100,0.82,0.9231,0.87,veteran
+Nick Hilton,False,Independent (UK),24,0.7083,,0.5417,newcomer
+Nick Howells,False,London Evening Standard,45,0.8222,0.875,0.8667,established
+Nick James,False,Sight & Sound,44,0.8864,,0.8409,established
+Nick Levine,False,NME (New Musical Express),100,0.81,0.8333,0.82,veteran
+Nick Pinkerton,True,,100,0.7347,,0.72,veteran
+Nick Ruhrkraut,False,AwardsWatch,12,0.8182,,0.9167,newcomer
+Nick Schager,True,,100,0.8,0.7742,0.66,veteran
+Nick Valdez,False,ComicBook.com,12,0.9167,,1.0,newcomer
+Nick Venable,False,CinemaBlend,12,0.6364,,1.0,newcomer
+Nicola Austin,True,,100,0.86,0.9,0.88,veteran
+Nicole Drum,False,ComicBook.com,10,1.0,,0.9,newcomer
+Nicole Eckrich,False,Willamette Week,6,1.0,,0.8333,newcomer
+Nikki Baughan,True,,100,0.8101,0.8333,0.83,veteran
+Nikki Gemmell,False,The Australian,41,0.7179,0.5714,0.7805,established
+Nilton Arana,False,Cinencuentro,26,0.7143,,0.8462,newcomer
+Nina Metz,False,Chicago Tribune,65,0.5645,,0.5692,established
+Noel Murray,True,,100,0.83,,0.87,veteran
+Noel Ransome,False,,8,0.875,,0.75,newcomer
+Noel Taylor,False,Ottawa Citizen,100,0.76,,0.65,veteran
+Nora Lee Mandel,True,,100,0.9028,,0.92,veteran
+Norman Wilner,True,,100,0.7449,,0.71,veteran
+Nuha Hassan,True,,100,0.82,,0.71,veteran
+Nuria Vidal,False,Cinemanía (Spain),50,0.7778,,0.82,established
+Néstor Burtone,False,Otroscines.com,64,0.717,,0.5781,established
+Odie Henderson,True,,100,0.59,0.5854,0.42,veteran
+Olga Artemyeva,False,ScreenAnarchy,83,0.85,0.4286,0.7711,established
+Oli Welsh,False,Polygon,38,0.7105,0.75,0.6316,established
+Oliver Pfeiffer,False,Total Film,19,0.6316,,0.6842,newcomer
+Oliver Weir,False,The Playlist,22,0.7273,,0.5909,newcomer
+Omar Holmon,True,,28,0.8148,,0.9643,newcomer
+Oscar Aitchison,False,Little White Lies,10,0.625,,0.5,newcomer
+Pablo De Vita,False,La Nación (Argentina),75,0.8302,,0.9067,established
+Pablo O. Scholz,False,Clarín,100,0.7471,0.7419,0.84,veteran
+Pablo Vázquez,False,Espinof,100,0.625,0.75,0.95,veteran
+Pallavi Keswani,False,The Hindu,33,0.8788,,0.697,established
+Pamela Powell,True,,100,0.73,1.0,0.85,veteran
+Panos Kotzathanasis,True,,100,0.84,,0.87,veteran
+Paolo Ragusa,False,Consequence,11,0.8182,,1.0,newcomer
+Pat Brown,False,Slant Magazine,100,0.78,,0.65,veteran
+Pat Bulfamante,True,,34,0.7353,0.7778,0.8529,established
+Pat Mullen,True,,100,0.9351,0.9375,0.93,veteran
+Pat Padua,True,,100,0.8452,,0.84,veteran
+Pat Stacey,False,Irish Independent,57,0.8649,,0.8421,established
+Patrick Beatty,True,,100,0.8586,0.8462,0.8,veteran
+Patrick Cremona,False,Radio Times,68,0.8676,1.0,0.7647,established
+Patrick McDonald,True,,100,0.8387,0.8158,0.9,veteran
+Patrick Smith,False,Daily Telegraph (UK),36,0.8889,,0.6944,established
+Patrick Sproull,False,Den of Geek,17,0.75,,0.7059,newcomer
+Paul Attard,False,Slant Magazine,64,0.4138,,0.2969,established
+Paul Harris,False,The Age (Australia),5,0.8,,0.4,newcomer
+Paul Kalina,False,The Age (Australia),5,0.6,,0.6,newcomer
+Paul Klein,True,,100,0.7653,0.7391,0.69,veteran
+Paul Marchbanks,False,Christianity Today,7,0.4286,0.6,0.5714,newcomer
+Paul Mount,False,Starburst,100,0.6842,0.8571,0.89,veteran
+Paul Tassi,True,,11,0.8182,,0.6364,newcomer
+Paula Arantzazu Ruiz,False,Espinof,100,0.8941,,0.92,veteran
+Paula Hernandez Platero,False,Cinemanía (Spain),9,0.75,1.0,1.0,newcomer
+Pauline Adamek,False,FILMINK (Australia),59,0.8276,,0.8136,established
+Payton McCarty-Simas,False,Film Inquiry,41,0.8158,0.6667,0.7805,established
+Pedro Luis Graterol,False,The Young Folks,31,0.8065,1.0,0.8065,established
+Pedro Paunero,False,EscribiendoCine,34,0.8125,0.8,0.7647,established
+Peg Aloi,True,,100,0.9462,1.0,0.97,veteran
+Pere Vall,False,Fotogramas,44,0.9,,0.9545,established
+Perry Norton,False,Film Threat,51,0.7568,,0.8431,established
+Pete Vonder Haar,False,L.A. Weekly,100,0.76,0.75,0.61,veteran
+Peter Bodie,False,Film Ireland Magazine,9,0.8333,,0.8889,newcomer
+Peter Debruge,True,,100,0.8144,0.8261,0.83,veteran
+Peter Hoskin,False,Daily Mail (UK),17,0.8235,0.75,0.7059,newcomer
+Peter Keough,True,,100,0.7794,0.5556,0.85,veteran
+Peter Martin,True,,100,0.7561,0.7368,0.88,veteran
+Peter Watts,False,Uncut Magazine [UK],7,0.8333,,0.7143,newcomer
+Peyton Robinson,False,RogerEbert.com,100,0.7938,,0.57,veteran
+Phil Nobile Jr.,False,Birth.Movies.Death.,20,0.8,,0.7,newcomer
+Phil Walsh,False,Geek Vibes Nation,96,0.6667,,0.7604,established
+Philip Bagnall,False,Next Best Picture,96,0.7931,0.75,0.6771,established
+Philip De Semlyen,True,,100,0.9588,0.9394,0.98,veteran
+Philip French,False,The Times (UK),100,0.81,,0.59,veteran
+Philip Kennicott,False,Washington Post,63,0.746,,0.6032,established
+Phoebe Chen,False,4:3,21,0.7368,,0.7619,newcomer
+Phoenix Clouden,False,Geek Vibes Nation,6,0.8333,,0.8333,newcomer
+Phuong Le,True,,100,0.9024,,0.86,veteran
+Pierce Conran,True,,39,1.0,,0.9231,established
+Pippa Bailey,False,New Statesman,14,0.8571,1.0,0.7857,newcomer
+PJ Grisar,True,,19,0.5556,,0.6842,newcomer
+Polly Conway,True,,19,0.7857,,0.9474,newcomer
+Prathyush Parasuraman,False,Film Companion,74,0.6333,,0.3784,established
+Priyanka Sundar,False,Hindustan Times,84,0.7612,,0.4643,established
+Proma Khosla,False,IndieWire,53,0.86,,0.8868,established
+Q.V. Hough,True,,100,0.8621,,0.84,veteran
+Qina Liu,False,Seattle Times,5,1.0,,1.0,newcomer
+Rachael Harper,False,SciFiNow,44,0.7273,1.0,0.9091,established
+Rachel Cooke,True,,32,0.8077,,0.7188,established
+Rachel Ho,True,,100,0.8605,0.92,0.75,veteran
+Rachel LaBonte,False,Screen Rant,100,0.7143,1.0,0.78,veteran
+Rachel Leishman,True,,100,0.79,0.8511,1.0,veteran
+Rachel Pronger,False,Sight & Sound,12,0.7273,,0.75,newcomer
+Rachel Saslow,False,Washington Post,12,0.3636,,0.3333,newcomer
+Rachel Shatto,True,,62,0.8621,0.8462,0.8387,established
+Rachel Syme,False,The New Yorker,11,1.0,,1.0,newcomer
+Rachel Tolleson,False,The Mary Sue,18,0.8889,0.8,1.0,newcomer
+Rachel Wagner,True,,100,0.7241,0.5714,0.72,veteran
+Radheyan Simonpillai,True,,100,0.7551,0.8056,0.66,veteran
+Radhika Seth,False,Vogue,28,0.7857,0.7273,0.8571,newcomer
+Rafa Sales Ross,True,,100,0.78,0.75,0.77,veteran
+Randall King,True,,100,0.8878,,0.8,veteran
+Randy Dankievitch,True,,14,0.5385,0.75,0.5,newcomer
+Randy Meeks,False,Espinof,100,0.75,0.8333,0.72,veteran
+Rania Richardson,True,,65,0.95,,0.9692,established
+Ranny Vasquez,False,EscribiendoCine,6,0.8,,0.6667,newcomer
+Raquel Stecher,True,,100,0.9222,,0.95,veteran
+Ray Pride,True,,100,0.8842,0.9375,0.92,veteran
+Raúl Álvarez,False,El antepenúltimo mohicano,10,0.9,1.0,0.9,newcomer
+Ready Steady Cut Staff,False,Ready Steady Cut,25,0.8261,,0.84,newcomer
+Reanna Cruz,False,Pop Culture Happy Hour (NPR Podcast),5,0.8,0.6667,0.6,newcomer
+Rebecca Harrison,True,,53,0.7885,,0.6981,established
+Rebecca Nicholson,True,,39,0.9259,,0.8718,established
+Rebecca Onion,False,Slate,13,0.8462,,0.6154,newcomer
+Rebecca Tucker,False,Globe and Mail,10,0.7,,0.7,newcomer
+Reginald Ponder,True,,64,0.8438,0.9231,0.9219,established
+Renuka Vyavahare,True,,100,0.7419,0.8667,0.77,veteran
+Reuben Baron,True,,100,0.7629,0.8,0.77,veteran
+Rex Reed,True,,100,0.6263,0.6667,0.6,veteran
+Rhian Daly,False,NME (New Musical Express),21,0.8421,,0.8571,newcomer
+Rich Juzwiak,False,Slate,100,0.7576,,0.67,veteran
+Richard Bardon,False,Mad About Movies Podcast,24,0.875,1.0,0.7917,newcomer
+Richard Kuipers,False,Variety,100,0.8415,,0.89,veteran
+Richard Roeper,True,,100,0.8,0.8462,0.81,veteran
+Richard Whittaker,False,Austin Chronicle,100,0.8081,0.8621,0.72,veteran
+Rick Bentley,True,,100,0.8788,0.875,0.66,veteran
+Rick Hong,False,Film Threat,19,0.4211,,0.8421,newcomer
+Rick Romancito,True,,100,0.75,0.72,0.83,veteran
+Ricky Archuleta,False,Film Threat,10,0.8333,,0.9,newcomer
+Ricky Church,False,Flickering Myth,43,0.8333,1.0,0.9302,established
+Ridge Harripersad,True,,33,0.8485,1.0,0.9697,established
+Rihaana Stephens,False,Geeks of Color,17,0.6471,0.6667,0.8235,newcomer
+Rino Lu,False,ScreenAnarchy,11,0.9091,,1.0,newcomer
+Rishma Dosani,False,Metro Newspaper (UK),5,0.4,,0.8,newcomer
+Rita Di Santo,True,,24,0.7273,1.0,0.8333,newcomer
+Ritesh Mehta,False,IndieWire,14,0.8462,,0.7857,newcomer
+Rob Leane,False,Radio Times,5,0.4,,0.8,newcomer
+Rob Owen,True,,100,0.7065,,0.73,veteran
+Rob Sheffield,False,Rolling Stone,8,1.0,,1.0,newcomer
+Rob Silverman Ascher,False,Chicago Reader,12,0.8182,,0.75,newcomer
+Robbie Roberts,False,"News & Observer (Raleigh, NC)",9,0.8889,,0.8889,newcomer
+Robert Abele,True,,100,0.8969,,0.87,veteran
+Robert Brian Taylor,False,Collider,28,0.75,,0.3571,newcomer
+Robert Butler III,False,Geeks of Color,17,0.9412,,0.9412,newcomer
+Robert Daniels,True,,100,0.7333,0.6364,0.65,veteran
+Robert Hutton,True,,5,0.8,0.75,0.4,newcomer
+Robert Kojder,True,,100,0.7071,0.8,0.54,veteran
+Robert Levin,True,,100,0.78,0.6667,0.52,veteran
+Robert Lloyd,False,Los Angeles Times,100,0.883,,0.85,veteran
+Robert Martin,False,Globe and Mail,48,0.7917,,0.8125,established
+Robert Ruggio,False,AwardsWatch,20,0.85,,0.85,newcomer
+Robert Stinner,False,In Review Online,43,0.725,,0.6512,established
+Robert W. Butler,True,,100,0.798,0.7917,0.77,veteran
+Robert W. Monk,False,FILMINK (Australia),64,0.9298,,0.8906,established
+Roberto Tyler Ortiz,False,Loud and Clear Reviews,99,0.7831,0.875,0.6162,established
+Robyn Bahr,True,,42,0.7436,,0.5238,established
+Rocco T. Thompson,True,,100,0.7245,0.8182,0.74,veteran
+Rocío Mariel González,False,EscribiendoCine,10,0.625,,0.7,newcomer
+Rod Machen,False,Austin Chronicle,16,0.9286,,1.0,newcomer
+Rodrigo Perez,True,,100,0.8041,0.8065,0.65,veteran
+Roger Friedman,True,,100,0.6869,0.9,0.77,veteran
+Roger Hurlburt,False,South Florida Sun-Sentinel,100,0.69,,0.56,veteran
+Roger Salvans,False,Fotogramas,83,0.8333,0.5,0.8313,established
+Rohan Patel,True,,24,0.7083,0.6667,0.9167,newcomer
+Rohit Panikker,False,Filmfare,10,1.0,,1.0,newcomer
+Ron Seoul-Oh,True,,26,0.7308,0.8,0.9231,newcomer
+Ronald Young Jr.,False,Pop Culture Happy Hour (NPR Podcast),5,0.6,0.6667,0.8,newcomer
+Ronda Racha Penrice,True,,43,0.8571,,0.8837,established
+Rory O'Connor,False,The Film Stage,100,0.8901,1.0,0.93,veteran
+Rosa Parra,True,,100,0.8454,0.8,0.89,veteran
+Rosalynn Try-Hane,True,,100,0.8065,,0.81,veteran
+Rose Ho,True,,38,0.875,,0.8684,established
+Rosie Knight,True,,88,0.7126,,0.9318,established
+Ross Anthony,True,,100,0.79,0.8571,0.83,veteran
+Rotem Rusak,False,Nerdist,15,0.4667,,1.0,newcomer
+Roveena Jassal,False,NOW Toronto,5,1.0,,1.0,newcomer
+Roxana Hadadi,True,,100,0.7732,,0.66,veteran
+Ruben Peralta Rigaud,True,,100,0.8842,0.9211,0.87,veteran
+Rubén Romero Santos,False,Cinemanía (Spain),100,0.8372,0.875,0.84,veteran
+Rubén Rosario,True,,100,0.593,0.5128,0.55,veteran
+Rubén Téllez Brotons,False,El antepenúltimo mohicano,8,0.5714,,0.375,newcomer
+Ruchika Bhat,True,,21,0.7692,,0.5714,newcomer
+Rudy Valdez,False,Willamette Week,15,0.7143,,0.8667,newcomer
+Russell Smith,False,Dallas Morning News,100,0.7143,,0.64,veteran
+Ryan Britt,False,Den of Geek,15,0.5714,,0.9333,newcomer
+Ryan Guar,False,Discussing Film,5,1.0,,0.8,newcomer
+Ryan McQuade,False,The Playlist,100,0.8182,1.0,0.82,veteran
+Ryan Scott,False,Slashfilm,15,0.9333,,1.0,newcomer
+Ryan Silberstein,True,,100,0.7449,0.6875,0.79,veteran
+S. Poorvaja,False,The Hindu,8,0.8571,,0.625,newcomer
+Sa'iyda Shabazz,False,Autostraddle,12,0.8889,,0.75,newcomer
+Sabina Dana Plasse,False,Film Threat,100,0.9833,,1.0,veteran
+Sabina Graves,False,io9.com,27,0.6296,0.5,0.9259,newcomer
+Sabrina Ramirez,False,Geeks of Color,23,0.8696,0.75,1.0,newcomer
+Saffron Maeve,False,Sight & Sound,48,0.6739,,0.7292,established
+Sakhi Thirani,False,Common Sense Media,59,0.8929,,0.5085,established
+Sal Cinquemani,False,Slant Magazine,18,0.6667,,0.5,newcomer
+Sam Barsanti,False,AV Club,6,0.8333,,0.8333,newcomer
+Sam Bodrojan,False,Little White Lies,6,0.8333,,0.8333,newcomer
+Sam Haysom,False,Mashable,23,0.8261,,0.6957,newcomer
+Sam Moore,False,Vague Visages,15,0.8,,0.6667,newcomer
+Samantha Allen,False,them.,22,0.9091,,1.0,newcomer
+Samantha Bergeson,False,IndieWire,43,0.7143,,0.5349,established
+Samantha Coley,True,,9,0.6667,,0.7778,newcomer
+Samantha McLaren,True,,50,0.8684,1.0,0.76,established
+Samantha Nelson,True,,27,0.6296,0.8333,0.5185,newcomer
+Samantha Puc,True,,18,0.8333,,0.6667,newcomer
+Samarth Goyal,False,Hindustan Times,29,0.7143,0.75,0.4483,newcomer
+Sankeerthna Vedamtam,False,MovieJawn,23,0.95,,0.8696,newcomer
+Santiago Alverú,False,Cinemanía (Spain),100,0.679,,0.64,veteran
+Santiago Echeverría,False,EscribiendoCine,52,0.875,,0.8462,established
+Sara Merican,True,,12,0.8333,,0.9167,newcomer
+Sarah Boslaugh,True,,100,0.9639,,1.0,veteran
+Sarah Crompton,False,Daily Telegraph (UK),7,0.7143,,0.8571,newcomer
+Sarah Gorr,False,The Spool,76,0.8289,1.0,0.6711,established
+Sarah Kent,False,The Arts Desk,51,0.8636,,0.8627,established
+Sarah Knight Adamson,True,,100,0.83,0.9545,0.94,veteran
+Sarah Ksiazek,True,,66,0.7424,1.0,0.7879,established
+Sarah Larson,False,The New Yorker,5,1.0,,0.8,newcomer
+Sarah Marloff,False,Austin Chronicle,16,1.0,,0.875,newcomer
+Sarah Marrs,True,,100,0.76,0.8043,0.67,veteran
+Sarah Musnicky,True,,100,0.8,1.0,0.78,veteran
+Sarah Ward,True,,100,0.9302,1.0,0.93,veteran
+Sarah-Tai Black,False,Los Angeles Times,100,0.7273,,0.61,veteran
+Sashidhar Adivi,False,Filmfare,13,0.6667,,0.5385,newcomer
+Saskia Baron,False,Sight & Sound,100,0.6915,,0.65,veteran
+Scaachi Koul,False,BuzzFeed News,5,0.4,,0.8,newcomer
+Scott Bryan,True,,10,0.8,,0.8,newcomer
+Scott Davis,False,HeyUGuys,53,0.8113,,0.7547,established
+Scott Howard,False,Under the Radar,32,0.8,0.9091,0.7188,established
+Scott J. Davis,False,Flickering Myth,6,0.8333,,0.5,newcomer
+Scott Mendelson,True,,100,0.62,0.7105,0.64,veteran
+Scott Menzel,True,,100,0.72,0.6842,0.96,veteran
+Scott Meslow,False,New York Magazine/Vulture,28,0.7143,,0.75,newcomer
+Scott Nye,False,Battleship Pretension,100,0.8351,1.0,0.91,veteran
+Scott Wilson,False,One Room With A View,47,0.8605,,0.8723,established
+Sean Fallon,False,Film Inquiry,51,0.898,,0.8627,established
+Sean L. McCarthy,False,Decider,100,0.7778,,0.79,veteran
+Sean McGeady,False,Radio Times,42,0.7778,,0.6905,established
+Sean O'Connell,True,,100,0.82,,0.71,veteran
+Sean O'Grady,False,Independent (UK),36,0.9091,,0.9722,established
+Sean P. Means,True,,100,0.798,0.7857,0.75,veteran
+Sebastian Scotney,False,The Arts Desk,26,0.9091,,0.9615,newcomer
+Sergi Sánchez,False,Fotogramas,100,0.9167,,0.95,veteran
+Sergio F. Pinilla,False,Cinemanía (Spain),100,0.72,,0.92,veteran
+Seth Freilich,False,Pajiba,46,0.7174,,0.7609,established
+Seth Katz,False,Slant Magazine,17,0.6875,,0.4706,newcomer
+Shadan Larki,False,InSession Film,13,0.9231,,0.9231,newcomer
+Shahbaz Siddiqui,False,The Movie Podcast,30,0.9333,0.875,0.8667,established
+Shaina Weatherhead,False,Collider,22,0.8095,,0.5455,newcomer
+Shakyl Lambert,True,,100,0.81,0.8621,0.71,veteran
+Shane McKevitt,False,Film Ireland Magazine,9,0.8889,0.8333,0.6667,newcomer
+Shane Slater,True,,100,0.9796,,0.98,veteran
+Shannon Connellan,True,,59,0.8136,0.6667,0.9492,established
+Shannon Cotter,False,Film Ireland Magazine,10,0.9,,1.0,newcomer
+Shannon McGrew,True,,100,0.67,,0.86,veteran
+Shannon Miller,False,AV Club,18,0.8333,,0.5,newcomer
+Shawn Peer,False,That Shelf,21,0.55,,0.5238,newcomer
+Sheila Johnston,False,Daily Telegraph (UK),100,0.7604,,0.48,veteran
+Shelagh Rowan-Legg,True,,100,0.9158,0.8333,0.95,veteran
+Sheri Linden,True,,100,0.9419,,0.94,veteran
+Sherin Nicole,True,,100,0.8247,0.8621,0.82,veteran
+Shikhar Verma,True,,100,0.6182,,0.54,veteran
+Shilajit Mitra,False,The Hindu,48,0.6944,,0.375,established
+Shirley Li,False,Entertainment Weekly,100,0.86,0.8571,0.79,veteran
+Shreyas Pande,False,The Hindu,8,0.5,,0.5,newcomer
+Shubhra Gupta,True,,100,0.7778,0.5,0.28,veteran
+Siddhant Adlakha,True,,100,0.7579,0.8333,0.68,veteran
+Simon Ramshaw,False,ScreenAnarchy,5,0.6,,0.4,newcomer
+Simon Thompson,True,,100,0.7,0.75,0.81,veteran
+Simon Thompson,False,Battle Royale With Cheese,11,0.7143,,0.6364,newcomer
+Siobhan Synnot,False,Scotsman,100,0.8061,,0.67,veteran
+Sofía Alvarez Salas,False,Cinencuentro,36,0.9167,,1.0,established
+Sonal Pandya,False,Hindustan Times,5,0.6,,0.6,newcomer
+Sonia Rao,False,Boston Globe,29,0.8621,1.0,0.6552,newcomer
+Sophia Nguyen,False,Washington Post,5,0.6,,0.4,newcomer
+Sophia Satchell Baeza,False,Sight & Sound,13,0.8333,,0.6923,newcomer
+Sophie Butcher,False,Empire Magazine,54,0.7547,0.75,0.7593,established
+Soraya Nadia McDonald,True,,91,0.8539,,0.7473,established
+Sparks Lowry,False,Spectrum Culture,7,0.8571,,0.4286,newcomer
+Spencer Kornhaber,False,The Atlantic,20,0.9,0.6667,0.7,newcomer
+Sreeparna Sengupta,False,The Times of India,52,0.6735,,0.8269,established
+Srijoni Rudra,True,,43,0.7647,,0.5581,established
+Srinivasa Ramanujam,False,The Hindu,30,0.8125,,0.6,established
+Srivathsan Nadadhur,False,The Times of India,49,0.8462,,0.3878,established
+Sruthi Raman,False,The Times of India,51,0.72,,0.4314,established
+Stef Rubino,False,Autostraddle,6,1.0,,1.0,newcomer
+Stefan Birgir Stefans,True,,100,0.6145,,0.42,veteran
+Stefan Kyriazis,False,Daily Express (UK),35,0.7714,,0.8286,established
+Stefania Sarrubba,True,,54,0.8333,0.6364,0.8889,established
+Stephanie Merry,False,Washington Post,100,0.84,,0.64,veteran
+Stephanie Morgan,False,Common Sense Media,18,0.7273,,0.7778,newcomer
+Stephanie Snyder,False,Common Sense Media,7,1.0,,1.0,newcomer
+Stephanie Zacharek,True,,100,0.75,0.5714,0.69,veteran
+Stephen Farber,True,,100,0.8043,,0.74,veteran
+Stephen Hunter,True,,100,0.66,,0.59,veteran
+Stephen Kelly,False,BBC.com,56,0.8519,,0.5714,established
+Stephen Romei,False,The Australian,100,0.8421,0.7742,0.85,veteran
+Stephen Thompson,True,,23,0.8696,0.9167,0.8261,newcomer
+Stephen Troussé,False,Uncut Magazine [UK],16,0.9286,1.0,1.0,newcomer
+Steve Crum,True,,100,0.87,0.9091,0.87,veteran
+Steve Murray,True,,100,0.7374,0.5,0.61,veteran
+Steve Persall,True,,100,0.85,,0.85,veteran
+Steve Pond,False,TheWrap,100,0.8646,0.9091,0.95,veteran
+Stuart Heritage,False,Guardian,15,0.6154,,0.8,newcomer
+Sukanya Verma,True,,100,0.8202,,0.54,veteran
+Susan Kamyab,True,,100,0.7959,0.8182,0.83,veteran
+Swara Salih,True,,37,0.6944,,0.8108,established
+Swaroop Kodur,False,The Indian Express,15,0.7143,,0.3333,newcomer
+Sydney Lee,False,Horror Movie Talk,28,0.7143,0.8571,0.7857,newcomer
+Tai Gooden,True,,19,0.7368,,0.7895,newcomer
+Tamma Moksha,False,The Hindu,47,0.75,,0.617,established
+Tania Hussain,True,,59,0.7193,,0.7797,established
+Tara Ariano,True,,23,0.7333,,0.6522,newcomer
+Tasha Robinson,True,,100,0.8283,0.5,0.82,veteran
+Tatat Bunnag,False,Bangkok Post,100,0.8021,0.875,0.68,veteran
+Tatiana Albandos,False,Medium Popcorn,42,0.6905,0.8,0.7381,established
+Tatiana King,False,For All Nerds Podcast,14,0.5714,0.5833,0.8571,newcomer
+Tatsam Mukherjee,True,,93,0.8242,0.7273,0.5376,established
+Taylor Williams,False,Slant Magazine,15,0.8,0.75,0.6667,newcomer
+Terence Johnson,True,,100,0.8125,0.7778,0.68,veteran
+Teresa Xie,False,NPR,5,1.0,,1.0,newcomer
+Terry Sherwood,False,Film Threat,83,0.8372,,1.0,established
+Terry Terrones,True,,6,0.8333,,1.0,newcomer
+Tessa Swehla,False,TheWrap,8,0.7143,,0.75,newcomer
+Theodoor Steen,False,ScreenAnarchy,6,1.0,,1.0,newcomer
+Thom Ernst,False,Original Cin,100,0.8351,0.9412,0.75,veteran
+Thom Geier,False,TheWrap,28,0.7143,1.0,0.8929,newcomer
+Thomas Alexander,False,HeyUGuys,12,0.8333,,0.9167,newcomer
+Tilly Pearce,True,,22,0.7273,,0.7273,newcomer
+Tim Stevens,True,,100,0.7835,0.6667,0.59,veteran
+Times of India Staff,False,The Times of India,32,0.8333,,0.8125,established
+Timothy Lee,False,Geeks of Color,32,0.7742,0.5,0.6562,established
+TK Burton,False,Pajiba,82,0.7195,0.6667,0.6341,established
+Toba Singer,False,culturevulture.net,41,0.8974,,0.8537,established
+Tobias Jeg,False,Exclaim!,7,1.0,,1.0,newcomer
+Tom Atkinson,False,Film Threat,28,0.8571,,1.0,newcomer
+Tom Beasley,True,,100,0.6869,0.8182,0.69,veteran
+Tom Farrelly,False,FILMINK (Australia),5,0.6,0.6667,0.8,newcomer
+Tom Fitzgerald and Lorenzo Marquez,True,,37,0.8919,,0.7568,established
+Tom Jolliffe,False,Flickering Myth,21,0.7368,,0.8571,newcomer
+Tom Jorgensen,False,IGN Movies,59,0.7288,0.8667,0.7119,established
+Tom O'Brien,False,Next Best Picture,100,0.9271,,0.85,veteran
+Tom Shone,False,The Times (UK),100,0.84,0.8378,0.73,veteran
+Tomas Trussow,True,,100,0.8387,,0.84,veteran
+Tomris Laffly,True,,100,0.9022,0.8182,0.77,veteran
+Tomás Andrés Guerrero,False,Sensacine,55,0.7843,0.75,0.8909,established
+Toni Vall,False,Cinemanía (Spain),100,0.75,,0.88,veteran
+Tony Baker,True,,100,0.8,0.8235,0.85,veteran
+Tony Medley,True,,100,0.6421,0.2857,0.65,veteran
+Tony Norman,False,Pittsburgh Post-Gazette,29,0.8966,,0.7241,newcomer
+Tony Rayns,False,Time Out,100,0.83,,0.85,veteran
+Tori Potenza,False,MovieJawn,6,1.0,,1.0,newcomer
+Toussaint Egan,False,Paste Magazine,90,0.8778,,0.9444,established
+Trace Sauveur,False,Austin Chronicle,100,0.82,0.8261,0.61,veteran
+Travis Hymas,False,The Young Folks,5,0.8,,0.6,newcomer
+Travis M. Andrews,False,Washington Post,13,0.9167,,0.6923,newcomer
+Tre'vell Anderson,True,,22,0.8182,0.6667,0.8182,newcomer
+Trey Murphy,True,,10,0.8,0.75,0.9,newcomer
+Tristian Evans,True,,7,1.0,,1.0,newcomer
+Troy Ribeiro,True,,100,0.8,0.8684,0.86,veteran
+tt stern-enzi,True,,100,0.73,0.875,0.84,veteran
+Ty Cooper,False,HeyUGuys,39,0.8718,,0.9487,established
+Tyler Carlsen,False,The Young Folks,33,0.7879,,0.8788,established
+Tyler Doster,False,AwardsWatch,10,0.8,,0.7,newcomer
+Tyler Taing,False,Discussing Film,19,0.7895,0.9,0.5789,newcomer
+Udita Jhunjhunwala,True,,100,0.8571,0.8182,0.54,veteran
+Vadim Rizov,True,,100,0.617,0.75,0.68,veteran
+Valentina Morillo,True,,21,0.9524,,0.9048,newcomer
+Valerie Anne,False,Autostraddle,7,0.7143,,1.0,newcomer
+Valerie Kalfrin,True,,100,0.8537,0.8621,0.74,veteran
+Vanessa Maki,False,The Mary Sue,25,0.8636,,0.96,newcomer
+Vannah Taylor,False,MovieJawn,10,1.0,,1.0,newcomer
+Vassilis Kroustallis,True,,100,0.9767,,0.98,veteran
+Vera Wylde,True,,74,0.6986,0.8667,0.6892,established
+Veronica Elizabeth Bruno,False,Culturess,17,0.9412,,0.9412,newcomer
+Vicky Jessop,False,London Evening Standard,18,0.7059,0.6,0.8333,newcomer
+Vicky Lawrence,False,Starburst,17,0.8667,,0.9412,newcomer
+Victor Recinos,False,Cine Premiere,23,0.8696,1.0,1.0,newcomer
+Victor Stiff,True,,100,0.7447,0.75,0.87,veteran
+Vikram Murthi,True,,100,0.7083,,0.59,veteran
+Vinamra Mathur,False,Firstpost,88,0.7258,0.5,0.5455,established
+Violeta Kovacsics,False,Otroscines.com,88,0.8133,1.0,0.8523,established
+Vivek M.V.,False,The Hindu,17,1.0,,0.5294,newcomer
+Vivian McCall,False,"The Stranger (Seattle, WA)",5,1.0,,1.0,newcomer
+Weiting Liu,True,,48,0.913,,0.9375,established
+Wendy Ide,True,,100,0.7701,0.6471,0.75,veteran
+Wendy Lee Szany,False,Schmoes Know,100,0.79,0.7857,0.88,veteran
+Wesley Hunt,False,Loud and Clear Reviews,16,0.9091,,0.8125,newcomer
+Whang Yee Ling,False,The Straits Times (Singapore),100,0.8966,0.95,0.75,veteran
+Will DiGravio,True,,41,0.85,,0.878,established
+Will Hume,False,Flickering Myth,10,0.7,,0.5,newcomer
+Will Mavity,False,Next Best Picture,35,0.8571,,0.6857,established
+Will Penn,False,Film Ireland Magazine,14,1.0,,1.0,newcomer
+Will Salmon,False,Total Film,6,0.8333,,0.5,newcomer
+William Evans,True,,15,0.8667,,0.6,newcomer
+William Hughes,False,AV Club,6,1.0,,0.6667,newcomer
+William Mullally,True,,32,0.8667,0.8889,0.9062,established
+William Repass,False,Slant Magazine,100,0.734,,0.75,veteran
+William Stottor,True,,100,0.7979,0.8333,0.8,veteran
+William Thomas,False,Empire Magazine,100,0.7677,,0.62,veteran
+William Tucker,False,But Why Tho?,14,0.9231,,0.8571,newcomer
+Wilson Chapman,False,IndieWire,29,0.8214,,0.5862,newcomer
+Wilson Kwong,True,,100,0.8557,1.0,0.8,veteran
+Witney Seibold,True,,100,0.7,0.5,0.57,veteran
+Xero Gravity,True,,49,0.8333,0.875,0.7551,established
+Yashaswini Sri,False,The Indian Express,14,0.8571,,0.8571,newcomer
+Yasmin Kleinbart,False,The Young Folks,100,0.89,,0.71,veteran
+Yasmin Omar,True,,100,0.94,1.0,0.95,veteran
+Yasser Medina,True,,100,0.3265,0.3929,0.15,veteran
+Zach Lewis,False,Slant Magazine,44,0.6829,0.3333,0.6136,established
+Zach Youngs,False,InSession Film,100,0.6979,,0.73,veteran
+Zachary Goldkind,False,In Review Online,53,0.3125,,0.1887,established
+Zachary Lee,True,,100,0.8471,0.7778,0.8,veteran
+Zachary Moser,False,Screen Rant,9,0.7778,,0.5556,newcomer
+Zhuo-Ning Su,True,,100,0.91,0.8571,0.97,veteran
+Zinia Bandyopadhyay,False,Firstpost,12,0.875,1.0,0.6667,newcomer
+Zoe Crombie,False,Film Inquiry,22,0.8421,,0.5909,newcomer
+Zosha Millman,True,,37,0.8108,0.8,0.6757,established
+Àngel Quintana,False,Caimán Cuadernos de Cine,100,0.7667,0.6667,0.8,veteran
+Öykü Sofuoğlu,False,In Review Online,6,0.8,,0.8333,newcomer

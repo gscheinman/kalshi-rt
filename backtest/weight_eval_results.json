@@ -1,0 +1,54 @@
+{
+  "winner": "spread",
+  "rankings": [
+    {
+      "rank": 1,
+      "name": "spread",
+      "description": "Fresh/Rotten tomatometer spread",
+      "brier": 0.1373,
+      "mae": 19.93
+    },
+    {
+      "rank": 2,
+      "name": "big_spread",
+      "description": "Big-movie Fresh/Rotten spread",
+      "brier": 0.1378,
+      "mae": 20.05
+    },
+    {
+      "rank": 3,
+      "name": "spread_x_accuracy",
+      "description": "Spread * cross-threshold accuracy",
+      "brier": 0.1379,
+      "mae": 20.14
+    },
+    {
+      "rank": 4,
+      "name": "agreement_60",
+      "description": "Agreement rate at 60% threshold (current)",
+      "brier": 0.1388,
+      "mae": 18.89
+    },
+    {
+      "rank": 5,
+      "name": "cross_threshold_acc",
+      "description": "Cross-threshold accuracy (25-95%)",
+      "brier": 0.1396,
+      "mae": 18.94
+    },
+    {
+      "rank": 6,
+      "name": "inv_mae",
+      "description": "Inverse MAE (prediction accuracy)",
+      "brier": 0.1398,
+      "mae": 18.9
+    },
+    {
+      "rank": 7,
+      "name": "big_cross_threshold_acc",
+      "description": "Big-movie cross-threshold accuracy",
+      "brier": 0.1399,
+      "mae": 18.89
+    }
+  ]
+}

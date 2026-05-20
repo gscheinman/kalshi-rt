@@ -1,0 +1,9 @@
+{
+  "params": {
+    "PRIOR_ALPHA": 4.0,
+    "PRIOR_BETA": 0.5,
+    "CORRELATION_DISCOUNT": 0.6,
+    "SHRINKAGE_N": 15
+  },
+  "score": 23.588460024294235
+}

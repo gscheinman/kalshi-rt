@@ -1,0 +1,14 @@
+[
+  {"critic_name": "Armond White", "sentiment": "Rotten", "publication": "National Review"},
+  {"critic_name": "David Ehrlich", "sentiment": "Fresh", "publication": "IndieWire"},
+  {"critic_name": "Peter Bradshaw", "sentiment": "Fresh", "publication": "Guardian"},
+  {"critic_name": "A.O. Scott", "sentiment": "Fresh", "publication": "New York Times"},
+  {"critic_name": "Owen Gleiberman", "sentiment": "Fresh", "publication": "Variety"},
+  {"critic_name": "David Parkinson", "sentiment": "Fresh", "publication": "Empire"},
+  {"critic_name": "Manohla Dargis", "sentiment": "Rotten", "publication": "New York Times"},
+  {"critic_name": "Richard Roeper", "sentiment": "Fresh", "publication": "Chicago Sun-Times"},
+  {"critic_name": "Michelle Alexandria", "sentiment": "Fresh", "publication": "Eclipse Magazine"},
+  {"critic_name": "Eileen Jones", "sentiment": "Rotten", "publication": "Jacobin"},
+  {"critic_name": "Peter Travers", "sentiment": "Fresh", "publication": "Rolling Stone"},
+  {"critic_name": "Christy Lemire", "sentiment": "Fresh", "publication": "RogerEbert.com"}
+]

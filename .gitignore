@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+*.egg-info/
+
+# Environment / credentials
+.env
+.env.local
+credentials.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (large files, generated locally)
+# Snapshot data IS tracked -- it's our training set
+# critic_reviews.json is tracked -- it's an asset
+
+# Kalshi auth credentials
+~/.config/kalshi-rt/
