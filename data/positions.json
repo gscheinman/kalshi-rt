@@ -21,6 +21,17 @@
       "suggested_size": 40.36,
       "avg_fill": 45.0,
       "contracts": 89.8
+    },
+    {
+      "timestamp": "2026-05-20T16:19:51.108555+00:00",
+      "market_ticker": "KXRT-POW-80",
+      "direction": "BUY NO",
+      "threshold": 80,
+      "model_prob": 71.3,
+      "edge": 5.8,
+      "suggested_size": 7.24,
+      "avg_fill": 22.9,
+      "contracts": 31.7
     }
   ],
   "KXRT-STA": [
