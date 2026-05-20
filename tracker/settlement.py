@@ -18,17 +18,20 @@ Usage:
 Best run shortly after market close time.
 """
 import json
+import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
 
 from market.kalshi_client import KalshiClient
 from scraper.rt_page import get_movie_summary
 from market.mapper import TickerMapper
-from tracker.market_snapshot import resolve_snapshots, load_snapshots
+from tracker.market_snapshot import resolve_snapshots, load_snapshots, SNAPSHOT_FILE, SNAPSHOT_DIR
 from tracker.market_learner import compute_learnings
+from scraper.critic_updater import ingest_settled_movie
 
 SNAPSHOTS_DIR = Path.home() / ".cache" / "kalshi-rt"
 SETTLEMENT_LOG = SNAPSHOTS_DIR / "settlement_log.jsonl"
+CI_SNAPSHOT_FILE = Path(__file__).parent.parent / "data" / "snapshots.jsonl"
 
 
 def show_upcoming():
@@ -146,9 +149,14 @@ def resolve_event(event_ticker, actual_score):
     """
     print(f"\nResolving {event_ticker} with score={actual_score}%")
 
-    # Resolve market snapshots
+    # Resolve market snapshots (local cache)
     n = resolve_snapshots(event_ticker, actual_score)
-    print(f"  Resolved {n} market snapshots")
+    print(f"  Resolved {n} local cache snapshots")
+
+    # Resolve CI snapshots (repo file)
+    n_ci = _resolve_ci_snapshots(event_ticker, actual_score)
+    if n_ci > 0:
+        print(f"  Resolved {n_ci} CI snapshots")
 
     # Also try resolving prediction logger records
     try:
@@ -171,6 +179,21 @@ def resolve_event(event_ticker, actual_score):
             print(f"  Resolved {resolved_preds} prediction records")
     except Exception as e:
         print(f"  (prediction logger: {e})")
+
+    # Feed settled movie data back into critic database
+    try:
+        mapper = TickerMapper()
+        event_data = {"event_ticker": event_ticker, "movie_name": event_ticker}
+        rt_slug = mapper.get_rt_slug(event_data)
+        if rt_slug:
+            print(f"\n  Updating critic database with {rt_slug} (score={actual_score}%)...")
+            result = ingest_settled_movie(rt_slug, actual_score)
+            if "error" not in result:
+                print(f"  Updated {result['critics_updated']} critics, {result['new_big_movie_calibrated']} gained big_movie rate")
+            else:
+                print(f"  Critic update skipped: {result['error']}")
+    except Exception as e:
+        print(f"  (critic update: {e})")
 
     # Recompute learnings with new data
     print(f"\n  Computing updated learnings...")
@@ -246,11 +269,87 @@ def resolve_all_closed():
         print(f"\nResolved {resolved_count} events.")
 
 
+def _merge_ci_snapshots():
+    """Merge CI-collected snapshots into the local cache file.
+
+    The CI writes to data/snapshots.jsonl (in the repo), but settlement
+    resolution reads from ~/.cache/kalshi-rt/snapshots/market_snapshots.jsonl.
+    This function deduplicates by (timestamp, event_ticker) and appends
+    any CI snapshots that aren't already in the local file.
+    """
+    if not CI_SNAPSHOT_FILE.exists():
+        return 0
+
+    existing_keys = set()
+    if SNAPSHOT_FILE.exists():
+        with open(SNAPSHOT_FILE) as f:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    s = json.loads(line)
+                    existing_keys.add((s["timestamp"], s["event_ticker"]))
+                except (json.JSONDecodeError, KeyError):
+                    continue
+
+    merged = 0
+    SNAPSHOT_DIR.mkdir(parents=True, exist_ok=True)
+    with open(SNAPSHOT_FILE, "a") as out:
+        with open(CI_SNAPSHOT_FILE) as ci:
+            for line in ci:
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    s = json.loads(line)
+                    key = (s["timestamp"], s["event_ticker"])
+                    if key not in existing_keys:
+                        out.write(json.dumps(s) + "\n")
+                        existing_keys.add(key)
+                        merged += 1
+                except (json.JSONDecodeError, KeyError):
+                    continue
+
+    return merged
+
+
+def _resolve_ci_snapshots(event_ticker, actual_score):
+    """Also resolve CI snapshots in data/snapshots.jsonl.
+
+    Keeps the CI file in sync so resolved status persists in the repo.
+    """
+    if not CI_SNAPSHOT_FILE.exists():
+        return 0
+
+    all_snapshots = []
+    resolved_count = 0
+    with open(CI_SNAPSHOT_FILE) as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            s = json.loads(line)
+            if s["event_ticker"] == event_ticker and not s.get("resolved"):
+                s["resolved"] = True
+                s["actual_score"] = actual_score
+                resolved_count += 1
+            all_snapshots.append(s)
+
+    if resolved_count > 0:
+        with open(CI_SNAPSHOT_FILE, "w") as f:
+            for s in all_snapshots:
+                f.write(json.dumps(s) + "\n")
+
+    return resolved_count
+
+
 def settle_morning():
     """Full settlement-morning workflow in one command.
 
     Run this shortly after 10 AM ET on settlement Monday for each batch of movies.
     Steps:
+      0. Git pull + merge CI snapshots into local cache
       1. Snapshot current RT scores (timestamped record of what scores were at settlement)
       2. Resolve any events whose close_time has passed (turns snapshots into training data)
       3. Run edge performance report (how did the model's edges perform?)
@@ -261,23 +360,49 @@ def settle_morning():
     print(f"Started: {datetime.now(timezone.utc).isoformat()[:19]} UTC")
     print("=" * 60)
 
-    print("\n[1/4] Snapshotting current RT scores...")
+    print("\n[0/5] Pulling latest CI snapshot data...")
+    try:
+        repo_root = Path(__file__).parent.parent
+        result = subprocess.run(
+            ["git", "pull", "--rebase", "origin", "main"],
+            cwd=repo_root, capture_output=True, text=True, timeout=30,
+        )
+        print(f"  {result.stdout.strip()}")
+    except Exception as e:
+        print(f"  git pull failed: {e} (continuing with local data)")
+
+    merged = _merge_ci_snapshots()
+    print(f"  Merged {merged} CI snapshots into local cache")
+
+    print("\n[1/5] Snapshotting current RT scores...")
     snapshot_scores()
 
-    print("\n[2/4] Resolving closed events...")
+    print("\n[2/5] Resolving closed events...")
     resolve_all_closed()
 
-    print("\n[3/4] Edge performance report...")
+    print("\n[3/6] Edge performance report...")
     from tracker.market_snapshot import print_edge_report
     print_edge_report()
 
-    print("\n[4/4] Market learnings...")
+    print("\n[4/6] Market learnings...")
     from tracker.market_learner import apply_learnings, compute_learnings
     learnings = compute_learnings()
     if "error" in learnings:
         print(f"  {learnings['error']}")
     else:
         apply_learnings()
+
+    print("\n[5/6] Batch critic database update from all resolved snapshots...")
+    from scraper.critic_updater import refresh_from_snapshots
+    results = refresh_from_snapshots()
+    total_updated = sum(r.get("critics_updated", 0) for r in results if "error" not in r)
+    if results:
+        print(f"  Processed {len(results)} movies, updated {total_updated} critic records")
+
+    print("\n[6/6] Summary")
+    local_count = len(load_snapshots())
+    resolved = len([s for s in load_snapshots() if s.get("resolved")])
+    print(f"  Total snapshots: {local_count} ({resolved} resolved)")
 
     print("\nDone.")
 
