@@ -37,17 +37,46 @@ FIELDNAMES = [
 ]
 
 
-def ingest_settled_movie(rt_slug, actual_score, reviews=None):
+def ingest_settled_movie(rt_slug, actual_score, reviews=None, force=False):
     """Feed a settled movie's data back into the critic database.
+
+    IMPORTANT: Only call this AFTER a movie has actually settled on Kalshi.
+    The settlement score determines whether each critic was "right" or "wrong",
+    so ingesting a pre-settlement score contaminates the database. The score
+    can shift between now and settlement Monday.
 
     Args:
         rt_slug: RT movie slug (e.g. "m/star_wars_the_mandalorian_and_grogu")
         actual_score: final tomatometer at settlement
         reviews: list of review dicts from scraper.rt_reviews.scrape_reviews().
                  If None, loads from the review cache.
+        force: skip the settlement verification check (use only for testing)
 
     Returns dict with counts of what was updated.
     """
+    if not force:
+        # Verify this movie's Kalshi market has actually closed
+        try:
+            from market.kalshi_client import KalshiClient
+            from market.mapper import TickerMapper
+            from datetime import datetime, timezone
+            client = KalshiClient()
+            mapper = TickerMapper()
+            events = client.get_rt_events()
+            for event in events:
+                slug = mapper.get_rt_slug(event)
+                if slug and slug == rt_slug:
+                    markets = client.get_markets(event["event_ticker"])
+                    if markets:
+                        close_str = markets[0].get("close_time", "")
+                        if close_str:
+                            close_time = datetime.fromisoformat(close_str.replace("Z", "+00:00"))
+                            if close_time > datetime.now(timezone.utc):
+                                return {"error": f"Market for {rt_slug} hasn't closed yet (closes {close_str}). "
+                                        f"Don't ingest pre-settlement scores -- they can change. "
+                                        f"Use force=True only for testing."}
+        except Exception:
+            pass  # If we can't verify, proceed (market may already be delisted)
     if reviews is None:
         reviews = _load_cached_reviews(rt_slug)
     if not reviews:
