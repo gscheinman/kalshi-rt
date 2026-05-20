@@ -1,0 +1,46 @@
+name: Hourly Market Snapshot
+
+on:
+  schedule:
+    # Every hour at :15 past
+    - cron: '15 * * * *'
+  workflow_dispatch:  # Manual trigger from GitHub UI
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Cache pip packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-snapshot
+          restore-keys: ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4 scipy numpy lxml
+
+      - name: Run snapshot
+        run: python tracker/snapshot_ci.py
+
+      - name: Commit snapshot data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/snapshots.jsonl
+          # Only commit if there are changes
+          git diff --staged --quiet || git commit -m "snapshot: $(date -u '+%Y-%m-%d %H:%M') UTC"
+          git push

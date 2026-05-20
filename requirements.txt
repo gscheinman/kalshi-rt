@@ -1,4 +1,6 @@
 requests
 beautifulsoup4
 lxml
+scipy
+numpy
 playwright
