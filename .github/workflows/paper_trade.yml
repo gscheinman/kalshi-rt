@@ -46,4 +46,6 @@ jobs:
           git add data/paper_trades.jsonl data/positions.json
           # Only commit if there are changes
           git diff --staged --quiet || git commit -m "paper: $(date -u '+%Y-%m-%d %H:%M') UTC"
+          # Pull with rebase to handle concurrent pushes from other workflows
+          git pull --rebase origin main || true
           git push
