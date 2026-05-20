@@ -1,0 +1,50 @@
+{
+  "KXRT-POW": [
+    {
+      "timestamp": "2026-05-20T05:05:37.051015+00:00",
+      "market_ticker": "KXRT-POW-90",
+      "direction": "BUY YES",
+      "threshold": 90,
+      "model_prob": 40.5,
+      "edge": 27.1,
+      "suggested_size": 50.0,
+      "avg_fill": 13.4,
+      "contracts": 373.6
+    },
+    {
+      "timestamp": "2026-05-20T05:05:37.051015+00:00",
+      "market_ticker": "KXRT-POW-85",
+      "direction": "BUY YES",
+      "threshold": 85,
+      "model_prob": 57.7,
+      "edge": 12.7,
+      "suggested_size": 40.36,
+      "avg_fill": 45.0,
+      "contracts": 89.8
+    }
+  ],
+  "KXRT-STA": [
+    {
+      "timestamp": "2026-05-20T05:05:37.051015+00:00",
+      "market_ticker": "KXRT-STA-65",
+      "direction": "BUY YES",
+      "threshold": 65,
+      "model_prob": 39.8,
+      "edge": 37.8,
+      "suggested_size": 50.0,
+      "avg_fill": 2.0,
+      "contracts": 2500.0
+    },
+    {
+      "timestamp": "2026-05-20T05:05:37.051015+00:00",
+      "market_ticker": "KXRT-STA-60",
+      "direction": "BUY YES",
+      "threshold": 60,
+      "model_prob": 59.3,
+      "edge": 20.0,
+      "suggested_size": 50.0,
+      "avg_fill": 39.3,
+      "contracts": 127.3
+    }
+  ]
+}

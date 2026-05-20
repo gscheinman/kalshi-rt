@@ -11,7 +11,7 @@ from market.mapper import TickerMapper
 from scraper.rt_page import get_movie_summary
 from scraper.rt_reviews import scrape_reviews
 from engine.alpha import find_alpha
-from engine.paper_trader import load_trades
+from engine.paper_trader import load_trades as load_local_trades
 from engine.portfolio import load_positions
 from tracker.logger import log_prediction, load_predictions
 
@@ -218,10 +218,43 @@ def api_history():
     return jsonify(records[:50])
 
 
+def _load_all_trades():
+    """Merge paper trades from local cache and CI repo file, deduped."""
+    import json
+    from pathlib import Path
+
+    local_trades = load_local_trades()
+
+    # Also load CI trades from repo-local data/paper_trades.jsonl
+    ci_file = Path(__file__).parent.parent / "data" / "paper_trades.jsonl"
+    ci_trades = []
+    if ci_file.exists():
+        with open(ci_file) as f:
+            for line in f:
+                line = line.strip()
+                if line:
+                    try:
+                        ci_trades.append(json.loads(line))
+                    except json.JSONDecodeError:
+                        pass
+
+    # Dedup by (timestamp, event_ticker, threshold, direction)
+    seen = set()
+    merged = []
+    for t in local_trades + ci_trades:
+        key = (t.get("timestamp", ""), t.get("event_ticker", ""),
+               t.get("threshold", 0), t.get("direction", ""))
+        if key not in seen:
+            seen.add(key)
+            merged.append(t)
+
+    return merged
+
+
 @app.route("/api/paper-trades")
 def api_paper_trades():
     """Return all paper trades with current RT scores for the dashboard."""
-    trades = load_trades()
+    trades = _load_all_trades()
     if not trades:
         return jsonify([])
 

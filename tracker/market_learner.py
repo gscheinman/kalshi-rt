@@ -49,21 +49,24 @@ def load_resolved_trades(snapshot_path=None):
 
             for t_str, mkt in markets.items():
                 t = int(t_str)
-                yes_price = mkt.get("yes_price")
+                # Use yes_ask (actual entry cost) over yes_price (midpoint/last trade).
+                # Kalshi's displayed % is NOT the real cost to enter a position.
+                # Fall back to yes_price only if yes_ask isn't available (older snapshots).
+                yes_ask = mkt.get("yes_ask") or mkt.get("yes_price")
                 model_prob = model.get("threshold_probs", {}).get(t_str)
 
-                if yes_price is None or model_prob is None:
+                if yes_ask is None or model_prob is None:
                     continue
 
                 outcome = 1 if actual > t else 0
-                edge = model_prob - yes_price
+                edge = model_prob - yes_ask
 
                 trades.append({
                     "movie": s["movie"],
                     "event_ticker": s["event_ticker"],
                     "timestamp": s["timestamp"],
                     "threshold": t,
-                    "market_price": yes_price,
+                    "market_price": yes_ask,
                     "model_prob": model_prob,
                     "edge": edge,
                     "outcome": outcome,
@@ -288,6 +291,8 @@ def _run_test():
         for i in range(5):
             model_prob_60 = 0.65 if actual_score > 60 else 0.35
             market_price_60 = 0.55 if actual_score > 60 else 0.45
+            # yes_ask is what we actually compare against (real entry cost)
+            yes_ask_60 = market_price_60 + 0.02
             snap = {
                 "timestamp": f"2026-05-19T{10+i:02d}:00:00+00:00",
                 "event_ticker": ticker,
@@ -295,7 +300,7 @@ def _run_test():
                 "rt_slug": f"m/{movie.lower().replace(' ', '_')}",
                 "markets": {
                     "60": {"yes_price": market_price_60, "yes_bid": market_price_60 - 0.02,
-                           "yes_ask": market_price_60 + 0.02, "volume": 100},
+                           "yes_ask": yes_ask_60, "volume": 100},
                     "70": {"yes_price": 0.40, "yes_bid": 0.38, "yes_ask": 0.42, "volume": 80},
                 },
                 "total_volume": 180,
