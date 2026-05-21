@@ -200,6 +200,48 @@ def compute_learnings(snapshot_path=None):
         }
     learnings["confidence_performance"] = confidence_analysis
 
+    # 7. Review-count bucket performance: where does the edge actually live?
+    # Tests the hypothesis that the 5-40 review window is the only place
+    # we have an information edge over the market.
+    rc_buckets = [(0, 5), (5, 20), (20, 40), (40, 80), (80, 9999)]
+    rc_perf = {f"{lo}-{hi if hi < 9999 else 'inf'}": [] for lo, hi in rc_buckets}
+    for t in trades:
+        nr = t.get("n_reviews") or 0
+        if abs(t["edge"]) < 0.03:
+            continue
+        direction = "buy_yes" if t["edge"] > 0 else "buy_no"
+        win = (t["outcome"] == 1) if direction == "buy_yes" else (t["outcome"] == 0)
+        cost = t["market_price"] if direction == "buy_yes" else (1 - t["market_price"])
+        pnl = (1 - cost) * (1 - config.KALSHI_FEE_RATE) if win else -cost
+        for lo, hi in rc_buckets:
+            if lo <= nr < hi:
+                key = f"{lo}-{hi if hi < 9999 else 'inf'}"
+                rc_perf[key].append({"win": win, "pnl": pnl, "edge": abs(t["edge"])})
+                break
+
+    review_count_analysis = {}
+    for bucket, entries in rc_perf.items():
+        if not entries:
+            review_count_analysis[bucket] = {"trades": 0}
+            continue
+        wins = sum(1 for e in entries if e["win"])
+        total = len(entries)
+        total_pnl = sum(e["pnl"] for e in entries)
+        avg_edge = sum(e["edge"] for e in entries) / total
+        review_count_analysis[bucket] = {
+            "trades": total,
+            "win_rate": round(wins / total * 100, 1),
+            "total_pnl": round(total_pnl, 4),
+            "avg_pnl_per_trade": round(total_pnl / total, 4),
+            "avg_claimed_edge": round(avg_edge * 100, 1),
+            # Net edge realized vs claimed: positive means model was right,
+            # negative means market knew more than we did.
+            "realized_minus_claimed_edge": round(
+                (total_pnl / total) - avg_edge, 4
+            ) if total > 0 else 0,
+        }
+    learnings["review_count_performance"] = review_count_analysis
+
     # Save
     output_path = LEARNINGS_FILE
     output_path.parent.mkdir(parents=True, exist_ok=True)

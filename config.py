@@ -12,11 +12,18 @@ it needs backtesting before real money is deployed.
 POPULATION_MEAN = 0.63
 
 # Prior parameters for Beta distribution.
-# alpha=2.5, beta=1.5 encode a weak prior centered at ~63%.
+# alpha=2.5, beta=1.5 encode a weak prior centered at ~62.5%
+# (alpha / (alpha + beta) = 2.5/4.0 = 0.625), matching POPULATION_MEAN.
 # Effective prior sample size = alpha + beta = 4 (very weak).
-# VALIDATED from backtest optimization.
-PRIOR_ALPHA = 4.0
-PRIOR_BETA = 0.5
+#
+# NOTE: previous values (4.0, 0.5) implied a prior mean of 88.9% which
+# systematically inflated low-N predictions. Reverted 2026-05-20 after
+# calibration audit showed 30+ percentage point overconfidence in the
+# 35-65% bucket. The grid-search "optimization" that produced 4.0/0.5
+# was fitting Kaggle's high-coverage tail, not Kalshi-relevant outcomes.
+# UNVALIDATED against Kalshi resolutions.
+PRIOR_ALPHA = 2.5
+PRIOR_BETA = 1.5
 
 # Correlation discount: reviews of the same movie aren't independent.
 # If 10 critics see the same film, effective sample size < 10.
@@ -52,15 +59,51 @@ MAX_POSITION_PCT = 0.05
 # Default bankroll for sizing calculations.
 DEFAULT_BANKROLL = 1000
 
-# Minimum edge (model prob - market price) to consider a trade.
-# Below this, transaction costs and model uncertainty eat the edge.
-# UNVALIDATED -- should be set based on backtest P&L by edge bucket.
-MIN_EDGE = 0.05
+# Fallback minimum edge if no tiered rule applies.
+MIN_EDGE = 0.12
 
 # Minimum model win probability to consider a trade.
-# Filters out long-shot bets where model is very uncertain.
-# UNVALIDATED -- should be validated from backtest.
-MIN_WIN_PROB = 0.25
+# Tightened 2026-05-20 from 0.25 to 0.40 to avoid acting on model output
+# in the most miscalibrated probability zone.
+MIN_WIN_PROB = 0.40
+
+# Tiered minimum edge by review count at entry.
+# Hypothesis: edge mostly lives in the 5-40 review window. Higher review
+# counts have less informational asymmetry vs the market, so we demand
+# more edge to take a trade there. Tier is selected by review_count.
+# Format: list of (min_reviews, max_reviews, min_edge). First match wins.
+# trade_enabled=False on the 0-5 bucket disables that zone entirely.
+MIN_EDGE_BY_REVIEW_COUNT = [
+    # (lo, hi, min_edge, trade_enabled)
+    (0,    5,   0.99, False),  # too noisy, skip
+    (5,   40,   0.08, True),   # prime hunting ground, relaxed
+    (40,  80,   0.12, True),   # possible edge, tighter
+    (80,  9999, 0.20, True),   # skeptical zone, only fire on huge edges
+]
+
+# Volume-based tightening: on top of the review-count tier, demand even
+# more edge if the market is thick enough that consensus is well-informed.
+HIGH_VOLUME_THRESHOLD = 50_000
+HIGH_VOLUME_MIN_EDGE_BUMP = 0.05  # adds 5pp to the review-count tier's min_edge
+
+# Sanity guard: even with tiered filtering, an extreme edge claim on a
+# liquid market is almost certainly model error.
+SANITY_MAX_EDGE_ON_LIQUID = 0.15
+SANITY_LIQUID_VOLUME_MIN = 10_000
+
+
+def min_edge_for(review_count, volume=0):
+    """Return (min_edge, trade_enabled) for a given review count + volume.
+
+    Used by alpha/portfolio engines to enforce tiered filtering.
+    """
+    rc = review_count or 0
+    for lo, hi, edge, enabled in MIN_EDGE_BY_REVIEW_COUNT:
+        if lo <= rc < hi:
+            if volume and volume >= HIGH_VOLUME_THRESHOLD:
+                edge = edge + HIGH_VOLUME_MIN_EDGE_BUMP
+            return edge, enabled
+    return MIN_EDGE, True
 
 
 
@@ -72,7 +115,7 @@ MIN_WIN_PROB = 0.25
 CONFIDENCE_KELLY_MULTIPLIER = {
     "HIGH": 1.0,
     "MEDIUM": 0.6,
-    "LOW": 0.3,
+    "LOW": 0.0,    # disabled 2026-05-20: too few critics known to trust the model
     "NONE": 0.0,
 }
 
@@ -87,7 +130,8 @@ SETTLEMENT_SIZING = {
 }
 
 # --- Portfolio risk limits ---
-MAX_EVENT_EXPOSURE_PCT = 0.10
+# Tightened 2026-05-20 from 0.10 to 0.05 per event while calibration is broken.
+MAX_EVENT_EXPOSURE_PCT = 0.05
 MAX_TOTAL_EXPOSURE_PCT = 0.30
 
 

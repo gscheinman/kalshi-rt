@@ -2,12 +2,24 @@ name: Hourly Market Snapshot
 
 on:
   schedule:
-    # Every hour at :15 past
-    - cron: '15 * * * *'
+    # Primary cadence: every 15 min on the quarter hour.
+    # Reviews often arrive in bursts right after a screening or embargo lift,
+    # so we need tight intervals during the prime hunting window.
+    - cron: '0,15,30,45 * * * *'
+    # Redundant offset schedule: GitHub silently skips cron triggers on
+    # low-activity repos, so a second schedule at :07 and :37 fills the gaps.
+    # Worst-case effective interval if half are skipped: ~20 min.
+    - cron: '7,37 * * * *'
   workflow_dispatch:  # Manual trigger from GitHub UI
 
 permissions:
   contents: write
+
+# Prevent two snapshot runs from racing on git push. Newer run cancels older
+# if they overlap, since the newer snapshot supersedes the older one anyway.
+concurrency:
+  group: snapshot
+  cancel-in-progress: true
 
 jobs:
   snapshot:

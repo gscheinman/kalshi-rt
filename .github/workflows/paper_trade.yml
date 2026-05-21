@@ -2,12 +2,22 @@ name: Paper Trading Pass
 
 on:
   schedule:
-    # Every 4 hours at :45 past (offset from snapshot at :15)
-    - cron: '45 */4 * * *'
+    # Every 30 min, offset from snapshots so paper trader runs ~5 min after
+    # the snapshot pass completes. Position dedup in data/positions.json
+    # prevents duplicate entries even when this fires faster than markets move.
+    - cron: '5,35 * * * *'
+    # Redundant offset schedule for skip resilience.
+    - cron: '20,50 * * * *'
   workflow_dispatch:  # Manual trigger from GitHub UI
 
 permissions:
   contents: write
+
+# Prevent two paper-trade runs from racing on git push. Newer run waits
+# so we don't lose any trades; the queue is bounded by GitHub's scheduler.
+concurrency:
+  group: paper-trade
+  cancel-in-progress: false
 
 jobs:
   paper-trade:

@@ -1,22 +1,58 @@
 # Kalshi RT Trading Algorithm
 
-This is a real-money trading system. It will be funded with actual capital and expected to generate returns. Treat every decision with the rigor of production quantitative finance, not a prototype.
+This is a research project that aims to capture small, consistent edge in
+Rotten Tomatoes prediction markets on Kalshi. Realistic target: a few dollars
+of profit per month on a small bankroll, not wealth generation. The plumbing
+is built; the model and the universe restrictions still need to demonstrate
+positive EV on real Kalshi resolutions before any capital is deployed.
+
+## Honest framing (read this every time)
+
+- **Most Kalshi RT markets are efficient.** Big releases with 50+ reviews and
+  >$50K volume reflect serious traders who scrape RT, watch embargo lifts in
+  real time, and have more capital than us. We do NOT have edge there. If the
+  model claims a huge edge on a thick market, that's calibration error.
+- **The plausible edge zone is narrow.** Likely pockets: low-coverage titles
+  with thin liquidity, the first ~40 reviews before the market fully prices
+  the consensus, granular threshold microstructure, and movements during weekend
+  reviewer drift. We have not proven we capture any of these yet.
+- **Historical Kaggle "backtests" are not validation.** They fit a distribution
+  that doesn't match Kalshi market dynamics. Ignore any ROI/win-rate claims
+  derived from them. Only resolved Kalshi markets count.
+- **Realistic outcome:** 5-20% annualized on a small bankroll, with months of
+  drawdown. Acceptable to lose $50-$100 while learning what doesn't work.
+- **Unrealistic outcomes:** scaling to thousands of dollars per month, beating
+  the market on big releases, ML on review text producing alpha.
 
 ## Mission
 
-Build the most effective algorithm for trading Rotten Tomatoes prediction markets on Kalshi. The edge comes from processing early critic reviews faster and more accurately than the market prices them.
+Find and exploit the small, real edges that exist in inefficient corners of
+Kalshi's RT markets. Be honest when there isn't edge. Don't trade efficient
+markets just because the model says we should.
 
 ## Non-Negotiable Principles
 
-1. **Every model assumption must be validated against data.** No hardcoded parameters without backtesting justification. If a number appears in the model (prior mean, shrinkage rate, minimum edge threshold), there must be evidence it's correct or a TODO to validate it.
+1. **Every model assumption must be validated against real Kalshi outcomes.**
+   No hardcoded parameter is "validated" until it has been tested against
+   resolved Kalshi markets in the regime we actually trade. Kaggle backtests
+   are useful for sanity checks, not validation.
 
-2. **Never trust the model -- verify it.** Before any real trade, the model must demonstrate positive expected value on historical data. Track every prediction and compare to outcomes. If the model says X% and reality is consistently Y%, fix the model.
+2. **Never trust the model -- verify it.** Before any real trade, the model
+   must demonstrate calibrated positive EV on 20+ resolved Kalshi markets in
+   the 5-40 review window with calibration within 5pp at every bucket. If
+   model says X% and reality is Y%, fix the model first.
 
-3. **Slippage is real.** These are thin markets. Always simulate through the actual order book. Never recommend a trade at the quoted price -- show the real fill price and the real profit after Kalshi's 7% fee.
+3. **Slippage is real.** These are thin markets. Always simulate through the
+   actual order book. Never recommend a trade at the quoted midpoint -- show
+   the real fill price and the real profit after Kalshi's 7% fee.
 
-4. **Conservative by default.** Quarter Kelly, 5% bankroll cap, minimum 25% win probability. When uncertain, size down, not up. Losing less on bad signals matters more than maximizing good ones.
+4. **Conservative by default.** Quarter Kelly, 5% per-event cap, tiered MIN_EDGE
+   that demands more edge as review count and volume increase. When uncertain,
+   size down or skip. Losing less on bad signals beats maximizing good ones.
 
-5. **The critic database is the moat.** The quality of per-critic calibration data directly determines model accuracy. Invest in making this as rich and current as possible.
+5. **The market is usually right.** If our model disagrees with a liquid
+   market by 15+ points, that is a model error, not alpha. Sanity guards
+   block trades like this regardless of what the model claims.
 
 ## Architecture
 
@@ -92,7 +128,9 @@ python3 -m backtest.evaluate      # Run backtest (needs critic_reviews.json + mo
 python3 -m backtest.optimize      # Grid search for optimal Beta-binomial parameters
 python3 -m backtest.apply_params  # Apply optimized params to config.py + calibration.py
 python3 -m backtest.weight_eval   # Compare 7 hand-crafted weight functions (if not using ML)
-python3 -m tracker.settlement     # Monday morning: snapshot settlement scores
+python3 -m tracker.settlement                    # show upcoming events
+python3 -m tracker.settlement --settle-morning   # SETTLEMENT DAY: snapshot + resolve + edge report
+python3 -m tracker.market_snapshot --status      # check snapshot loop health
 python3 -m engine.paper_trader    # Single paper trading pass across all active markets
 python3 -m engine.paper_trader --loop 300   # Re-check every 5 min
 python3 -m engine.paper_trader --live       # REAL MONEY (requires ~/.config/kalshi-rt/credentials.json)
@@ -101,13 +139,32 @@ python3 -m engine.paper_trader --summary    # Show paper trading performance
 
 ## Before Deploying Real Money
 
-- [ ] Critic database refreshed with real agreement rates (not approximated)
-- [ ] Backtested against 20+ resolved movies with known outcomes
-- [ ] Calibration parameters fitted from backtest, not hardcoded
-- [ ] Paper trading for 15+ resolutions with positive simulated P&L
-- [ ] Model accuracy: predicted probabilities within 10% of actual hit rates
-- [ ] Win rate >55% on HIGH confidence signals
-- [ ] Slippage-aware sizing validated against actual Kalshi fills
+Each gate must be cleared by **resolved Kalshi markets**, not Kaggle backtests.
+
+- [ ] 20+ resolved Kalshi markets in the 5-40 review window, with full
+      snapshot history and final settlement scores
+- [ ] Calibration within 5pp at every probability bucket (35%, 45%, 55%,
+      65%, 75%, 85%, 95%) -- post any refit, validated out of sample
+- [ ] Positive simulated P&L on those 20+ resolutions using current config
+      (tiered MIN_EDGE, sanity guards, Kelly sizing)
+- [ ] Win rate above 55% on HIGH confidence signals across the 20+ resolutions
+- [ ] No systematic loss in any review-count bucket
+      (see `market_learnings.json:review_count_performance`)
+- [ ] Critic database refreshed within the last 60 days
+- [ ] Slippage-aware fills within 2% of actual Kalshi executions on a
+      manual test trade ($5-$10 max)
+
+## Capital deployment plan (after the gates above are cleared)
+
+- Initial real bankroll: **$200 max**
+- Per-position cap: **$25**
+- Per-event cap: 5% of bankroll
+- Restricted universe: markets in the 5-40 review window first; expand
+  to 40+ only after that subset shows positive realized edge
+- Scale-up rule: only after 30+ days of positive realized P&L on real money,
+  and only by doubling bankroll at most. No "if it works, let it rip."
+- Hard kill: if real-money drawdown exceeds 25% of starting bankroll,
+  stop trading and revisit calibration before resuming.
 
 ## Roadmap (not yet built)
 

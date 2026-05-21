@@ -105,7 +105,7 @@ def optimize_portfolio(model_result, markets, kalshi_client=None,
     sizing_mult = confidence_mult * time_mult
 
     # Find all profitable individual positions (orderbook-aware when possible)
-    candidates = _find_candidate_positions(market_state, sizing_mult, bankroll, kalshi_client)
+    candidates = _find_candidate_positions(market_state, sizing_mult, bankroll, kalshi_client, n_reviews=n_reviews)
 
     # Find spread opportunities (paired positions)
     spreads = _find_spreads(market_state, dist, sizing_mult, bankroll, kalshi_client)
@@ -141,7 +141,7 @@ def _build_scenario_matrix(market_state, dist):
     return scenarios
 
 
-def _find_candidate_positions(market_state, sizing_mult, bankroll, kalshi_client=None):
+def _find_candidate_positions(market_state, sizing_mult, bankroll, kalshi_client=None, n_reviews=0):
     """Find all individual threshold positions with positive expected value.
 
     When kalshi_client is provided, uses orderbook simulation for realistic
@@ -158,9 +158,24 @@ def _find_candidate_positions(market_state, sizing_mult, bankroll, kalshi_client
         no_cost = 1.0 - yes_bid if yes_bid > 0 else 1.0 - state["yes_price"]
         ticker = state["ticker"]
 
+        market_volume = state.get("volume") or 0
+        tier_min_edge, tier_enabled = config.min_edge_for(n_reviews, market_volume)
+        if not tier_enabled:
+            continue
+
+        # Sanity guard: extreme edge on liquid markets is almost certainly
+        # model error, not alpha.
+        liquid_block = (
+            config.SANITY_MAX_EDGE_ON_LIQUID > 0
+            and market_volume >= config.SANITY_LIQUID_VOLUME_MIN
+        )
+
         # BUY YES: cost = yes_ask, win if outcome = 1
         edge_yes = model_p - yes_ask
-        if edge_yes > config.MIN_EDGE and model_p >= config.MIN_WIN_PROB and yes_ask > 0:
+        if (edge_yes > tier_min_edge
+                and model_p >= config.MIN_WIN_PROB
+                and yes_ask > 0
+                and not (liquid_block and edge_yes > config.SANITY_MAX_EDGE_ON_LIQUID)):
             # Try orderbook simulation for realistic sizing
             ob_result = None
             if kalshi_client and ticker:
@@ -198,7 +213,10 @@ def _find_candidate_positions(market_state, sizing_mult, bankroll, kalshi_client
 
         # BUY NO: cost = no_cost, win if outcome = 0
         edge_no = (1 - model_p) - no_cost
-        if edge_no > config.MIN_EDGE and (1 - model_p) >= config.MIN_WIN_PROB and no_cost > 0 and no_cost < 1:
+        if (edge_no > tier_min_edge
+                and (1 - model_p) >= config.MIN_WIN_PROB
+                and no_cost > 0 and no_cost < 1
+                and not (liquid_block and edge_no > config.SANITY_MAX_EDGE_ON_LIQUID)):
             ob_result = None
             if kalshi_client and ticker:
                 ob_result = _simulate_position(

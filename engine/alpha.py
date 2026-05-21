@@ -44,7 +44,12 @@ def find_alpha(model_result, market_prices, bankroll=None, kalshi_client=None,
 
         edge = model_prob - yes_ask
 
-        if abs(edge) < config.MIN_EDGE:
+        market_volume = m.get("volume") or 0
+        tier_min_edge, tier_enabled = config.min_edge_for(n_reviews, market_volume)
+        if not tier_enabled:
+            continue
+
+        if abs(edge) < tier_min_edge:
             continue
 
         if edge > 0:
@@ -57,10 +62,17 @@ def find_alpha(model_result, market_prices, bankroll=None, kalshi_client=None,
             win_prob = 1.0 - model_prob
             edge = win_prob - no_ask
 
-        if edge < config.MIN_EDGE:
+        if edge < tier_min_edge:
             continue
 
         if win_prob < config.MIN_WIN_PROB:
+            continue
+
+        # Sanity guard: extreme edge on a liquid market is almost certainly
+        # model error, not alpha. The market knows things the model doesn't.
+        if (config.SANITY_MAX_EDGE_ON_LIQUID > 0
+                and edge > config.SANITY_MAX_EDGE_ON_LIQUID
+                and market_volume >= config.SANITY_LIQUID_VOLUME_MIN):
             continue
 
         ob_result = None
