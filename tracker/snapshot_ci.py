@@ -39,7 +39,25 @@ def take_snapshot():
     timestamp = datetime.now(timezone.utc).isoformat()
     snapshots = []
 
+    # Detect markets we haven't tracked before. Compare current event tickers
+    # against everything we've ever snapshotted in the repo-local jsonl.
+    seen_tickers = set()
+    if REPO_SNAPSHOT_FILE.exists():
+        with open(REPO_SNAPSHOT_FILE) as f:
+            for line in f:
+                try:
+                    s = json.loads(line)
+                    if s.get("event_ticker"):
+                        seen_tickers.add(s["event_ticker"])
+                except json.JSONDecodeError:
+                    continue
+    new_events = [e for e in events if e["event_ticker"] not in seen_tickers]
+
     print(f"Snapshotting {len(events)} active RT events at {timestamp[:19]}", flush=True)
+    if new_events:
+        print(f"  NEW markets detected ({len(new_events)}):", flush=True)
+        for e in new_events:
+            print(f"    + {e['event_ticker']:30} {e['movie_name']}", flush=True)
 
     for event in events:
         ticker = event["event_ticker"]
