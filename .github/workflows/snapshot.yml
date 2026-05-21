@@ -1,4 +1,4 @@
-name: Hourly Market Snapshot
+name: Market Snapshot (15 min)
 
 on:
   schedule:
