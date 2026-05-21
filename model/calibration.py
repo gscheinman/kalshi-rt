@@ -12,14 +12,25 @@ import math
 
 # Platt scaling params: (a, b) per review-count bucket
 # calibrated_p = 1 / (1 + exp(-(a * logit(raw_p) + b)))
-# Fitted from backtest optimization
+#
+# Refit 2026-05-21 under corrected prior (PRIOR_ALPHA=2.5, PRIOR_BETA=1.5).
+# The previous params were fit against the broken 88.9%-mean prior and were
+# compressing already-overconfident probabilities back toward 50%. With the
+# prior fixed, the raw model is closer to correctly calibrated and only
+# needs mild adjustment -- 'a' jumped from ~0.5 to ~0.7-1.05.
+#
+# Sample counts per bucket (from backtest/optimize.py --param platt):
+#   N=5:  70,813    N=10: 34,656    N=15: 21,299
+#   N=20: 15,257    N=25: 11,381    N=30:  9,177
+#
+# UNVALIDATED against Kalshi outcomes -- needs 20+ resolved markets to confirm.
 PLATT_PARAMS = {
-    5:  (0.5395, 0.7375),
-    10:  (0.4934, 0.649),
-    15:  (0.4725, 0.5146),
-    20:  (0.4938, 0.3656),
-    25:  (0.5334, 0.091),
-    30:  (0.5965, 0.0207),
+    5:  (0.6878, 0.7135),
+    10:  (0.7775, 0.5675),
+    15:  (0.9493, 0.3353),
+    20:  (0.9692, 0.2684),
+    25:  (0.9882, 0.2065),
+    30:  (1.0545, 0.1510),
 }
 
 

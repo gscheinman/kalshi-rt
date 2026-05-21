@@ -207,13 +207,20 @@ def resolve_event(event_ticker, actual_score):
 
 
 def resolve_all_closed():
-    """Auto-resolve any events past their close time by fetching current RT scores."""
+    """Auto-resolve any events past their close time by fetching current RT scores.
+
+    Pulls events in all statuses (open / closed / settled) so we catch markets
+    that Kalshi has already moved out of the default "open" list. Warns about
+    markets that are past close_time but still open (Kalshi delayed settlement).
+    """
     client = KalshiClient()
     mapper = TickerMapper()
-    events = client.get_rt_events()
+    events = client.get_rt_events(include_settled=True)
     now = datetime.now(timezone.utc)
 
     resolved_count = 0
+    stuck_open = []  # past close_time but Kalshi still has status=open
+
     for event in events:
         ticker = event["event_ticker"]
         movie = event["movie_name"]
@@ -234,6 +241,12 @@ def resolve_all_closed():
 
         if close_time > now:
             continue  # not yet closed
+
+        # If past close_time but Kalshi still says "open", flag it.
+        # Either Kalshi is late settling, or we picked it up between
+        # close and settle. Either way, log so we don't silently skip.
+        if event.get("status") == "open":
+            stuck_open.append((ticker, movie, close_time.isoformat()))
 
         # Check if we already resolved this
         snapshots = load_snapshots(event_ticker=ticker)
@@ -267,6 +280,12 @@ def resolve_all_closed():
         print("\nNo events ready to resolve.")
     else:
         print(f"\nResolved {resolved_count} events.")
+
+    if stuck_open:
+        print(f"\nWARNING: {len(stuck_open)} market(s) past close_time but still status=open:")
+        for ticker, movie, close_t in stuck_open:
+            print(f"  - {ticker:30} {movie}  (closed at {close_t})")
+        print("  Kalshi may be delayed. Re-run --settle-morning later or check manually.")
 
 
 def _merge_ci_snapshots():

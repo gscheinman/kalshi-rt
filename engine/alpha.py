@@ -68,11 +68,9 @@ def find_alpha(model_result, market_prices, bankroll=None, kalshi_client=None,
         if win_prob < config.MIN_WIN_PROB:
             continue
 
-        # Sanity guard: extreme edge on a liquid market is almost certainly
-        # model error, not alpha. The market knows things the model doesn't.
-        if (config.SANITY_MAX_EDGE_ON_LIQUID > 0
-                and edge > config.SANITY_MAX_EDGE_ON_LIQUID
-                and market_volume >= config.SANITY_LIQUID_VOLUME_MIN):
+        # Graded sanity guard: extreme edge is almost certainly model error.
+        # Tighter caps on thicker markets where consensus is more informed.
+        if config.sanity_blocks(edge, market_volume):
             continue
 
         ob_result = None

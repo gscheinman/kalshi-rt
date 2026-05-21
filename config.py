@@ -76,8 +76,9 @@ MIN_WIN_PROB = 0.40
 MIN_EDGE_BY_REVIEW_COUNT = [
     # (lo, hi, min_edge, trade_enabled)
     (0,    5,   0.99, False),  # too noisy, skip
-    (5,   40,   0.08, True),   # prime hunting ground, relaxed
-    (40,  80,   0.12, True),   # possible edge, tighter
+    (5,   40,   0.12, True),   # prime hunting ground -- start tight, loosen after
+                               # 10+ resolutions show real edge at 12% (then try 10%, then 8%)
+    (40,  80,   0.15, True),   # possible edge, tighter
     (80,  9999, 0.20, True),   # skeptical zone, only fire on huge edges
 ]
 
@@ -86,8 +87,20 @@ MIN_EDGE_BY_REVIEW_COUNT = [
 HIGH_VOLUME_THRESHOLD = 50_000
 HIGH_VOLUME_MIN_EDGE_BUMP = 0.05  # adds 5pp to the review-count tier's min_edge
 
-# Sanity guard: even with tiered filtering, an extreme edge claim on a
-# liquid market is almost certainly model error.
+# Sanity guard: extreme claimed edge is almost certainly model error.
+# Graded by market liquidity -- the more money in the market, the more
+# the consensus knows, so we demand even smaller "edges" before flagging
+# the claim as a model bug.
+# Format: (min_volume, max_edge_allowed). First match wins; higher
+# volume -> tighter cap. Set max_edge to 0 to disable a tier.
+SANITY_GRADED = [
+    (50_000, 0.10),   # thick markets: anything over 10pp is suspect
+    (5_000,  0.15),   # mid liquidity: 15pp cap
+    (0,      0.20),   # thin markets: 20pp cap (rare model errors only)
+]
+
+# Legacy single-threshold sanity check (kept for backwards compatibility,
+# but SANITY_GRADED takes precedence).
 SANITY_MAX_EDGE_ON_LIQUID = 0.15
 SANITY_LIQUID_VOLUME_MIN = 10_000
 
@@ -96,6 +109,7 @@ def min_edge_for(review_count, volume=0):
     """Return (min_edge, trade_enabled) for a given review count + volume.
 
     Used by alpha/portfolio engines to enforce tiered filtering.
+    Falls back to (1.0, False) for malformed input -- fail safe, no trade.
     """
     rc = review_count or 0
     for lo, hi, edge, enabled in MIN_EDGE_BY_REVIEW_COUNT:
@@ -103,7 +117,25 @@ def min_edge_for(review_count, volume=0):
             if volume and volume >= HIGH_VOLUME_THRESHOLD:
                 edge = edge + HIGH_VOLUME_MIN_EDGE_BUMP
             return edge, enabled
-    return MIN_EDGE, True
+    # Should never hit this -- tier table covers 0-9999. Fail safe if it does.
+    return 1.0, False
+
+
+def sanity_blocks(edge, volume):
+    """Return True if the claimed edge should be blocked as likely model error.
+
+    Graded by liquidity: thicker markets get tighter edge caps because the
+    consensus has incorporated more information.
+    """
+    if edge is None or edge < 0:
+        return False
+    vol = volume or 0
+    for vol_floor, max_edge in SANITY_GRADED:
+        if vol >= vol_floor:
+            if max_edge > 0 and edge > max_edge:
+                return True
+            return False
+    return False
 
 
 

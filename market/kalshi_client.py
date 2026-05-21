@@ -12,31 +12,42 @@ class KalshiClient:
         self.session = requests.Session()
         self.session.headers.update(HEADERS)
 
-    def get_rt_events(self):
-        """Get all active Rotten Tomatoes events on Kalshi."""
+    def get_rt_events(self, include_settled=False):
+        """Get all active Rotten Tomatoes events on Kalshi.
+
+        include_settled: also pull recently-settled events. Needed by the
+        settlement workflow because Kalshi removes settled markets from the
+        default "open" query within an hour or so of resolution.
+        """
         events = []
         seen_tickers = set()
+        statuses = ["open"]
+        if include_settled:
+            statuses.extend(["closed", "settled"])
         for prefix in ["KXRT"]:
-            cursor = None
-            while True:
-                params = {"limit": 200, "series_ticker": prefix, "status": "open"}
-                if cursor:
-                    params["cursor"] = cursor
-                resp = self._get("/events", params)
-                if not resp:
-                    break
-                batch = resp.get("events", [])
-                if not batch:
-                    break
-                for e in batch:
-                    title = e.get("title", "")
-                    ticker = e.get("event_ticker", "")
-                    if "rotten tomatoes" in title.lower() and ticker not in seen_tickers:
-                        seen_tickers.add(ticker)
-                        events.append(self._parse_event(e))
-                cursor = resp.get("cursor")
-                if not cursor:
-                    break
+            for status in statuses:
+                cursor = None
+                while True:
+                    params = {"limit": 200, "series_ticker": prefix, "status": status}
+                    if cursor:
+                        params["cursor"] = cursor
+                    resp = self._get("/events", params)
+                    if not resp:
+                        break
+                    batch = resp.get("events", [])
+                    if not batch:
+                        break
+                    for e in batch:
+                        title = e.get("title", "")
+                        ticker = e.get("event_ticker", "")
+                        if "rotten tomatoes" in title.lower() and ticker not in seen_tickers:
+                            seen_tickers.add(ticker)
+                            parsed = self._parse_event(e)
+                            parsed["status"] = status
+                            events.append(parsed)
+                    cursor = resp.get("cursor")
+                    if not cursor:
+                        break
         return events
 
     def get_markets(self, event_ticker):

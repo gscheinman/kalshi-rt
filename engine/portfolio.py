@@ -163,19 +163,12 @@ def _find_candidate_positions(market_state, sizing_mult, bankroll, kalshi_client
         if not tier_enabled:
             continue
 
-        # Sanity guard: extreme edge on liquid markets is almost certainly
-        # model error, not alpha.
-        liquid_block = (
-            config.SANITY_MAX_EDGE_ON_LIQUID > 0
-            and market_volume >= config.SANITY_LIQUID_VOLUME_MIN
-        )
-
         # BUY YES: cost = yes_ask, win if outcome = 1
         edge_yes = model_p - yes_ask
         if (edge_yes > tier_min_edge
                 and model_p >= config.MIN_WIN_PROB
                 and yes_ask > 0
-                and not (liquid_block and edge_yes > config.SANITY_MAX_EDGE_ON_LIQUID)):
+                and not config.sanity_blocks(edge_yes, market_volume)):
             # Try orderbook simulation for realistic sizing
             ob_result = None
             if kalshi_client and ticker:
@@ -216,7 +209,7 @@ def _find_candidate_positions(market_state, sizing_mult, bankroll, kalshi_client
         if (edge_no > tier_min_edge
                 and (1 - model_p) >= config.MIN_WIN_PROB
                 and no_cost > 0 and no_cost < 1
-                and not (liquid_block and edge_no > config.SANITY_MAX_EDGE_ON_LIQUID)):
+                and not config.sanity_blocks(edge_no, market_volume)):
             ob_result = None
             if kalshi_client and ticker:
                 ob_result = _simulate_position(
