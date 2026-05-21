@@ -25,6 +25,8 @@ import config
 
 SNAPSHOT_FILE = Path.home() / ".cache" / "kalshi-rt" / "snapshots" / "market_snapshots.jsonl"
 LEARNINGS_FILE = Path.home() / ".cache" / "kalshi-rt" / "market_learnings.json"
+# Repo-local copy so the CI settlement workflow commits learnings to git.
+REPO_LEARNINGS_FILE = Path(__file__).parent.parent / "data" / "market_learnings.json"
 
 
 def load_resolved_trades(snapshot_path=None):
@@ -242,11 +244,11 @@ def compute_learnings(snapshot_path=None):
         }
     learnings["review_count_performance"] = review_count_analysis
 
-    # Save
-    output_path = LEARNINGS_FILE
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    with open(output_path, "w") as f:
-        json.dump(learnings, f, indent=2)
+    # Save to both the local cache and the repo data dir so CI commits it.
+    for output_path in (LEARNINGS_FILE, REPO_LEARNINGS_FILE):
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        with open(output_path, "w") as f:
+            json.dump(learnings, f, indent=2)
 
     return learnings
 

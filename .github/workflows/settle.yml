@@ -1,0 +1,62 @@
+name: Monday Settlement
+
+on:
+  schedule:
+    # Kalshi RT markets settle Monday at 10 AM ET. Run at 15:30 UTC
+    # (11:30 AM EDT / 10:30 AM EST -- 30 min cushion after settlement).
+    # Two crons for skip resilience.
+    - cron: '30 15 * * 1'
+    - cron: '45 15 * * 1'
+  workflow_dispatch:  # Manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+# Only one settlement run at a time; later run waits so we don't lose updates.
+concurrency:
+  group: settle
+  cancel-in-progress: false
+
+jobs:
+  settle:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0  # full history so git pull --rebase works inside settle_morning
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Cache pip packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-settle
+          restore-keys: ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4 scipy numpy lxml
+
+      - name: Configure git for in-script pulls
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Run settlement workflow
+        run: python -m tracker.settlement --settle-morning
+
+      - name: Commit settlement data
+        run: |
+          git add data/snapshots.jsonl critic_database.csv critic_reviews.json data/market_learnings.json 2>/dev/null || true
+          # Only commit if there are changes
+          git diff --staged --quiet || git commit -m "settle: $(date -u '+%Y-%m-%d') Monday resolution"
+          git pull --rebase origin main || true
+          git push
