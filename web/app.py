@@ -379,6 +379,13 @@ def _compute_forecast(markets):
 
 
 def _check_alpha(summary, markets):
+    """Sidebar tomatometer-only check. Flags markets where the current RT
+    score is wildly different from what the market implies, AND there's
+    actual liquidity on the side we'd buy.
+
+    Returns only entries with positive expected edge and a reachable price
+    (< 95c) -- anything at 100c has no possible profit even if it wins.
+    """
     flags = []
     tomatometer = summary.get("tomatometer")
     if tomatometer is None:
@@ -387,19 +394,27 @@ def _check_alpha(summary, markets):
         t = m.get("threshold")
         if t is None:
             continue
-        yes_ask = m.get("yes_ask") or m.get("yes_price")
-        no_ask = (1.0 - m["yes_bid"]) if m.get("yes_bid") is not None else \
-                 (1.0 - m["yes_price"]) if m.get("yes_price") is not None else None
-        if yes_ask is None or no_ask is None:
-            continue
-        if tomatometer > t + 10 and yes_ask < 0.60:
+        yes_ask = m.get("yes_ask")
+        yes_bid = m.get("yes_bid")
+
+        # BUY YES: need an ask price, not at the cap, with real edge
+        if (yes_ask is not None and yes_ask < 0.95
+                and tomatometer > t + 10 and yes_ask < 0.60):
             edge = round(tomatometer - t - (yes_ask * 100), 1)
-            flags.append({"threshold": t, "direction": "BUY YES",
-                          "price": round(yes_ask * 100), "rt": tomatometer, "edge": edge})
-        elif tomatometer < t - 10 and (1.0 - yes_ask) > 0.40:
-            edge = round(t - tomatometer - (no_ask * 100), 1)
-            flags.append({"threshold": t, "direction": "BUY NO",
-                          "price": round(no_ask * 100), "rt": tomatometer, "edge": edge})
+            if edge > 0:
+                flags.append({"threshold": t, "direction": "BUY YES",
+                              "price": round(yes_ask * 100), "rt": tomatometer, "edge": edge})
+
+        # BUY NO: cost = 1 - yes_bid. If yes_bid is None or 0 there's no real
+        # NO offer (we'd be paying ~100c with no possible profit), so skip.
+        if yes_bid is not None and yes_bid > 0.05:
+            no_cost = 1.0 - yes_bid
+            if (no_cost < 0.95 and tomatometer < t - 10 and no_cost < 0.60):
+                edge = round(t - tomatometer - (no_cost * 100), 1)
+                if edge > 0:
+                    flags.append({"threshold": t, "direction": "BUY NO",
+                                  "price": round(no_cost * 100), "rt": tomatometer, "edge": edge})
+
     flags.sort(key=lambda x: abs(x.get("edge", 0)), reverse=True)
     return flags
 

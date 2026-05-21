@@ -105,16 +105,27 @@ SANITY_MAX_EDGE_ON_LIQUID = 0.15
 SANITY_LIQUID_VOLUME_MIN = 10_000
 
 
+def _coerce_float(v, default=0.0):
+    """Kalshi sometimes returns numbers as strings. Coerce safely."""
+    if v is None:
+        return default
+    try:
+        return float(v)
+    except (TypeError, ValueError):
+        return default
+
+
 def min_edge_for(review_count, volume=0):
     """Return (min_edge, trade_enabled) for a given review count + volume.
 
     Used by alpha/portfolio engines to enforce tiered filtering.
     Falls back to (1.0, False) for malformed input -- fail safe, no trade.
     """
-    rc = review_count or 0
+    rc = int(_coerce_float(review_count))
+    vol = _coerce_float(volume)
     for lo, hi, edge, enabled in MIN_EDGE_BY_REVIEW_COUNT:
         if lo <= rc < hi:
-            if volume and volume >= HIGH_VOLUME_THRESHOLD:
+            if vol and vol >= HIGH_VOLUME_THRESHOLD:
                 edge = edge + HIGH_VOLUME_MIN_EDGE_BUMP
             return edge, enabled
     # Should never hit this -- tier table covers 0-9999. Fail safe if it does.
@@ -127,9 +138,10 @@ def sanity_blocks(edge, volume):
     Graded by liquidity: thicker markets get tighter edge caps because the
     consensus has incorporated more information.
     """
-    if edge is None or edge < 0:
+    edge = _coerce_float(edge, default=-1)
+    if edge < 0:
         return False
-    vol = volume or 0
+    vol = _coerce_float(volume)
     for vol_floor, max_edge in SANITY_GRADED:
         if vol >= vol_floor:
             if max_edge > 0 and edge > max_edge:
