@@ -87,7 +87,10 @@ def take_snapshot(critic_db=None, kalshi=None, mapper=None):
             if summary:
                 ems_id = summary.get("ems_id")
                 if ems_id:
-                    reviews = scrape_reviews(ems_id, slug=rt_slug)
+                    reviews = scrape_reviews(
+                        ems_id, slug=rt_slug,
+                        expected_count=summary.get("review_count"),
+                    )
                     if reviews:
                         # Get close_time from first market for completion estimate
                         close_time = None

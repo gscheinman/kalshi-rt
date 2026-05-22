@@ -4,6 +4,7 @@ No Playwright needed -- plain HTTP requests to the JSON API.
 """
 import html as html_lib
 import json
+import os
 import time
 from datetime import date
 from pathlib import Path
@@ -17,8 +18,14 @@ HEADERS = {
 }
 REVIEW_API = "https://www.rottentomatoes.com/napi/rtcf/v1/movies/{ems_id}/reviews"
 
+# Cache TTL: reviews go stale during the active review window. RT can publish
+# 5-10 new reviews per hour after a screener. The snapshot workflow runs every
+# 15 min, so a 10-min TTL means each snapshot gets fresh data without hammering
+# RT (5 calls/hr per movie instead of 1/day).
+CACHE_TTL_SECONDS = 600  # 10 minutes
 
-def scrape_reviews(ems_id, slug="", max_pages=25):
+
+def scrape_reviews(ems_id, slug="", max_pages=25, expected_count=None, force_refresh=False):
     """
     Fetch critic reviews from the RT internal API.
 
@@ -27,16 +34,30 @@ def scrape_reviews(ems_id, slug="", max_pages=25):
     max_pages: max pagination requests (20 reviews per page). Default 25
         covers up to 500 reviews -- enough for any wide-release film.
         Loop exits early when RT signals hasNextPage=false.
+    expected_count: if provided, invalidate cache when cached review count
+        is significantly below this. Pass the review_count from
+        get_movie_summary() to keep snapshots in sync with RT's live count.
+    force_refresh: if True, bypass cache entirely.
 
     Returns list of review dicts.
     """
     CACHE_DIR.mkdir(parents=True, exist_ok=True)
     cache_key = slug.replace("/", "_") or ems_id
     cache_file = CACHE_DIR / f"{cache_key}_{date.today().isoformat()}.json"
-    if cache_file.exists():
+
+    if cache_file.exists() and not force_refresh:
+        age = time.time() - os.path.getmtime(cache_file)
         with open(cache_file) as f:
             cached = json.load(f)
-            if cached:
+        if cached:
+            stale_by_age = age > CACHE_TTL_SECONDS
+            # If RT reports notably more reviews than we have cached, refetch.
+            # Allow a 2-review slop since RT pagination can be off-by-one.
+            stale_by_count = (
+                expected_count is not None
+                and len(cached) + 2 < expected_count
+            )
+            if not stale_by_age and not stale_by_count:
                 return cached
 
     url = REVIEW_API.format(ems_id=ems_id)

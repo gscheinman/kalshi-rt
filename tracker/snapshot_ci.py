@@ -92,7 +92,10 @@ def take_snapshot():
                 if summary:
                     ems_id = summary.get("ems_id")
                     if ems_id:
-                        reviews = scrape_reviews(ems_id, slug=rt_slug)
+                        reviews = scrape_reviews(
+                            ems_id, slug=rt_slug,
+                            expected_count=summary.get("review_count"),
+                        )
                         if reviews:
                             close_time = markets[0].get("close_time") if markets else None
                             # Include actual Kalshi thresholds for granular brackets

@@ -92,7 +92,10 @@ def api_movie(event_ticker):
     # Auto-scrape reviews if the movie has an EMS ID
     reviews = []
     if ems_id:
-        reviews = scrape_reviews(ems_id, slug=rt_slug or "")
+        reviews = scrape_reviews(
+            ems_id, slug=rt_slug or "",
+            expected_count=summary.get("review_count") if summary else None,
+        )
 
     close_time = markets[0].get("close_time") if markets else None
     release_date = summary.get("release_date") if summary else None

@@ -94,7 +94,10 @@ def run_pass(critic_db, kalshi, mapper, live=False, bankroll=None):
         if not ems_id:
             continue
 
-        reviews = scrape_reviews(ems_id, slug=rt_slug)
+        reviews = scrape_reviews(
+            ems_id, slug=rt_slug,
+            expected_count=summary.get("review_count"),
+        )
         if not reviews:
             continue
 
