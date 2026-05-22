@@ -178,6 +178,25 @@
     .alpha-pill.buy-yes { background: var(--green-dim); color: var(--green); }
     .alpha-pill.buy-no { background: var(--red-dim); color: var(--red); }
 
+    .tier-pill {
+      font-size: 11px;
+      font-weight: 600;
+      padding: 3px 10px;
+      border-radius: 20px;
+      white-space: nowrap;
+      letter-spacing: 0.3px;
+    }
+    .tier-pill.active    { background: rgba(74, 222, 128, 0.15); color: #4ade80; }
+    .tier-pill.skeptical { background: rgba(251, 191, 36, 0.15); color: #fbbf24; }
+    .tier-pill.blocked   { background: rgba(148, 163, 184, 0.15); color: #94a3b8; }
+
+    .tier-reason {
+      font-size: 11px;
+      color: var(--text2);
+      margin-top: 4px;
+      font-style: italic;
+    }
+
     /* Movie Detail Panel */
     .panel-overlay {
       position: fixed;
@@ -622,6 +641,15 @@
           return `<span class="alpha-pill ${cls}">${a.direction} Above ${a.threshold}% at ${a.price}c</span>`;
         }).join('');
 
+        const tier = m.tier || {};
+        const tierStatus = tier.status || 'blocked';
+        const tierPill = tier.label
+          ? `<span class="tier-pill ${tierStatus}">${tier.label}</span>`
+          : '';
+        const tierReason = tier.reason
+          ? `<div class="tier-reason">${esc(tier.reason)}</div>`
+          : '';
+
         return `
           <div class="market-card ${alphaCount ? 'has-alpha' : ''}" data-ticker="${m.event_ticker}" onclick="openMovie('${m.event_ticker}')">
             <div class="movie-info">
@@ -630,7 +658,9 @@
                 <span class="meta-tag" style="color:${tomatoColor};font-weight:600">${tomato}</span>
                 <span class="meta-tag">Reviews <span class="val">${m.review_count || '--'}</span></span>
                 <span class="meta-tag">Settles <span class="val">${settleStr}</span></span>
+                ${tierPill}
               </div>
+              ${tierReason}
               ${pills ? `<div class="alpha-pills">${pills}</div>` : ''}
               ${alphaCount > 3 ? `<div style="font-size:12px;color:var(--text2);margin-top:4px">+${alphaCount - 3} more signals</div>` : ''}
             </div>

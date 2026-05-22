@@ -3,6 +3,7 @@ import os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
 from flask import Flask, render_template, request, jsonify
+import config
 from data.critics import CriticDatabase
 from model.distribution import predict_distribution
 from model.calibration import calibrate_thresholds
@@ -46,6 +47,10 @@ def api_scan():
 
         best_edge = max((abs(a.get("edge", 0)) for a in alpha_flags), default=0) if alpha_flags else 0
 
+        # Total event volume (sum across all thresholds) for tier classification
+        total_volume = sum(float(m.get("volume") or 0) for m in markets)
+        tier = _classify_tier(review_count, total_volume)
+
         results.append({
             "event_ticker": event["event_ticker"],
             "movie_name": event["movie_name"],
@@ -60,6 +65,8 @@ def api_scan():
             "release_date": release_date,
             "close_time": close_time,
             "best_edge": best_edge,
+            "total_volume": round(total_volume, 0),
+            "tier": tier,
         })
 
     results.sort(key=lambda x: x["close_time"] or "9999")
@@ -85,7 +92,7 @@ def api_movie(event_ticker):
     # Auto-scrape reviews if the movie has an EMS ID
     reviews = []
     if ems_id:
-        reviews = scrape_reviews(ems_id, slug=rt_slug or "", max_pages=5)
+        reviews = scrape_reviews(ems_id, slug=rt_slug or "")
 
     close_time = markets[0].get("close_time") if markets else None
     release_date = summary.get("release_date") if summary else None
@@ -376,6 +383,54 @@ def _compute_forecast(markets):
         return priced[0][0]
 
     return None
+
+
+def _classify_tier(review_count, total_volume):
+    """Tell the user why a market will or won't generate trades.
+
+    Returns a dict with: label, color hint, min_edge required (as %),
+    sanity cap (as %), and a one-line human reason.
+    """
+    rc = int(review_count or 0)
+    vol = float(total_volume or 0)
+    min_edge, enabled = config.min_edge_for(rc, vol)
+    # Find which sanity cap applies
+    sanity_cap = None
+    for vol_floor, max_edge in config.SANITY_GRADED:
+        if vol >= vol_floor:
+            sanity_cap = max_edge
+            break
+
+    if not enabled:
+        return {
+            "label": "Waiting for reviews",
+            "status": "blocked",
+            "reason": f"Need 5+ reviews to enter trading window (have {rc})",
+            "min_edge_pct": None,
+            "sanity_cap_pct": None,
+        }
+
+    if rc < 40:
+        zone = "Prime hunting (5-40 reviews)"
+        status = "active"
+    elif rc < 80:
+        zone = "Secondary (40-80 reviews)"
+        status = "active"
+    else:
+        zone = "Skeptical (80+ reviews, mostly efficient)"
+        status = "skeptical"
+
+    vol_note = ""
+    if vol >= config.HIGH_VOLUME_THRESHOLD:
+        vol_note = f" + ${int(vol/1000)}K vol bump"
+
+    return {
+        "label": zone,
+        "status": status,
+        "reason": f"Trades need >{int(min_edge*100)}% edge{vol_note}",
+        "min_edge_pct": round(min_edge * 100, 1),
+        "sanity_cap_pct": round(sanity_cap * 100, 1) if sanity_cap else None,
+    }
 
 
 def _check_alpha(summary, markets):

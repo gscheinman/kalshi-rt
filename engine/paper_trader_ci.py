@@ -112,7 +112,7 @@ def run_paper_pass():
             if not ems_id:
                 continue
 
-            reviews = scrape_reviews(ems_id, slug=rt_slug, max_pages=5)
+            reviews = scrape_reviews(ems_id, slug=rt_slug)
             if not reviews:
                 continue
 

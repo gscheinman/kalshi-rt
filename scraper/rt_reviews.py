@@ -18,13 +18,15 @@ HEADERS = {
 REVIEW_API = "https://www.rottentomatoes.com/napi/rtcf/v1/movies/{ems_id}/reviews"
 
 
-def scrape_reviews(ems_id, slug="", max_pages=5):
+def scrape_reviews(ems_id, slug="", max_pages=25):
     """
     Fetch critic reviews from the RT internal API.
 
     ems_id: the EMS ID from the movie's main page (get via get_movie_summary)
     slug: used for cache file naming only
-    max_pages: max pagination requests (20 reviews per page)
+    max_pages: max pagination requests (20 reviews per page). Default 25
+        covers up to 500 reviews -- enough for any wide-release film.
+        Loop exits early when RT signals hasNextPage=false.
 
     Returns list of review dicts.
     """
