@@ -14,6 +14,7 @@ on:
 
 permissions:
   contents: write
+  actions: write   # needed to trigger the settle workflow on settlement days
 
 # Prevent two snapshot runs from racing on git push. Newer run cancels older
 # if they overlap, since the newer snapshot supersedes the older one anyway.
@@ -61,3 +62,44 @@ jobs:
           # Pull with rebase to handle concurrent pushes from other workflows
           git pull --rebase origin main || true
           git push
+
+      # Reliable settlement trigger. GitHub's weekly cron silently skipped
+      # the settle.yml run on 2026-05-25. Instead of relying on the cron,
+      # the snapshot workflow (which fires every 15 min and is verified
+      # reliable) detects settlement conditions and triggers settle.yml
+      # via workflow_dispatch. The settle workflow's concurrency group
+      # prevents duplicate runs from queuing up.
+      - name: Detect settlement-day conditions
+        id: detect_settlement
+        run: |
+          DOW=$(date -u +%u)              # 1=Mon ... 7=Sun
+          HOUR=$(date -u +%-H)            # 0-23 (UTC)
+          MIN=$(date -u +%-M)
+          # Window: Monday 14:30 UTC (10:30 AM ET / 11:30 EDT) through 18:00 UTC.
+          # Kalshi settles RT markets at 14:00 UTC; we give a 30-min cushion.
+          if [ "$DOW" = "1" ] && [ "$HOUR" -ge 14 ] && [ "$HOUR" -lt 18 ]; then
+            if [ "$HOUR" -gt 14 ] || [ "$MIN" -ge 30 ]; then
+              echo "in_window=true" >> "$GITHUB_OUTPUT"
+              echo "Settlement window active (Mon $HOUR:$MIN UTC)"
+            fi
+          fi
+
+      - name: Trigger settlement workflow if needed
+        if: steps.detect_settlement.outputs.in_window == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Only trigger if no settle.yml run today is succeeded OR still running.
+          # The settle workflow's concurrency group would queue duplicates, but
+          # we'd rather avoid even queuing them to keep Actions logs clean.
+          TODAY=$(date -u +%Y-%m-%d)
+          ACTIVE_OR_DONE=$(gh run list --workflow=settle.yml \
+            --created ">=$TODAY" --limit 10 \
+            --json status,conclusion -q \
+            '[.[] | select(.status=="in_progress" or .status=="queued" or .conclusion=="success")] | length')
+          if [ "$ACTIVE_OR_DONE" = "0" ]; then
+            echo "No active or successful settle.yml run today -- triggering."
+            gh workflow run settle.yml || echo "(workflow_dispatch may have failed; will retry next snapshot)"
+          else
+            echo "settle.yml already active/succeeded today ($ACTIVE_OR_DONE runs). Skipping."
+          fi
