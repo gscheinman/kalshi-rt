@@ -62,6 +62,41 @@ class KalshiClient:
                 markets.append(parsed)
         return sorted(markets, key=lambda x: x["threshold"] or 0)
 
+    def get_settled_score(self, event_ticker):
+        """Derive the canonical settlement score for an event from Kalshi's
+        resolved markets. Kalshi is the source of truth -- using RT live
+        risks reading a post-settlement drift.
+
+        For an "Above T%" market, YES resolves when final > T, NO when <= T.
+        The settlement score is between max(YES thresholds) and min(NO thresholds).
+        Returns the score (or None if not derivable yet).
+        """
+        resp = self._get("/markets", {
+            "event_ticker": event_ticker, "status": "settled", "limit": 50,
+        })
+        if not resp:
+            return None
+        import re
+        yes_thresholds = []
+        no_thresholds = []
+        for m in resp.get("markets", []):
+            ticker = m.get("ticker", "")
+            result = m.get("result", "")
+            match = re.search(r"-(\d+)$", ticker)
+            if not match:
+                continue
+            t = int(match.group(1))
+            if result == "yes":
+                yes_thresholds.append(t)
+            elif result == "no":
+                no_thresholds.append(t)
+        if not yes_thresholds or not no_thresholds:
+            return None
+        # Settlement score sits between max(YES) and min(NO). Pick min(NO)
+        # because RT reports integer percentages and "Above 62" resolving NO
+        # means score <= 62, so the integer score is min(NO).
+        return min(no_thresholds)
+
     def _is_rt_event(self, ticker, title):
         ticker_upper = ticker.upper()
         title_lower = title.lower()

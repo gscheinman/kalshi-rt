@@ -254,25 +254,32 @@ def resolve_all_closed():
         if not unresolved:
             continue
 
-        # Get current RT score
-        rt_slug = mapper.get_rt_slug(event)
-        if not rt_slug:
-            print(f"  {movie}: no RT slug, skipping")
-            continue
+        # Prefer Kalshi-derived settlement score over RT live. Kalshi is the
+        # source of truth -- RT can drift in the hours between Kalshi's 14:00
+        # UTC settlement moment and when this script runs.
+        kalshi_score = client.get_settled_score(ticker)
+        if kalshi_score is not None:
+            score = kalshi_score
+            review_count = None  # Kalshi doesn't report this
+            print(f"\n  {movie}: closed, Kalshi-derived settlement score = {score}%")
+        else:
+            # Fallback to RT live if Kalshi hasn't published settlement results yet.
+            rt_slug = mapper.get_rt_slug(event)
+            if not rt_slug:
+                print(f"  {movie}: no RT slug and no Kalshi settlement yet, skipping")
+                continue
+            summary = get_movie_summary(rt_slug)
+            if not summary or summary.get("tomatometer") is None:
+                print(f"  {movie}: no RT score available")
+                continue
+            score = summary["tomatometer"]
+            review_count = summary.get("review_count", 0)
+            if review_count < 10:
+                print(f"  {movie}: only {review_count} reviews, skipping (need 10+)")
+                continue
+            print(f"\n  {movie}: closed, RT live fallback score = {score}% "
+                  f"({review_count} reviews) -- Kalshi settlement not yet published")
 
-        summary = get_movie_summary(rt_slug)
-        if not summary or summary.get("tomatometer") is None:
-            print(f"  {movie}: no RT score available")
-            continue
-
-        score = summary["tomatometer"]
-        review_count = summary.get("review_count", 0)
-
-        if review_count < 10:
-            print(f"  {movie}: only {review_count} reviews, skipping (need 10+)")
-            continue
-
-        print(f"\n  {movie}: closed, RT score = {score}% ({review_count} reviews)")
         n = resolve_event(ticker, score)
         resolved_count += 1
 
