@@ -878,7 +878,9 @@
       el.innerHTML = '<div class="loading"><div class="spinner"></div><p style="margin-top:12px">Loading paper trades...</p></div>';
 
       const resp = await fetch('/api/paper-trades');
-      const trades = await resp.json();
+      const payload = await resp.json();
+      const trades = payload.trades || [];
+      const summary = payload.summary || {};
 
       if (!trades.length) {
         el.innerHTML = '<div class="empty-state"><h3>No paper trades yet</h3><p>Run the paper trader to start generating simulated positions.</p></div>';
@@ -890,58 +892,98 @@
       const totalPayout = trades.reduce((s, t) => s + (t.payout_if_correct || 0), 0);
       const winning = trades.filter(t => t.status === 'winning').length;
       const losing = trades.filter(t => t.status === 'losing').length;
-      const pending = trades.filter(t => t.status === 'pending').length;
+      const realizedPnl = summary.realized_pnl || 0;
+      const wins = summary.wins || 0;
+      const losses = summary.losses || 0;
 
-      // Group by movie
+      // Group by movie. Settled groups float to the bottom so the live view stays prominent.
       const byMovie = {};
       trades.forEach(t => {
         const key = t.event_ticker || t.movie;
-        if (!byMovie[key]) byMovie[key] = { movie: t.movie, ticker: key, trades: [], tomato: t.current_tomatometer, reviewCount: t.current_review_count };
+        if (!byMovie[key]) byMovie[key] = {
+          movie: t.movie, ticker: key, trades: [],
+          tomato: t.current_tomatometer, reviewCount: t.current_review_count,
+          settled: false, settledScore: null, realizedPnl: 0,
+        };
         byMovie[key].trades.push(t);
         if (t.current_tomatometer !== null) byMovie[key].tomato = t.current_tomatometer;
         if (t.current_review_count) byMovie[key].reviewCount = t.current_review_count;
+        if (t.settled) {
+          byMovie[key].settled = true;
+          byMovie[key].settledScore = t.settled_score;
+          byMovie[key].realizedPnl += (t.realized_pnl || 0);
+        }
       });
+
+      const pnlColor = realizedPnl >= 0 ? 'var(--green)' : 'var(--red)';
+      const pnlSign = realizedPnl >= 0 ? '+' : '';
 
       let html = `
         <div class="paper-summary">
+          <div class="stat-box">
+            <div class="label">Realized P&L</div>
+            <div class="value" style="color:${pnlColor}">${pnlSign}$${realizedPnl.toFixed(2)}</div>
+            <div style="font-size:11px;color:var(--text2);margin-top:2px">${wins}W / ${losses}L settled</div>
+          </div>
+          <div class="stat-box">
+            <div class="label">Pending Trades</div>
+            <div class="value">${summary.pending || 0}</div>
+            <div style="font-size:11px;color:var(--text2);margin-top:2px">
+              <span style="color:var(--green)">${winning} winning</span> /
+              <span style="color:var(--red)">${losing} losing</span>
+            </div>
+          </div>
           <div class="stat-box">
             <div class="label">Total Deployed</div>
             <div class="value">$${totalSpend.toFixed(0)}</div>
           </div>
           <div class="stat-box">
-            <div class="label">Max Payout</div>
+            <div class="label">Max Pending Payout</div>
             <div class="value" style="color:var(--green)">$${totalPayout.toFixed(0)}</div>
-          </div>
-          <div class="stat-box">
-            <div class="label">Positions</div>
-            <div class="value">${trades.length}</div>
-          </div>
-          <div class="stat-box">
-            <div class="label">Status</div>
-            <div class="value" style="font-size:15px">
-              <span style="color:var(--green)">${winning}W</span>
-              <span style="color:var(--red);margin-left:4px">${losing}L</span>
-              <span style="color:var(--text2);margin-left:4px">${pending}P</span>
-            </div>
           </div>
         </div>
       `;
 
-      for (const [key, group] of Object.entries(byMovie)) {
-        const tomatoStr = group.tomato !== null ? `${group.tomato}%` : '--';
-        const tomatoColor = group.tomato !== null ? (group.tomato >= 60 ? 'var(--green)' : 'var(--red)') : 'var(--text2)';
-        const groupSpend = group.trades.reduce((s, t) => s + (t.suggested_size || 0), 0);
-        const groupPayout = group.trades.reduce((s, t) => s + (t.payout_if_correct || 0), 0);
+      // Sort groups: pending (settled=false) first, then settled
+      const sortedGroups = Object.entries(byMovie).sort((a, b) => {
+        if (a[1].settled !== b[1].settled) return a[1].settled ? 1 : -1;
+        return 0;
+      });
 
-        html += `
-          <div class="paper-group-header">
-            <h4>${esc(group.movie)}</h4>
-            <div>
-              <span class="rt-live" style="color:${tomatoColor}">RT: ${tomatoStr}</span>
-              <span style="color:var(--text2);margin-left:12px;font-size:13px">${group.reviewCount || 0} reviews</span>
-              <span style="color:var(--text2);margin-left:12px;font-size:13px">$${groupSpend.toFixed(0)} deployed</span>
+      for (const [key, group] of sortedGroups) {
+        const groupSpend = group.trades.reduce((s, t) => s + (t.suggested_size || 0), 0);
+
+        let header;
+        if (group.settled) {
+          const pnlClr = group.realizedPnl >= 0 ? 'var(--green)' : 'var(--red)';
+          const pnlSgn = group.realizedPnl >= 0 ? '+' : '';
+          header = `
+            <div class="paper-group-header">
+              <h4>${esc(group.movie)} <span style="font-size:12px;color:var(--text2);font-weight:400;margin-left:8px">SETTLED</span></h4>
+              <div>
+                <span style="font-weight:600">Final: ${group.settledScore}%</span>
+                <span style="color:var(--text2);margin-left:12px;font-size:13px">$${groupSpend.toFixed(0)} deployed</span>
+                <span style="margin-left:12px;font-weight:700;color:${pnlClr}">${pnlSgn}$${group.realizedPnl.toFixed(2)}</span>
+              </div>
             </div>
-          </div>
+          `;
+        } else {
+          const tomatoStr = group.tomato !== null && group.tomato !== undefined ? `${group.tomato}%` : '--';
+          const tomatoColor = group.tomato !== null && group.tomato !== undefined ? (group.tomato >= 60 ? 'var(--green)' : 'var(--red)') : 'var(--text2)';
+          const groupPayout = group.trades.reduce((s, t) => s + (t.payout_if_correct || 0), 0);
+          header = `
+            <div class="paper-group-header">
+              <h4>${esc(group.movie)}</h4>
+              <div>
+                <span class="rt-live" style="color:${tomatoColor}">RT: ${tomatoStr}</span>
+                <span style="color:var(--text2);margin-left:12px;font-size:13px">${group.reviewCount || 0} reviews</span>
+                <span style="color:var(--text2);margin-left:12px;font-size:13px">$${groupSpend.toFixed(0)} deployed</span>
+              </div>
+            </div>
+          `;
+        }
+
+        html += header + `
           <table class="paper-table">
             <thead>
               <tr>
@@ -950,7 +992,7 @@
                 <th>Fill Price</th>
                 <th>Contracts</th>
                 <th>Cost</th>
-                <th>Payout if Win</th>
+                <th>${group.settled ? 'Realized P&L' : 'Payout if Win'}</th>
                 <th>Edge</th>
                 <th>Status</th>
               </tr>
@@ -961,9 +1003,36 @@
         for (const t of group.trades) {
           const date = t.timestamp ? new Date(t.timestamp).toLocaleDateString('en-US', {month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit'}) : '--';
           const dirClass = t.direction === 'BUY YES' ? 'yes' : 'no';
-          const statusClass = t.status === 'winning' ? 'status-winning' : t.status === 'losing' ? 'status-losing' : 'status-pending';
-          const statusIcon = t.status === 'winning' ? '+' : t.status === 'losing' ? '-' : '?';
+
+          // Status display: settled trades show definitive WON/LOST in bright color
+          let statusClass, statusLabel;
+          if (t.status === 'won') {
+            statusClass = 'status-winning';
+            statusLabel = '✓ WON';
+          } else if (t.status === 'lost') {
+            statusClass = 'status-losing';
+            statusLabel = '✗ LOST';
+          } else if (t.status === 'winning') {
+            statusClass = 'status-winning';
+            statusLabel = '+ winning';
+          } else if (t.status === 'losing') {
+            statusClass = 'status-losing';
+            statusLabel = '- losing';
+          } else {
+            statusClass = 'status-pending';
+            statusLabel = '? pending';
+          }
           const ob = t.ob_simulated ? ' (OB)' : '';
+
+          // P&L cell: settled trades show actual realized; pending show max payout if win
+          let pnlCell;
+          if (t.settled) {
+            const c = t.realized_pnl >= 0 ? 'var(--green)' : 'var(--red)';
+            const s = t.realized_pnl >= 0 ? '+' : '';
+            pnlCell = `<td style="color:${c};font-weight:600">${s}$${(t.realized_pnl || 0).toFixed(2)}</td>`;
+          } else {
+            pnlCell = `<td style="color:var(--green);font-weight:600">$${(t.payout_if_correct || 0).toFixed(2)}</td>`;
+          }
 
           html += `
             <tr>
@@ -972,9 +1041,9 @@
               <td>${t.avg_fill}c${ob}</td>
               <td>${typeof t.contracts === 'number' ? t.contracts.toFixed(0) : t.contracts}</td>
               <td>$${(t.suggested_size || 0).toFixed(2)}</td>
-              <td style="color:var(--green);font-weight:600">$${(t.payout_if_correct || 0).toFixed(2)}</td>
+              ${pnlCell}
               <td>${t.edge ? (t.edge > 0 ? '+' : '') + t.edge + '%' : '--'}</td>
-              <td><span class="${statusClass}">${statusIcon} ${t.status}</span></td>
+              <td><span class="${statusClass}">${statusLabel}</span></td>
             </tr>
           `;
         }

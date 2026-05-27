@@ -77,6 +77,8 @@ jobs:
             EDGE=$(echo "$line"     | sed -nE 's/.*best_edge=(-?[0-9.]+).*/\1/p')
             TITLE="First reviews detected: $MOVIE ($TICKER)"
             BODY=$(cat <<EOF
+          @gscheinman heads up:
+
           The snapshot pipeline just observed the first critic reviews on RT for **$MOVIE** (\`$TICKER\`). This market has entered the active trading window.
 
           - Reviews scraped: **$NREV**

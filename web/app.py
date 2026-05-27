@@ -233,50 +233,68 @@ def api_history():
 
 
 def _load_all_trades():
-    """Merge paper trades from local cache and CI repo file, deduped."""
+    """Load paper trades from the CI repo file (data/paper_trades.jsonl).
+
+    The dashboard intentionally ignores the local ~/.cache trades file because
+    it contains legacy/test entries from early development (pre-CI). The CI
+    file is the canonical record of trades the production system actually made.
+    """
     import json
     from pathlib import Path
 
-    local_trades = load_local_trades()
-
-    # Also load CI trades from repo-local data/paper_trades.jsonl
     ci_file = Path(__file__).parent.parent / "data" / "paper_trades.jsonl"
-    ci_trades = []
+    trades = []
     if ci_file.exists():
         with open(ci_file) as f:
             for line in f:
                 line = line.strip()
                 if line:
                     try:
-                        ci_trades.append(json.loads(line))
+                        trades.append(json.loads(line))
                     except json.JSONDecodeError:
                         pass
+    return trades
 
-    # Dedup by (timestamp, event_ticker, threshold, direction)
-    seen = set()
-    merged = []
-    for t in local_trades + ci_trades:
-        key = (t.get("timestamp", ""), t.get("event_ticker", ""),
-               t.get("threshold", 0), t.get("direction", ""))
-        if key not in seen:
-            seen.add(key)
-            merged.append(t)
 
-    return merged
+def _load_settlements():
+    """Build a {event_ticker: actual_score} map from resolved snapshots.
+    Used to mark paper trades as settled with definitive win/loss."""
+    settlements = {}
+    snap_file = os.path.join(os.path.dirname(__file__), "..", "data", "snapshots.jsonl")
+    if not os.path.exists(snap_file):
+        return settlements
+    try:
+        import json as _json
+        with open(snap_file) as f:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    s = _json.loads(line)
+                except _json.JSONDecodeError:
+                    continue
+                if s.get("resolved") and s.get("actual_score") is not None:
+                    settlements[s["event_ticker"]] = s["actual_score"]
+    except IOError:
+        pass
+    return settlements
 
 
 @app.route("/api/paper-trades")
 def api_paper_trades():
-    """Return all paper trades with current RT scores for the dashboard."""
+    """Return all paper trades with current RT scores + settlement status for the dashboard."""
     trades = _load_all_trades()
     if not trades:
-        return jsonify([])
+        return jsonify({"trades": [], "summary": {"realized_pnl": 0, "wins": 0, "losses": 0, "pending": 0}})
 
-    # Group trades by event for efficient RT lookups
+    settlements = _load_settlements()
+
+    # Group trades by event for efficient RT lookups (skip settled events)
     events_seen = {}
     for t in trades:
         ticker = t.get("event_ticker", "")
-        if ticker and ticker not in events_seen:
+        if ticker and ticker not in events_seen and ticker not in settlements:
             slug = t.get("rt_slug", "")
             summary = None
             if slug:
@@ -291,16 +309,20 @@ def api_paper_trades():
 
     # Enrich each trade with current RT data + computed fields
     enriched = []
+    realized_pnl = 0.0
+    wins = losses = pending = 0
     for t in trades:
         ticker = t.get("event_ticker", "")
         rt_data = events_seen.get(ticker, {})
         current_tomato = rt_data.get("tomatometer")
+        settled_score = settlements.get(ticker)
 
         avg_fill = t.get("avg_fill", 0)  # in cents
         cost_per = avg_fill / 100.0 if avg_fill else 0
         contracts = t.get("contracts", 0)
         direction = t.get("direction", "")
         threshold = t.get("threshold", 0)
+        size = t.get("suggested_size", 0)
 
         # Compute payout if correct
         if cost_per > 0 and cost_per < 1 and contracts > 0:
@@ -310,13 +332,36 @@ def api_paper_trades():
         else:
             payout_if_correct = 0
 
-        # Determine if currently winning based on live tomatometer
+        # Determine status:
+        #  - "won" / "lost": market is settled, definitive outcome
+        #  - "winning" / "losing": still active, based on live tomatometer
+        #  - "pending": active but no current score yet
         status = "pending"
-        if current_tomato is not None:
+        realized_pnl_trade = 0
+        if settled_score is not None:
+            if direction == "BUY YES":
+                won = settled_score > threshold
+            elif direction == "BUY NO":
+                won = settled_score <= threshold
+            else:
+                won = False
+            if won:
+                status = "won"
+                realized_pnl_trade = payout_if_correct
+                wins += 1
+            else:
+                status = "lost"
+                realized_pnl_trade = -round(size, 2)
+                losses += 1
+            realized_pnl += realized_pnl_trade
+        elif current_tomato is not None:
             if direction == "BUY YES":
                 status = "winning" if current_tomato > threshold else "losing"
             elif direction == "BUY NO":
                 status = "winning" if current_tomato <= threshold else "losing"
+            pending += 1
+        else:
+            pending += 1
 
         enriched.append({
             "timestamp": t.get("timestamp", ""),
@@ -326,7 +371,7 @@ def api_paper_trades():
             "threshold": threshold,
             "avg_fill": avg_fill,
             "contracts": contracts,
-            "suggested_size": t.get("suggested_size", 0),
+            "suggested_size": size,
             "edge": t.get("edge", 0),
             "win_prob": t.get("win_prob", 0),
             "model_mean": t.get("model_mean", 0),
@@ -337,13 +382,25 @@ def api_paper_trades():
             "current_review_count": rt_data.get("review_count", 0),
             "payout_if_correct": payout_if_correct,
             "status": status,
+            "settled": settled_score is not None,
+            "settled_score": settled_score,
+            "realized_pnl": round(realized_pnl_trade, 2),
             "live": t.get("live", False),
             "spread_id": t.get("spread_id"),
             "ob_simulated": t.get("ob_simulated", False),
         })
 
     enriched.reverse()  # newest first
-    return jsonify(enriched)
+    return jsonify({
+        "trades": enriched,
+        "summary": {
+            "realized_pnl": round(realized_pnl, 2),
+            "wins": wins,
+            "losses": losses,
+            "pending": pending,
+            "total_trades": len(enriched),
+        },
+    })
 
 
 def _guess_slug(movie_name):
