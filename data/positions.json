@@ -101,5 +101,18 @@
       "avg_fill": 13.8,
       "contracts": 254.0
     }
+  ],
+  "KXRT-PRE": [
+    {
+      "timestamp": "2026-05-27T18:35:34.986161+00:00",
+      "market_ticker": "KXRT-PRE-85",
+      "direction": "BUY YES",
+      "threshold": 85,
+      "model_prob": 41.9,
+      "edge": 17.8,
+      "suggested_size": 50.0,
+      "avg_fill": 24.1,
+      "contracts": 207.4
+    }
   ]
 }
