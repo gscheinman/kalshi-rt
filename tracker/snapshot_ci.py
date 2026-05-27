@@ -41,7 +41,10 @@ def take_snapshot():
 
     # Detect markets we haven't tracked before. Compare current event tickers
     # against everything we've ever snapshotted in the repo-local jsonl.
+    # Also build a set of tickers that have ever had reviews tracked so we
+    # can notify on the 0-reviews -> first-reviews transition.
     seen_tickers = set()
+    ever_had_reviews = set()
     if REPO_SNAPSHOT_FILE.exists():
         with open(REPO_SNAPSHOT_FILE) as f:
             for line in f:
@@ -49,6 +52,9 @@ def take_snapshot():
                     s = json.loads(line)
                     if s.get("event_ticker"):
                         seen_tickers.add(s["event_ticker"])
+                        n = ((s.get("model") or {}).get("n_reviews")) or 0
+                        if n > 0:
+                            ever_had_reviews.add(s["event_ticker"])
                 except json.JSONDecodeError:
                     continue
     new_events = [e for e in events if e["event_ticker"] not in seen_tickers]
@@ -58,6 +64,11 @@ def take_snapshot():
         print(f"  NEW markets detected ({len(new_events)}):", flush=True)
         for e in new_events:
             print(f"    + {e['event_ticker']:30} {e['movie_name']}", flush=True)
+
+    # Collected during the loop: markets that just transitioned from
+    # 0-reviews-ever to first-reviews-now. The workflow scans these
+    # marker lines and creates a GitHub issue per match.
+    first_review_markets = []
 
     for event in events:
         ticker = event["event_ticker"]
@@ -158,6 +169,26 @@ def take_snapshot():
                 f"mean={model_data['model_mean']}, "
                 f"best_edge={best_edge}%"
             )
+            # First-reviews transition: this event has reviews now, and
+            # had never had reviews in any prior snapshot.
+            if ticker not in ever_had_reviews:
+                first_review_markets.append({
+                    "ticker": ticker,
+                    "movie": movie,
+                    "n_reviews": model_data["n_reviews"],
+                    "naive_pct": model_data.get("naive_pct"),
+                    "model_mean": model_data.get("model_mean"),
+                    "best_edge": best_edge,
+                })
+                # Marker line the workflow greps for. Format must stay stable.
+                print(
+                    f"FIRST_REVIEWS_DETECTED ticker={ticker} "
+                    f"movie={movie!r} n_reviews={model_data['n_reviews']} "
+                    f"naive={model_data.get('naive_pct')} "
+                    f"model_mean={model_data.get('model_mean')} "
+                    f"best_edge={best_edge}",
+                    flush=True,
+                )
         print(f"  {movie}: {status}", flush=True)
 
     # Write to repo-local file
@@ -167,6 +198,8 @@ def take_snapshot():
             f.write(json.dumps(s) + "\n")
 
     print(f"\n{len(snapshots)} snapshots saved to {REPO_SNAPSHOT_FILE}", flush=True)
+    if first_review_markets:
+        print(f"\nFIRST-REVIEWS transitions this run: {len(first_review_markets)}", flush=True)
     return snapshots
 
 

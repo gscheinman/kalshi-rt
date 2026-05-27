@@ -15,6 +15,7 @@ on:
 permissions:
   contents: write
   actions: write   # needed to trigger the settle workflow on settlement days
+  issues: write    # needed to open first-reviews-detected notification issues
 
 # Prevent two snapshot runs from racing on git push. Newer run cancels older
 # if they overlap, since the newer snapshot supersedes the older one anyway.
@@ -50,7 +51,54 @@ jobs:
           pip install requests beautifulsoup4 scipy numpy lxml
 
       - name: Run snapshot
-        run: python tracker/snapshot_ci.py
+        id: snap
+        run: |
+          # Capture the snapshot output so the next step can scan for transition markers.
+          set -o pipefail
+          python tracker/snapshot_ci.py | tee snapshot_output.log
+
+      - name: Notify on first-reviews transitions
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          if [ ! -f snapshot_output.log ]; then
+            echo "No snapshot output captured, skipping."
+            exit 0
+          fi
+          # Parse marker lines and create one GitHub issue per detected market.
+          grep -E '^FIRST_REVIEWS_DETECTED ' snapshot_output.log | while IFS= read -r line; do
+            TICKER=$(echo "$line"   | sed -nE 's/.*ticker=([A-Z0-9_-]+).*/\1/p')
+            MOVIE=$(echo "$line"    | sed -nE "s/.*movie='([^']+)'.*/\1/p")
+            NREV=$(echo "$line"     | sed -nE 's/.*n_reviews=([0-9]+).*/\1/p')
+            NAIVE=$(echo "$line"    | sed -nE 's/.*naive=([0-9.]+).*/\1/p')
+            MMEAN=$(echo "$line"    | sed -nE 's/.*model_mean=([0-9.]+).*/\1/p')
+            EDGE=$(echo "$line"     | sed -nE 's/.*best_edge=(-?[0-9.]+).*/\1/p')
+            TITLE="First reviews detected: $MOVIE ($TICKER)"
+            BODY=$(cat <<EOF
+          The snapshot pipeline just observed the first critic reviews on RT for **$MOVIE** (\`$TICKER\`). This market has entered the active trading window.
+
+          - Reviews scraped: **$NREV**
+          - Naive Fresh rate: $NAIVE%
+          - Model mean: $MMEAN%
+          - Best edge across thresholds: $EDGE%
+
+          Tier eligibility: with $NREV reviews the market is in the [5-40] tier (min edge 12%) once it crosses 5 reviews. Paper trades will fire automatically on the next paper_trade run if any threshold has edge clearing the tier filter and sanity guards.
+
+          [View workflow run](https://github.com/${GH_REPO}/actions/runs/${{ github.run_id }})
+          EOF
+          )
+            # Avoid duplicate notifications if the issue already exists for this ticker.
+            EXISTING=$(gh issue list --search "$TICKER in:title" --state all --json number -q 'length' || echo 0)
+            if [ "$EXISTING" = "0" ]; then
+              gh issue create --title "$TITLE" --body "$BODY" --label "first-reviews" || \
+                gh issue create --title "$TITLE" --body "$BODY"
+              echo "Opened issue for $TICKER"
+            else
+              echo "Issue already exists for $TICKER, skipping."
+            fi
+          done
 
       - name: Commit snapshot data
         run: |
