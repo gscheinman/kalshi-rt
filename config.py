@@ -31,6 +31,23 @@ PRIOR_BETA = 1.5
 # UNVALIDATED -- should be estimated from review variance analysis.
 CORRELATION_DISCOUNT = 0.6
 
+# Drift adjustment: applies a predicted-final-score blend to the raw model
+# mean. DISABLED 2026-05-26 after audit showed the formula has a structural
+# bias toward 50% (any score >50% gets pulled down, any <50% pulled up).
+#
+# Empirical test: at naive=85% the formula predicts the remaining critics
+# will Fresh-rate at 68.8%, dragging the score down by 8.8pp. That's not
+# modelling drift -- it's mean reversion masquerading as drift.
+#
+# Real-world cost: Power Ballad (87.9% naive) was predicted at 76-83%
+# by the model and we shorted it via BUY NO Above 80. Score has actually
+# climbed to 89%. The drift mechanism was -100% wrong in direction.
+#
+# Re-enable only after we have a corrected formula (likely keyed on
+# top-critic-vs-non-top differential, not raw agreement rate) AND
+# 10+ resolved Kalshi markets confirming it improves out-of-sample MAE.
+DRIFT_ADJUSTMENT_ENABLED = False
+
 # Mean reversion: how quickly we trust reviews over the population mean.
 # At N reviews, shrinkage = min(1.0, N / SHRINKAGE_N).
 # At N=30, we fully trust the review signal.

@@ -125,20 +125,32 @@ def drift_adjusted_mean(raw_mean, drift_info, n_reviews):
     """
     Blend the raw model mean with the drift prediction.
 
-    At low review counts, trust the drift prediction more (early reviews
-    are a small sample, drift matters). At high review counts, the raw
-    mean is already close to the final score, so drift matters less.
+    CURRENTLY DISABLED via config.DRIFT_ADJUSTMENT_ENABLED. The underlying
+    formula in predict_drift() has a structural bias toward 50%: at any
+    score >50% it predicts downward drift; at any score <50% it predicts
+    upward drift. That's mean reversion mislabeled as drift, not real signal.
 
-    Returns adjusted mean (0-1 scale).
+    Specifically: p_fresh = q*a + (1-q)*(1-a) where q is naive Fresh rate
+    and a is critic agreement rate. With typical a~0.65, this formula
+    sends p_fresh toward 50% regardless of q.
+
+    The function is preserved for diagnostic logging (we still record
+    drift_info on each snapshot). It just doesn't influence the model
+    output until we have a corrected formula validated against real
+    Kalshi outcomes.
+
+    Returns raw_mean unchanged when DRIFT_ADJUSTMENT_ENABLED is False.
     """
+    import config
+    if not config.DRIFT_ADJUSTMENT_ENABLED:
+        return raw_mean
+
     if not drift_info or drift_info.get("confidence", 0) < 0.1:
         return raw_mean
 
     predicted_final = drift_info["predicted_final_score"] / 100.0
     drift_confidence = drift_info["confidence"]
 
-    # Blend weight for drift: higher at low N, lower at high N
-    # At N=20, drift gets up to 30% weight; at N=100+, drift gets ~5%
     n_factor = max(0.05, 1.0 - n_reviews / 120.0)
     blend_weight = min(0.3, n_factor * drift_confidence * 0.4)
 
