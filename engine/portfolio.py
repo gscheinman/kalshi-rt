@@ -455,6 +455,8 @@ def _optimize_allocation(candidates, spreads, scenarios, market_state, dist,
     trades = []
     total_spend = 0
     thresholds_used = set()
+    yes_thresholds = set()   # thresholds where we hold BUY YES (win if score > T)
+    no_thresholds = set()    # thresholds where we hold BUY NO  (win if score <= T)
 
     for opp in all_opps:
         size = min(opp["kelly_size"], remaining_budget - total_spend)
@@ -464,11 +466,33 @@ def _optimize_allocation(candidates, spreads, scenarios, market_state, dist,
         d = opp["details"]
 
         if opp["type"] == "single":
-            # Don't double up on same threshold + direction
-            key = (d["threshold"], d["direction"])
+            t = d["threshold"]
+            direction = d["direction"]
+
+            # Don't double up on same threshold + direction.
+            key = (t, direction)
             if key in thresholds_used:
                 continue
+
+            # Mutual-exclusion guard. BUY YES Above X wins on score > X;
+            # BUY NO Above Y wins on score <= Y. If Y < X the winning regions
+            # don't overlap, so taking both guarantees we lose at least one.
+            # The optimizer would otherwise rank each on its own EV and never
+            # see that they're betting on disjoint outcomes.
+            if direction == "BUY YES":
+                contradicting = any(no_t < t for no_t in no_thresholds)
+                if contradicting:
+                    continue
+            else:  # BUY NO
+                contradicting = any(yes_t > t for yes_t in yes_thresholds)
+                if contradicting:
+                    continue
+
             thresholds_used.add(key)
+            if direction == "BUY YES":
+                yes_thresholds.add(t)
+            else:
+                no_thresholds.add(t)
 
             # Use orderbook-simulated contracts if available, else compute
             contracts = d.get("contracts", round(size / d["cost"], 1) if d["cost"] > 0 else 0)
