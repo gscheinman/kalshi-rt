@@ -107,6 +107,17 @@ def take_snapshot():
                             ems_id, slug=rt_slug,
                             expected_count=summary.get("review_count"),
                         )
+                        rt_review_count = summary.get("review_count") or 0
+                        if not reviews and rt_review_count > 0:
+                            # RT page says reviews exist but scraper got nothing
+                            # even after retry+cache fallback. Skip this market
+                            # so we don't overwrite prior good model data.
+                            print(
+                                f"  {movie}: SKIP - RT reports {rt_review_count} "
+                                f"reviews but scrape returned 0 (transient NAPI failure)",
+                                flush=True,
+                            )
+                            continue
                         if reviews:
                             close_time = markets[0].get("close_time") if markets else None
                             # Include actual Kalshi thresholds for granular brackets

@@ -60,40 +60,29 @@ def scrape_reviews(ems_id, slug="", max_pages=25, expected_count=None, force_ref
             if not stale_by_age and not stale_by_count:
                 return cached
 
-    url = REVIEW_API.format(ems_id=ems_id)
-    reviews = []
-    cursor = None
+    # First fetch attempt.
+    reviews = _fetch_from_napi(ems_id, max_pages)
 
-    for page_num in range(max_pages):
-        params = {"pageCount": 20, "topOnly": "false", "type": "critic"}
-        if cursor:
-            params["after"] = cursor
-
-        try:
-            resp = requests.get(url, params=params, headers=HEADERS, timeout=15)
-            if resp.status_code != 200:
-                break
-            data = resp.json()
-        except (requests.RequestException, ValueError):
-            break
-
-        batch = data.get("reviews", [])
-        if not batch:
-            break
-
-        for raw in batch:
-            review = _parse_review(raw)
-            if review:
-                reviews.append(review)
-
-        page_info = data.get("pageInfo", {})
-        if not page_info.get("hasNextPage"):
-            break
-        cursor = page_info.get("endCursor")
-        if not cursor:
-            break
-
-        time.sleep(0.5)
+    # When RT main page says reviews exist but the NAPI returns empty, treat
+    # it as a transient hiccup. Retry once. If still empty, fall back to
+    # whatever's cached rather than overwriting good history with garbage.
+    if not reviews and expected_count and expected_count > 0:
+        time.sleep(2)
+        reviews = _fetch_from_napi(ems_id, max_pages)
+        if not reviews and cache_file.exists():
+            try:
+                with open(cache_file) as f:
+                    cached = json.load(f)
+                if cached:
+                    print(
+                        f"  [scrape_reviews] NAPI returned empty for "
+                        f"{slug or ems_id} (RT says {expected_count} reviews); "
+                        f"falling back to stale cache of {len(cached)}",
+                        flush=True,
+                    )
+                    return cached
+            except (json.JSONDecodeError, IOError):
+                pass
 
     # Deduplicate by critic name
     seen = set()
@@ -109,6 +98,40 @@ def scrape_reviews(ems_id, slug="", max_pages=25, expected_count=None, force_ref
             json.dump(reviews, f, indent=2)
 
     return reviews
+
+
+def _fetch_from_napi(ems_id, max_pages):
+    """Single attempt to pull reviews from RT's NAPI. Returns parsed list
+    (possibly empty). All caching/retry logic lives in scrape_reviews."""
+    url = REVIEW_API.format(ems_id=ems_id)
+    out = []
+    cursor = None
+    for _ in range(max_pages):
+        params = {"pageCount": 20, "topOnly": "false", "type": "critic"}
+        if cursor:
+            params["after"] = cursor
+        try:
+            resp = requests.get(url, params=params, headers=HEADERS, timeout=15)
+            if resp.status_code != 200:
+                break
+            data = resp.json()
+        except (requests.RequestException, ValueError):
+            break
+        batch = data.get("reviews", [])
+        if not batch:
+            break
+        for raw in batch:
+            r = _parse_review(raw)
+            if r:
+                out.append(r)
+        page_info = data.get("pageInfo", {})
+        if not page_info.get("hasNextPage"):
+            break
+        cursor = page_info.get("endCursor")
+        if not cursor:
+            break
+        time.sleep(0.5)
+    return out
 
 
 def _parse_review(raw):
