@@ -14,7 +14,7 @@ Aaron Leggo,False,Sloths and Movies,23,0.5652173913043478,,0.5217391304347826,Mi
 Aaron Mesh,False,Willamette Week,22,0.7272727272727273,,0.7272727272727273,Average
 Aaron Neuwirth,False,We Live Entertainment,155,0.8838709677419355,,0.8,Bellwether
 Aaron Peterson,True,,100,0.7576,0.75,0.68,veteran
-Aaron Pruner,False,IGN Movies,13,0.8462,0.8889,0.8462,newcomer
+Aaron Pruner,False,IGN Movies,13,0.8462,0.8182,0.8462,newcomer
 Aaron Yap,False,Flicks.co.nz,138,0.8115942028985508,,0.7536231884057971,Reliable
 Aarón Rodríguez Serrano,False,El antepenúltimo mohicano,27,0.7083,,0.7037,newcomer
 Abbey Bender,True,Village Voice,45,0.6666666666666666,,0.5111111111111111,Average
@@ -165,7 +165,7 @@ Alison Rowat,False,The Herald (Scotland),375,0.8026666666666666,,0.7466666666666
 Alison Willmore,True,,100,0.75,0.6667,0.59,veteran
 Alissa Simon,True,,100,0.8873,,0.85,veteran
 Alissa Wilkinson,False,Vox,332,0.8253012048192772,,0.7168674698795181,Reliable
-Alistair Harkness,False,Film4,100,0.7959,0.7667,0.71,veteran
+Alistair Harkness,False,Film4,100,0.7959,0.7812,0.71,veteran
 Alistair Lawrence,False,Common Sense Media,100,0.7216,,0.55,veteran
 Alistair Ryder,True,,100,0.7097,0.8077,0.62,veteran
 Allan Hunter,True,,100,0.8824,,0.96,veteran
@@ -181,7 +181,7 @@ Allison Rose,True,,100,0.73,0.7576,0.91,veteran
 Allison Shoemaker,False,Consequence of Sound,62,0.8870967741935484,,0.6129032258064516,Bellwether
 Allyson Johnson,True,,100,0.8763,0.4,0.79,veteran
 Almar Haflidason,True,BBC.com,190,0.8421052631578947,,0.8526315789473684,Reliable
-Alonso Duralde,False,The Film Verdict,100,0.7172,0.7436,0.56,veteran
+Alonso Duralde,False,The Film Verdict,100,0.7172,0.7561,0.56,veteran
 Alonso Díaz de la Vega,False,El Universal,99,0.797979797979798,,0.7575757575757576,Reliable
 Alton Williams,False,Battle Royale With Cheese,39,0.8235,,0.8205,established
 Aly Caviness,False,Midwest Film Journal,50,0.82,,0.76,Reliable
@@ -382,7 +382,7 @@ Austin Kennedy,False,Sin Magazine,416,0.6778846153846154,,0.4182692307692308,Ave
 Austin O'Connor,False,Lowell Sun,159,0.8301886792452831,,0.5786163522012578,Reliable
 Austin Trunick,False,Under the Radar,306,0.7908496732026143,,0.7647058823529411,Reliable
 Avaryl Halley,False,Movie Bitches,254,0.6535433070866141,,0.5039370078740157,Average
-Avi Offer,True,,100,0.7595,0.75,0.7,veteran
+Avi Offer,True,,100,0.7595,0.6667,0.7,veteran
 Aviva Dove-Viebahn,True,,64,0.9194,,0.9375,established
 Awais Irfan,True,,27,0.8077,0.875,0.8148,newcomer
 B. Ruby Rich,False,The Nation,21,1.0,,0.9523809523809523,Bellwether
@@ -461,7 +461,7 @@ Betsy Sharkey,True,Los Angeles Times,734,0.7479564032697548,,0.6403269754768393,
 Betsy Sherman,True,,100,0.8065,,0.78,veteran
 Betty Jo Tucker,False,ReelTalk Movie Reviews,1175,0.6204255319148936,,0.6646808510638298,Mild Contrarian
 Beverly Berning,False,culturevulture.net,86,0.8255813953488372,,0.7325581395348837,Reliable
-Bilge Ebiri,True,,100,0.8485,0.9643,0.8,veteran
+Bilge Ebiri,True,,100,0.8485,0.9333,0.8,veteran
 Bill Arceneaux,False,Big Easy Magazine,41,0.8292682926829268,,0.8780487804878049,Reliable
 Bill Beyrer,False,CinemaBlend,39,0.7692307692307693,,0.4358974358974359,Reliable
 Bill Bria,False,Slashfilm,100,0.64,0.7895,0.92,veteran
@@ -575,7 +575,7 @@ Brian Rentschler,False,Screen Rant,37,0.7027027027027027,,0.4864864864864865,Ave
 Brian Roan,False,The Film Stage,40,0.775,,0.675,Reliable
 Brian Tallerico,True,,100,0.8313,1.0,0.68,veteran
 Brian Thompson,False,The Young Folks,73,0.8356164383561644,,0.547945205479452,Reliable
-Brian Truitt,False,USA Today,100,0.8081,0.8837,0.84,veteran
+Brian Truitt,False,USA Today,100,0.8081,0.8889,0.84,veteran
 Brian Viner,False,Daily Mail (UK),853,0.7854630715123095,,0.6541617819460727,Reliable
 Brian Webster,False,Apollo Guide,1452,0.7995867768595041,,0.5950413223140496,Reliable
 Brian Ó Tiomáin,False,Film Ireland Magazine,12,1.0,,1.0,newcomer
@@ -679,7 +679,7 @@ Carrie Rickey,True,Philadelphia Inquirer,1295,0.7451737451737451,,0.655598455598
 Carson Lund,False,Slant Magazine,74,0.6216216216216216,,0.47297297297297297,Mild Contrarian
 Cary Darling,True,Dallas Morning News,57,0.7719298245614035,,0.8596491228070176,Reliable
 Caryn James,True,Hollywood Reporter,24,0.625,,0.5833333333333334,Mild Contrarian
-Casey Chong,False,Talking Films,100,0.7143,0.9,0.73,veteran
+Casey Chong,False,Talking Films,100,0.7143,0.9091,0.73,veteran
 Cat Woods,False,The Age (Australia),10,0.9,,0.9,newcomer
 Catalina Combs,False,Black Girl Nerds,29,0.5862068965517241,,0.896551724137931,Mild Contrarian
 Cate Marquis,False,We Are Movie Geeks,203,0.8029556650246306,,0.8423645320197044,Reliable
@@ -707,10 +707,10 @@ Charles Ealy,True,Dallas Morning News,26,0.7307692307692307,,0.6538461538461539,
 Charles Gant,False,Heat Magazine,53,0.6981132075471698,,0.8490566037735849,Average
 Charles Hartford,False,But Why Tho?,89,0.6627,,0.7978,established
 Charles Johnston,False,Spectrum Culture,54,0.78,,0.7037,established
-Charles Koplinski,True,,100,0.72,0.8387,0.74,veteran
+Charles Koplinski,True,,100,0.72,0.8182,0.74,veteran
 Charles Lyons-Burt,False,Slant Magazine,40,0.7,0.3333,0.725,established
 Charles Mudede,False,"The Stranger (Seattle, WA)",137,0.8102189781021898,,0.8467153284671532,Reliable
-Charles Pulliam-Moore,True,,100,0.71,0.8,0.61,veteran
+Charles Pulliam-Moore,True,,100,0.71,0.7778,0.61,veteran
 Charles Savage,True,Miami Herald,36,0.75,,0.3611111111111111,Average
 Charles Solomon,False,FilmWeek (KPCC - NPR Los Angeles),57,0.5964912280701754,,0.43859649122807015,Mild Contrarian
 Charles Taylor,True,Salon.com,359,0.6434540389972145,,0.37047353760445684,Mild Contrarian
@@ -783,7 +783,7 @@ Chris Tait,True,,15,0.8,0.875,1.0,newcomer
 Chris Tilly,True,,100,0.7475,0.9,0.89,veteran
 Chris Vognar,True,Dallas Morning News,918,0.8050108932461874,,0.8137254901960784,Reliable
 Chris Ward,False,Flickering Myth,87,0.7,,0.7356,established
-Chris Wasser,False,Sunday Independent (Ireland),100,0.7849,0.7333,0.67,veteran
+Chris Wasser,False,Sunday Independent (Ireland),100,0.7849,0.7188,0.67,veteran
 Chris Wiegand,False,Boxoffice Magazine,42,0.8333333333333334,,0.9047619047619048,Reliable
 Chris Willman,False,Variety,96,0.8824,,0.7396,established
 Christen McCurdy,False,Bitch Media,6,0.6667,,0.8333,newcomer
@@ -791,7 +791,7 @@ Christian Blauvelt,False,Slant Magazine,61,0.9138,,0.918,established
 Christian Craig,False,In Review Online,27,0.7917,1.0,0.6296,newcomer
 Christian Holub,False,TV Guide,63,0.7619,1.0,0.5873,established
 Christian Jones,False,Starburst,13,0.75,,0.8462,newcomer
-Christian Toto,True,,100,0.6458,0.6471,0.74,veteran
+Christian Toto,True,,100,0.6458,0.6389,0.74,veteran
 Christian Zilko,False,IndieWire,100,0.8182,,0.87,veteran
 Christie Cronan,False,Raising Whasians,56,0.8035714285714286,,0.9464285714285714,Reliable
 Christina Brennan,False,Vague Visages,7,0.4,,0.5714,newcomer
@@ -891,7 +891,7 @@ Cortlyn Kelly,False,Chicago Reader,23,0.6667,0.75,0.7391,newcomer
 Cory Cheney,False,Urban Tulsa Weekly,144,0.8055555555555556,,0.5,Reliable
 Cory Everett,False,The Playlist,43,0.7441860465116279,,0.6511627906976745,Average
 Cosmo Landesman,True,Times (UK),33,0.7272727272727273,,0.5454545454545454,Average
-Courtney Howard,True,,100,0.6869,0.7188,0.67,veteran
+Courtney Howard,True,,100,0.6869,0.7353,0.67,veteran
 Courtney Small,False,Cinema Axis,126,0.8809523809523809,,0.8015873015873016,Bellwether
 Craig D. Lindsey,True,,100,0.74,1.0,0.59,veteran
 Craig Mathieson,False,Sydney Morning Herald,100,0.8,,0.78,veteran
@@ -985,7 +985,7 @@ Danielle Davenport,False,One Room With A View,25,0.76,,0.68,Reliable
 Danielle Del Plato,False,Floated Alternative Culture Magazine,36,0.7777777777777778,,0.6111111111111112,Reliable
 Danielle Riendeau,False,Polygon,23,0.782608695652174,,0.7391304347826086,Reliable
 Danielle Ryan,True,,10,0.8,,0.8,newcomer
-Danielle Solzman,True,,100,0.7283,0.7143,0.85,veteran
+Danielle Solzman,True,,100,0.7283,0.75,0.85,veteran
 Danielle White,False,Austin Chronicle,41,0.8048780487804879,,0.5853658536585366,Reliable
 Dann Gire,True,,100,0.69,0.6875,0.66,veteran
 Danny Brogan,False,Common Sense Media,100,0.7872,,0.78,veteran
@@ -1225,13 +1225,13 @@ Ed Travis,False,Cinapse,213,0.7370892018779343,,0.8309859154929577,Average
 Ed Whitfield,False,The Ooh Tray,725,0.7351724137931035,,0.5006896551724138,Average
 Ed Williamson,False,TheShiznit.co.uk,27,0.8888888888888888,,0.8518518518518519,Bellwether
 Eddie Cockrell,True,Variety,82,0.8292682926829268,,0.7195121951219512,Reliable
-Eddie Harrison,True,,100,0.6082,0.8571,0.93,veteran
+Eddie Harrison,True,,100,0.6082,0.8889,0.93,veteran
 Eddie Strait,False,The Daily Dot,70,0.7571428571428571,,0.6714285714285714,Reliable
 Edgar Ortega,True,,27,0.84,0.8182,0.8148,newcomer
 Edgardo Reséndiz,False,Reforma,157,0.6687898089171974,,0.7898089171974523,Average
 Edmund Lee,False,South China Morning Post,107,0.822429906542056,,0.7757009345794392,Reliable
 Eduardo Molina,False,Reforma,159,0.7672955974842768,,0.7358490566037735,Reliable
-Edward Douglas,False,The Weekend Warrior (Substack),100,0.6837,0.8571,0.69,veteran
+Edward Douglas,False,The Weekend Warrior (Substack),100,0.6837,0.8696,0.69,veteran
 Edward Frost,False,CineVue,25,0.8,,0.56,Reliable
 Edward Frumkin,False,The Film Stage,13,0.7273,,0.7692,newcomer
 Edward Guthmann,True,San Francisco Chronicle,365,0.7753424657534247,,0.6602739726027397,Reliable
@@ -1412,11 +1412,11 @@ Frank J. Avella,False,The Contending,100,0.9167,1.0,0.91,veteran
 Frank Lovece,False,TV Guide,72,0.6388888888888888,,0.5138888888888888,Mild Contrarian
 Frank Ochieng,False,Movie Eye,745,0.8966442953020134,,0.3959731543624161,Bellwether
 Frank S. Nugent,True,New York Times,38,0.9210526315789473,,0.9210526315789473,Bellwether
-Frank Scheck,False,The Hollywood Reporter,100,0.7938,0.8462,0.6,veteran
+Frank Scheck,False,The Hollywood Reporter,100,0.7938,0.8667,0.6,veteran
 Frank Swietek,True,,100,0.5204,0.4242,0.32,veteran
 Frank Wilkins,True,,100,0.89,0.9032,0.81,veteran
 Frantz Jerome,False,Black Nerd Problems,26,0.8077,,0.8077,newcomer
-Fred Topel,True,,100,0.7526,0.7273,0.81,veteran
+Fred Topel,True,,100,0.7526,0.7429,0.81,veteran
 Frederic and Mary Ann Brussat,False,Spirituality & Practice,4957,0.7407706273956022,,0.8702844462376438,Average
 Funmi Sunmonu,False,Add This To Your List,35,0.8285714285714286,,0.8285714285714286,Reliable
 G. Allen Johnson,False,San Francisco Examiner,39,0.6666666666666666,,0.6153846153846154,Average
@@ -1449,7 +1449,7 @@ Gaspar Zimerman,False,Clarín,158,0.7911392405063291,,0.5632911392405063,Reliabl
 Gautam Anand,False,The Cinemaholic,7,0.5714,,0.5714,newcomer
 Gavia Baker-Whitelaw,False,Empire Magazine,100,0.7778,,0.64,veteran
 Gavin Bond,False,Sunday Times (Australia),25,0.8,,0.88,Reliable
-Gavin Spoors,True,,100,0.7979,0.8,0.7,veteran
+Gavin Spoors,True,,100,0.7979,0.75,0.7,veteran
 Gemma Files,True,Film.com,59,0.6949152542372882,,0.5932203389830508,Average
 Gemma Tarlach,False,Milwaukee Journal Sentinel,24,0.5416666666666666,,0.375,Contrarian
 Gemma Wilson,False,Seattle Times,8,0.375,,0.875,newcomer
@@ -1472,14 +1472,14 @@ George Elkind,False,"Metro Times (Detroit, MI)",37,0.7297297297297297,,0.5945945
 George M. Thomas,False,Akron Beacon Journal,100,0.78,0.7714,0.72,veteran
 George Meyer,False,Orlando Weekly,59,0.4745762711864407,,0.5932203389830508,Contrarian
 George Perry,True,BBC.com,47,0.851063829787234,,0.851063829787234,Bellwether
-George Simpson,False,Daily Express (UK),100,0.7475,0.7778,0.75,veteran
+George Simpson,False,Daily Express (UK),100,0.7475,0.7895,0.75,veteran
 George Varga,False,San Diego Union-Tribune,25,0.72,,0.8,Average
 George White,False,Cultured Vultures,17,0.8235,,0.5294,newcomer
 George Wu,False,culturevulture.net,92,0.6086956521739131,,0.6630434782608695,Mild Contrarian
 Georgi Petkov,False,Loud and Clear Reviews,13,0.8889,,0.8462,newcomer
 Georgia Morgan,False,Liverpool Echo,49,0.8979591836734694,,0.7551020408163265,Bellwether
 Gerald Peary,True,,100,0.7742,,0.8,veteran
-Germain Lussier,False,io9.com,100,0.8,0.8974,0.71,veteran
+Germain Lussier,False,io9.com,100,0.8,0.878,0.71,veteran
 Gerry Shamray,False,Your Movies (cleveland.com),291,0.7663230240549829,,0.6872852233676976,Reliable
 Giancarlo F. Ciprian,False,Cinencuentro,5,1.0,,1.0,newcomer
 Gianni Truzzi,False,Seattle Post-Intelligencer,33,0.696969696969697,,0.7878787878787878,Average
@@ -1502,7 +1502,7 @@ Glenn Whipp,True,,100,0.84,,0.64,veteran
 Glynis Costin,False,InStyle,39,0.8205128205128205,,1.0,Reliable
 Godfrey Cheshire,True,Variety,25,0.76,,0.48,Reliable
 Gonzalo Lira Galván,False,Cinema Movil,65,0.7692307692307693,,0.6615384615384615,Reliable
-Grace Randolph,False,Beyond the Trailer,100,0.6869,0.7736,0.77,veteran
+Grace Randolph,False,Beyond the Trailer,100,0.6869,0.7818,0.77,veteran
 Gracie Lowes,False,Tell-Tale TV,6,0.6667,,0.3333,newcomer
 Grady Bolding,False,Cultured Vultures,27,0.7037037037037037,,0.5555555555555556,Average
 Grae Drake,False,Movies.com,244,0.7704918032786885,,0.5532786885245902,Reliable
@@ -1546,7 +1546,7 @@ Hanh Nguyen,False,Zap2it.com,42,0.7857142857142857,,0.5476190476190477,Reliable
 Hank Sartin,True,Chicago Reader,21,0.7142857142857143,,0.38095238095238093,Average
 Hank Stuever,True,Washington Post,58,0.7758620689655172,,0.603448275862069,Reliable
 Hanna B,False,Film Threat,21,0.8571428571428571,,1.0,Bellwether
-Hanna Flint,False,Time Out,100,0.8462,0.5714,0.73,veteran
+Hanna Flint,False,Time Out,100,0.8462,0.5556,0.73,veteran
 Hannah Bae,False,San Francisco Chronicle,11,1.0,,1.0,newcomer
 Hannah Brown,True,,100,0.7126,0.5714,0.8,veteran
 Hannah Cronk,False,Film Threat,19,0.625,,1.0,newcomer
@@ -1591,7 +1591,7 @@ Henry Stewart,False,Brooklyn Magazine,24,0.5,,0.7083333333333334,Contrarian
 Henry Wong,True,,23,0.5652,0.4615,0.5652,newcomer
 Hilary A White,True,,100,0.8621,0.8095,0.93,veteran
 Hilary Mantel,False,The Spectator,64,0.734375,,0.625,Average
-Hoai-Tran Bui,False,Inverse,100,0.7732,0.8261,0.74,veteran
+Hoai-Tran Bui,False,Inverse,100,0.7732,0.8,0.74,veteran
 Hollis Chacona,False,Austin Chronicle,75,0.84,,0.4533333333333333,Reliable
 Holly Grigg-Spall,False,Film4,26,0.7692307692307693,,0.46153846153846156,Reliable
 Holly Hazelwood,False,Spectrum Culture,37,0.6765,0.6667,0.5405,established
@@ -1616,7 +1616,7 @@ Ian Gormely,False,Exclaim!,8,0.75,,0.75,newcomer
 Ian Grey,False,Orlando Weekly,40,0.725,,0.35,Average
 Ian Mantgani,False,The Skinny,31,0.6774193548387096,,0.7741935483870968,Average
 Ian Nathan,False,Empire Magazine,357,0.7955182072829131,,0.8207282913165266,Reliable
-Ian Sandwell,False,Digital Spy,100,0.88,0.9375,0.81,veteran
+Ian Sandwell,False,Digital Spy,100,0.88,0.9118,0.81,veteran
 Ian Thomas Malone,False,Ian Thomas Malone,115,0.7913043478260869,,0.6695652173913044,Reliable
 Iana Murray,False,Empire Magazine,84,0.8333,0.5,0.869,established
 Ignacio Navarro,False,El antepenúltimo mohicano,100,0.8542,1.0,0.89,veteran
@@ -1879,11 +1879,11 @@ Jeremiah Kipp,False,Filmcritic.com,92,0.5652173913043478,,0.4891304347826087,Mil
 Jeremy Aspinall,False,Radio Times,100,0.8333,0.9,0.87,veteran
 Jeremy C. Fox,False,Pajiba,225,0.7555555555555555,,0.5155555555555555,Reliable
 Jeremy Heilman,False,MovieMartyr.com,683,0.623718887262079,,0.6559297218155198,Mild Contrarian
-Jeremy Jahns,True,,100,0.85,0.8478,0.63,veteran
+Jeremy Jahns,True,,100,0.85,0.8333,0.63,veteran
 Jeremy Knox,False,Film Threat,23,0.43478260869565216,,0.8695652173913043,Contrarian
 Jeremy Lebens,False,We Got This Covered,63,0.7619047619047619,,0.7301587301587301,Reliable
 Jeremy Looney,False,Common Sense Media,10,0.75,,1.0,newcomer
-Jeremy Mathai,False,Slashfilm,50,0.72,0.875,0.62,established
+Jeremy Mathai,False,Slashfilm,50,0.72,0.8,0.62,established
 Jeremy Mathews,False,Film Threat,45,0.7777777777777778,,0.7333333333333333,Reliable
 Jeremy Wheeler,False,TV Guide,38,0.6052631578947368,,0.5526315789473685,Mild Contrarian
 Jericho Tadeo,True,,92,0.8941,0.8333,0.8587,established
@@ -2014,7 +2014,7 @@ John McMurtrie,True,San Francisco Chronicle,24,0.9166666666666666,,0.45833333333
 John Monaghan,True,Detroit Free Press,558,0.7956989247311828,,0.36200716845878134,Reliable
 John Nguyen,False,Nerd Reactor,39,0.6153846153846154,,0.8461538461538461,Mild Contrarian
 John Noonan,False,FILMINK (Australia),100,0.8105,,0.88,veteran
-John Nugent,False,Empire Magazine,100,0.8061,0.9091,0.77,veteran
+John Nugent,False,Empire Magazine,100,0.8061,0.9167,0.77,veteran
 John Oliver,False,Katrillion.com,39,0.717948717948718,,0.6153846153846154,Average
 John P. McCarthy,False,ReelTalk Movie Reviews,271,0.7527675276752768,,0.5313653136531366,Reliable
 John Patterson,False,L.A. Weekly,67,0.7014925373134329,,0.47761194029850745,Average
@@ -2041,7 +2041,7 @@ John Zebrowski,True,Seattle Times,48,0.75,,0.5416666666666666,Average
 Johnny Butane,False,Dread Central,46,0.5434782608695652,,0.8043478260869565,Contrarian
 Johnny Gayzmonic,False,Fanboys of the Universe,256,0.77734375,,0.65234375,Reliable
 Johnny Loftus,False,Decider,100,0.8125,,0.94,veteran
-Johnny Oleksinski,False,New York Post,100,0.75,0.6957,0.55,veteran
+Johnny Oleksinski,False,New York Post,100,0.75,0.7083,0.55,veteran
 Johnny Vaughan,False,The Sun (UK),54,0.6296296296296297,,0.7962962962962963,Mild Contrarian
 Jolene Mendez,False,Entertainment Spectrum,319,0.664576802507837,,0.664576802507837,Average
 Joly Herman,False,Common Sense Media,60,0.5741,,0.8167,established
@@ -2075,7 +2075,7 @@ Jonathan R. Perry,False,Tyler Morning Telegraph (Texas),651,0.8325652841781874,,
 Jonathan Roberts,False,The New Paper (Singapore),81,0.8271604938271605,,0.5432098765432098,Reliable
 Jonathan Romney,False,Independent on Sunday,42,0.6190476190476191,,0.6428571428571429,Mild Contrarian
 Jonathan Rosenbaum,True,,100,0.7204,,0.67,veteran
-Jonathan Sim,False,ComingSoon.net,100,0.71,0.7111,0.68,veteran
+Jonathan Sim,False,ComingSoon.net,100,0.71,0.7021,0.68,veteran
 Jonathan Sánchez,False,Cinema Movil,39,0.7692307692307693,,0.6410256410256411,Reliable
 Jonathan Takiff,False,Philadelphia Daily News,20,0.6,,0.95,Mild Contrarian
 Jonathan Trout,True,BBC.com,20,0.75,,0.65,Average
@@ -2146,7 +2146,7 @@ Joshua Brunsting,False,The CriterionCast,49,0.7142857142857143,,0.81632653061224
 Joshua Katzman,True,Chicago Reader,49,0.7346938775510204,,0.6530612244897959,Average
 Joshua Land,True,Village Voice,34,0.7352941176470589,,0.5294117647058824,Average
 Joshua M. Patton,False,CBR,18,0.75,,1.0,newcomer
-Joshua Mbonu,False,AwardsWatch,49,0.7917,0.9091,0.6327,established
+Joshua Mbonu,False,AwardsWatch,49,0.7917,0.8462,0.6327,established
 Joshua Peinado,False,In Review Online,16,0.4167,,0.5625,newcomer
 Joshua Polanski,True,,100,0.65,0.5,0.67,veteran
 Joshua Rivera,False,GQ,40,0.8,,0.7,Reliable
@@ -2188,8 +2188,8 @@ Julia Raban,False,"The Stranger (Seattle, WA)",27,0.7407407407407407,,0.66666666
 Julia Raeside,True,,11,0.6,,0.5455,newcomer
 Julia Swift,True,,100,0.7576,0.75,0.75,veteran
 Julia Wallace,True,Village Voice,33,0.6666666666666666,,0.3333333333333333,Average
-Julian Lytle,False,RIOTUS,100,0.7755,0.825,0.96,veteran
-Julian Roman,True,,100,0.7653,0.8276,0.78,veteran
+Julian Lytle,False,RIOTUS,100,0.7755,0.8333,0.96,veteran
+Julian Roman,True,,100,0.7653,0.8387,0.78,veteran
 Julian Shaw,False,FILMINK (Australia),25,0.72,,0.8,Average
 Julian Singleton,True,,100,0.9149,1.0,0.94,veteran
 Julian Wood,False,FILMINK (Australia),100,0.8229,1.0,0.91,veteran
@@ -2215,13 +2215,13 @@ Jyoti Sharma Bawa,False,Hindustan Times,38,0.9210526315789473,,0.684210526315789
 K. Austin Collins,False,Vanity Fair,100,0.69,,0.69,Average
 Kahron Spearman,False,The Daily Dot,31,0.9354838709677419,,0.7419354838709677,Bellwether
 Kaitlin Thomas,True,,7,0.8571,,0.8571,newcomer
-Kaitlyn Booth,True,,100,0.81,0.84,0.76,veteran
+Kaitlyn Booth,True,,100,0.81,0.8519,0.76,veteran
 Kaleem Aftab,False,The List,279,0.6953405017921147,,0.6093189964157706,Average
 Kalvin Henely,False,Slant Magazine,57,0.7543859649122807,,0.543859649122807,Reliable
 Kam Williams,False,DallasBlack.com,24,0.5,,0.7916666666666666,Contrarian
 Kamal  'The Diva' Larsuel,False,3BlackChicks Review,496,0.7116935483870968,,0.5887096774193549,Average
 Kamal Al-Solaylee,True,Globe and Mail,35,0.8,,0.5428571428571428,Reliable
-Kambole Campbell,False,Little White Lies,100,0.9,1.0,0.9,veteran
+Kambole Campbell,False,Little White Lies,100,0.9,0.8333,0.9,veteran
 Kanin Srimaneekulroj,False,Bangkok Post,48,0.9166666666666666,,0.5833333333333334,Bellwether
 Kaori Shoji,False,Japan Times,110,0.7909090909090909,,0.8,Reliable
 Kara Nesvig,True,Minneapolis Star Tribune,21,0.6666666666666666,,0.6666666666666666,Average
@@ -2276,7 +2276,7 @@ Katie McCabe,False,Time Out,15,0.9286,,0.8667,newcomer
 Katie Parker,False,Flicks.co.nz,27,0.8148148148148148,,0.8888888888888888,Reliable
 Katie Rife,True,AV Club,280,0.875,,0.6214285714285714,Bellwether
 Katie Rosseinsky,False,Independent (UK),11,1.0,,1.0,newcomer
-Katie Smith-Wong,True,,100,0.8763,0.8824,0.88,veteran
+Katie Smith-Wong,True,,100,0.8763,0.8889,0.88,veteran
 Katie Walsh,True,,100,0.8,0.8444,0.71,veteran
 Katina Vangopoulos,False,Moviedex,46,0.5869565217391305,,0.8478260869565217,Mild Contrarian
 Katrina Onstad,False,National Post,52,0.9230769230769231,,0.4807692307692308,Bellwether
@@ -2378,7 +2378,7 @@ Kong Rithdee,False,Bangkok Post,198,0.7929292929292929,,0.7676767676767676,Relia
 Korey Coleman,False,Double Toasted,100,0.8384,0.8837,0.66,veteran
 Kristal Cooper,False,We Got This Covered,72,0.7361111111111112,,0.5555555555555556,Average
 Kristen Baldwin,True,,8,0.875,,0.875,newcomer
-Kristen Lopez,True,,100,0.74,0.7347,0.71,veteran
+Kristen Lopez,True,,100,0.74,0.7451,0.71,veteran
 Kristen Maldonado,True,,100,0.7475,0.6,0.7,veteran
 Kristen Page-Kirby,True,Washington Post,25,0.68,,0.52,Average
 Kristen Yoonsoo Kim,True,Village Voice,29,0.7586206896551724,,0.27586206896551724,Reliable
@@ -2428,7 +2428,7 @@ Larushka Ivan-Zadeh,True,,100,0.8776,0.8333,0.72,veteran
 Laslo Rojas Contreras,False,Cinencuentro,8,1.0,,1.0,newcomer
 Latoya Austin,True,,72,0.8676,1.0,0.9861,established
 Laura Bushell,True,BBC.com,43,0.8372093023255814,,0.6744186046511628,Reliable
-Laura Clifford,False,Reeling Reviews,100,0.8172,0.7895,0.83,veteran
+Laura Clifford,False,Reeling Reviews,100,0.8172,0.8095,0.83,veteran
 Laura Delaney,False,RTÉ (Ireland),69,0.8405797101449275,,0.6956521739130435,Reliable
 Laura DeMarco,False,Cleveland Plain Dealer,73,0.821917808219178,,0.9726027397260274,Reliable
 Laura Hiros,False,Rincón de cine,100,0.8764,0.8889,0.89,veteran
@@ -2514,7 +2514,7 @@ Linda and Al Lerner,False,Movies and Shakers,400,0.855,,0.7875,Bellwether
 Linda Barnard,True,Toronto Star,651,0.8064516129032258,,0.5284178187403994,Reliable
 Linda Cook,False,"Quad City Times (Davenport, IA)",2496,0.7752403846153846,,0.6830929487179487,Reliable
 Linda Holmes,True,,100,0.899,0.9375,0.86,veteran
-Linda Marric,False,HeyUGuys,100,0.8969,0.8718,0.92,veteran
+Linda Marric,False,HeyUGuys,100,0.8969,0.878,0.92,veteran
 Linda Stasi,True,New York Post,27,0.6296296296296297,,0.5925925925925926,Mild Contrarian
 Lindsay Press,False,Culturess,31,0.8387,,0.4839,established
 Lindsay Pugh,False,Woman in Revolt,45,0.9111111111111111,,0.9333333333333333,Bellwether
@@ -2542,7 +2542,7 @@ Lissete Lanuza Sáenz,True,,70,0.7424,,0.8143,established
 Liz Beardsworth,False,Empire Magazine,78,0.8461538461538461,,0.7435897435897436,Reliable
 Liz Braun,False,Jam! Movies,1376,0.7223837209302325,,0.684593023255814,Average
 Liz Declan,False,Screen Rant,5,0.8,,0.8,newcomer
-Liz Shannon Miller,True,,100,0.8485,0.8043,0.84,veteran
+Liz Shannon Miller,True,,100,0.8485,0.8125,0.84,veteran
 Loey Lockerby,False,Kansas City Star,262,0.7595419847328244,,0.46946564885496184,Reliable
 Logan Hill,True,New York Magazine/Vulture,49,0.8367346938775511,,0.6122448979591837,Reliable
 Lonita Cook,True,,100,0.6768,,0.8,veteran
@@ -2552,7 +2552,7 @@ Lorraine Ali,True,,29,0.8571,,0.7931,newcomer
 Lorry Kikta,False,Film Threat,101,0.7821782178217822,,0.9900990099009901,Reliable
 Lou Cedrone,False,Baltimore Sun,25,0.72,,0.32,Average
 Lou Lumenick,True,New York Post,2340,0.7705128205128206,,0.4897435897435897,Reliable
-Lou Thomas,True,,86,0.8929,0.9,0.9535,established
+Lou Thomas,True,,86,0.8929,0.9167,0.9535,established
 Louis B. Hobson,False,Calgary Sun,35,0.5714285714285714,,0.6,Mild Contrarian
 Louis B. Parks,True,Houston Chronicle,124,0.6935483870967742,,0.5967741935483871,Average
 Louis Black,False,Austin Chronicle,139,0.7985611510791367,,0.38848920863309355,Reliable
@@ -2676,8 +2676,8 @@ Mark Hughes,True,,100,0.84,0.9091,0.93,veteran
 Mark Jackson,False,Epoch Times,100,0.7263,0.68,0.66,veteran
 Mark Jenkins,True,NPR,371,0.7439353099730458,,0.5902964959568733,Average
 Mark Johnson,True,,100,0.81,1.0,0.83,veteran
-Mark Keizer,True,,100,0.7604,0.9,0.56,veteran
-Mark Kennedy,False,Associated Press,100,0.69,0.6875,0.53,veteran
+Mark Keizer,True,,100,0.7604,0.9167,0.56,veteran
+Mark Kennedy,False,Associated Press,100,0.69,0.6667,0.53,veteran
 Mark Kermode,True,,100,0.8144,0.8286,0.77,veteran
 Mark Leydorf,False,Bloomberg News,13,0.7692,0.8333,0.7692,newcomer
 Mark Olsen,True,Los Angeles Times,367,0.7302452316076294,,0.3869209809264305,Average
@@ -2747,7 +2747,7 @@ Matt Glasby,False,Film4,27,0.8148148148148148,,0.6666666666666666,Reliable
 Matt Goldberg,False,Collider,400,0.75,,0.5725,Average
 Matt Hambidge,False,FandomWire,34,0.7059,1.0,0.5588,established
 Matt Hoffman,False,Film School Rejects,27,0.7777777777777778,,0.8518518518518519,Reliable
-Matt Hudson,True,,100,0.8211,0.8696,0.68,veteran
+Matt Hudson,True,,100,0.8211,0.84,0.68,veteran
 Matt Joseph,False,We Got This Covered,72,0.6527777777777778,,0.5694444444444444,Average
 Matt Kelemen,False,AspectRatio.us,87,0.7471264367816092,,0.6666666666666666,Average
 Matt Langdon,False,Filmcritic.com,23,0.8695652173913043,,0.9130434782608695,Bellwether
@@ -2763,7 +2763,7 @@ Matt Miller,False,Esquire Magazine,28,0.6785714285714286,,0.6785714285714286,Ave
 Matt Mueller,False,Total Film,71,0.7464788732394366,,0.7464788732394366,Average
 Matt Neal,True,,100,0.83,0.8095,0.87,veteran
 Matt Noller,False,Slant Magazine,24,0.6666666666666666,,0.4583333333333333,Average
-Matt Oakes,True,,100,0.78,0.7209,0.74,veteran
+Matt Oakes,True,,100,0.78,0.7111,0.74,veteran
 Matt Pais,False,MattPais.com,44,0.6590909090909091,,0.45454545454545453,Average
 Matt Patches,True,,100,0.87,,0.89,veteran
 Matt Prigge,False,rec.arts.movies.reviews,36,0.75,,0.7222222222222222,Average
@@ -2775,13 +2775,13 @@ Matt Roush,True,,88,0.8675,,0.8523,established
 Matt Schimkowitz,False,AV Club,29,0.7586,,0.7241,newcomer
 Matt Schley,False,Japan Times,55,0.8571,,0.7455,established
 Matt Shiverdecker,False,Austin American-Statesman,46,0.8913043478260869,,0.9782608695652174,Bellwether
-Matt Singer,True,,100,0.8,0.8636,0.63,veteran
+Matt Singer,True,,100,0.8,0.8696,0.63,veteran
 Matt Soergel,False,Florida Times-Union,276,0.7318840579710145,,0.7463768115942029,Average
 Matt Stevens,False,E! Online,204,0.803921568627451,,0.4852941176470588,Reliable
 Matt Ward,False,Cinematic Considerations,154,0.8181818181818182,,0.7532467532467533,Reliable
 Matt Weitz,True,Dallas Morning News,55,0.7454545454545455,,0.4727272727272727,Average
 Matt Wolf,False,Variety,100,0.73,,0.59,veteran
-Matt Zoller Seitz,True,,100,0.7742,0.75,0.8,veteran
+Matt Zoller Seitz,True,,100,0.7742,0.7,0.8,veteran
 Matthew Aguilar,False,ComicBook.com,8,0.5,,1.0,newcomer
 Matthew Anderson,False,CineVue,115,0.8608695652173913,,0.7652173913043478,Bellwether
 Matthew Bond,False,Daily Mail (UK),100,0.75,0.8,0.65,veteran
@@ -2954,7 +2954,7 @@ Mike Goodridge,False,Screen International,131,0.7557251908396947,,0.740458015267
 Mike Hale,True,New York Times,143,0.7272727272727273,,0.45454545454545453,Average
 Mike Kerrigan,False,Boxoffice Magazine,25,0.68,,0.64,Average
 Mike Manalo,False,Geeks of Color,12,0.9167,0.875,0.9167,newcomer
-Mike Massie,False,Gone With The Twins,100,0.6441,0.4737,0.39,veteran
+Mike Massie,False,Gone With The Twins,100,0.6441,0.4286,0.39,veteran
 Mike Mazzanti,False,The Film Stage,34,0.7058823529411765,,0.6764705882352942,Average
 Mike McCahill,True,,100,0.7586,,0.5,veteran
 Mike McGranaghan,True,,100,0.7653,0.7895,0.77,veteran
@@ -3018,7 +3018,7 @@ Nadira Begum,False,Paste Magazine,6,1.0,,0.8333,newcomer
 Nadira Goffe,False,Slate,20,0.95,1.0,0.8,newcomer
 Nadya Martinez,True,,51,0.8627,0.8125,0.7647,established
 Naemi Victoria,False,Film Ireland Magazine,9,1.0,,0.8889,newcomer
-Nagier Chambers,True,,87,0.8095,0.8537,0.8506,established
+Nagier Chambers,True,,87,0.8095,0.8605,0.8506,established
 Naila Scargill,False,Exquisite Terror,71,0.6901408450704225,,0.676056338028169,Average
 Nairon Santos de Morais,False,Loud and Clear Reviews,21,0.5294,,0.6667,newcomer
 Namrata Joshi,False,Outlook,144,0.75,,0.4722222222222222,Average
@@ -3107,7 +3107,7 @@ Nick Prigge,False,Slant Magazine,32,0.625,,0.375,Mild Contrarian
 Nick Rogers,False,"State Journal-Register (Springfield, IL)",183,0.5901639344262295,,0.4262295081967213,Mild Contrarian
 Nick Romano,False,CinemaBlend,30,0.9333333333333333,,0.5333333333333333,Bellwether
 Nick Ruhrkraut,False,AwardsWatch,12,0.8182,,0.9167,newcomer
-Nick Schager,True,,100,0.8,0.7742,0.66,veteran
+Nick Schager,True,,100,0.8,0.7879,0.66,veteran
 Nick Setchfield,False,SFX Magazine,31,0.7741935483870968,,0.8387096774193549,Reliable
 Nick Valdez,False,ComicBook.com,12,0.9167,,1.0,newcomer
 Nick Venable,False,CinemaBlend,12,0.6364,,1.0,newcomer
@@ -3280,7 +3280,7 @@ Peter Hoskin,False,Daily Mail (UK),17,0.8235,0.75,0.7059,newcomer
 Peter Howell,True,Toronto Star,2482,0.8017727639000806,,0.653102336825141,Reliable
 Peter Keough,True,,100,0.7794,0.5556,0.85,veteran
 Peter Labuza,False,The Film Stage,30,0.8666666666666667,,0.8,Bellwether
-Peter Martin,True,,100,0.7561,0.7368,0.88,veteran
+Peter Martin,True,,100,0.7561,0.7619,0.88,veteran
 Peter Paras,False,E! Online,137,0.7007299270072993,,0.708029197080292,Average
 Peter Rainer,True,FilmWeek (KPCC - NPR Los Angeles),44,0.6136363636363636,,0.6363636363636364,Mild Contrarian
 Peter Sobczynski,False,Critic Doctor,183,0.7377049180327869,,0.44808743169398907,Average
@@ -3348,7 +3348,7 @@ Rachel Deahl,False,"Local Planet Weekly (Spokane, WA)",40,0.875,,0.625,Bellwethe
 Rachel Gordon,False,Filmcritic.com,77,0.7402597402597403,,0.7662337662337663,Average
 Rachel Ho,True,,100,0.8605,0.92,0.75,veteran
 Rachel LaBonte,False,Screen Rant,100,0.7143,1.0,0.78,veteran
-Rachel Leishman,True,,100,0.79,0.8511,1.0,veteran
+Rachel Leishman,True,,100,0.79,0.8571,1.0,veteran
 Rachel Pronger,False,Sight & Sound,12,0.7273,,0.75,newcomer
 Rachel Saltz,True,New York Times,99,0.7575757575757576,,0.5858585858585859,Reliable
 Rachel Saslow,False,Washington Post,12,0.3636,,0.3333,newcomer
@@ -3372,7 +3372,7 @@ Randall Colburn,False,Consequence of Sound,92,0.7717391304347826,,0.652173913043
 Randall King,True,,100,0.8878,,0.8,veteran
 Randy Cordova,True,Arizona Republic,393,0.6768447837150128,,0.49363867684478374,Average
 Randy Dankievitch,True,,14,0.5385,0.75,0.5,newcomer
-Randy Meeks,False,Espinof,100,0.75,0.8333,0.72,veteran
+Randy Meeks,False,Espinof,100,0.75,0.8462,0.72,veteran
 Randy Myers,False,Contra Costa Times,188,0.7393617021276596,,0.7446808510638298,Average
 Randy Shulman,False,"Metro Weekly (Washington, DC)",399,0.7844611528822055,,0.6165413533834586,Reliable
 Randy White,False,Common Sense Media,59,0.847457627118644,,0.9152542372881356,Reliable
@@ -3410,7 +3410,7 @@ Renee Graham,True,Boston Globe,20,0.45,,0.15,Contrarian
 Renee Schonfeld,False,Common Sense Media,397,0.8488664987405542,,0.7153652392947103,Reliable
 Renie Scolaro Mora,False,PopMatters,37,0.8108108108108109,,0.43243243243243246,Reliable
 Renuka Vyavahare,True,,100,0.7419,0.8667,0.77,veteran
-Reuben Baron,True,,100,0.7629,0.8,0.77,veteran
+Reuben Baron,True,,100,0.7629,0.7727,0.77,veteran
 Rex Reed,True,,100,0.6263,0.6667,0.6,veteran
 Rex Roberts,False,Film Journal International,208,0.7211538461538461,,0.6634615384615384,Average
 Reyhan Harmanci,True,San Francisco Chronicle,32,0.8125,,0.4375,Reliable
@@ -3489,7 +3489,7 @@ Rob Silverman Ascher,False,Chicago Reader,12,0.8182,,0.75,newcomer
 Rob Staeger,True,Village Voice,63,0.6825396825396826,,0.5396825396825397,Average
 Rob Thomas,False,Wisconsin State Journal,39,0.7435897435897436,,0.7435897435897436,Average
 Rob Vaux,False,Sci-Fi Movie Page,145,0.7862068965517242,,0.7103448275862069,Reliable
-Robbie Collin,False,Daily Telegraph (UK),100,0.75,0.7838,0.7,veteran
+Robbie Collin,False,Daily Telegraph (UK),100,0.75,0.7692,0.7,veteran
 Robbie Roberts,False,"News & Observer (Raleigh, NC)",9,0.8889,,0.8889,newcomer
 Robert Abele,True,,100,0.8969,,0.87,veteran
 Robert Brian Taylor,False,Collider,28,0.75,,0.3571,newcomer
@@ -3505,7 +3505,7 @@ Robert Horton,True,Film.com,181,0.7182320441988951,,0.430939226519337,Average
 Robert Hutton,True,,5,0.8,0.75,0.4,newcomer
 Robert K. Elder,True,Chicago Tribune,229,0.7947598253275109,,0.39737991266375544,Reliable
 Robert Koehler,False,Cinema Scope,32,0.75,,0.71875,Average
-Robert Kojder,True,,100,0.7071,0.8,0.54,veteran
+Robert Kojder,True,,100,0.7071,0.7647,0.54,veteran
 Robert Levin,True,,100,0.78,0.6667,0.52,veteran
 Robert Lloyd,False,Los Angeles Times,100,0.883,,0.85,veteran
 Robert Martin,False,Globe and Mail,48,0.7917,,0.8125,established
@@ -3528,11 +3528,11 @@ Rocío Mariel González,False,EscribiendoCine,10,0.625,,0.7,newcomer
 Rod Armstrong,False,Reel.com,146,0.6986301369863014,,0.5958904109589042,Average
 Rod Dreher,False,South Florida Sun-Sentinel,26,0.8076923076923077,,0.2692307692307692,Reliable
 Rod Machen,False,Austin Chronicle,16,0.9286,,1.0,newcomer
-Rodrigo Perez,True,,100,0.8041,0.8065,0.65,veteran
+Rodrigo Perez,True,,100,0.8041,0.7879,0.65,veteran
 Roe McDermott,False,Hot Press,291,0.7697594501718213,,0.6666666666666666,Reliable
 Roger Catlin,False,rogercatlin.com,34,0.9411764705882353,,0.9411764705882353,Bellwether
 Roger Ebert,True,Chicago Sun-Times,6394,0.767281826712543,,0.6174538629965592,Reliable
-Roger Friedman,True,,100,0.6869,0.9,0.77,veteran
+Roger Friedman,True,,100,0.6869,0.9091,0.77,veteran
 Roger Greenspun,True,New York Times,41,0.6829268292682927,,0.5609756097560976,Average
 Roger Hurlburt,False,South Florida Sun-Sentinel,100,0.69,,0.56,veteran
 Roger Moore,True,Orlando Sentinel,2080,0.7403846153846154,,0.5067307692307692,Average
@@ -3703,7 +3703,7 @@ Scott Howard,False,Under the Radar,32,0.8,0.9091,0.7188,established
 Scott Huver,False,Hollywood.com,28,0.5714285714285714,,0.75,Mild Contrarian
 Scott J. Davis,False,Flickering Myth,6,0.8333,,0.5,newcomer
 Scott Marks,True,San Diego Reader,244,0.6229508196721312,,0.6024590163934426,Mild Contrarian
-Scott Mendelson,True,,100,0.62,0.7105,0.64,veteran
+Scott Mendelson,True,,100,0.62,0.725,0.64,veteran
 Scott Menzel,True,,100,0.72,0.6842,0.96,veteran
 Scott Meslow,False,New York Magazine/Vulture,28,0.7143,,0.75,newcomer
 Scott Nash,False,Three Movie Buffs,1226,0.7398042414355628,,0.7030995106035889,Average
@@ -3817,7 +3817,7 @@ Sofía Ochoa Rodríguez,False,En Filme,50,0.72,,0.76,Average
 Sol Harris,False,Starburst,24,0.7916666666666666,,0.6666666666666666,Reliable
 Sonal Pandya,False,Hindustan Times,5,0.6,,0.6,newcomer
 Sonia Rao,False,Boston Globe,29,0.8621,1.0,0.6552,newcomer
-Sonny Bunch,False,The Bulwark,100,0.7576,0.7755,0.76,veteran
+Sonny Bunch,False,The Bulwark,100,0.7576,0.7843,0.76,veteran
 Sophia Nguyen,False,Washington Post,5,0.6,,0.4,newcomer
 Sophia Satchell Baeza,False,Sight & Sound,13,0.8333,,0.6923,newcomer
 Sophia Watson,False,FILMINK (Australia),39,0.7435897435897436,,0.8205128205128205,Average
@@ -3880,7 +3880,7 @@ Stephen Rebello,False,Playboy Online,378,0.8492063492063492,,0.6931216931216931,
 Stephen Romei,False,The Australian,100,0.8421,0.7742,0.85,veteran
 Stephen Saito,False,Moveable Fest,298,0.8288590604026845,,0.9731543624161074,Reliable
 Stephen Schaefer,False,Boston Herald,399,0.656641604010025,,0.6942355889724311,Average
-Stephen Silver,False,The SS Ben Hecht,100,0.8571,0.7273,0.76,veteran
+Stephen Silver,False,The SS Ben Hecht,100,0.8571,0.6923,0.76,veteran
 Stephen Thompson,True,,23,0.8696,0.9167,0.8261,newcomer
 Stephen Troussé,False,Uncut Magazine [UK],16,0.9286,1.0,1.0,newcomer
 Stephen Whitty,True,Newark Star-Ledger,2550,0.7286274509803922,,0.4823529411764706,Average
@@ -4048,7 +4048,7 @@ Tom Huddleston,True,Time Out,602,0.8355481727574751,,0.6744186046511628,Reliable
 Tom Huddlestone,True,Time Out,99,0.696969696969697,,0.6161616161616161,Average
 Tom Hutchinson,False,Radio Times,83,0.8433734939759037,,0.8795180722891566,Reliable
 Tom Jolliffe,False,Flickering Myth,21,0.7368,,0.8571,newcomer
-Tom Jorgensen,False,IGN Movies,59,0.7288,0.8667,0.7119,established
+Tom Jorgensen,False,IGN Movies,59,0.7288,0.8235,0.7119,established
 Tom Keogh,True,Seattle Times,515,0.6524271844660194,,0.6621359223300971,Average
 Tom Long,True,Detroit News,2444,0.7434533551554828,,0.6309328968903437,Average
 Tom Maurstad,True,Dallas Morning News,260,0.7153846153846154,,0.43846153846153846,Average
@@ -4221,7 +4221,7 @@ Yolanda Machado,True,TheWrap,33,0.8787878787878788,,0.5151515151515151,Bellwethe
 Yvonne Condes,False,Common Sense Media,28,0.75,,0.6428571428571429,Average
 Zach Hollwedel,False,Under the Radar,126,0.7619047619047619,,0.5873015873015873,Reliable
 Zach Lewis,False,Slant Magazine,44,0.6829,0.3333,0.6136,established
-Zach Pope,False,Zach Pope Reviews,100,0.798,0.8776,0.87,veteran
+Zach Pope,False,Zach Pope Reviews,100,0.798,0.8824,0.87,veteran
 Zach Youngs,False,InSession Film,100,0.6979,,0.73,veteran
 Zachary Doiron,False,Film Inquiry,34,0.7058823529411765,,0.4411764705882353,Average
 Zachary Goldkind,False,In Review Online,53,0.3125,,0.1887,established

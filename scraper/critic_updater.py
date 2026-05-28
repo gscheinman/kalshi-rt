@@ -80,7 +80,23 @@ def ingest_settled_movie(rt_slug, actual_score, reviews=None, force=False):
     if reviews is None:
         reviews = _load_cached_reviews(rt_slug)
     if not reviews:
-        return {"error": f"No reviews found for {rt_slug}"}
+        # No local cache (typical in CI). Fetch fresh from RT.
+        try:
+            from scraper.rt_page import get_movie_summary
+            from scraper.rt_reviews import scrape_reviews
+            slug_to_fetch = rt_slug if rt_slug.startswith("m/") else f"m/{rt_slug}"
+            summary = get_movie_summary(slug_to_fetch)
+            if summary and summary.get("ems_id"):
+                reviews = scrape_reviews(
+                    summary["ems_id"], slug=slug_to_fetch,
+                    expected_count=summary.get("review_count"),
+                )
+                print(f"  [critic_updater] Fetched {len(reviews) if reviews else 0} reviews from RT for {rt_slug}")
+        except Exception as e:
+            print(f"  [critic_updater] RT fetch failed for {rt_slug}: {e}")
+
+    if not reviews:
+        return {"error": f"No reviews found for {rt_slug} (local cache empty and RT fetch failed)"}
 
     ems_id = _get_ems_id(rt_slug, reviews)
 
