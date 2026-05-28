@@ -161,10 +161,10 @@ def api_analyze():
         if m.get("threshold") is not None and m.get("yes_price") is not None:
             market_dict[m["threshold"]] = m["yes_price"]
 
-    try:
-        log_prediction(movie_name, rt_slug, result, calibrated, market_dict)
-    except Exception:
-        pass
+    # predictions.jsonl was a duplicate of what data/snapshots.jsonl already
+    # captures. We stopped writing here so we don't end up with two stores
+    # that drift out of sync. The /api/history endpoint now reads from
+    # snapshots.jsonl directly.
 
     thresholds = []
     market_lookup = {m["threshold"]: m for m in market_prices if m.get("threshold") is not None}
@@ -231,9 +231,48 @@ def api_analyze():
 
 @app.route("/api/history")
 def api_history():
-    records = load_predictions()
-    records.reverse()
-    return jsonify(records[:50])
+    """Recent model predictions. Reads from data/snapshots.jsonl (the canonical
+    store) rather than the deprecated ~/.cache/kalshi-rt/predictions.jsonl."""
+    import json
+    from pathlib import Path
+    path = Path(__file__).parent.parent / "data" / "snapshots.jsonl"
+    if not path.exists():
+        return jsonify([])
+    rows = []
+    with open(path) as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                s = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            if not s.get("model"):
+                continue
+            m = s["model"]
+            # Reconstruct the legacy shape so existing UI code keeps working.
+            rows.append({
+                "timestamp": s.get("timestamp"),
+                "movie": s.get("movie"),
+                "rt_slug": s.get("rt_slug"),
+                "n_reviews": m.get("n_reviews"),
+                "n_known": m.get("n_known"),
+                "model_mean": m.get("model_mean"),
+                "model_ci": m.get("model_ci"),
+                "confidence": m.get("confidence"),
+                "threshold_probs": m.get("threshold_probs", {}),
+                "kalshi_prices": {
+                    t: mk.get("yes_ask") or mk.get("yes_price")
+                    for t, mk in (s.get("markets") or {}).items()
+                    if (mk.get("yes_ask") or mk.get("yes_price")) is not None
+                },
+                "resolved": s.get("resolved", False),
+                "actual_score": s.get("actual_score"),
+                "pnl": s.get("pnl"),
+            })
+    rows.reverse()
+    return jsonify(rows[:50])
 
 
 def _load_all_trades():
