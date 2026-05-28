@@ -24,7 +24,11 @@ mapper = TickerMapper()
 
 @app.route("/")
 def dashboard():
-    return render_template("dashboard.html")
+    # Disable browser caching so JS changes land immediately on next refresh.
+    resp = app.make_response(render_template("dashboard.html"))
+    resp.headers["Cache-Control"] = "no-store, no-cache, must-revalidate, max-age=0"
+    resp.headers["Pragma"] = "no-cache"
+    return resp
 
 
 @app.route("/api/scan")
