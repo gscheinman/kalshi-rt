@@ -2,15 +2,21 @@ name: Market Snapshot (15 min)
 
 on:
   schedule:
-    # Primary cadence: every 15 min on the quarter hour.
-    # Reviews often arrive in bursts right after a screening or embargo lift,
-    # so we need tight intervals during the prime hunting window.
-    - cron: '0,15,30,45 * * * *'
-    # Redundant offset schedule: GitHub silently skips cron triggers on
-    # low-activity repos, so a second schedule at :07 and :37 fills the gaps.
-    # Worst-case effective interval if half are skipped: ~20 min.
-    - cron: '7,37 * * * *'
-  workflow_dispatch:  # Manual trigger from GitHub UI
+    # GitHub Actions docs: "schedule events are delayed during periods of
+    # high loads of GitHub Actions workflow runs. High load times include
+    # the start of every hour." So we deliberately avoid :00/:15/:30/:45
+    # (which are high-load) and pile in many off-peak slots. Measured skip
+    # rate at :00 boundaries was >80%; offset times skip far less often.
+    #
+    # 12 total scheduled attempts per hour. Even with 50% skipping we still
+    # get a snapshot every ~10 min. The concurrency group at the job level
+    # dedups any that fire close together.
+    - cron: '3,18,33,48 * * * *'
+    - cron: '8,23,38,53 * * * *'
+    - cron: '13,28,43,58 * * * *'
+  workflow_dispatch:  # Manual trigger via GitHub UI or external cron (cron-job.org)
+  repository_dispatch:
+    types: [trigger-snapshot]   # External services can POST events of this type
 
 permissions:
   contents: write
