@@ -17,8 +17,14 @@ GitHub Actions silently skips cron triggers on low-activity workflows. We saw
 3. **Expiration:** 1 year (or whatever feels right)
 4. **Repository access:** Only select `gscheinman/kalshi-rt`
 5. **Permissions** under "Repository permissions":
-   - **Actions:** Read and write
+   - **Contents:** Read and write  (required for the `/dispatches` endpoint)
    - **Metadata:** Read (auto-required)
+
+   NOTE: "Actions: write" is NOT what the dispatches endpoint needs.
+   It's the slightly counterintuitive Contents permission. If you
+   already created the token with the wrong permission, you can edit
+   it in place at https://github.com/settings/personal-access-tokens
+   without regenerating the token string.
 6. Click **Generate token**, copy it. You will NOT be able to see it again.
 
 ### Step 2 -- Set up cron-job.org (free)
