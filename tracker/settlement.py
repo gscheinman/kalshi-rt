@@ -158,27 +158,13 @@ def resolve_event(event_ticker, actual_score):
     if n_ci > 0:
         print(f"  Resolved {n_ci} CI snapshots")
 
-    # Also try resolving prediction logger records
+    # Score any shadow trades (sanity-guard-blocked opportunities) for this
+    # market, so we can measure whether the guard cost us money or saved us.
     try:
-        from tracker.logger import load_predictions, save_predictions
-        records = load_predictions()
-        resolved_preds = 0
-        for r in records:
-            if r.get("event_ticker") == event_ticker and not r.get("resolved"):
-                r["actual_score"] = actual_score
-                r["resolved"] = True
-                r["settlement_timestamp"] = datetime.now(timezone.utc).isoformat()
-                try:
-                    from tracker.resolver import _compute_pnl
-                    r["pnl"] = _compute_pnl(r, actual_score)
-                except Exception:
-                    pass
-                resolved_preds += 1
-        if resolved_preds > 0:
-            save_predictions(records)
-            print(f"  Resolved {resolved_preds} prediction records")
+        from tracker.shadow_tracker import score_shadow_trades
+        score_shadow_trades(event_ticker, actual_score)
     except Exception as e:
-        print(f"  (prediction logger: {e})")
+        print(f"  (shadow scoring: {e})")
 
     # Feed settled movie data back into critic database
     try:

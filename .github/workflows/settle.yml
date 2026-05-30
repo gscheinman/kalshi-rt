@@ -55,7 +55,7 @@ jobs:
 
       - name: Commit settlement data
         run: |
-          git add data/snapshots.jsonl critic_database.csv critic_reviews.json data/market_learnings.json 2>/dev/null || true
+          git add data/snapshots.jsonl critic_database.csv critic_reviews.json data/market_learnings.json data/shadow_trades.jsonl 2>/dev/null || true
           # Only commit if there are changes
           git diff --staged --quiet || git commit -m "settle: $(date -u '+%Y-%m-%d') Monday resolution"
           git pull --rebase origin main || true

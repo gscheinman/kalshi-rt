@@ -211,6 +211,15 @@ def take_snapshot():
     print(f"\n{len(snapshots)} snapshots saved to {REPO_SNAPSHOT_FILE}", flush=True)
     if first_review_markets:
         print(f"\nFIRST-REVIEWS transitions this run: {len(first_review_markets)}", flush=True)
+
+    # Log any opportunities the sanity guard blocked, so we can score the
+    # guard's opportunity cost after settlement. Cheap, dedup'd, append-only.
+    try:
+        from tracker.shadow_tracker import log_shadow_trades
+        log_shadow_trades()
+    except Exception as e:
+        print(f"  (shadow_tracker logging skipped: {e})", flush=True)
+
     return snapshots
 
 
