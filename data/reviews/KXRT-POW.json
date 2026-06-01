@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-POW",
 "movie": "Power Ballad",
 "rt_slug": "m/power_ballad",
-"review_count": 86,
+"review_count": 87,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -777,6 +777,15 @@
 "rating_text": "4/5",
 "create_date": "2026-06-01T10:51:25.000Z",
 "review_id": "103131461"
+},
+{
+"critic_name": "Simon Abrams",
+"sentiment": "Rotten",
+"publication": "AV Club",
+"top_critic": true,
+"rating_text": "C-",
+"create_date": "2026-06-01T20:27:40.000Z",
+"review_id": "103131559"
 }
 ]
 }
