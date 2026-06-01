@@ -119,6 +119,15 @@ def take_snapshot():
                             )
                             continue
                         if reviews:
+                            # Persist reviews to the cumulative per-movie store
+                            # (dates + ids) so future model variants can be
+                            # replayed against the exact historical inputs.
+                            try:
+                                from tracker.review_store import upsert_reviews
+                                upsert_reviews(ticker, movie, rt_slug, reviews)
+                            except Exception as e:
+                                print(f"  (review_store skipped for {movie}: {e})", flush=True)
+
                             close_time = markets[0].get("close_time") if markets else None
                             # Include actual Kalshi thresholds for granular brackets
                             mkt_thresholds = [m["threshold"] for m in markets if m.get("threshold") is not None]

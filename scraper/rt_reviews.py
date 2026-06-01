@@ -158,4 +158,10 @@ def _parse_review(raw):
         "top_critic": critic.get("isTopCritic", False),
         "rating_text": raw.get("originalScore", ""),
         "quote": quote,
+        # Captured for backtesting: createDate lets us reconstruct the exact
+        # review-arrival sequence (what reviews existed at N=5, 20, 40...).
+        # review_id gives stable dedup across re-scrapes. Required inputs for
+        # any future drift model and for replaying new models against history.
+        "create_date": raw.get("createDate", ""),
+        "review_id": raw.get("reviewId", ""),
     }
