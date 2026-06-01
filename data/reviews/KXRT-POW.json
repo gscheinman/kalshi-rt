@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-POW",
 "movie": "Power Ballad",
 "rt_slug": "m/power_ballad",
-"review_count": 87,
+"review_count": 88,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -786,6 +786,15 @@
 "rating_text": "C-",
 "create_date": "2026-06-01T20:27:40.000Z",
 "review_id": "103131559"
+},
+{
+"critic_name": "Mark Keizer",
+"sentiment": "Fresh",
+"publication": "MovieWeb",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-06-01T21:32:10.000Z",
+"review_id": "103131577"
 }
 ]
 }
