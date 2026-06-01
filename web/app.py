@@ -367,12 +367,21 @@ def api_paper_trades():
         threshold = t.get("threshold", 0)
         size = t.get("suggested_size", 0)
 
-        # Compute payout if correct
+        # Three distinct money figures, computed cleanly:
+        #   cost       = what we put in (contracts * fill price) = deployed
+        #   payout     = total returned if the trade wins (cost + net profit).
+        #                Each winning contract settles at $1; Kalshi takes a
+        #                7% fee on PROFIT only, so payout = contracts - fee.
+        #   profit     = net gain if it wins = payout - cost
         if cost_per > 0 and cost_per < 1 and contracts > 0:
+            cost = contracts * cost_per                 # == size, recomputed for consistency
             gross_profit = contracts * (1.0 - cost_per)
             fee = gross_profit * 0.07
-            payout_if_correct = round(gross_profit - fee, 2)
+            profit_if_correct = round(gross_profit - fee, 2)
+            payout_if_correct = round(cost + profit_if_correct, 2)  # total returned
         else:
+            cost = size
+            profit_if_correct = 0
             payout_if_correct = 0
 
         # Determine status:
@@ -390,11 +399,11 @@ def api_paper_trades():
                 won = False
             if won:
                 status = "won"
-                realized_pnl_trade = payout_if_correct
+                realized_pnl_trade = profit_if_correct      # net gain, not total payout
                 wins += 1
             else:
                 status = "lost"
-                realized_pnl_trade = -round(size, 2)
+                realized_pnl_trade = -round(cost, 2)         # lose the deployed cost
                 losses += 1
             realized_pnl += realized_pnl_trade
         elif current_tomato is not None:
@@ -423,25 +432,42 @@ def api_paper_trades():
             "n_reviews": t.get("n_reviews", 0),
             "current_tomatometer": current_tomato,
             "current_review_count": rt_data.get("review_count", 0),
-            "payout_if_correct": payout_if_correct,
+            "cost": round(cost, 2),                       # deployed
+            "payout_if_correct": payout_if_correct,       # total returned if win
+            "profit_if_correct": profit_if_correct,       # net gain if win
             "status": status,
             "settled": settled_score is not None,
             "settled_score": settled_score,
-            "realized_pnl": round(realized_pnl_trade, 2),
+            "realized_pnl": round(realized_pnl_trade, 2), # net profit (settled only)
             "live": t.get("live", False),
             "spread_id": t.get("spread_id"),
             "ob_simulated": t.get("ob_simulated", False),
         })
 
     enriched.reverse()  # newest first
+
+    # Portfolio-level totals, separated into the three figures.
+    total_cost = sum(t["cost"] for t in enriched)
+    # "If all pending win" projections (upper bound on open positions)
+    pending_cost = sum(t["cost"] for t in enriched if not t["settled"])
+    pending_payout = sum(t["payout_if_correct"] for t in enriched if not t["settled"])
+    pending_profit = sum(t["profit_if_correct"] for t in enriched if not t["settled"])
+    # Settled actuals
+    settled_cost = sum(t["cost"] for t in enriched if t["settled"])
+
     return jsonify({
         "trades": enriched,
         "summary": {
-            "realized_pnl": round(realized_pnl, 2),
+            "realized_pnl": round(realized_pnl, 2),       # actual net profit on settled trades
             "wins": wins,
             "losses": losses,
             "pending": pending,
             "total_trades": len(enriched),
+            "total_cost": round(total_cost, 2),
+            "settled_cost": round(settled_cost, 2),
+            "pending_cost": round(pending_cost, 2),
+            "pending_payout_if_all_win": round(pending_payout, 2),
+            "pending_profit_if_all_win": round(pending_profit, 2),
         },
     })
 

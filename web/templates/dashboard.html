@@ -890,8 +890,11 @@
       }
 
       // Compute summary stats
-      const totalSpend = trades.reduce((s, t) => s + (t.suggested_size || 0), 0);
-      const totalPayout = trades.reduce((s, t) => s + (t.payout_if_correct || 0), 0);
+      const totalSpend = summary.total_cost != null ? summary.total_cost
+                         : trades.reduce((s, t) => s + (t.cost || t.suggested_size || 0), 0);
+      const pendingCost = summary.pending_cost || 0;
+      const pendingPayout = summary.pending_payout_if_all_win || 0;
+      const pendingProfit = summary.pending_profit_if_all_win || 0;
       const winning = trades.filter(t => t.status === 'winning').length;
       const losing = trades.filter(t => t.status === 'losing').length;
       const realizedPnl = summary.realized_pnl || 0;
@@ -923,12 +926,12 @@
       let html = `
         <div class="paper-summary">
           <div class="stat-box">
-            <div class="label">Realized P&L</div>
+            <div class="label">Realized Profit</div>
             <div class="value" style="color:${pnlColor}">${pnlSign}$${realizedPnl.toFixed(2)}</div>
-            <div style="font-size:11px;color:var(--text2);margin-top:2px">${wins}W / ${losses}L settled</div>
+            <div style="font-size:11px;color:var(--text2);margin-top:2px">${wins}W / ${losses}L settled &middot; net gain</div>
           </div>
           <div class="stat-box">
-            <div class="label">Pending Trades</div>
+            <div class="label">Open Positions</div>
             <div class="value">${summary.pending || 0}</div>
             <div style="font-size:11px;color:var(--text2);margin-top:2px">
               <span style="color:var(--green)">${winning} winning</span> /
@@ -936,12 +939,14 @@
             </div>
           </div>
           <div class="stat-box">
-            <div class="label">Total Deployed</div>
-            <div class="value">$${totalSpend.toFixed(0)}</div>
+            <div class="label">Open Cost (deployed)</div>
+            <div class="value">$${pendingCost.toFixed(2)}</div>
+            <div style="font-size:11px;color:var(--text2);margin-top:2px">at risk on open positions</div>
           </div>
           <div class="stat-box">
-            <div class="label">Max Pending Payout</div>
-            <div class="value" style="color:var(--green)">$${totalPayout.toFixed(0)}</div>
+            <div class="label">Open: Payout / Profit if all win</div>
+            <div class="value" style="color:var(--green)">$${pendingPayout.toFixed(0)} <span style="color:var(--text2);font-size:14px">/</span> +$${pendingProfit.toFixed(0)}</div>
+            <div style="font-size:11px;color:var(--text2);margin-top:2px">total returned / net gain</div>
           </div>
         </div>
       `;
@@ -994,7 +999,8 @@
                 <th>Fill Price</th>
                 <th>Contracts</th>
                 <th>Cost</th>
-                <th>${group.settled ? 'Realized P&L' : 'Payout if Win'}</th>
+                <th>${group.settled ? 'Payout' : 'Payout if Win'}</th>
+                <th>${group.settled ? 'Profit' : 'Profit if Win'}</th>
                 <th>Edge</th>
                 <th>Status</th>
               </tr>
@@ -1026,14 +1032,21 @@
           }
           const ob = t.ob_simulated ? ' (OB)' : '';
 
-          // P&L cell: settled trades show actual realized; pending show max payout if win
-          let pnlCell;
+          // Three money cells: Cost, Payout, Profit.
+          const cost = (t.cost != null ? t.cost : t.suggested_size) || 0;
+          let payoutCell, profitCell;
           if (t.settled) {
+            // Settled: actual payout received and actual realized profit.
+            const won = t.status === 'won';
+            const actualPayout = won ? (t.payout_if_correct || 0) : 0;
             const c = t.realized_pnl >= 0 ? 'var(--green)' : 'var(--red)';
             const s = t.realized_pnl >= 0 ? '+' : '';
-            pnlCell = `<td style="color:${c};font-weight:600">${s}$${(t.realized_pnl || 0).toFixed(2)}</td>`;
+            payoutCell = `<td>$${actualPayout.toFixed(2)}</td>`;
+            profitCell = `<td style="color:${c};font-weight:600">${s}$${(t.realized_pnl || 0).toFixed(2)}</td>`;
           } else {
-            pnlCell = `<td style="color:var(--green);font-weight:600">$${(t.payout_if_correct || 0).toFixed(2)}</td>`;
+            // Pending: total payout if win, and net profit if win.
+            payoutCell = `<td style="color:var(--text)">$${(t.payout_if_correct || 0).toFixed(2)}</td>`;
+            profitCell = `<td style="color:var(--green);font-weight:600">+$${(t.profit_if_correct || 0).toFixed(2)}</td>`;
           }
 
           html += `
@@ -1042,8 +1055,9 @@
               <td><span class="signal-tag ${dirClass}">${t.direction}</span> Above ${t.threshold}%</td>
               <td>${t.avg_fill}c${ob}</td>
               <td>${typeof t.contracts === 'number' ? t.contracts.toFixed(0) : t.contracts}</td>
-              <td>$${(t.suggested_size || 0).toFixed(2)}</td>
-              ${pnlCell}
+              <td>$${cost.toFixed(2)}</td>
+              ${payoutCell}
+              ${profitCell}
               <td>${t.edge ? (t.edge > 0 ? '+' : '') + t.edge + '%' : '--'}</td>
               <td><span class="${statusClass}">${statusLabel}</span></td>
             </tr>
