@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MAS",
 "movie": "Masters of the Universe",
 "rt_slug": "m/masters_of_the_universe_2026",
-"review_count": 54,
+"review_count": 64,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -489,6 +489,96 @@
 "rating_text": "C+",
 "create_date": "2026-06-02T16:14:16.000Z",
 "review_id": "103131786"
+},
+{
+"critic_name": "Mark Keizer",
+"sentiment": "Fresh",
+"publication": "MovieWeb",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-02T16:20:34.000Z",
+"review_id": "103131789"
+},
+{
+"critic_name": "Pete Hammond",
+"sentiment": "Fresh",
+"publication": "Deadline Hollywood Daily",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-02T16:29:14.000Z",
+"review_id": "103131791"
+},
+{
+"critic_name": "Helen O'Hara",
+"sentiment": "Fresh",
+"publication": "Empire Magazine",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-02T16:29:41.000Z",
+"review_id": "103131792"
+},
+{
+"critic_name": "Guy Lodge",
+"sentiment": "Rotten",
+"publication": "Variety",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-02T16:31:15.000Z",
+"review_id": "103131794"
+},
+{
+"critic_name": "Tim Grierson",
+"sentiment": "Rotten",
+"publication": "Screen International",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-02T16:33:34.000Z",
+"review_id": "103131799"
+},
+{
+"critic_name": "Jake Kleinman",
+"sentiment": "Fresh",
+"publication": "Polygon",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-02T16:34:51.000Z",
+"review_id": "103131802"
+},
+{
+"critic_name": "Brian Truitt",
+"sentiment": "Fresh",
+"publication": "USA Today",
+"top_critic": false,
+"rating_text": "3/4",
+"create_date": "2026-06-02T16:35:33.000Z",
+"review_id": "103131803"
+},
+{
+"critic_name": "Benjamin Lee",
+"sentiment": "Rotten",
+"publication": "Guardian",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-06-02T16:36:09.000Z",
+"review_id": "103131806"
+},
+{
+"critic_name": "Kevin Maher",
+"sentiment": "Rotten",
+"publication": "The Times (UK)",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-06-02T16:37:29.000Z",
+"review_id": "103131810"
+},
+{
+"critic_name": "Eric Diaz",
+"sentiment": "Fresh",
+"publication": "Nerdist",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-06-02T16:38:13.000Z",
+"review_id": "103131812"
 }
 ]
 }
