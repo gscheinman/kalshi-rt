@@ -1,0 +1,17 @@
+{
+"event_ticker": "KXRT-STO",
+"movie": "Stop! That! Train!",
+"rt_slug": "m/stop_that_train",
+"review_count": 1,
+"reviews": [
+{
+"critic_name": "David Rooney",
+"sentiment": "Fresh",
+"publication": "The Hollywood Reporter",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-02T00:27:10.000Z",
+"review_id": "103131648"
+}
+]
+}
