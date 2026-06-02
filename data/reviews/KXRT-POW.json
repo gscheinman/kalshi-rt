@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-POW",
 "movie": "Power Ballad",
 "rt_slug": "m/power_ballad",
-"review_count": 90,
+"review_count": 91,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -813,6 +813,15 @@
 "rating_text": "",
 "create_date": "2026-06-01T23:41:48.000Z",
 "review_id": "103131627"
+},
+{
+"critic_name": "Daniel Eagan",
+"sentiment": "Fresh",
+"publication": "ScreenAnarchy",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-02T15:34:22.000Z",
+"review_id": "103131778"
 }
 ]
 }
