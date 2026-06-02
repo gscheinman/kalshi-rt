@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MAS",
 "movie": "Masters of the Universe",
 "rt_slug": "m/masters_of_the_universe_2026",
-"review_count": 66,
+"review_count": 73,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -597,6 +597,69 @@
 "rating_text": "2.5/4",
 "create_date": "2026-06-02T16:45:13.000Z",
 "review_id": "103131818"
+},
+{
+"critic_name": "Leah Marilla Thomas",
+"sentiment": "Fresh",
+"publication": "The Mary Sue",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-06-02T16:48:34.000Z",
+"review_id": "103131819"
+},
+{
+"critic_name": "Rodrigo Perez",
+"sentiment": "Rotten",
+"publication": "The Playlist",
+"top_critic": false,
+"rating_text": "D+",
+"create_date": "2026-06-02T16:49:15.000Z",
+"review_id": "103131820"
+},
+{
+"critic_name": "Jordan Farley",
+"sentiment": "Fresh",
+"publication": "GamesRadar+",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-02T16:49:52.000Z",
+"review_id": "103131821"
+},
+{
+"critic_name": "Scott J. Davis",
+"sentiment": "Fresh",
+"publication": "SciFiNow",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-02T16:50:26.000Z",
+"review_id": "103131822"
+},
+{
+"critic_name": "Travis Hopson",
+"sentiment": "Fresh",
+"publication": "Punch Drunk Critics",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-02T16:50:59.000Z",
+"review_id": "103131823"
+},
+{
+"critic_name": "Larushka Ivan-Zadeh",
+"sentiment": "Fresh",
+"publication": "Time Out",
+"top_critic": true,
+"rating_text": "4/5",
+"create_date": "2026-06-02T16:51:29.000Z",
+"review_id": "103131824"
+},
+{
+"critic_name": "Robbie Collin",
+"sentiment": "Rotten",
+"publication": "Daily Telegraph (UK)",
+"top_critic": true,
+"rating_text": "1/5",
+"create_date": "2026-06-02T16:52:18.000Z",
+"review_id": "103131826"
 }
 ]
 }

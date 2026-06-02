@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-POW",
 "movie": "Power Ballad",
 "rt_slug": "m/power_ballad",
-"review_count": 91,
+"review_count": 92,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -822,6 +822,15 @@
 "rating_text": "",
 "create_date": "2026-06-02T15:34:22.000Z",
 "review_id": "103131778"
+},
+{
+"critic_name": "Tara McNamara",
+"sentiment": "Fresh",
+"publication": "Common Sense Media",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-02T16:59:36.000Z",
+"review_id": "103131837"
 }
 ]
 }
