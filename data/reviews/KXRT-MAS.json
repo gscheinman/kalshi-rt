@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MAS",
 "movie": "Masters of the Universe",
 "rt_slug": "m/masters_of_the_universe_2026",
-"review_count": 53,
+"review_count": 54,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -480,6 +480,15 @@
 "rating_text": "2/5",
 "create_date": "2026-06-02T15:55:22.000Z",
 "review_id": "103131781"
+},
+{
+"critic_name": "Kristen Lopez",
+"sentiment": "Fresh",
+"publication": "The Film Maven",
+"top_critic": true,
+"rating_text": "C+",
+"create_date": "2026-06-02T16:14:16.000Z",
+"review_id": "103131786"
 }
 ]
 }
