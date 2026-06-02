@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-POW",
 "movie": "Power Ballad",
 "rt_slug": "m/power_ballad",
-"review_count": 89,
+"review_count": 90,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -804,6 +804,15 @@
 "rating_text": "8/10",
 "create_date": "2026-06-01T21:42:26.000Z",
 "review_id": "103131578"
+},
+{
+"critic_name": "Richard Brody",
+"sentiment": "Fresh",
+"publication": "The New Yorker",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-01T23:41:48.000Z",
+"review_id": "103131627"
 }
 ]
 }
