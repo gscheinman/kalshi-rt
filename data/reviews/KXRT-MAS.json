@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MAS",
 "movie": "Masters of the Universe",
 "rt_slug": "m/masters_of_the_universe_2026",
-"review_count": 26,
+"review_count": 36,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -237,6 +237,96 @@
 "rating_text": "B+",
 "create_date": "2026-06-02T13:13:50.000Z",
 "review_id": "103131730"
+},
+{
+"critic_name": "Kristy Puchko",
+"sentiment": "Fresh",
+"publication": "Mashable",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-02T13:17:45.000Z",
+"review_id": "103131733"
+},
+{
+"critic_name": "Peter Martin",
+"sentiment": "Fresh",
+"publication": "DallasFilmNow.com",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-02T13:19:32.000Z",
+"review_id": "103131734"
+},
+{
+"critic_name": "James Marsh",
+"sentiment": "Fresh",
+"publication": "South China Morning Post",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-06-02T13:23:49.000Z",
+"review_id": "103131736"
+},
+{
+"critic_name": "David Griffiths",
+"sentiment": "Fresh",
+"publication": "Subculture Entertainment",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-06-02T13:24:08.000Z",
+"review_id": "103131737"
+},
+{
+"critic_name": "Paul Klein",
+"sentiment": "Fresh",
+"publication": "FILMHOUNDS Magazine",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-02T13:34:29.000Z",
+"review_id": "103131739"
+},
+{
+"critic_name": "Fred Topel",
+"sentiment": "Fresh",
+"publication": "United Press International",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-02T13:34:42.000Z",
+"review_id": "103131740"
+},
+{
+"critic_name": "Frank Scheck",
+"sentiment": "Rotten",
+"publication": "The Hollywood Reporter",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-02T13:35:00.000Z",
+"review_id": "103131741"
+},
+{
+"critic_name": "Eric Goldman",
+"sentiment": "Fresh",
+"publication": "Eric Goldman (YouTube)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-02T13:36:16.000Z",
+"review_id": "103131742"
+},
+{
+"critic_name": "Clint Gage",
+"sentiment": "Fresh",
+"publication": "IGN Movies",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-02T13:37:38.000Z",
+"review_id": "103131743"
+},
+{
+"critic_name": "Joshua Mbonu",
+"sentiment": "Fresh",
+"publication": "Geek Vibes Nation",
+"top_critic": false,
+"rating_text": "6/10",
+"create_date": "2026-06-02T13:38:59.000Z",
+"review_id": "103131744"
 }
 ]
 }
