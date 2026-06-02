@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-POW",
 "movie": "Power Ballad",
 "rt_slug": "m/power_ballad",
-"review_count": 95,
+"review_count": 96,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -858,6 +858,15 @@
 "rating_text": "",
 "create_date": "2026-06-02T17:16:59.000Z",
 "review_id": "103131857"
+},
+{
+"critic_name": "Tori Brazier",
+"sentiment": "Fresh",
+"publication": "metro.co.uk",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-02T17:45:48.000Z",
+"review_id": "103131922"
 }
 ]
 }
