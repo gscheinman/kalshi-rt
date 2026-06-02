@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MAS",
 "movie": "Masters of the Universe",
 "rt_slug": "m/masters_of_the_universe_2026",
-"review_count": 36,
+"review_count": 40,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -327,6 +327,42 @@
 "rating_text": "6/10",
 "create_date": "2026-06-02T13:38:59.000Z",
 "review_id": "103131744"
+},
+{
+"critic_name": "Grant Watson",
+"sentiment": "Rotten",
+"publication": "Fiction Machine",
+"top_critic": false,
+"rating_text": "4/10",
+"create_date": "2026-06-02T13:49:22.000Z",
+"review_id": "103131745"
+},
+{
+"critic_name": "Aaron Neuwirth",
+"sentiment": "Fresh",
+"publication": "We Live Entertainment",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-02T13:57:37.000Z",
+"review_id": "103131748"
+},
+{
+"critic_name": "Victoria Luxford",
+"sentiment": "Fresh",
+"publication": "Collider",
+"top_critic": false,
+"rating_text": "7/10",
+"create_date": "2026-06-02T14:02:56.000Z",
+"review_id": "103131749"
+},
+{
+"critic_name": "Jesse Hassenger",
+"sentiment": "Rotten",
+"publication": "AV Club",
+"top_critic": false,
+"rating_text": "C+",
+"create_date": "2026-06-02T14:08:46.000Z",
+"review_id": "103131750"
 }
 ]
 }
