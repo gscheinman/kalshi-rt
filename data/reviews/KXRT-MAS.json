@@ -1,0 +1,242 @@
+{
+"event_ticker": "KXRT-MAS",
+"movie": "Masters of the Universe",
+"rt_slug": "m/masters_of_the_universe_2026",
+"review_count": 26,
+"reviews": [
+{
+"critic_name": "Josh Parham",
+"sentiment": "Rotten",
+"publication": "Next Best Picture",
+"top_critic": false,
+"rating_text": "3/10",
+"create_date": "2026-06-02T13:00:00.000Z",
+"review_id": "103131696"
+},
+{
+"critic_name": "Liz Shannon Miller",
+"sentiment": "Fresh",
+"publication": "Consequence",
+"top_critic": true,
+"rating_text": "B",
+"create_date": "2026-06-02T13:00:01.000Z",
+"review_id": "103131697"
+},
+{
+"critic_name": "Josh Martin",
+"sentiment": "Fresh",
+"publication": "InSession Film",
+"top_critic": false,
+"rating_text": "B-",
+"create_date": "2026-06-02T13:00:04.000Z",
+"review_id": "103131698"
+},
+{
+"critic_name": "Allison Rose",
+"sentiment": "Fresh",
+"publication": "FlickDirect",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-02T13:00:17.000Z",
+"review_id": "103131700"
+},
+{
+"critic_name": "Peter Gray",
+"sentiment": "Fresh",
+"publication": "The AU Review",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-06-02T13:00:18.000Z",
+"review_id": "103131701"
+},
+{
+"critic_name": "Kat Hughes",
+"sentiment": "Fresh",
+"publication": "THN",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-02T13:00:41.000Z",
+"review_id": "103131702"
+},
+{
+"critic_name": "Joey Magidson",
+"sentiment": "Fresh",
+"publication": "Awards Radar",
+"top_critic": false,
+"rating_text": "3/4",
+"create_date": "2026-06-02T13:01:01.000Z",
+"review_id": "103131704"
+},
+{
+"critic_name": "Molly Freeman",
+"sentiment": "Fresh",
+"publication": "Screen Rant",
+"top_critic": false,
+"rating_text": "8/10",
+"create_date": "2026-06-02T13:01:56.000Z",
+"review_id": "103131705"
+},
+{
+"critic_name": "Edward Douglas",
+"sentiment": "Rotten",
+"publication": "New York Daily News",
+"top_critic": false,
+"rating_text": "5/10",
+"create_date": "2026-06-02T13:01:58.000Z",
+"review_id": "103131706"
+},
+{
+"critic_name": "Joonatan Itkonen",
+"sentiment": "Rotten",
+"publication": "Region Free",
+"top_critic": false,
+"rating_text": "1/5",
+"create_date": "2026-06-02T13:02:56.000Z",
+"review_id": "103131709"
+},
+{
+"critic_name": "Linda Marric",
+"sentiment": "Fresh",
+"publication": "HeyUGuys",
+"top_critic": true,
+"rating_text": "4/5",
+"create_date": "2026-06-02T13:02:56.000Z",
+"review_id": "103131708"
+},
+{
+"critic_name": "William Bibbiani",
+"sentiment": "Rotten",
+"publication": "TheWrap",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-02T13:04:01.000Z",
+"review_id": "103131711"
+},
+{
+"critic_name": "Bill Bria",
+"sentiment": "Rotten",
+"publication": "Slashfilm",
+"top_critic": false,
+"rating_text": "5/10",
+"create_date": "2026-06-02T13:06:08.000Z",
+"review_id": "103131713"
+},
+{
+"critic_name": "Sonny Bunch",
+"sentiment": "Rotten",
+"publication": "The Bulwark",
+"top_critic": false,
+"rating_text": "2/4",
+"create_date": "2026-06-02T13:08:18.000Z",
+"review_id": "103131715"
+},
+{
+"critic_name": "Sebastian Zavala Kahn",
+"sentiment": "Fresh",
+"publication": "Me gusta el cine",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-02T13:08:40.000Z",
+"review_id": "103131717"
+},
+{
+"critic_name": "Andrew J. Salazar",
+"sentiment": "Fresh",
+"publication": "Discussing Film",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-06-02T13:08:54.000Z",
+"review_id": "103131718"
+},
+{
+"critic_name": "Clint Worthington",
+"sentiment": "Fresh",
+"publication": "RogerEbert.com",
+"top_critic": false,
+"rating_text": "2.5/4",
+"create_date": "2026-06-02T13:09:25.000Z",
+"review_id": "103131719"
+},
+{
+"critic_name": "Scott Menzel",
+"sentiment": "Fresh",
+"publication": "We Live Entertainment",
+"top_critic": false,
+"rating_text": "8/10",
+"create_date": "2026-06-02T13:09:27.000Z",
+"review_id": "103131720"
+},
+{
+"critic_name": "Mike Ryan",
+"sentiment": "Fresh",
+"publication": "The Hard Pass (Ghost.io)",
+"top_critic": false,
+"rating_text": "7/10",
+"create_date": "2026-06-02T13:09:56.000Z",
+"review_id": "103131721"
+},
+{
+"critic_name": "Matt Singer",
+"sentiment": "Rotten",
+"publication": "ScreenCrush",
+"top_critic": true,
+"rating_text": "4/10",
+"create_date": "2026-06-02T13:10:44.000Z",
+"review_id": "103131722"
+},
+{
+"critic_name": "Courtney Howard",
+"sentiment": "Fresh",
+"publication": "Fresh Fiction",
+"top_critic": false,
+"rating_text": "4 out of 5",
+"create_date": "2026-06-02T13:10:50.000Z",
+"review_id": "103131723"
+},
+{
+"critic_name": "Donald Clarke",
+"sentiment": "Fresh",
+"publication": "Irish Times",
+"top_critic": true,
+"rating_text": "4/5",
+"create_date": "2026-06-02T13:11:01.000Z",
+"review_id": "103131725"
+},
+{
+"critic_name": "Ian Sandwell",
+"sentiment": "Fresh",
+"publication": "Digital Spy",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-02T13:12:50.000Z",
+"review_id": "103131726"
+},
+{
+"critic_name": "Doug Jamieson",
+"sentiment": "Fresh",
+"publication": "The Jam Report",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-06-02T13:13:13.000Z",
+"review_id": "103131727"
+},
+{
+"critic_name": "Chris Bumbray",
+"sentiment": "Fresh",
+"publication": "JoBlo's Movie Network",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-02T13:13:39.000Z",
+"review_id": "103131728"
+},
+{
+"critic_name": "John Kirk",
+"sentiment": "Fresh",
+"publication": "Original Cin",
+"top_critic": false,
+"rating_text": "B+",
+"create_date": "2026-06-02T13:13:50.000Z",
+"review_id": "103131730"
+}
+]
+}
