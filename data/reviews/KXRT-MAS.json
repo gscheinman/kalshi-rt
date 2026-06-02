@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MAS",
 "movie": "Masters of the Universe",
 "rt_slug": "m/masters_of_the_universe_2026",
-"review_count": 40,
+"review_count": 44,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -363,6 +363,42 @@
 "rating_text": "C+",
 "create_date": "2026-06-02T14:08:46.000Z",
 "review_id": "103131750"
+},
+{
+"critic_name": "Nick Schager",
+"sentiment": "Fresh",
+"publication": "The Daily Beast",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-02T14:14:49.000Z",
+"review_id": "103131751"
+},
+{
+"critic_name": "Trace Sauveur",
+"sentiment": "Fresh",
+"publication": "AwardsWatch",
+"top_critic": false,
+"rating_text": "B-",
+"create_date": "2026-06-02T14:16:30.000Z",
+"review_id": "103131752"
+},
+{
+"critic_name": "Spencer Perry",
+"sentiment": "Fresh",
+"publication": "ComicBook.com",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-02T14:19:42.000Z",
+"review_id": "103131753"
+},
+{
+"critic_name": "Avi Offer",
+"sentiment": "Rotten",
+"publication": "NYC Movie Guru",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-02T14:26:41.000Z",
+"review_id": "103131755"
 }
 ]
 }
