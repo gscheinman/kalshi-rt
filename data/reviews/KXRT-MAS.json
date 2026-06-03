@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MAS",
 "movie": "Masters of the Universe",
 "rt_slug": "m/masters_of_the_universe_2026",
-"review_count": 95,
+"review_count": 101,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -858,6 +858,60 @@
 "rating_text": "3/5",
 "create_date": "2026-06-03T16:57:39.000Z",
 "review_id": "103132203"
+},
+{
+"critic_name": "Joseph Robinson",
+"sentiment": "Fresh",
+"publication": "Fish Jelly Films (YouTube)",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-06-03T17:02:53.000Z",
+"review_id": "103132207"
+},
+{
+"critic_name": "Hilary A White",
+"sentiment": "Fresh",
+"publication": "Irish Independent",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-06-03T17:06:40.000Z",
+"review_id": "103132208"
+},
+{
+"critic_name": "Jake Wilson",
+"sentiment": "Rotten",
+"publication": "Sydney Morning Herald",
+"top_critic": false,
+"rating_text": "1.5/5",
+"create_date": "2026-06-03T17:43:32.000Z",
+"review_id": "103132232"
+},
+{
+"critic_name": "Johnny Oleksinski",
+"sentiment": "Fresh",
+"publication": "New York Post",
+"top_critic": false,
+"rating_text": "3/4",
+"create_date": "2026-06-03T17:52:33.000Z",
+"review_id": "103132243"
+},
+{
+"critic_name": "Leigh Paatsch",
+"sentiment": "Fresh",
+"publication": "Daily Telegraph (Australia)",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-03T17:53:30.000Z",
+"review_id": "103132245"
+},
+{
+"critic_name": "Yago Garc\u00eda",
+"sentiment": "Rotten",
+"publication": "Cineman\u00eda (Spain)",
+"top_critic": false,
+"rating_text": "2.5/5",
+"create_date": "2026-06-03T17:56:39.000Z",
+"review_id": "103132247"
 }
 ]
 }
