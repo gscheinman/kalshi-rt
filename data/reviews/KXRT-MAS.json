@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MAS",
 "movie": "Masters of the Universe",
 "rt_slug": "m/masters_of_the_universe_2026",
-"review_count": 92,
+"review_count": 93,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -831,6 +831,15 @@
 "rating_text": "3/5",
 "create_date": "2026-06-03T03:30:19.000Z",
 "review_id": "103132131"
+},
+{
+"critic_name": "Jack Martin",
+"sentiment": "Fresh",
+"publication": "Film Feeder",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-03T14:10:21.000Z",
+"review_id": "103132164"
 }
 ]
 }
