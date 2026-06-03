@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MAS",
 "movie": "Masters of the Universe",
 "rt_slug": "m/masters_of_the_universe_2026",
-"review_count": 104,
+"review_count": 105,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -939,6 +939,15 @@
 "rating_text": "B-",
 "create_date": "2026-06-03T22:14:27.000Z",
 "review_id": "103132299"
+},
+{
+"critic_name": "Andrea Chase",
+"sentiment": "Rotten",
+"publication": "Killer Movie Reviews",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-06-03T23:13:22.000Z",
+"review_id": "103132310"
 }
 ]
 }
