@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-POW",
 "movie": "Power Ballad",
 "rt_slug": "m/power_ballad",
-"review_count": 100,
+"review_count": 101,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -903,6 +903,15 @@
 "rating_text": "3/4",
 "create_date": "2026-06-03T13:21:55.000Z",
 "review_id": "103132158"
+},
+{
+"critic_name": "Christian Zilko",
+"sentiment": "Fresh",
+"publication": "IndieWire",
+"top_critic": false,
+"rating_text": "B",
+"create_date": "2026-06-03T22:24:16.000Z",
+"review_id": "103132300"
 }
 ]
 }
