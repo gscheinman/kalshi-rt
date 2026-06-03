@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-POW",
 "movie": "Power Ballad",
 "rt_slug": "m/power_ballad",
-"review_count": 98,
+"review_count": 99,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -885,6 +885,15 @@
 "rating_text": "3/4",
 "create_date": "2026-06-02T19:41:04.000Z",
 "review_id": "103132018"
+},
+{
+"critic_name": "Rob Thomas",
+"sentiment": "Fresh",
+"publication": "Not That Rob Thomas (Substack)",
+"top_critic": false,
+"rating_text": "2.5/4",
+"create_date": "2026-06-03T12:15:24.000Z",
+"review_id": "103132140"
 }
 ]
 }
