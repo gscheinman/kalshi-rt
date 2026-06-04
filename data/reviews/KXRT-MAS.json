@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MAS",
 "movie": "Masters of the Universe",
 "rt_slug": "m/masters_of_the_universe_2026",
-"review_count": 125,
+"review_count": 129,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -1128,6 +1128,42 @@
 "rating_text": "5/5",
 "create_date": "2026-06-04T17:11:36.000Z",
 "review_id": "103132501"
+},
+{
+"critic_name": "Neil Soans",
+"sentiment": "Fresh",
+"publication": "The Times of India",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-06-04T17:28:51.000Z",
+"review_id": "103132517"
+},
+{
+"critic_name": "George M. Thomas",
+"sentiment": "Fresh",
+"publication": "Akron Beacon Journal",
+"top_critic": false,
+"rating_text": "B-",
+"create_date": "2026-06-04T17:29:54.000Z",
+"review_id": "103132518"
+},
+{
+"critic_name": "Stephen Silver",
+"sentiment": "Fresh",
+"publication": "The SS Ben Hecht",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-04T17:31:17.000Z",
+"review_id": "103132519"
+},
+{
+"critic_name": "Shalini Langer",
+"sentiment": "Fresh",
+"publication": "The Indian Express",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-06-04T17:38:41.000Z",
+"review_id": "103132524"
 }
 ]
 }
