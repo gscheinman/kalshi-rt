@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SCA",
 "movie": "Scary Movie",
 "rt_slug": "m/scary_movie_2026",
-"review_count": 12,
+"review_count": 18,
 "reviews": [
 {
 "critic_name": "Doug Jamieson",
@@ -111,6 +111,60 @@
 "rating_text": "1.5/4",
 "create_date": "2026-06-04T13:23:41.000Z",
 "review_id": "103132421"
+},
+{
+"critic_name": "George Simpson",
+"sentiment": "Rotten",
+"publication": "Daily Express (UK)",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-06-04T13:27:45.000Z",
+"review_id": "103132424"
+},
+{
+"critic_name": "Kim Newman",
+"sentiment": "Rotten",
+"publication": "Empire Magazine",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-06-04T13:29:11.000Z",
+"review_id": "103132425"
+},
+{
+"critic_name": "Charles Bramesco",
+"sentiment": "Rotten",
+"publication": "Little White Lies",
+"top_critic": true,
+"rating_text": "1/5",
+"create_date": "2026-06-04T13:30:34.000Z",
+"review_id": "103132426"
+},
+{
+"critic_name": "Joonatan Itkonen",
+"sentiment": "Rotten",
+"publication": "Region Free",
+"top_critic": false,
+"rating_text": "1/5",
+"create_date": "2026-06-04T13:34:06.000Z",
+"review_id": "103132428"
+},
+{
+"critic_name": "Avi Offer",
+"sentiment": "Rotten",
+"publication": "NYC Movie Guru",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-04T13:35:42.000Z",
+"review_id": "103132429"
+},
+{
+"critic_name": "Andrew J. Salazar",
+"sentiment": "Fresh",
+"publication": "Discussing Film",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-04T13:40:57.000Z",
+"review_id": "103132431"
 }
 ]
 }
