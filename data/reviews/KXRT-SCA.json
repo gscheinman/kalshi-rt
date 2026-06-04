@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SCA",
 "movie": "Scary Movie",
 "rt_slug": "m/scary_movie_2026",
-"review_count": 27,
+"review_count": 28,
 "reviews": [
 {
 "critic_name": "Doug Jamieson",
@@ -246,6 +246,15 @@
 "rating_text": "",
 "create_date": "2026-06-04T15:33:31.000Z",
 "review_id": "103132457"
+},
+{
+"critic_name": "Jordan Bassett",
+"sentiment": "Rotten",
+"publication": "NME (New Musical Express)",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-06-04T15:41:04.000Z",
+"review_id": "103132458"
 }
 ]
 }
