@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SCA",
 "movie": "Scary Movie",
 "rt_slug": "m/scary_movie_2026",
-"review_count": 4,
+"review_count": 12,
 "reviews": [
 {
 "critic_name": "Doug Jamieson",
@@ -39,6 +39,78 @@
 "rating_text": "1/5",
 "create_date": "2026-06-04T13:02:12.000Z",
 "review_id": "103132408"
+},
+{
+"critic_name": "Owen Gleiberman",
+"sentiment": "Rotten",
+"publication": "Variety",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-04T13:07:27.000Z",
+"review_id": "103132410"
+},
+{
+"critic_name": "David Rooney",
+"sentiment": "Rotten",
+"publication": "The Hollywood Reporter",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-04T13:09:05.000Z",
+"review_id": "103132411"
+},
+{
+"critic_name": "Julian Roman",
+"sentiment": "Fresh",
+"publication": "MovieWeb",
+"top_critic": false,
+"rating_text": "2.5/5",
+"create_date": "2026-06-04T13:10:04.000Z",
+"review_id": "103132412"
+},
+{
+"critic_name": "Nikki Baughan",
+"sentiment": "Rotten",
+"publication": "Screen International",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-04T13:12:09.000Z",
+"review_id": "103132414"
+},
+{
+"critic_name": "Josh Korngut",
+"sentiment": "Rotten",
+"publication": "Dread Central",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-06-04T13:12:13.000Z",
+"review_id": "103132415"
+},
+{
+"critic_name": "Alison Foreman",
+"sentiment": "Fresh",
+"publication": "IndieWire",
+"top_critic": false,
+"rating_text": "C+",
+"create_date": "2026-06-04T13:16:42.000Z",
+"review_id": "103132417"
+},
+{
+"critic_name": "Pete Hammond",
+"sentiment": "Rotten",
+"publication": "Deadline Hollywood Daily",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-04T13:19:40.000Z",
+"review_id": "103132419"
+},
+{
+"critic_name": "Mark Kennedy",
+"sentiment": "Rotten",
+"publication": "Associated Press",
+"top_critic": false,
+"rating_text": "1.5/4",
+"create_date": "2026-06-04T13:23:41.000Z",
+"review_id": "103132421"
 }
 ]
 }

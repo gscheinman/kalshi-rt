@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MAS",
 "movie": "Masters of the Universe",
 "rt_slug": "m/masters_of_the_universe_2026",
-"review_count": 112,
+"review_count": 114,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -1011,6 +1011,24 @@
 "rating_text": "2/5",
 "create_date": "2026-06-04T11:25:49.000Z",
 "review_id": "103132403"
+},
+{
+"critic_name": "Nate Adams",
+"sentiment": "Rotten",
+"publication": "The Only Critic",
+"top_critic": false,
+"rating_text": "D+",
+"create_date": "2026-06-04T13:22:30.000Z",
+"review_id": "103132420"
+},
+{
+"critic_name": "Keith Phipps",
+"sentiment": "Fresh",
+"publication": "The Reveal",
+"top_critic": true,
+"rating_text": "3/5",
+"create_date": "2026-06-04T13:24:27.000Z",
+"review_id": "103132422"
 }
 ]
 }
