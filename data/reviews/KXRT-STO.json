@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-STO",
 "movie": "Stop! That! Train!",
 "rt_slug": "m/stop_that_train",
-"review_count": 2,
+"review_count": 3,
 "reviews": [
 {
 "critic_name": "David Rooney",
@@ -21,6 +21,15 @@
 "rating_text": "3/5",
 "create_date": "2026-06-04T15:47:42.000Z",
 "review_id": "103132460"
+},
+{
+"critic_name": "Luke Y. Thompson",
+"sentiment": "Fresh",
+"publication": "Mortal Cinema (Substack)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-04T18:49:26.000Z",
+"review_id": "103132568"
 }
 ]
 }
