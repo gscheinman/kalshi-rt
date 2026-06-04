@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-POW",
 "movie": "Power Ballad",
 "rt_slug": "m/power_ballad",
-"review_count": 108,
+"review_count": 110,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -975,6 +975,24 @@
 "rating_text": "3.5/5",
 "create_date": "2026-06-04T17:18:56.000Z",
 "review_id": "103132507"
+},
+{
+"critic_name": "Richard Whittaker",
+"sentiment": "Fresh",
+"publication": "Austin Chronicle",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-06-04T20:03:49.000Z",
+"review_id": "103132609"
+},
+{
+"critic_name": "Kristian M. Lin",
+"sentiment": "Fresh",
+"publication": "Fort Worth Weekly",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-04T20:08:04.000Z",
+"review_id": "103132612"
 }
 ]
 }
