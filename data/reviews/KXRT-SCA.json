@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SCA",
 "movie": "Scary Movie",
 "rt_slug": "m/scary_movie_2026",
-"review_count": 45,
+"review_count": 47,
 "reviews": [
 {
 "critic_name": "Doug Jamieson",
@@ -408,6 +408,24 @@
 "rating_text": "7/10 ",
 "create_date": "2026-06-04T21:20:35.000Z",
 "review_id": "103132665"
+},
+{
+"critic_name": "Travis Hopson",
+"sentiment": "Rotten",
+"publication": "Punch Drunk Critics",
+"top_critic": false,
+"rating_text": "1/5",
+"create_date": "2026-06-04T21:41:08.000Z",
+"review_id": "103132670"
+},
+{
+"critic_name": "David Crow",
+"sentiment": "Rotten",
+"publication": "Den of Geek",
+"top_critic": false,
+"rating_text": "2.5/5",
+"create_date": "2026-06-04T21:43:12.000Z",
+"review_id": "103132673"
 }
 ]
 }
