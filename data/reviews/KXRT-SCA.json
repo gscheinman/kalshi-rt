@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SCA",
 "movie": "Scary Movie",
 "rt_slug": "m/scary_movie_2026",
-"review_count": 30,
+"review_count": 32,
 "reviews": [
 {
 "critic_name": "Doug Jamieson",
@@ -273,6 +273,24 @@
 "rating_text": "3/5",
 "create_date": "2026-06-04T16:32:06.000Z",
 "review_id": "103132472"
+},
+{
+"critic_name": "Pablo O. Scholz",
+"sentiment": "Fresh",
+"publication": "Clar\u00edn",
+"top_critic": false,
+"rating_text": "3/4",
+"create_date": "2026-06-04T16:53:21.000Z",
+"review_id": "103132489"
+},
+{
+"critic_name": "Guillermo Courau",
+"sentiment": "Fresh",
+"publication": "La Naci\u00f3n (Argentina)",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-04T17:00:29.000Z",
+"review_id": "103132494"
 }
 ]
 }
