@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-POW",
 "movie": "Power Ballad",
 "rt_slug": "m/power_ballad",
-"review_count": 103,
+"review_count": 105,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -930,6 +930,24 @@
 "rating_text": "3/4",
 "create_date": "2026-06-03T23:37:13.000Z",
 "review_id": "103132316"
+},
+{
+"critic_name": "Charles Koplinski",
+"sentiment": "Fresh",
+"publication": "Reel Talk with Chuck and Pam",
+"top_critic": false,
+"rating_text": "3.5/4.0",
+"create_date": "2026-06-03T23:58:32.000Z",
+"review_id": "103132320"
+},
+{
+"critic_name": "Mike McGranaghan",
+"sentiment": "Fresh",
+"publication": "Aisle Seat",
+"top_critic": false,
+"rating_text": "3.5/4",
+"create_date": "2026-06-04T00:04:29.000Z",
+"review_id": "103132322"
 }
 ]
 }
