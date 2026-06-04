@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-POW",
 "movie": "Power Ballad",
 "rt_slug": "m/power_ballad",
-"review_count": 106,
+"review_count": 107,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -957,6 +957,15 @@
 "rating_text": "B+",
 "create_date": "2026-06-04T13:10:33.000Z",
 "review_id": "103132413"
+},
+{
+"critic_name": "Frank Swietek",
+"sentiment": "Fresh",
+"publication": "One Guy's Opinion",
+"top_critic": false,
+"rating_text": "B-",
+"create_date": "2026-06-04T16:16:56.000Z",
+"review_id": "103132464"
 }
 ]
 }
