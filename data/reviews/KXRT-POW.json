@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-POW",
 "movie": "Power Ballad",
 "rt_slug": "m/power_ballad",
-"review_count": 101,
+"review_count": 103,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -912,6 +912,24 @@
 "rating_text": "B",
 "create_date": "2026-06-03T22:24:16.000Z",
 "review_id": "103132300"
+},
+{
+"critic_name": "Monita Roy Mohan",
+"sentiment": "Rotten",
+"publication": "Stereo Geeks (Podcast)",
+"top_critic": false,
+"rating_text": "2.5",
+"create_date": "2026-06-03T23:29:48.000Z",
+"review_id": "103132313"
+},
+{
+"critic_name": "Jake Coyle",
+"sentiment": "Fresh",
+"publication": "Associated Press",
+"top_critic": false,
+"rating_text": "3/4",
+"create_date": "2026-06-03T23:37:13.000Z",
+"review_id": "103132316"
 }
 ]
 }
