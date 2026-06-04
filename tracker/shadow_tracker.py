@@ -124,14 +124,32 @@ def log_shadow_trades():
 
             abs_edge = abs(edge)
 
-            # Must clear the tier min-edge and win-prob floor (i.e. it was a
-            # genuine opportunity), AND be blocked specifically by the sanity guard.
+            # Only consider opportunities with at least a small edge -- below
+            # this we'd be logging pure noise. This floor (5%) is intentionally
+            # looser than the tier minimum so we capture trades blocked by the
+            # tier requirement too, not just sanity blocks.
+            if abs_edge < 0.05:
+                continue
+
+            # Evaluate every filter independently so we know exactly why each
+            # opportunity didn't trade.
             clears_tier = abs_edge >= tier_min_edge
             clears_winprob = win_prob >= config.MIN_WIN_PROB
             blocked_by_sanity = config.sanity_blocks(abs_edge, volume)
 
-            if not (clears_tier and clears_winprob and blocked_by_sanity):
+            # If it passes everything, the real paper trader would have taken
+            # it -- not a shadow trade.
+            if clears_tier and clears_winprob and not blocked_by_sanity:
                 continue
+
+            # Record every reason it was blocked (can be more than one).
+            reasons = []
+            if blocked_by_sanity:
+                reasons.append("sanity_guard")
+            if not clears_tier:
+                reasons.append("below_tier_min")
+            if not clears_winprob:
+                reasons.append("win_prob_floor")
 
             key = (ticker, threshold, direction)
             if key in existing:
@@ -148,9 +166,11 @@ def log_shadow_trades():
                 "entry_price": round(entry, 4),
                 "model_prob": round(win_prob, 4),
                 "edge_pct": round(abs_edge * 100, 1),
+                "tier_min_edge_pct": round(tier_min_edge * 100, 1),
                 "n_reviews": n_reviews,
                 "total_volume": round(volume, 0),
-                "blocked_by": "sanity_guard",
+                "blocked_by": reasons,                 # list -- may be multiple
+                "blocked_by_primary": reasons[0],      # for quick grouping
                 "model_mean": model.get("model_mean"),
                 "naive_pct": model.get("naive_pct"),
                 "resolved": False,
@@ -169,7 +189,8 @@ def log_shadow_trades():
     for r in new_rows:
         print(f"  {r['movie'][:22]:22} {r['direction']} >{r['threshold']}% "
               f"@ {r['entry_price']*100:.0f}c  edge={r['edge_pct']}%  "
-              f"vol=${r['total_volume']:,.0f}  n_rev={r['n_reviews']}")
+              f"vol=${r['total_volume']:,.0f}  n_rev={r['n_reviews']}  "
+              f"blocked_by={','.join(r['blocked_by'])}")
     return new_rows
 
 
@@ -226,16 +247,29 @@ def score_shadow_trades(event_ticker, actual_score, bankroll_size=50.0):
     for r in scored:
         tag = "WIN " if r["won"] else "LOSS"
         print(f"  {tag} {r['direction']} >{r['threshold']}% @ {r['entry_price']*100:.0f}c "
-              f"-> ${r['shadow_pnl']:+.2f}")
-    print(f"\n  Shadow P&L: ${total:+.2f} ({wins}/{len(scored)} won)")
-    print(f"  Interpretation:")
-    if total > 0:
-        print(f"    The sanity guard COST us ${total:.2f} by blocking these trades.")
-    elif total < 0:
-        print(f"    The sanity guard SAVED us ${-total:.2f} by blocking these trades.")
-    else:
-        print(f"    The sanity guard was P&L-neutral here.")
+              f"-> ${r['shadow_pnl']:+.2f}  [{','.join(_reasons(r))}]")
+    print(f"\n  Total shadow P&L: ${total:+.2f} ({wins}/{len(scored)} won)")
+
+    # Break down by which filter blocked each trade, so we learn whether each
+    # filter is helping or hurting -- independently.
+    by_reason = {}
+    for r in scored:
+        for reason in _reasons(r):
+            by_reason.setdefault(reason, []).append(r["shadow_pnl"])
+    print(f"  By filter (would-have-been P&L if that filter were removed):")
+    for reason, pnls in sorted(by_reason.items()):
+        s = sum(pnls)
+        verb = "COST us" if s > 0 else ("SAVED us" if s < 0 else "neutral")
+        print(f"    {reason:16} {len(pnls):>2} trades  ${s:+.2f}  -> filter {verb} ${abs(s):.2f}")
     return scored
+
+
+def _reasons(r):
+    """Normalize blocked_by to a list (old records stored a string)."""
+    b = r.get("blocked_by")
+    if isinstance(b, str):
+        return [b]
+    return b or []
 
 
 def summary():
@@ -256,14 +290,24 @@ def summary():
     print(f"Shadow trades: {len(rows)} total, {len(resolved)} scored, {len(pending)} pending")
     if resolved:
         print(f"  Scored shadow P&L: ${total:+.2f} ({wins}/{len(resolved)} won)")
-        print(f"  Net read: sanity guard {'COST us' if total > 0 else 'SAVED us'} "
-              f"${abs(total):.2f} on scored markets")
+        # Per-filter breakdown: would removing each filter have made money?
+        by_reason = {}
+        for r in resolved:
+            if r.get("shadow_pnl") is None:
+                continue
+            for reason in _reasons(r):
+                by_reason.setdefault(reason, []).append(r["shadow_pnl"])
+        print(f"  By filter (P&L of trades each filter blocked):")
+        for reason, pnls in sorted(by_reason.items()):
+            s = sum(pnls)
+            verb = "COST us" if s > 0 else ("SAVED us" if s < 0 else "neutral")
+            print(f"    {reason:16} {len(pnls):>2} blocked  ${s:+.2f}  -> {verb} ${abs(s):.2f}")
     if pending:
-        by_movie = {}
-        for r in pending:
-            by_movie.setdefault(r["movie"], 0)
-            by_movie[r["movie"]] += 1
-        print(f"  Pending by movie: {by_movie}")
+        from collections import Counter
+        by_movie = Counter(r["movie"] for r in pending)
+        by_reason_p = Counter(reason for r in pending for reason in _reasons(r))
+        print(f"  Pending by movie: {dict(by_movie)}")
+        print(f"  Pending by block reason: {dict(by_reason_p)}")
 
 
 if __name__ == "__main__":
