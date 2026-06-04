@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-POW",
 "movie": "Power Ballad",
 "rt_slug": "m/power_ballad",
-"review_count": 111,
+"review_count": 112,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1002,6 +1002,15 @@
 "rating_text": "2.5/4",
 "create_date": "2026-06-04T20:46:40.000Z",
 "review_id": "103132650"
+},
+{
+"critic_name": "Robert Denerstein",
+"sentiment": "Fresh",
+"publication": "Denerstein Unleashed",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-04T21:51:57.000Z",
+"review_id": "103132677"
 }
 ]
 }
