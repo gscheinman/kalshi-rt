@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-POW",
 "movie": "Power Ballad",
 "rt_slug": "m/power_ballad",
-"review_count": 110,
+"review_count": 111,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -993,6 +993,15 @@
 "rating_text": "",
 "create_date": "2026-06-04T20:08:04.000Z",
 "review_id": "103132612"
+},
+{
+"critic_name": "Katie Walsh",
+"sentiment": "Fresh",
+"publication": "Tribune News Service",
+"top_critic": true,
+"rating_text": "2.5/4",
+"create_date": "2026-06-04T20:46:40.000Z",
+"review_id": "103132650"
 }
 ]
 }
