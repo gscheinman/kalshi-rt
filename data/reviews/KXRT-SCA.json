@@ -1,0 +1,17 @@
+{
+"event_ticker": "KXRT-SCA",
+"movie": "Scary Movie",
+"rt_slug": "m/scary_movie_2026",
+"review_count": 1,
+"reviews": [
+{
+"critic_name": "Doug Jamieson",
+"sentiment": "Rotten",
+"publication": "The Jam Report",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-06-04T06:07:35.000Z",
+"review_id": "103132386"
+}
+]
+}
