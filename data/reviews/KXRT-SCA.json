@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SCA",
 "movie": "Scary Movie",
 "rt_slug": "m/scary_movie_2026",
-"review_count": 28,
+"review_count": 30,
 "reviews": [
 {
 "critic_name": "Doug Jamieson",
@@ -255,6 +255,24 @@
 "rating_text": "2/5",
 "create_date": "2026-06-04T15:41:04.000Z",
 "review_id": "103132458"
+},
+{
+"critic_name": "Brandon Zachary",
+"sentiment": "Rotten",
+"publication": "Screen Rant",
+"top_critic": false,
+"rating_text": "4/10",
+"create_date": "2026-06-04T16:29:58.000Z",
+"review_id": "103132471"
+},
+{
+"critic_name": "Randy Meeks",
+"sentiment": "Fresh",
+"publication": "Espinof",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-04T16:32:06.000Z",
+"review_id": "103132472"
 }
 ]
 }
