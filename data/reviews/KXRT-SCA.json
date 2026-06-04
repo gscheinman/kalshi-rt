@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SCA",
 "movie": "Scary Movie",
 "rt_slug": "m/scary_movie_2026",
-"review_count": 21,
+"review_count": 23,
 "reviews": [
 {
 "critic_name": "Doug Jamieson",
@@ -192,6 +192,24 @@
 "rating_text": "4/10",
 "create_date": "2026-06-04T14:18:17.000Z",
 "review_id": "103132444"
+},
+{
+"critic_name": "Paul Klein",
+"sentiment": "Rotten",
+"publication": "FILMHOUNDS Magazine",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-06-04T14:39:44.000Z",
+"review_id": "103132447"
+},
+{
+"critic_name": "Aaron Neuwirth",
+"sentiment": "Fresh",
+"publication": "We Live Entertainment",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-04T14:40:34.000Z",
+"review_id": "103132448"
 }
 ]
 }
