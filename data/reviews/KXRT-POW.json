@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-POW",
 "movie": "Power Ballad",
 "rt_slug": "m/power_ballad",
-"review_count": 112,
+"review_count": 113,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1011,6 +1011,15 @@
 "rating_text": "",
 "create_date": "2026-06-04T21:51:57.000Z",
 "review_id": "103132677"
+},
+{
+"critic_name": "Eric Marchen",
+"sentiment": "Rotten",
+"publication": "Rogers TV",
+"top_critic": false,
+"rating_text": "C",
+"create_date": "2026-06-04T22:54:40.000Z",
+"review_id": "103132688"
 }
 ]
 }
