@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MAS",
 "movie": "Masters of the Universe",
 "rt_slug": "m/masters_of_the_universe_2026",
-"review_count": 147,
+"review_count": 148,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -1326,6 +1326,15 @@
 "rating_text": "",
 "create_date": "2026-06-05T07:21:44.000Z",
 "review_id": "103132766"
+},
+{
+"critic_name": "Oscar Goff",
+"sentiment": "Rotten",
+"publication": "Boston Hassle",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-05T13:07:35.000Z",
+"review_id": "103132778"
 }
 ]
 }
