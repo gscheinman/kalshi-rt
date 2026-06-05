@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SCA",
 "movie": "Scary Movie",
 "rt_slug": "m/scary_movie_2026",
-"review_count": 77,
+"review_count": 78,
 "reviews": [
 {
 "critic_name": "Doug Jamieson",
@@ -696,6 +696,15 @@
 "rating_text": "1.5/4",
 "create_date": "2026-06-05T19:50:36.000Z",
 "review_id": "103132965"
+},
+{
+"critic_name": "Amy Nicholson",
+"sentiment": "Fresh",
+"publication": "Los Angeles Times",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-05T20:07:10.000Z",
+"review_id": "103132975"
 }
 ]
 }
