@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MAS",
 "movie": "Masters of the Universe",
 "rt_slug": "m/masters_of_the_universe_2026",
-"review_count": 171,
+"review_count": 173,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -1542,6 +1542,24 @@
 "rating_text": "",
 "create_date": "2026-06-05T20:41:50.000Z",
 "review_id": "103132996"
+},
+{
+"critic_name": "Alan Jones",
+"sentiment": "Rotten",
+"publication": "Radio Times",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-05T21:01:28.000Z",
+"review_id": "103133009"
+},
+{
+"critic_name": "Rachel Wagner",
+"sentiment": "Fresh",
+"publication": "Rachel's Reviews (YouTube)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-05T21:08:40.000Z",
+"review_id": "103133017"
 }
 ]
 }

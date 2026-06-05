@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-POW",
 "movie": "Power Ballad",
 "rt_slug": "m/power_ballad",
-"review_count": 124,
+"review_count": 125,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1119,6 +1119,15 @@
 "rating_text": "",
 "create_date": "2026-06-05T19:12:57.000Z",
 "review_id": "103132949"
+},
+{
+"critic_name": "Rachel Wagner",
+"sentiment": "Fresh",
+"publication": "Rachel's Reviews (YouTube)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-05T21:15:13.000Z",
+"review_id": "103133028"
 }
 ]
 }
