@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SCA",
 "movie": "Scary Movie",
 "rt_slug": "m/scary_movie_2026",
-"review_count": 64,
+"review_count": 65,
 "reviews": [
 {
 "critic_name": "Doug Jamieson",
@@ -579,6 +579,15 @@
 "rating_text": "2/4",
 "create_date": "2026-06-05T14:12:07.000Z",
 "review_id": "103132804"
+},
+{
+"critic_name": "DJ BenHaMeen",
+"sentiment": "Rotten",
+"publication": "For All Nerds Podcast",
+"top_critic": false,
+"rating_text": "1/5",
+"create_date": "2026-06-05T14:50:06.000Z",
+"review_id": "103132820"
 }
 ]
 }
