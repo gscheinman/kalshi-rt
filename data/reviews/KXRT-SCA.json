@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SCA",
 "movie": "Scary Movie",
 "rt_slug": "m/scary_movie_2026",
-"review_count": 78,
+"review_count": 80,
 "reviews": [
 {
 "critic_name": "Doug Jamieson",
@@ -705,6 +705,24 @@
 "rating_text": "",
 "create_date": "2026-06-05T20:07:10.000Z",
 "review_id": "103132975"
+},
+{
+"critic_name": "Patrick Beatty",
+"sentiment": "Rotten",
+"publication": "See It or Skip It",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-05T20:30:10.000Z",
+"review_id": "103132984"
+},
+{
+"critic_name": "Mike McGranaghan",
+"sentiment": "Rotten",
+"publication": "Aisle Seat",
+"top_critic": false,
+"rating_text": "2.5/4",
+"create_date": "2026-06-05T20:39:07.000Z",
+"review_id": "103132990"
 }
 ]
 }
