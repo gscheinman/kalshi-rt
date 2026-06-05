@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-POW",
 "movie": "Power Ballad",
 "rt_slug": "m/power_ballad",
-"review_count": 131,
+"review_count": 132,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1182,6 +1182,15 @@
 "rating_text": "",
 "create_date": "2026-06-05T23:10:21.000Z",
 "review_id": "103133102"
+},
+{
+"critic_name": "Thelma Adams",
+"sentiment": "Fresh",
+"publication": "AARP Movies for Grownups",
+"top_critic": true,
+"rating_text": "4/5",
+"create_date": "2026-06-05T23:25:32.000Z",
+"review_id": "103133107"
 }
 ]
 }
