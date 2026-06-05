@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-POW",
 "movie": "Power Ballad",
 "rt_slug": "m/power_ballad",
-"review_count": 130,
+"review_count": 131,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1173,6 +1173,15 @@
 "rating_text": "8/10",
 "create_date": "2026-06-05T22:34:35.000Z",
 "review_id": "103133076"
+},
+{
+"critic_name": "Linda Holmes",
+"sentiment": "Fresh",
+"publication": "Pop Culture Happy Hour (NPR Podcast)",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-05T23:10:21.000Z",
+"review_id": "103133102"
 }
 ]
 }
