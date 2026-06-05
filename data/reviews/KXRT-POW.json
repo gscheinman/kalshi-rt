@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-POW",
 "movie": "Power Ballad",
 "rt_slug": "m/power_ballad",
-"review_count": 121,
+"review_count": 122,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1092,6 +1092,15 @@
 "rating_text": "8/10",
 "create_date": "2026-06-05T15:07:34.000Z",
 "review_id": "103132831"
+},
+{
+"critic_name": "Aaron Neuwirth",
+"sentiment": "Fresh",
+"publication": "We Live Entertainment",
+"top_critic": false,
+"rating_text": "6/10",
+"create_date": "2026-06-05T15:46:32.000Z",
+"review_id": "103132844"
 }
 ]
 }
