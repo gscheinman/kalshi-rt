@@ -147,5 +147,18 @@
       "avg_fill": 28.4,
       "contracts": 176.2
     }
+  ],
+  "KXRT-SCA": [
+    {
+      "timestamp": "2026-06-05T11:50:27.082024+00:00",
+      "market_ticker": "KXRT-SCA-34",
+      "direction": "BUY YES",
+      "threshold": 34,
+      "model_prob": 45.8,
+      "edge": 18.7,
+      "suggested_size": 50.0,
+      "avg_fill": 27.1,
+      "contracts": 184.8
+    }
   ]
 }
