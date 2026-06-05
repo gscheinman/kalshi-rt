@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-POW",
 "movie": "Power Ballad",
 "rt_slug": "m/power_ballad",
-"review_count": 116,
+"review_count": 117,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1047,6 +1047,15 @@
 "rating_text": "4/5",
 "create_date": "2026-06-05T03:38:47.000Z",
 "review_id": "103132748"
+},
+{
+"critic_name": "Stephen Silver",
+"sentiment": "Rotten",
+"publication": "Splice Today",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-05T12:24:52.000Z",
+"review_id": "103132774"
 }
 ]
 }
