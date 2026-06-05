@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SCA",
 "movie": "Scary Movie",
 "rt_slug": "m/scary_movie_2026",
-"review_count": 52,
+"review_count": 54,
 "reviews": [
 {
 "critic_name": "Doug Jamieson",
@@ -471,6 +471,24 @@
 "rating_text": "",
 "create_date": "2026-06-05T00:43:01.000Z",
 "review_id": "103132719"
+},
+{
+"critic_name": "Peter Sobczynski",
+"sentiment": "Rotten",
+"publication": "Auteurist Class (Substack)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-05T01:20:14.000Z",
+"review_id": "103132732"
+},
+{
+"critic_name": "Radheyan Simonpillai",
+"sentiment": "Rotten",
+"publication": "Globe and Mail",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-05T01:22:13.000Z",
+"review_id": "103132733"
 }
 ]
 }

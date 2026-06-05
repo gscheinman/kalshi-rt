@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MAS",
 "movie": "Masters of the Universe",
 "rt_slug": "m/masters_of_the_universe_2026",
-"review_count": 140,
+"review_count": 141,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -1263,6 +1263,15 @@
 "rating_text": "3.5/5",
 "create_date": "2026-06-04T23:14:04.000Z",
 "review_id": "103132696"
+},
+{
+"critic_name": "Christopher Lloyd",
+"sentiment": "Rotten",
+"publication": "The Film Yap",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-06-05T01:33:42.000Z",
+"review_id": "103132734"
 }
 ]
 }
