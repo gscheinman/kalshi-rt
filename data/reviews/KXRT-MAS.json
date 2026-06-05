@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MAS",
 "movie": "Masters of the Universe",
 "rt_slug": "m/masters_of_the_universe_2026",
-"review_count": 169,
+"review_count": 171,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -1524,6 +1524,24 @@
 "rating_text": "2.5/5",
 "create_date": "2026-06-05T20:37:56.000Z",
 "review_id": "103132989"
+},
+{
+"critic_name": "Damond Fudge",
+"sentiment": "Fresh",
+"publication": "KCCI (Des Moines, IA)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-05T20:41:24.000Z",
+"review_id": "103132994"
+},
+{
+"critic_name": "Grace Randolph",
+"sentiment": "Fresh",
+"publication": "Beyond the Trailer",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-05T20:41:50.000Z",
+"review_id": "103132996"
 }
 ]
 }
