@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SCA",
 "movie": "Scary Movie",
 "rt_slug": "m/scary_movie_2026",
-"review_count": 56,
+"review_count": 57,
 "reviews": [
 {
 "critic_name": "Doug Jamieson",
@@ -507,6 +507,15 @@
 "rating_text": "2/5",
 "create_date": "2026-06-05T03:41:08.000Z",
 "review_id": "103132750"
+},
+{
+"critic_name": "David Poland",
+"sentiment": "Fresh",
+"publication": "Hot Button (Substack)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-05T07:22:55.000Z",
+"review_id": "103132767"
 }
 ]
 }
