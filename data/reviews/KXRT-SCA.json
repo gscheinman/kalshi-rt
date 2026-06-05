@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SCA",
 "movie": "Scary Movie",
 "rt_slug": "m/scary_movie_2026",
-"review_count": 71,
+"review_count": 72,
 "reviews": [
 {
 "critic_name": "Doug Jamieson",
@@ -642,6 +642,15 @@
 "rating_text": "",
 "create_date": "2026-06-05T17:35:20.000Z",
 "review_id": "103132892"
+},
+{
+"critic_name": "Simon Abrams",
+"sentiment": "Rotten",
+"publication": "AV Club",
+"top_critic": true,
+"rating_text": "D-",
+"create_date": "2026-06-05T18:03:53.000Z",
+"review_id": "103132907"
 }
 ]
 }
