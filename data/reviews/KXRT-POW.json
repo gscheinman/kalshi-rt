@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-POW",
 "movie": "Power Ballad",
 "rt_slug": "m/power_ballad",
-"review_count": 128,
+"review_count": 129,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1155,6 +1155,15 @@
 "rating_text": "B",
 "create_date": "2026-06-05T22:12:47.000Z",
 "review_id": "103133062"
+},
+{
+"critic_name": "Ben Wasserman",
+"sentiment": "Fresh",
+"publication": "Film-Forward.com",
+"top_critic": false,
+"rating_text": "B+",
+"create_date": "2026-06-05T22:26:01.000Z",
+"review_id": "103133067"
 }
 ]
 }

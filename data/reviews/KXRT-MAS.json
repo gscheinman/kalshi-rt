@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MAS",
 "movie": "Masters of the Universe",
 "rt_slug": "m/masters_of_the_universe_2026",
-"review_count": 173,
+"review_count": 175,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -1560,6 +1560,24 @@
 "rating_text": "",
 "create_date": "2026-06-05T21:08:40.000Z",
 "review_id": "103133017"
+},
+{
+"critic_name": "Steven Benedict",
+"sentiment": "Rotten",
+"publication": "Film Ireland Magazine",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-05T22:33:03.000Z",
+"review_id": "103133075"
+},
+{
+"critic_name": "Laura Hiros",
+"sentiment": "Fresh",
+"publication": "Rinc\u00f3n de cine",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-05T22:37:24.000Z",
+"review_id": "103133079"
 }
 ]
 }
