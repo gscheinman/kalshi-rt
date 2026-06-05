@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SCA",
 "movie": "Scary Movie",
 "rt_slug": "m/scary_movie_2026",
-"review_count": 73,
+"review_count": 76,
 "reviews": [
 {
 "critic_name": "Doug Jamieson",
@@ -660,6 +660,33 @@
 "rating_text": "D-",
 "create_date": "2026-06-05T18:14:24.000Z",
 "review_id": "103132912"
+},
+{
+"critic_name": "Tom\u00e1s Andr\u00e9s Guerrero",
+"sentiment": "Fresh",
+"publication": "Sensacine",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-06-05T18:40:57.000Z",
+"review_id": "103132932"
+},
+{
+"critic_name": "Jessika Hardy",
+"sentiment": "Fresh",
+"publication": "Refinery29",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-05T18:42:36.000Z",
+"review_id": "103132934"
+},
+{
+"critic_name": "Sharai Bohannon",
+"sentiment": "Rotten",
+"publication": "Horror Movie Blog",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-05T18:44:11.000Z",
+"review_id": "103132935"
 }
 ]
 }
