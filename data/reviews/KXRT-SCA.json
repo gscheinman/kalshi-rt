@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SCA",
 "movie": "Scary Movie",
 "rt_slug": "m/scary_movie_2026",
-"review_count": 59,
+"review_count": 60,
 "reviews": [
 {
 "critic_name": "Doug Jamieson",
@@ -534,6 +534,15 @@
 "rating_text": ".5/4",
 "create_date": "2026-06-05T12:55:54.000Z",
 "review_id": "103132777"
+},
+{
+"critic_name": "Aidan Kelley",
+"sentiment": "Rotten",
+"publication": "Collider",
+"top_critic": false,
+"rating_text": "5/10",
+"create_date": "2026-06-05T13:16:41.000Z",
+"review_id": "103132781"
 }
 ]
 }
