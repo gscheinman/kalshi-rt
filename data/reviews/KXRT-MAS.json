@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MAS",
 "movie": "Masters of the Universe",
 "rt_slug": "m/masters_of_the_universe_2026",
-"review_count": 153,
+"review_count": 156,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -1380,6 +1380,33 @@
 "rating_text": "C",
 "create_date": "2026-06-05T14:09:24.000Z",
 "review_id": "103132800"
+},
+{
+"critic_name": "Siddhant Adlakha",
+"sentiment": "Rotten",
+"publication": "JoySauce.com",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-05T16:02:06.000Z",
+"review_id": "103132856"
+},
+{
+"critic_name": "Casey Chong",
+"sentiment": "Rotten",
+"publication": "Talking Films",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-06-05T16:13:32.000Z",
+"review_id": "103132862"
+},
+{
+"critic_name": "Cris Kennedy",
+"sentiment": "Fresh",
+"publication": "Inner East Review",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-05T16:19:32.000Z",
+"review_id": "103132866"
 }
 ]
 }
