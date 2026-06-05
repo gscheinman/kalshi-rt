@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MAS",
 "movie": "Masters of the Universe",
 "rt_slug": "m/masters_of_the_universe_2026",
-"review_count": 152,
+"review_count": 153,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -1371,6 +1371,15 @@
 "rating_text": "4/10",
 "create_date": "2026-06-05T14:00:00.000Z",
 "review_id": "103132795"
+},
+{
+"critic_name": "Eric Marchen",
+"sentiment": "Rotten",
+"publication": "Rogers TV",
+"top_critic": false,
+"rating_text": "C",
+"create_date": "2026-06-05T14:09:24.000Z",
+"review_id": "103132800"
 }
 ]
 }

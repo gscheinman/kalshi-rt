@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-POW",
 "movie": "Power Ballad",
 "rt_slug": "m/power_ballad",
-"review_count": 118,
+"review_count": 119,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1065,6 +1065,15 @@
 "rating_text": "B+",
 "create_date": "2026-06-05T14:01:39.000Z",
 "review_id": "103132797"
+},
+{
+"critic_name": "Pat Mullen",
+"sentiment": "Fresh",
+"publication": "That Shelf",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-05T14:13:24.000Z",
+"review_id": "103132806"
 }
 ]
 }
