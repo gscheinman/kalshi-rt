@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-POW",
 "movie": "Power Ballad",
 "rt_slug": "m/power_ballad",
-"review_count": 134,
+"review_count": 135,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1209,6 +1209,15 @@
 "rating_text": "7/10",
 "create_date": "2026-06-06T16:52:53.000Z",
 "review_id": "103133198"
+},
+{
+"critic_name": "Mae Abdulbaki",
+"sentiment": "Fresh",
+"publication": "RIOTUS",
+"top_critic": false,
+"rating_text": "B+",
+"create_date": "2026-06-06T22:03:42.000Z",
+"review_id": "103133219"
 }
 ]
 }
