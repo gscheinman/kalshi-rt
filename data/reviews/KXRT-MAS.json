@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MAS",
 "movie": "Masters of the Universe",
 "rt_slug": "m/masters_of_the_universe_2026",
-"review_count": 207,
+"review_count": 208,
 "reviews": [
 {
 "critic_name": "Rita Kempley",
@@ -1866,6 +1866,15 @@
 "rating_text": "6/10",
 "create_date": "2026-06-06T16:59:42.000Z",
 "review_id": "103133200"
+},
+{
+"critic_name": "Joe Friar",
+"sentiment": "Fresh",
+"publication": "Fort Worth Report",
+"top_critic": false,
+"rating_text": "3/4",
+"create_date": "2026-06-06T21:41:01.000Z",
+"review_id": "103133217"
 }
 ]
 }
