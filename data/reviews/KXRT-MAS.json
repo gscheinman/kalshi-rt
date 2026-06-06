@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MAS",
 "movie": "Masters of the Universe",
 "rt_slug": "m/masters_of_the_universe_2026",
-"review_count": 175,
+"review_count": 176,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -1578,6 +1578,15 @@
 "rating_text": "3/5",
 "create_date": "2026-06-05T22:37:24.000Z",
 "review_id": "103133079"
+},
+{
+"critic_name": "M.N. Miller",
+"sentiment": "Rotten",
+"publication": "FandomWire",
+"top_critic": false,
+"rating_text": "5/10",
+"create_date": "2026-06-05T23:49:35.000Z",
+"review_id": "103133123"
 }
 ]
 }
