@@ -1,9 +1,270 @@
 {
 "event_ticker": "KXRT-MAS",
 "movie": "Masters of the Universe",
-"rt_slug": "m/masters_of_the_universe_2026",
-"review_count": 177,
+"rt_slug": "m/masters_of_the_universe",
+"review_count": 206,
 "reviews": [
+{
+"critic_name": "Rita Kempley",
+"sentiment": "Rotten",
+"publication": "Washington Post",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2000-01-01T00:00:00.000Z",
+"review_id": "12342"
+},
+{
+"critic_name": "Scott Weinberg",
+"sentiment": "Rotten",
+"publication": "eFilmCritic.com",
+"top_critic": false,
+"rating_text": "1/5",
+"create_date": "2002-07-25T23:54:31.000Z",
+"review_id": "743223"
+},
+{
+"critic_name": "Philip Martin",
+"sentiment": "Rotten",
+"publication": "Arkansas Democrat-Gazette",
+"top_critic": false,
+"rating_text": "1/5",
+"create_date": "2002-07-30T11:20:56.000Z",
+"review_id": "747652"
+},
+{
+"critic_name": "James O'Ehley",
+"sentiment": "Rotten",
+"publication": "Sci-Fi Movie Page",
+"top_critic": false,
+"rating_text": "0/4",
+"create_date": "2002-11-07T08:35:37.000Z",
+"review_id": "809324"
+},
+{
+"critic_name": "Walter Goodman",
+"sentiment": "Rotten",
+"publication": "New York Times",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2003-05-21T17:22:54.000Z",
+"review_id": "1144968"
+},
+{
+"critic_name": "Ryan Cracknell",
+"sentiment": "Rotten",
+"publication": "Apollo Guide",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2003-09-01T23:52:20.000Z",
+"review_id": "1193658"
+},
+{
+"critic_name": "Greg Maki",
+"sentiment": "Rotten",
+"publication": "Star-Democrat (Easton, MD)",
+"top_critic": false,
+"rating_text": "1/5",
+"create_date": "2004-01-08T21:16:44.000Z",
+"review_id": "1236242"
+},
+{
+"critic_name": "Daniel M. Kimmel",
+"sentiment": "Rotten",
+"publication": "Worcester Telegram & Gazette",
+"top_critic": false,
+"rating_text": "1/5",
+"create_date": "2004-05-10T03:55:31.000Z",
+"review_id": "1279638"
+},
+{
+"critic_name": "Caffeinated Clint",
+"sentiment": "Fresh",
+"publication": "Moviehole",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2005-05-12T00:41:59.000Z",
+"review_id": "1391154"
+},
+{
+"critic_name": "Kamal  'The Diva' Larsuel",
+"sentiment": "Rotten",
+"publication": "3BlackChicks Review",
+"top_critic": false,
+"rating_text": "1/5",
+"create_date": "2005-07-07T21:13:07.000Z",
+"review_id": "1411874"
+},
+{
+"critic_name": "Emanuel Levy",
+"sentiment": "Rotten",
+"publication": "EmanuelLevy.Com",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2005-08-10T11:12:46.000Z",
+"review_id": "1424332"
+},
+{
+"critic_name": "Mark Salisbury",
+"sentiment": "Rotten",
+"publication": "Time Out",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2006-06-24T03:42:05.000Z",
+"review_id": "1517191"
+},
+{
+"critic_name": "Variety Staff",
+"sentiment": "Rotten",
+"publication": "Variety",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2008-05-13T16:00:45.000Z",
+"review_id": "1727920"
+},
+{
+"critic_name": "TV Guide Staff",
+"sentiment": "Rotten",
+"publication": "TV Guide",
+"top_critic": false,
+"rating_text": "2.5/5",
+"create_date": "2008-05-13T16:02:00.000Z",
+"review_id": "1727921"
+},
+{
+"critic_name": "William Thomas",
+"sentiment": "Rotten",
+"publication": "Empire Magazine",
+"top_critic": false,
+"rating_text": "1/5",
+"create_date": "2008-05-13T16:07:56.000Z",
+"review_id": "1727924"
+},
+{
+"critic_name": "Felix Vasquez Jr.",
+"sentiment": "Fresh",
+"publication": "Cinema Crazed",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2012-12-06T04:40:09.000Z",
+"review_id": "2117467"
+},
+{
+"critic_name": "Bob Morris",
+"sentiment": "Rotten",
+"publication": "Orlando Sentinel",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2014-07-11T16:48:19.000Z",
+"review_id": "2212597"
+},
+{
+"critic_name": "David Parkinson",
+"sentiment": "Rotten",
+"publication": "Radio Times",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2014-07-11T16:49:25.000Z",
+"review_id": "2212598"
+},
+{
+"critic_name": "Michael Wilmington",
+"sentiment": "Rotten",
+"publication": "Los Angeles Times",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2014-07-11T16:50:56.000Z",
+"review_id": "2212599"
+},
+{
+"critic_name": "Desmond Ryan",
+"sentiment": "Rotten",
+"publication": "Philadelphia Inquirer",
+"top_critic": false,
+"rating_text": "1/4",
+"create_date": "2014-07-11T16:54:13.000Z",
+"review_id": "2212600"
+},
+{
+"critic_name": "Johanna Steinmetz",
+"sentiment": "Fresh",
+"publication": "Chicago Tribune",
+"top_critic": false,
+"rating_text": "2.5/4",
+"create_date": "2014-07-11T16:56:23.000Z",
+"review_id": "2212601"
+},
+{
+"critic_name": "Roger Hurlburt",
+"sentiment": "Rotten",
+"publication": "South Florida Sun-Sentinel",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2014-07-11T17:00:54.000Z",
+"review_id": "2212602"
+},
+{
+"critic_name": "\u00c1ngel Luis Inurria",
+"sentiment": "Rotten",
+"publication": "El Pais (Spain)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2020-06-16T21:42:02.000Z",
+"review_id": "2696710"
+},
+{
+"critic_name": "Alan Ng",
+"sentiment": "Fresh",
+"publication": "Film Threat",
+"top_critic": false,
+"rating_text": "6/10",
+"create_date": "2021-07-27T18:31:24.000Z",
+"review_id": "2809044"
+},
+{
+"critic_name": "David Nusair",
+"sentiment": "Rotten",
+"publication": "Reel Film Reviews",
+"top_critic": false,
+"rating_text": "2/4",
+"create_date": "2022-01-24T18:12:00.000Z",
+"review_id": "2854477"
+},
+{
+"critic_name": "Josh Winning",
+"sentiment": "Fresh",
+"publication": "Radio Times",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2022-05-06T13:39:25.000Z",
+"review_id": "102687317"
+},
+{
+"critic_name": "Betsy Pisik",
+"sentiment": "Fresh",
+"publication": "Washington Blade",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2022-05-24T18:10:54.000Z",
+"review_id": "102693040"
+},
+{
+"critic_name": "Eddie Harrison",
+"sentiment": "Rotten",
+"publication": "film-authority.com",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2023-12-13T10:10:56.000Z",
+"review_id": "102871120"
+},
+{
+"critic_name": "Mike Massie",
+"sentiment": "Rotten",
+"publication": "Gone With The Twins",
+"top_critic": false,
+"rating_text": "3/10",
+"create_date": "2025-03-02T22:39:49.000Z",
+"review_id": "102996363"
+},
 {
 "critic_name": "Josh Parham",
 "sentiment": "Rotten",
