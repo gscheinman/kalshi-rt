@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MAS",
 "movie": "Masters of the Universe",
 "rt_slug": "m/masters_of_the_universe_2026",
-"review_count": 206,
+"review_count": 207,
 "reviews": [
 {
 "critic_name": "Rita Kempley",
@@ -1857,6 +1857,15 @@
 "rating_text": "3/5",
 "create_date": "2026-06-06T08:38:53.000Z",
 "review_id": "103133190"
+},
+{
+"critic_name": "Andrew Parker",
+"sentiment": "Fresh",
+"publication": "The Gate",
+"top_critic": false,
+"rating_text": "6/10",
+"create_date": "2026-06-06T16:59:42.000Z",
+"review_id": "103133200"
 }
 ]
 }
