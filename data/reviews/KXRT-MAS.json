@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MAS",
 "movie": "Masters of the Universe",
 "rt_slug": "m/masters_of_the_universe_2026",
-"review_count": 216,
+"review_count": 217,
 "reviews": [
 {
 "critic_name": "Rita Kempley",
@@ -1947,6 +1947,15 @@
 "rating_text": "",
 "create_date": "2026-06-07T21:49:56.000Z",
 "review_id": "103133317"
+},
+{
+"critic_name": "Jeffrey Harris",
+"sentiment": "Fresh",
+"publication": "411mania",
+"top_critic": false,
+"rating_text": "9/10",
+"create_date": "2026-06-07T22:17:04.000Z",
+"review_id": "103133323"
 }
 ]
 }
