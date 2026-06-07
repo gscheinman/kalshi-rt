@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SCA",
 "movie": "Scary Movie",
 "rt_slug": "m/scary_movie_2026",
-"review_count": 93,
+"review_count": 94,
 "reviews": [
 {
 "critic_name": "Doug Jamieson",
@@ -840,6 +840,15 @@
 "rating_text": "2/5",
 "create_date": "2026-06-07T13:17:36.000Z",
 "review_id": "103133274"
+},
+{
+"critic_name": "Liselotte Vanophem",
+"sentiment": "Rotten",
+"publication": "Geek Vibes Nation",
+"top_critic": false,
+"rating_text": "4/10",
+"create_date": "2026-06-07T17:58:51.000Z",
+"review_id": "103133297"
 }
 ]
 }
