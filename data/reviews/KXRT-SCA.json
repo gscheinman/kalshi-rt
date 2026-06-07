@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SCA",
 "movie": "Scary Movie",
 "rt_slug": "m/scary_movie_2026",
-"review_count": 91,
+"review_count": 92,
 "reviews": [
 {
 "critic_name": "Doug Jamieson",
@@ -822,6 +822,15 @@
 "rating_text": "",
 "create_date": "2026-06-07T03:54:03.000Z",
 "review_id": "103133248"
+},
+{
+"critic_name": "Jack Martin",
+"sentiment": "Rotten",
+"publication": "Film Feeder",
+"top_critic": false,
+"rating_text": "1/5",
+"create_date": "2026-06-07T09:26:28.000Z",
+"review_id": "103133256"
 }
 ]
 }
