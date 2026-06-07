@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MAS",
 "movie": "Masters of the Universe",
 "rt_slug": "m/masters_of_the_universe_2026",
-"review_count": 213,
+"review_count": 214,
 "reviews": [
 {
 "critic_name": "Rita Kempley",
@@ -1920,6 +1920,15 @@
 "rating_text": "",
 "create_date": "2026-06-07T03:52:15.000Z",
 "review_id": "103133247"
+},
+{
+"critic_name": "Perri Nemiroff",
+"sentiment": "Fresh",
+"publication": "Perri Nemiroff (YouTube)",
+"top_critic": true,
+"rating_text": "4.5/5",
+"create_date": "2026-06-07T13:07:11.000Z",
+"review_id": "103133272"
 }
 ]
 }
