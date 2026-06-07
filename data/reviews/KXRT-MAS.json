@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MAS",
 "movie": "Masters of the Universe",
 "rt_slug": "m/masters_of_the_universe_2026",
-"review_count": 215,
+"review_count": 216,
 "reviews": [
 {
 "critic_name": "Rita Kempley",
@@ -1938,6 +1938,15 @@
 "rating_text": "B+",
 "create_date": "2026-06-07T16:33:33.000Z",
 "review_id": "103133293"
+},
+{
+"critic_name": "Sarah Vincent",
+"sentiment": "Fresh",
+"publication": "Sarah G Vincent Views",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-07T21:49:56.000Z",
+"review_id": "103133317"
 }
 ]
 }
