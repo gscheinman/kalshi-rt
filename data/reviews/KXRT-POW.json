@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-POW",
 "movie": "Power Ballad",
 "rt_slug": "m/power_ballad",
-"review_count": 135,
+"review_count": 136,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1218,6 +1218,15 @@
 "rating_text": "B+",
 "create_date": "2026-06-06T22:03:42.000Z",
 "review_id": "103133219"
+},
+{
+"critic_name": "Rachel West",
+"sentiment": "Fresh",
+"publication": "That Shelf",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-07T03:57:22.000Z",
+"review_id": "103133249"
 }
 ]
 }
