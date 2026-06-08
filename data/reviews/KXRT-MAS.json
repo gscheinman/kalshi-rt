@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MAS",
 "movie": "Masters of the Universe",
 "rt_slug": "m/masters_of_the_universe_2026",
-"review_count": 219,
+"review_count": 221,
 "reviews": [
 {
 "critic_name": "Rita Kempley",
@@ -1974,6 +1974,24 @@
 "rating_text": "3.5/5",
 "create_date": "2026-06-08T04:16:11.000Z",
 "review_id": "103133351"
+},
+{
+"critic_name": "Wendy Lee Szany",
+"sentiment": "Rotten",
+"publication": "The Movie Couple",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-08T04:22:11.000Z",
+"review_id": "103133352"
+},
+{
+"critic_name": "Candice McMillan",
+"sentiment": "Rotten",
+"publication": "Seattle Refined",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-08T04:34:11.000Z",
+"review_id": "103133356"
 }
 ]
 }
