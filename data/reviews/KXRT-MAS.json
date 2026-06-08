@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MAS",
 "movie": "Masters of the Universe",
 "rt_slug": "m/masters_of_the_universe_2026",
-"review_count": 218,
+"review_count": 219,
 "reviews": [
 {
 "critic_name": "Rita Kempley",
@@ -1965,6 +1965,15 @@
 "rating_text": "",
 "create_date": "2026-06-08T03:36:41.000Z",
 "review_id": "103133349"
+},
+{
+"critic_name": "Britany Murphy",
+"sentiment": "Fresh",
+"publication": "Muses of Media",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-06-08T04:16:11.000Z",
+"review_id": "103133351"
 }
 ]
 }
