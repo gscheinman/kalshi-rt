@@ -82,6 +82,26 @@ def get_movie_summary(slug):
     if year_match:
         result["year"] = int(year_match.group(1))
 
+    # Fallback: RT withholds aggregateRating (tomatometer + review_count) until
+    # a movie crosses its display threshold, but individual reviews are live on
+    # the NAPI before that. For a just-released movie with an ems_id but no
+    # published score, probe the NAPI so the dashboard and model see the real
+    # early reviews instead of "no reviews". Only runs when the score is
+    # missing, so it adds no cost to the common path.
+    if "review_count" not in result and result.get("ems_id"):
+        try:
+            from scraper.rt_reviews import scrape_reviews
+            early = scrape_reviews(result["ems_id"], slug=slug,
+                                   expected_count=None, force_refresh=False)
+            if early:
+                fresh = sum(1 for r in early
+                            if r.get("sentiment") in ("Fresh", "POSITIVE"))
+                result["review_count"] = len(early)
+                result["tomatometer"] = round(fresh / len(early) * 100)
+                result["provisional_score"] = True  # not yet published by RT
+        except Exception:
+            pass
+
     # Check for "Coming Soon" / no score yet
     if "Coming Soon" in resp.text and "tomatometer" not in result:
         result["coming_soon"] = True
