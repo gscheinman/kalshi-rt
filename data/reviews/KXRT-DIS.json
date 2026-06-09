@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 102,
+"review_count": 103,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -921,6 +921,15 @@
 "rating_text": "8/10",
 "create_date": "2026-06-09T17:23:36.000Z",
 "review_id": "103133915"
+},
+{
+"critic_name": "Grace Randolph",
+"sentiment": "Rotten",
+"publication": "Beyond the Trailer",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-09T17:36:46.000Z",
+"review_id": "103133919"
 }
 ]
 }
