@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 87,
+"review_count": 89,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -786,6 +786,24 @@
 "rating_text": "",
 "create_date": "2026-06-09T16:42:55.000Z",
 "review_id": "103133854"
+},
+{
+"critic_name": "Sonny Bunch",
+"sentiment": "Rotten",
+"publication": "The Bulwark",
+"top_critic": false,
+"rating_text": "2/4",
+"create_date": "2026-06-09T16:44:46.000Z",
+"review_id": "103133857"
+},
+{
+"critic_name": "Hilary A White",
+"sentiment": "Fresh",
+"publication": "Irish Independent",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-09T16:45:06.000Z",
+"review_id": "103133858"
 }
 ]
 }
