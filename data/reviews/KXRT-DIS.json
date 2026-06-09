@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 70,
+"review_count": 87,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -633,6 +633,159 @@
 "rating_text": "4/4",
 "create_date": "2026-06-09T16:24:14.000Z",
 "review_id": "103133823"
+},
+{
+"critic_name": "Hannah Strong",
+"sentiment": "Rotten",
+"publication": "Little White Lies",
+"top_critic": true,
+"rating_text": "2/5",
+"create_date": "2026-06-09T16:25:02.000Z",
+"review_id": "103133824"
+},
+{
+"critic_name": "Robbie Collin",
+"sentiment": "Rotten",
+"publication": "Daily Telegraph (UK)",
+"top_critic": true,
+"rating_text": "2/5",
+"create_date": "2026-06-09T16:27:58.000Z",
+"review_id": "103133826"
+},
+{
+"critic_name": "Andrea G. Bermejo",
+"sentiment": "Fresh",
+"publication": "Cineman\u00eda (Spain)",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-09T16:28:27.000Z",
+"review_id": "103133827"
+},
+{
+"critic_name": "Kat Hughes",
+"sentiment": "Fresh",
+"publication": "THN",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-09T16:28:37.000Z",
+"review_id": "103133828"
+},
+{
+"critic_name": "Chris Joyce",
+"sentiment": "Fresh",
+"publication": "Movies and Munchies (YouTube)",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-09T16:28:59.000Z",
+"review_id": "103133829"
+},
+{
+"critic_name": "Zach Pope",
+"sentiment": "Fresh",
+"publication": "Zach Pope Reviews",
+"top_critic": false,
+"rating_text": "4.5/5",
+"create_date": "2026-06-09T16:29:10.000Z",
+"review_id": "103133830"
+},
+{
+"critic_name": "Luis Mart\u00ednez",
+"sentiment": "Fresh",
+"publication": "El Mundo (Spain)",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-09T16:29:45.000Z",
+"review_id": "103133831"
+},
+{
+"critic_name": "Katherine McLaughlin",
+"sentiment": "Fresh",
+"publication": "SciFiNow",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-09T16:32:52.000Z",
+"review_id": "103133833"
+},
+{
+"critic_name": "Nick Howells",
+"sentiment": "Fresh",
+"publication": "London Evening Standard",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-09T16:33:21.000Z",
+"review_id": "103133835"
+},
+{
+"critic_name": "Clint Gage",
+"sentiment": "Fresh",
+"publication": "IGN Movies",
+"top_critic": false,
+"rating_text": "7/10",
+"create_date": "2026-06-09T16:35:00.000Z",
+"review_id": "103133836"
+},
+{
+"critic_name": "Linda Marric",
+"sentiment": "Fresh",
+"publication": "HeyUGuys",
+"top_critic": true,
+"rating_text": "5/5",
+"create_date": "2026-06-09T16:36:22.000Z",
+"review_id": "103133839"
+},
+{
+"critic_name": "Matt Goldberg",
+"sentiment": "Fresh",
+"publication": "Decoding Everything (Substack)",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-06-09T16:36:27.000Z",
+"review_id": "103133840"
+},
+{
+"critic_name": "Eric Goldman",
+"sentiment": "Fresh",
+"publication": "Eric Goldman (YouTube)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-09T16:36:46.000Z",
+"review_id": "103133842"
+},
+{
+"critic_name": "Nina Starner",
+"sentiment": "Fresh",
+"publication": "Looper.com",
+"top_critic": false,
+"rating_text": "9/10",
+"create_date": "2026-06-09T16:39:47.000Z",
+"review_id": "103133847"
+},
+{
+"critic_name": "Luke Hicks",
+"sentiment": "Fresh",
+"publication": "The Film Stage",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-09T16:40:02.000Z",
+"review_id": "103133849"
+},
+{
+"critic_name": "Hoai-Tran Bui",
+"sentiment": "Fresh",
+"publication": "Inverse",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-09T16:42:23.000Z",
+"review_id": "103133853"
+},
+{
+"critic_name": "EJ Moreno",
+"sentiment": "Fresh",
+"publication": "Flickering Myth",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-09T16:42:55.000Z",
+"review_id": "103133854"
 }
 ]
 }
