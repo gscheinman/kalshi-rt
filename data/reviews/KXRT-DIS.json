@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 98,
+"review_count": 102,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -885,6 +885,42 @@
 "rating_text": "4/5",
 "create_date": "2026-06-09T17:12:18.000Z",
 "review_id": "103133903"
+},
+{
+"critic_name": "David Sims",
+"sentiment": "Fresh",
+"publication": "The Atlantic",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-09T17:16:49.000Z",
+"review_id": "103133909"
+},
+{
+"critic_name": "Julian Lytle",
+"sentiment": "Fresh",
+"publication": "RIOTUS",
+"top_critic": false,
+"rating_text": "A",
+"create_date": "2026-06-09T17:19:38.000Z",
+"review_id": "103133911"
+},
+{
+"critic_name": "Sean P. Means",
+"sentiment": "Fresh",
+"publication": "The Movie Cricket",
+"top_critic": false,
+"rating_text": "3.5/4",
+"create_date": "2026-06-09T17:20:13.000Z",
+"review_id": "103133912"
+},
+{
+"critic_name": "Dan Murrell",
+"sentiment": "Fresh",
+"publication": "Dan Murrell Reviews",
+"top_critic": false,
+"rating_text": "8/10",
+"create_date": "2026-06-09T17:23:36.000Z",
+"review_id": "103133915"
 }
 ]
 }
