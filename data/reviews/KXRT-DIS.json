@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 92,
+"review_count": 98,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -831,6 +831,60 @@
 "rating_text": "4/5",
 "create_date": "2026-06-09T16:53:56.000Z",
 "review_id": "103133873"
+},
+{
+"critic_name": "Alan Cerny",
+"sentiment": "Fresh",
+"publication": "VitalThrills.com",
+"top_critic": false,
+"rating_text": "10/10",
+"create_date": "2026-06-09T16:59:13.000Z",
+"review_id": "103133885"
+},
+{
+"critic_name": "Nick Schager",
+"sentiment": "Rotten",
+"publication": "The Daily Beast",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-09T16:59:36.000Z",
+"review_id": "103133886"
+},
+{
+"critic_name": "Ricardo Rosado",
+"sentiment": "Fresh",
+"publication": "Fotogramas",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-09T17:04:09.000Z",
+"review_id": "103133891"
+},
+{
+"critic_name": "Philip De Semlyen",
+"sentiment": "Fresh",
+"publication": "Time Out",
+"top_critic": true,
+"rating_text": "3/5",
+"create_date": "2026-06-09T17:04:27.000Z",
+"review_id": "103133892"
+},
+{
+"critic_name": "Spencer Perry",
+"sentiment": "Fresh",
+"publication": "ComicBook.com",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-09T17:04:30.000Z",
+"review_id": "103133893"
+},
+{
+"critic_name": "Randy Meeks",
+"sentiment": "Fresh",
+"publication": "Espinof",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-09T17:12:18.000Z",
+"review_id": "103133903"
 }
 ]
 }
