@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 116,
+"review_count": 120,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1047,6 +1047,42 @@
 "rating_text": "4/4",
 "create_date": "2026-06-09T20:17:41.000Z",
 "review_id": "103133968"
+},
+{
+"critic_name": "Wendy Ide",
+"sentiment": "Fresh",
+"publication": "Observer (UK)",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-09T21:12:13.000Z",
+"review_id": "103133993"
+},
+{
+"critic_name": "Caroline Siede",
+"sentiment": "Rotten",
+"publication": "Girl Culture (Substack)",
+"top_critic": true,
+"rating_text": "C-",
+"create_date": "2026-06-09T21:13:39.000Z",
+"review_id": "103133994"
+},
+{
+"critic_name": "Christian Toto",
+"sentiment": "Rotten",
+"publication": "HollywoodInToto.com",
+"top_critic": false,
+"rating_text": "1.5/4",
+"create_date": "2026-06-09T21:13:56.000Z",
+"review_id": "103133995"
+},
+{
+"critic_name": "David Poland",
+"sentiment": "Rotten",
+"publication": "Hot Button (Substack)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-09T21:18:37.000Z",
+"review_id": "103134000"
 }
 ]
 }
