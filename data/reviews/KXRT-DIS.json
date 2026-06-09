@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 125,
+"review_count": 127,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1128,6 +1128,24 @@
 "rating_text": "",
 "create_date": "2026-06-09T21:50:35.000Z",
 "review_id": "103134011"
+},
+{
+"critic_name": "Brian Eggert",
+"sentiment": "Fresh",
+"publication": "Deep Focus Review",
+"top_critic": false,
+"rating_text": "4/4",
+"create_date": "2026-06-09T22:22:07.000Z",
+"review_id": "103134016"
+},
+{
+"critic_name": "Wendy Lee Szany",
+"sentiment": "Fresh",
+"publication": "The Movie Couple",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-09T22:24:42.000Z",
+"review_id": "103134018"
 }
 ]
 }
