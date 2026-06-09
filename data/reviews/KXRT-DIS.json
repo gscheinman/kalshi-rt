@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 115,
+"review_count": 116,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1038,6 +1038,15 @@
 "rating_text": "",
 "create_date": "2026-06-09T19:27:29.000Z",
 "review_id": "103133955"
+},
+{
+"critic_name": "Randy Myers",
+"sentiment": "Fresh",
+"publication": "San Jose Mercury News",
+"top_critic": false,
+"rating_text": "4/4",
+"create_date": "2026-06-09T20:17:41.000Z",
+"review_id": "103133968"
 }
 ]
 }
