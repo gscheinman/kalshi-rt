@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 109,
+"review_count": 112,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -984,6 +984,33 @@
 "rating_text": "4/5",
 "create_date": "2026-06-09T18:08:39.000Z",
 "review_id": "103133936"
+},
+{
+"critic_name": "Mike Massie",
+"sentiment": "Rotten",
+"publication": "Gone With The Twins",
+"top_critic": false,
+"rating_text": "3/10",
+"create_date": "2026-06-09T18:11:29.000Z",
+"review_id": "103133939"
+},
+{
+"critic_name": "Brian Orndorf",
+"sentiment": "Fresh",
+"publication": "Blu-ray.com",
+"top_critic": false,
+"rating_text": "B-",
+"create_date": "2026-06-09T18:16:41.000Z",
+"review_id": "103133948"
+},
+{
+"critic_name": "Jeff Ewing",
+"sentiment": "Fresh",
+"publication": "The Direct",
+"top_critic": false,
+"rating_text": "7/10",
+"create_date": "2026-06-09T18:17:23.000Z",
+"review_id": "103133950"
 }
 ]
 }
