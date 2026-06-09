@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 121,
+"review_count": 125,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1092,6 +1092,42 @@
 "rating_text": "",
 "create_date": "2026-06-09T21:33:25.000Z",
 "review_id": "103134003"
+},
+{
+"critic_name": "Laura Clifford",
+"sentiment": "Fresh",
+"publication": "Reeling Reviews",
+"top_critic": false,
+"rating_text": "B+",
+"create_date": "2026-06-09T21:40:15.000Z",
+"review_id": "103134006"
+},
+{
+"critic_name": "Kathia Woods",
+"sentiment": "Fresh",
+"publication": "Cup of Soul",
+"top_critic": false,
+"rating_text": "8/10",
+"create_date": "2026-06-09T21:49:20.000Z",
+"review_id": "103134009"
+},
+{
+"critic_name": "Scott Mendelson",
+"sentiment": "Fresh",
+"publication": "The Outside Scoop (Substack)",
+"top_critic": false,
+"rating_text": "7/10",
+"create_date": "2026-06-09T21:49:59.000Z",
+"review_id": "103134010"
+},
+{
+"critic_name": "Joanna Langfield",
+"sentiment": "Fresh",
+"publication": "The Movie Minute",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-09T21:50:35.000Z",
+"review_id": "103134011"
 }
 ]
 }
