@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 114,
+"review_count": 115,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1029,6 +1029,15 @@
 "rating_text": "4/5",
 "create_date": "2026-06-09T19:17:25.000Z",
 "review_id": "103133954"
+},
+{
+"critic_name": "Adam Olinger",
+"sentiment": "Rotten",
+"publication": "Adam Does Movies (YouTube)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-09T19:27:29.000Z",
+"review_id": "103133955"
 }
 ]
 }
