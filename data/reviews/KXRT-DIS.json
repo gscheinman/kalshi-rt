@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 107,
+"review_count": 109,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -966,6 +966,24 @@
 "rating_text": "",
 "create_date": "2026-06-09T17:58:29.000Z",
 "review_id": "103133930"
+},
+{
+"critic_name": "Jason Miller",
+"sentiment": "Fresh",
+"publication": "Nerdspin",
+"top_critic": false,
+"rating_text": "B+",
+"create_date": "2026-06-09T18:04:34.000Z",
+"review_id": "103133935"
+},
+{
+"critic_name": "Neil Pond",
+"sentiment": "Fresh",
+"publication": "Parade Magazine",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-09T18:08:39.000Z",
+"review_id": "103133936"
 }
 ]
 }
