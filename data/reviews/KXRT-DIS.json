@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 57,
+"review_count": 70,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -75,6 +75,15 @@
 "rating_text": "4.5/5",
 "create_date": "2026-06-09T16:00:15.000Z",
 "review_id": "103133755"
+},
+{
+"critic_name": "Joey Magidson",
+"sentiment": "Fresh",
+"publication": "Awards Radar",
+"top_critic": false,
+"rating_text": "4/4",
+"create_date": "2026-06-09T16:00:16.000Z",
+"review_id": "103133756"
 },
 {
 "critic_name": "Edward Douglas",
@@ -338,6 +347,87 @@
 "review_id": "103133787"
 },
 {
+"critic_name": "Brian VanHooker",
+"sentiment": "Fresh",
+"publication": "Polygon",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-09T16:09:00.000Z",
+"review_id": "103133788"
+},
+{
+"critic_name": "Kyle Pinion",
+"sentiment": "Fresh",
+"publication": "Screen Rex",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-09T16:09:36.000Z",
+"review_id": "103133789"
+},
+{
+"critic_name": "Nate Richard",
+"sentiment": "Fresh",
+"publication": "Collider",
+"top_critic": false,
+"rating_text": "8/10",
+"create_date": "2026-06-09T16:09:55.000Z",
+"review_id": "103133790"
+},
+{
+"critic_name": "Courtney Howard",
+"sentiment": "Fresh",
+"publication": "Fresh Fiction",
+"top_critic": false,
+"rating_text": "4.5 out ot 5",
+"create_date": "2026-06-09T16:10:09.000Z",
+"review_id": "103133791"
+},
+{
+"critic_name": "Owen Gleiberman",
+"sentiment": "Fresh",
+"publication": "Variety",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-09T16:10:10.000Z",
+"review_id": "103133792"
+},
+{
+"critic_name": "Kristen Lopez",
+"sentiment": "Rotten",
+"publication": "The Film Maven",
+"top_critic": true,
+"rating_text": "C-",
+"create_date": "2026-06-09T16:10:22.000Z",
+"review_id": "103133793"
+},
+{
+"critic_name": "Peter Bradshaw",
+"sentiment": "Fresh",
+"publication": "Guardian",
+"top_critic": true,
+"rating_text": "4/5",
+"create_date": "2026-06-09T16:11:01.000Z",
+"review_id": "103133794"
+},
+{
+"critic_name": "Peter Martin",
+"sentiment": "Fresh",
+"publication": "DallasFilmNow.com",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-09T16:11:45.000Z",
+"review_id": "103133796"
+},
+{
+"critic_name": "Nikki Baughan",
+"sentiment": "Fresh",
+"publication": "Screen International",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-09T16:12:10.000Z",
+"review_id": "103133797"
+},
+{
 "critic_name": "Rachel Leishman",
 "sentiment": "Fresh",
 "publication": "The Mary Sue",
@@ -516,6 +606,33 @@
 "rating_text": "3/4",
 "create_date": "2026-06-09T16:23:00.000Z",
 "review_id": "103133820"
+},
+{
+"critic_name": "Dan Jolin",
+"sentiment": "Fresh",
+"publication": "Empire Magazine",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-09T16:23:29.000Z",
+"review_id": "103133821"
+},
+{
+"critic_name": "Chris Bumbray",
+"sentiment": "Fresh",
+"publication": "JoBlo's Movie Network",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-09T16:23:59.000Z",
+"review_id": "103133822"
+},
+{
+"critic_name": "G. Allen Johnson",
+"sentiment": "Fresh",
+"publication": "San Francisco Chronicle",
+"top_critic": false,
+"rating_text": "4/4",
+"create_date": "2026-06-09T16:24:14.000Z",
+"review_id": "103133823"
 }
 ]
 }
