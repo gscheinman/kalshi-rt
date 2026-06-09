@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 89,
+"review_count": 92,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -804,6 +804,33 @@
 "rating_text": "4/5",
 "create_date": "2026-06-09T16:45:06.000Z",
 "review_id": "103133858"
+},
+{
+"critic_name": "Zofia Wijaszka",
+"sentiment": "Fresh",
+"publication": "The Film Nerdette",
+"top_critic": false,
+"rating_text": "B-",
+"create_date": "2026-06-09T16:45:56.000Z",
+"review_id": "103133859"
+},
+{
+"critic_name": "Roger Friedman",
+"sentiment": "Fresh",
+"publication": "Showbiz 411",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-09T16:50:32.000Z",
+"review_id": "103133865"
+},
+{
+"critic_name": "Lou Thomas",
+"sentiment": "Fresh",
+"publication": "NME (New Musical Express)",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-09T16:53:56.000Z",
+"review_id": "103133873"
 }
 ]
 }
