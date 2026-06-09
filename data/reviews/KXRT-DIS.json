@@ -1,0 +1,251 @@
+{
+"event_ticker": "KXRT-DIS",
+"movie": "Disclosure Day",
+"rt_slug": "m/disclosure_day",
+"review_count": 27,
+"reviews": [
+{
+"critic_name": "Max Covill",
+"sentiment": "Fresh",
+"publication": "It's The Pictures",
+"top_critic": false,
+"rating_text": "B+",
+"create_date": "2026-06-09T15:58:01.000Z",
+"review_id": "103133748"
+},
+{
+"critic_name": "Cody Dericks",
+"sentiment": "Fresh",
+"publication": "AwardsWatch",
+"top_critic": false,
+"rating_text": "A-",
+"create_date": "2026-06-09T15:59:17.000Z",
+"review_id": "103133749"
+},
+{
+"critic_name": "Matt Oakes",
+"sentiment": "Rotten",
+"publication": "Silver Screen Riot",
+"top_critic": false,
+"rating_text": "C",
+"create_date": "2026-06-09T15:59:55.000Z",
+"review_id": "103133750"
+},
+{
+"critic_name": "Liz Shannon Miller",
+"sentiment": "Fresh",
+"publication": "Consequence",
+"top_critic": true,
+"rating_text": "B+",
+"create_date": "2026-06-09T16:00:00.000Z",
+"review_id": "103133751"
+},
+{
+"critic_name": "Jon Negroni",
+"sentiment": "Fresh",
+"publication": "Thank God for Movies",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-09T16:00:01.000Z",
+"review_id": "103133752"
+},
+{
+"critic_name": "Eli Friedberg",
+"sentiment": "Rotten",
+"publication": "Slant Magazine",
+"top_critic": false,
+"rating_text": "2/4",
+"create_date": "2026-06-09T16:00:04.000Z",
+"review_id": "103133753"
+},
+{
+"critic_name": "Matt Neglia",
+"sentiment": "Fresh",
+"publication": "Next Best Picture",
+"top_critic": false,
+"rating_text": "8/10",
+"create_date": "2026-06-09T16:00:12.000Z",
+"review_id": "103133754"
+},
+{
+"critic_name": "Joshua Mbonu",
+"sentiment": "Fresh",
+"publication": "Geek Vibes Nation",
+"top_critic": false,
+"rating_text": "9/10",
+"create_date": "2026-06-09T16:02:37.000Z",
+"review_id": "103133766"
+},
+{
+"critic_name": "Karina Adelgaard",
+"sentiment": "Fresh",
+"publication": "Heaven of Horror",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-09T16:03:25.000Z",
+"review_id": "103133767"
+},
+{
+"critic_name": "Kaitlyn Booth",
+"sentiment": "Fresh",
+"publication": "Bleeding Cool",
+"top_critic": false,
+"rating_text": "6.5/10",
+"create_date": "2026-06-09T16:03:29.000Z",
+"review_id": "103133768"
+},
+{
+"critic_name": "David Fear",
+"sentiment": "Fresh",
+"publication": "Rolling Stone",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-09T16:03:44.000Z",
+"review_id": "103133769"
+},
+{
+"critic_name": "Germain Lussier",
+"sentiment": "Fresh",
+"publication": "io9.com",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-09T16:04:13.000Z",
+"review_id": "103133770"
+},
+{
+"critic_name": "Peter Gray",
+"sentiment": "Fresh",
+"publication": "The AU Review",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-09T16:04:24.000Z",
+"review_id": "103133771"
+},
+{
+"critic_name": "William Bibbiani",
+"sentiment": "Fresh",
+"publication": "TheWrap",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-09T16:04:30.000Z",
+"review_id": "103133772"
+},
+{
+"critic_name": "Dallas King",
+"sentiment": "Fresh",
+"publication": "Flick Feast",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-09T16:04:46.000Z",
+"review_id": "103133773"
+},
+{
+"critic_name": "David Ehrlich",
+"sentiment": "Fresh",
+"publication": "IndieWire",
+"top_critic": true,
+"rating_text": "B+",
+"create_date": "2026-06-09T16:04:58.000Z",
+"review_id": "103133775"
+},
+{
+"critic_name": "Aaron Neuwirth",
+"sentiment": "Fresh",
+"publication": "We Live Entertainment",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-09T16:05:45.000Z",
+"review_id": "103133776"
+},
+{
+"critic_name": "Joey Morona",
+"sentiment": "Fresh",
+"publication": "Cleveland Plain Dealer",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-09T16:05:53.000Z",
+"review_id": "103133777"
+},
+{
+"critic_name": "Matt Singer",
+"sentiment": "Fresh",
+"publication": "ScreenCrush",
+"top_critic": true,
+"rating_text": "7/10",
+"create_date": "2026-06-09T16:06:11.000Z",
+"review_id": "103133778"
+},
+{
+"critic_name": "Brian Tallerico",
+"sentiment": "Fresh",
+"publication": "RogerEbert.com",
+"top_critic": true,
+"rating_text": "4/4",
+"create_date": "2026-06-09T16:06:50.000Z",
+"review_id": "103133779"
+},
+{
+"critic_name": "Bilge Ebiri",
+"sentiment": "Fresh",
+"publication": "New York Magazine/Vulture",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-09T16:07:03.000Z",
+"review_id": "103133780"
+},
+{
+"critic_name": "Mike Ryan",
+"sentiment": "Fresh",
+"publication": "The Hard Pass (Ghost.io)",
+"top_critic": false,
+"rating_text": "8/10",
+"create_date": "2026-06-09T16:07:23.000Z",
+"review_id": "103133781"
+},
+{
+"critic_name": "Alonso Duralde",
+"sentiment": "Rotten",
+"publication": "The Film Verdict",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-09T16:07:48.000Z",
+"review_id": "103133782"
+},
+{
+"critic_name": "Jonathan Sim",
+"sentiment": "Fresh",
+"publication": "ComingSoon.net",
+"top_critic": false,
+"rating_text": "8/10",
+"create_date": "2026-06-09T16:07:51.000Z",
+"review_id": "103133783"
+},
+{
+"critic_name": "Nicholas Barber",
+"sentiment": "Rotten",
+"publication": "BBC.com",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-06-09T16:08:02.000Z",
+"review_id": "103133784"
+},
+{
+"critic_name": "Jason Flatt",
+"sentiment": "Fresh",
+"publication": "But Why Tho?",
+"top_critic": false,
+"rating_text": "8/10",
+"create_date": "2026-06-09T16:08:19.000Z",
+"review_id": "103133785"
+},
+{
+"critic_name": "George Simpson",
+"sentiment": "Fresh",
+"publication": "Daily Express (UK)",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-09T16:08:36.000Z",
+"review_id": "103133787"
+}
+]
+}
