@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 155,
+"review_count": 160,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1398,6 +1398,51 @@
 "rating_text": "3.5/4",
 "create_date": "2026-06-10T18:19:15.000Z",
 "review_id": "103134241"
+},
+{
+"critic_name": "Moira MacDonald",
+"sentiment": "Fresh",
+"publication": "Seattle Times",
+"top_critic": false,
+"rating_text": "4/4",
+"create_date": "2026-06-10T18:20:23.000Z",
+"review_id": "103134242"
+},
+{
+"critic_name": "Johnny Oleksinski",
+"sentiment": "Fresh",
+"publication": "New York Post",
+"top_critic": false,
+"rating_text": "3/4",
+"create_date": "2026-06-10T18:21:12.000Z",
+"review_id": "103134243"
+},
+{
+"critic_name": "Leigh Paatsch",
+"sentiment": "Fresh",
+"publication": "Daily Telegraph (Australia)",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-10T18:22:10.000Z",
+"review_id": "103134245"
+},
+{
+"critic_name": "Patrick Cremona",
+"sentiment": "Fresh",
+"publication": "Radio Times",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-10T18:25:37.000Z",
+"review_id": "103134249"
+},
+{
+"critic_name": "Richard Whittaker",
+"sentiment": "Fresh",
+"publication": "Austin Chronicle",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-10T18:26:11.000Z",
+"review_id": "103134250"
 }
 ]
 }
