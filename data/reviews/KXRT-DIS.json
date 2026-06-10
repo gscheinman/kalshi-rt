@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 163,
+"review_count": 164,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1470,6 +1470,15 @@
 "rating_text": "C-",
 "create_date": "2026-06-10T20:29:40.000Z",
 "review_id": "103134288"
+},
+{
+"critic_name": "Robert Kojder",
+"sentiment": "Fresh",
+"publication": "Flickering Myth",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-10T20:57:40.000Z",
+"review_id": "103134314"
 }
 ]
 }
