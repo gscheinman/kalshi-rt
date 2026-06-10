@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 142,
+"review_count": 143,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1281,6 +1281,15 @@
 "rating_text": "",
 "create_date": "2026-06-10T13:48:45.000Z",
 "review_id": "103134149"
+},
+{
+"critic_name": "Martin Tsai",
+"sentiment": "Rotten",
+"publication": "Critic's Notebook",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-10T15:11:28.000Z",
+"review_id": "103134171"
 }
 ]
 }
