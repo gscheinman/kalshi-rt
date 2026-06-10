@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 162,
+"review_count": 163,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1461,6 +1461,15 @@
 "rating_text": "",
 "create_date": "2026-06-10T19:19:05.000Z",
 "review_id": "103134271"
+},
+{
+"critic_name": "Susan Kamyab",
+"sentiment": "Rotten",
+"publication": "This Chix Flix",
+"top_critic": false,
+"rating_text": "C-",
+"create_date": "2026-06-10T20:29:40.000Z",
+"review_id": "103134288"
 }
 ]
 }
