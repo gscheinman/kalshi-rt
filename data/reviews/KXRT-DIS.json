@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 139,
+"review_count": 140,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1254,6 +1254,15 @@
 "rating_text": "",
 "create_date": "2026-06-10T12:43:04.000Z",
 "review_id": "103134140"
+},
+{
+"critic_name": "James Mottram",
+"sentiment": "Fresh",
+"publication": "South China Morning Post",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-06-10T13:00:06.000Z",
+"review_id": "103134143"
 }
 ]
 }
