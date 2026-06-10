@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 144,
+"review_count": 145,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1299,6 +1299,15 @@
 "rating_text": "4.5/5",
 "create_date": "2026-06-10T15:24:25.000Z",
 "review_id": "103134172"
+},
+{
+"critic_name": "Anthony Morris",
+"sentiment": "Fresh",
+"publication": "It's Better in the Dark",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-06-10T16:34:27.000Z",
+"review_id": "103134184"
 }
 ]
 }
