@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 167,
+"review_count": 168,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1506,6 +1506,15 @@
 "rating_text": "",
 "create_date": "2026-06-10T22:21:17.000Z",
 "review_id": "103134381"
+},
+{
+"critic_name": "Lindsay Traves",
+"sentiment": "Rotten",
+"publication": "The Smash List",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-10T23:44:18.000Z",
+"review_id": "103134393"
 }
 ]
 }
