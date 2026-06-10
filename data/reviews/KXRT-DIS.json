@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 143,
+"review_count": 144,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1290,6 +1290,15 @@
 "rating_text": "",
 "create_date": "2026-06-10T15:11:28.000Z",
 "review_id": "103134171"
+},
+{
+"critic_name": "Cameron Meier",
+"sentiment": "Fresh",
+"publication": "MeierMovies.com",
+"top_critic": false,
+"rating_text": "4.5/5",
+"create_date": "2026-06-10T15:24:25.000Z",
+"review_id": "103134172"
 }
 ]
 }
