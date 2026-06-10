@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 138,
+"review_count": 139,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1245,6 +1245,15 @@
 "rating_text": "",
 "create_date": "2026-06-10T09:35:05.000Z",
 "review_id": "103134127"
+},
+{
+"critic_name": "Andrew Reichel",
+"sentiment": "Fresh",
+"publication": "In Review Online",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-10T12:43:04.000Z",
+"review_id": "103134140"
 }
 ]
 }
