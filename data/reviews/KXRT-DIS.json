@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 133,
+"review_count": 134,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1200,6 +1200,15 @@
 "rating_text": "6/10",
 "create_date": "2026-06-10T03:32:28.000Z",
 "review_id": "103134105"
+},
+{
+"critic_name": "Joseph Robinson",
+"sentiment": "Rotten",
+"publication": "Fish Jelly Films (YouTube)",
+"top_critic": false,
+"rating_text": "2.5/5",
+"create_date": "2026-06-10T04:15:32.000Z",
+"review_id": "103134110"
 }
 ]
 }
