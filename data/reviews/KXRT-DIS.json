@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 153,
+"review_count": 155,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1380,6 +1380,24 @@
 "rating_text": "3.5/5",
 "create_date": "2026-06-10T18:04:57.000Z",
 "review_id": "103134234"
+},
+{
+"critic_name": "Jeremy Jahns",
+"sentiment": "Fresh",
+"publication": "JeremyJahns.com",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-10T18:13:50.000Z",
+"review_id": "103134238"
+},
+{
+"critic_name": "Gene Park",
+"sentiment": "Fresh",
+"publication": "Washington Post",
+"top_critic": false,
+"rating_text": "3.5/4",
+"create_date": "2026-06-10T18:19:15.000Z",
+"review_id": "103134241"
 }
 ]
 }
