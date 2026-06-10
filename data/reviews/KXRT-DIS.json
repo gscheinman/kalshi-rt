@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 134,
+"review_count": 135,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1209,6 +1209,15 @@
 "rating_text": "2.5/5",
 "create_date": "2026-06-10T04:15:32.000Z",
 "review_id": "103134110"
+},
+{
+"critic_name": "Leo Brady",
+"sentiment": "Fresh",
+"publication": "AMovieGuy.com",
+"top_critic": false,
+"rating_text": "4/4",
+"create_date": "2026-06-10T05:56:48.000Z",
+"review_id": "103134115"
 }
 ]
 }
