@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 160,
+"review_count": 161,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1443,6 +1443,15 @@
 "rating_text": "4/5",
 "create_date": "2026-06-10T18:26:11.000Z",
 "review_id": "103134250"
+},
+{
+"critic_name": "Kyle Amato",
+"sentiment": "Rotten",
+"publication": "Boston Hassle",
+"top_critic": false,
+"rating_text": "C",
+"create_date": "2026-06-10T19:10:53.000Z",
+"review_id": "103134267"
 }
 ]
 }
