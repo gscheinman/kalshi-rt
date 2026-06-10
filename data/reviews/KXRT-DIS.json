@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 136,
+"review_count": 137,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1227,6 +1227,15 @@
 "rating_text": "2.5/5",
 "create_date": "2026-06-10T07:01:23.000Z",
 "review_id": "103134117"
+},
+{
+"critic_name": "Tori Brazier",
+"sentiment": "Fresh",
+"publication": "Metro",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-10T08:36:42.000Z",
+"review_id": "103134122"
 }
 ]
 }
