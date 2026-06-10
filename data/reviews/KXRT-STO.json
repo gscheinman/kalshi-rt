@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-STO",
 "movie": "Stop! That! Train!",
 "rt_slug": "m/stop_that_train",
-"review_count": 13,
+"review_count": 14,
 "reviews": [
 {
 "critic_name": "David Rooney",
@@ -120,6 +120,15 @@
 "rating_text": "C+",
 "create_date": "2026-06-10T18:58:17.000Z",
 "review_id": "103134258"
+},
+{
+"critic_name": "Carla Hay",
+"sentiment": "Rotten",
+"publication": "Culture Mix",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-10T22:59:38.000Z",
+"review_id": "103134389"
 }
 ]
 }
