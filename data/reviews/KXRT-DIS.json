@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 166,
+"review_count": 167,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1497,6 +1497,15 @@
 "rating_text": "",
 "create_date": "2026-06-10T21:46:52.000Z",
 "review_id": "103134364"
+},
+{
+"critic_name": "Pat Bulfamante",
+"sentiment": "Fresh",
+"publication": "The MontyVerse",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-10T22:21:17.000Z",
+"review_id": "103134381"
 }
 ]
 }
