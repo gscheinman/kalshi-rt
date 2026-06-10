@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 145,
+"review_count": 147,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1308,6 +1308,24 @@
 "rating_text": "3.5/5",
 "create_date": "2026-06-10T16:34:27.000Z",
 "review_id": "103134184"
+},
+{
+"critic_name": "Diego Batlle",
+"sentiment": "Fresh",
+"publication": "Otroscines.com",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-10T16:53:53.000Z",
+"review_id": "103134192"
+},
+{
+"critic_name": "Marcelo Stiletano",
+"sentiment": "Fresh",
+"publication": "La Naci\u00f3n (Argentina)",
+"top_critic": false,
+"rating_text": "5/5",
+"create_date": "2026-06-10T17:02:24.000Z",
+"review_id": "103134195"
 }
 ]
 }
