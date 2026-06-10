@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 129,
+"review_count": 130,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1164,6 +1164,15 @@
 "rating_text": "",
 "create_date": "2026-06-09T23:58:40.000Z",
 "review_id": "103134060"
+},
+{
+"critic_name": "Sinead Brennan",
+"sentiment": "Fresh",
+"publication": "RT\u00c9 (Ireland)",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-10T00:34:02.000Z",
+"review_id": "103134067"
 }
 ]
 }
