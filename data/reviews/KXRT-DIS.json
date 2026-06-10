@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 147,
+"review_count": 148,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1326,6 +1326,15 @@
 "rating_text": "5/5",
 "create_date": "2026-06-10T17:02:24.000Z",
 "review_id": "103134195"
+},
+{
+"critic_name": "Andrea Zamora",
+"sentiment": "Fresh",
+"publication": "Sensacine",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-10T17:11:56.000Z",
+"review_id": "103134202"
 }
 ]
 }

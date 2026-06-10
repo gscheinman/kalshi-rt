@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-STO",
 "movie": "Stop! That! Train!",
 "rt_slug": "m/stop_that_train",
-"review_count": 11,
+"review_count": 12,
 "reviews": [
 {
 "critic_name": "David Rooney",
@@ -102,6 +102,15 @@
 "rating_text": "B-",
 "create_date": "2026-06-10T14:44:59.000Z",
 "review_id": "103134163"
+},
+{
+"critic_name": "Chauncey K. Robinson",
+"sentiment": "Fresh",
+"publication": "People's World",
+"top_critic": false,
+"rating_text": "A",
+"create_date": "2026-06-10T17:07:20.000Z",
+"review_id": "103134198"
 }
 ]
 }
