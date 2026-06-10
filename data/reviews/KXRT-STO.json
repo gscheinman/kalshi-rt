@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-STO",
 "movie": "Stop! That! Train!",
 "rt_slug": "m/stop_that_train",
-"review_count": 7,
+"review_count": 9,
 "reviews": [
 {
 "critic_name": "David Rooney",
@@ -66,6 +66,24 @@
 "rating_text": "3/5",
 "create_date": "2026-06-09T13:14:18.000Z",
 "review_id": "103133698"
+},
+{
+"critic_name": "David Kaplan",
+"sentiment": "Fresh",
+"publication": "Kaplan vs. Kaplan",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-10T05:07:15.000Z",
+"review_id": "103134111"
+},
+{
+"critic_name": "Jeanne Kaplan",
+"sentiment": "Fresh",
+"publication": "Kaplan vs. Kaplan",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-10T05:08:50.000Z",
+"review_id": "103134112"
 }
 ]
 }
