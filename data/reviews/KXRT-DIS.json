@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 131,
+"review_count": 132,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1182,6 +1182,15 @@
 "rating_text": "",
 "create_date": "2026-06-10T01:36:49.000Z",
 "review_id": "103134073"
+},
+{
+"critic_name": "Tony Medley",
+"sentiment": "Fresh",
+"publication": "tonymedley.com",
+"top_critic": false,
+"rating_text": "9/10",
+"create_date": "2026-06-10T02:34:58.000Z",
+"review_id": "103134091"
 }
 ]
 }
