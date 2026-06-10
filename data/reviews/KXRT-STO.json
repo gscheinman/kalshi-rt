@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-STO",
 "movie": "Stop! That! Train!",
 "rt_slug": "m/stop_that_train",
-"review_count": 10,
+"review_count": 11,
 "reviews": [
 {
 "critic_name": "David Rooney",
@@ -93,6 +93,15 @@
 "rating_text": "7/10",
 "create_date": "2026-06-10T09:48:55.000Z",
 "review_id": "103134128"
+},
+{
+"critic_name": "Laura Clifford",
+"sentiment": "Fresh",
+"publication": "Reeling Reviews",
+"top_critic": false,
+"rating_text": "B-",
+"create_date": "2026-06-10T14:44:59.000Z",
+"review_id": "103134163"
 }
 ]
 }
