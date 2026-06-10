@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 128,
+"review_count": 129,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1155,6 +1155,15 @@
 "rating_text": "3.5/5",
 "create_date": "2026-06-09T23:43:57.000Z",
 "review_id": "103134053"
+},
+{
+"critic_name": "Avi Offer",
+"sentiment": "Rotten",
+"publication": "NYC Movie Guru",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-09T23:58:40.000Z",
+"review_id": "103134060"
 }
 ]
 }
