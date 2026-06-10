@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 150,
+"review_count": 153,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1353,6 +1353,33 @@
 "rating_text": "2/5",
 "create_date": "2026-06-10T17:45:10.000Z",
 "review_id": "103134219"
+},
+{
+"critic_name": "Brett McCracken",
+"sentiment": "Fresh",
+"publication": "The Gospel Coalition",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-10T17:56:50.000Z",
+"review_id": "103134229"
+},
+{
+"critic_name": "Sandra Hall",
+"sentiment": "Fresh",
+"publication": "Sydney Morning Herald",
+"top_critic": true,
+"rating_text": "3.5/5",
+"create_date": "2026-06-10T18:01:39.000Z",
+"review_id": "103134232"
+},
+{
+"critic_name": "Nikki Gemmell",
+"sentiment": "Fresh",
+"publication": "The Australian",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-06-10T18:04:57.000Z",
+"review_id": "103134234"
 }
 ]
 }
