@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 141,
+"review_count": 142,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1272,6 +1272,15 @@
 "rating_text": "",
 "create_date": "2026-06-10T13:41:02.000Z",
 "review_id": "103134147"
+},
+{
+"critic_name": "CJ Sheu",
+"sentiment": "Fresh",
+"publication": "Review Film Review",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-10T13:48:45.000Z",
+"review_id": "103134149"
 }
 ]
 }
