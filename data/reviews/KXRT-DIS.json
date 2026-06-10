@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 148,
+"review_count": 150,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1335,6 +1335,24 @@
 "rating_text": "4/5",
 "create_date": "2026-06-10T17:11:56.000Z",
 "review_id": "103134202"
+},
+{
+"critic_name": "Alistair Harkness",
+"sentiment": "Fresh",
+"publication": "Scotsman",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-10T17:35:48.000Z",
+"review_id": "103134215"
+},
+{
+"critic_name": "Dulcie Pearce",
+"sentiment": "Rotten",
+"publication": "The Sun (UK)",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-06-10T17:45:10.000Z",
+"review_id": "103134219"
 }
 ]
 }
