@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 132,
+"review_count": 133,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1191,6 +1191,15 @@
 "rating_text": "9/10",
 "create_date": "2026-06-10T02:34:58.000Z",
 "review_id": "103134091"
+},
+{
+"critic_name": "Terence Johnson",
+"sentiment": "Rotten",
+"publication": "Le Noir Auteur",
+"top_critic": false,
+"rating_text": "6/10",
+"create_date": "2026-06-10T03:32:28.000Z",
+"review_id": "103134105"
 }
 ]
 }
