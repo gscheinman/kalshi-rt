@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 178,
+"review_count": 180,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1605,6 +1605,24 @@
 "rating_text": "4/5",
 "create_date": "2026-06-11T09:13:43.000Z",
 "review_id": "103134429"
+},
+{
+"critic_name": "Jim Schembri",
+"sentiment": "Rotten",
+"publication": "jimschembri.com",
+"top_critic": false,
+"rating_text": "2.5/5",
+"create_date": "2026-06-11T09:25:09.000Z",
+"review_id": "103134430"
+},
+{
+"critic_name": "Josh Bell",
+"sentiment": "Fresh",
+"publication": "The Inlander (Spokane, WA)",
+"top_critic": false,
+"rating_text": "3/4",
+"create_date": "2026-06-11T09:39:37.000Z",
+"review_id": "103134431"
 }
 ]
 }
