@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 187,
+"review_count": 188,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1686,6 +1686,15 @@
 "rating_text": "4/4",
 "create_date": "2026-06-11T16:58:35.000Z",
 "review_id": "103134501"
+},
+{
+"critic_name": "Brian Viner",
+"sentiment": "Fresh",
+"publication": "Daily Mail (UK)",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-11T17:21:02.000Z",
+"review_id": "103134523"
 }
 ]
 }
