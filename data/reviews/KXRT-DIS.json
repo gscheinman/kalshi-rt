@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 175,
+"review_count": 176,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1578,6 +1578,15 @@
 "rating_text": "C-",
 "create_date": "2026-06-11T06:24:42.000Z",
 "review_id": "103134418"
+},
+{
+"critic_name": "Eddie Harrison",
+"sentiment": "Fresh",
+"publication": "film-authority.com",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-11T07:38:17.000Z",
+"review_id": "103134422"
 }
 ]
 }
