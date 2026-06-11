@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-STO",
 "movie": "Stop! That! Train!",
 "rt_slug": "m/stop_that_train",
-"review_count": 24,
+"review_count": 25,
 "reviews": [
 {
 "critic_name": "David Rooney",
@@ -219,6 +219,15 @@
 "rating_text": "",
 "create_date": "2026-06-11T20:51:46.000Z",
 "review_id": "103134678"
+},
+{
+"critic_name": "Jocelyn Noveck",
+"sentiment": "Fresh",
+"publication": "Associated Press",
+"top_critic": false,
+"rating_text": "2.5/4",
+"create_date": "2026-06-11T23:09:47.000Z",
+"review_id": "103134736"
 }
 ]
 }
