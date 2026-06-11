@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 168,
+"review_count": 169,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1515,6 +1515,15 @@
 "rating_text": "",
 "create_date": "2026-06-10T23:44:18.000Z",
 "review_id": "103134393"
+},
+{
+"critic_name": "Serena Seghedoni",
+"sentiment": "Fresh",
+"publication": "Loud and Clear Reviews",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-11T02:25:54.000Z",
+"review_id": "103134401"
 }
 ]
 }
