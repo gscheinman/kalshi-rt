@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 170,
+"review_count": 171,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1533,6 +1533,15 @@
 "rating_text": "2/4",
 "create_date": "2026-06-11T04:17:16.000Z",
 "review_id": "103134408"
+},
+{
+"critic_name": "Nadine Whitney",
+"sentiment": "Fresh",
+"publication": "The Curb",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-11T04:52:58.000Z",
+"review_id": "103134410"
 }
 ]
 }
