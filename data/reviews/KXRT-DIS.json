@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 174,
+"review_count": 175,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1569,6 +1569,15 @@
 "rating_text": "3.5/5",
 "create_date": "2026-06-11T05:37:32.000Z",
 "review_id": "103134416"
+},
+{
+"critic_name": "Lynn Venhaus",
+"sentiment": "Rotten",
+"publication": "PopLifeSTL",
+"top_critic": false,
+"rating_text": "C-",
+"create_date": "2026-06-11T06:24:42.000Z",
+"review_id": "103134418"
 }
 ]
 }
