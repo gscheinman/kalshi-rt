@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-STO",
 "movie": "Stop! That! Train!",
 "rt_slug": "m/stop_that_train",
-"review_count": 22,
+"review_count": 23,
 "reviews": [
 {
 "critic_name": "David Rooney",
@@ -201,6 +201,15 @@
 "rating_text": "3/5",
 "create_date": "2026-06-11T19:49:46.000Z",
 "review_id": "103134625"
+},
+{
+"critic_name": "Marisa Carpico",
+"sentiment": "Fresh",
+"publication": "The Pop Break",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-11T20:27:17.000Z",
+"review_id": "103134660"
 }
 ]
 }
