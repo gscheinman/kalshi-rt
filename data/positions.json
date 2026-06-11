@@ -172,6 +172,17 @@
       "suggested_size": 30.99,
       "avg_fill": 41.6,
       "contracts": 74.5
+    },
+    {
+      "timestamp": "2026-06-11T19:40:29.287603+00:00",
+      "market_ticker": "KXRT-STO-87",
+      "direction": "BUY YES",
+      "threshold": 87,
+      "model_prob": 44.9,
+      "edge": 13.9,
+      "suggested_size": 6.2,
+      "avg_fill": 31.0,
+      "contracts": 20.0
     }
   ]
 }
