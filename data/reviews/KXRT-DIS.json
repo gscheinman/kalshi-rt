@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 190,
+"review_count": 191,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1713,6 +1713,15 @@
 "rating_text": "",
 "create_date": "2026-06-11T17:44:56.000Z",
 "review_id": "103134538"
+},
+{
+"critic_name": "Adam Graham",
+"sentiment": "Rotten",
+"publication": "Detroit News",
+"top_critic": false,
+"rating_text": "C",
+"create_date": "2026-06-11T18:11:57.000Z",
+"review_id": "103134566"
 }
 ]
 }
