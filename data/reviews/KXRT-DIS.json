@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 188,
+"review_count": 190,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1695,6 +1695,24 @@
 "rating_text": "4/5",
 "create_date": "2026-06-11T17:21:02.000Z",
 "review_id": "103134523"
+},
+{
+"critic_name": "Jason Adams",
+"sentiment": "Fresh",
+"publication": "Pajiba",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-11T17:42:57.000Z",
+"review_id": "103134536"
+},
+{
+"critic_name": "Alex Bentley",
+"sentiment": "Fresh",
+"publication": "CultureMap",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-11T17:44:56.000Z",
+"review_id": "103134538"
 }
 ]
 }
