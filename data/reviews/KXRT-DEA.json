@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DEA",
 "movie": "The Death of Robin Hood",
 "rt_slug": "m/the_death_of_robin_hood",
-"review_count": 17,
+"review_count": 18,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -156,6 +156,15 @@
 "rating_text": "3.5/5",
 "create_date": "2026-06-11T22:12:02.000Z",
 "review_id": "103134722"
+},
+{
+"critic_name": "Cole Groth",
+"sentiment": "Fresh",
+"publication": "FandomWire",
+"top_critic": false,
+"rating_text": "6/10",
+"create_date": "2026-06-11T23:08:39.000Z",
+"review_id": "103134734"
 }
 ]
 }
