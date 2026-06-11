@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-STO",
 "movie": "Stop! That! Train!",
 "rt_slug": "m/stop_that_train",
-"review_count": 19,
+"review_count": 21,
 "reviews": [
 {
 "critic_name": "David Rooney",
@@ -174,6 +174,24 @@
 "rating_text": "",
 "create_date": "2026-06-11T18:50:40.000Z",
 "review_id": "103134592"
+},
+{
+"critic_name": "Chris Azzopardi",
+"sentiment": "Fresh",
+"publication": "New York Times",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-11T19:04:04.000Z",
+"review_id": "103134598"
+},
+{
+"critic_name": "Randy Myers",
+"sentiment": "Fresh",
+"publication": "San Jose Mercury News",
+"top_critic": false,
+"rating_text": "3/4",
+"create_date": "2026-06-11T19:05:27.000Z",
+"review_id": "103134599"
 }
 ]
 }
