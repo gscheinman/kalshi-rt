@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 180,
+"review_count": 181,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1623,6 +1623,15 @@
 "rating_text": "3/4",
 "create_date": "2026-06-11T09:39:37.000Z",
 "review_id": "103134431"
+},
+{
+"critic_name": "Stephen Silver",
+"sentiment": "Fresh",
+"publication": "The SS Ben Hecht",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-11T13:00:31.000Z",
+"review_id": "103134448"
 }
 ]
 }

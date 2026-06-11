@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-STO",
 "movie": "Stop! That! Train!",
 "rt_slug": "m/stop_that_train",
-"review_count": 16,
+"review_count": 17,
 "reviews": [
 {
 "critic_name": "David Rooney",
@@ -147,6 +147,15 @@
 "rating_text": "",
 "create_date": "2026-06-11T05:22:39.000Z",
 "review_id": "103134413"
+},
+{
+"critic_name": "Brandon Zachary",
+"sentiment": "Fresh",
+"publication": "Screen Rant",
+"top_critic": false,
+"rating_text": "7/10",
+"create_date": "2026-06-11T13:01:32.000Z",
+"review_id": "103134450"
 }
 ]
 }
