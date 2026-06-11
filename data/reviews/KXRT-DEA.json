@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DEA",
 "movie": "The Death of Robin Hood",
 "rt_slug": "m/the_death_of_robin_hood",
-"review_count": 5,
+"review_count": 6,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -48,6 +48,15 @@
 "rating_text": "C",
 "create_date": "2026-06-11T21:06:02.000Z",
 "review_id": "103134690"
+},
+{
+"critic_name": "Meagan Navarro",
+"sentiment": "Fresh",
+"publication": "Bloody Disgusting",
+"top_critic": true,
+"rating_text": "4/5",
+"create_date": "2026-06-11T21:13:03.000Z",
+"review_id": "103134696"
 }
 ]
 }
