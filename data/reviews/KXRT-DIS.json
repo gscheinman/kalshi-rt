@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 197,
+"review_count": 198,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1776,6 +1776,15 @@
 "rating_text": "",
 "create_date": "2026-06-11T19:41:50.000Z",
 "review_id": "103134619"
+},
+{
+"critic_name": "Rich Cline",
+"sentiment": "Fresh",
+"publication": "Shadows on the Wall",
+"top_critic": false,
+"rating_text": "5/5",
+"create_date": "2026-06-11T19:50:32.000Z",
+"review_id": "103134627"
 }
 ]
 }
