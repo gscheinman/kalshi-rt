@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 202,
+"review_count": 203,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1821,6 +1821,15 @@
 "rating_text": "2/5",
 "create_date": "2026-06-11T21:06:25.000Z",
 "review_id": "103134691"
+},
+{
+"critic_name": "Mathew DeKinder",
+"sentiment": "Fresh",
+"publication": "Mat's Entertainment",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-06-11T22:46:57.000Z",
+"review_id": "103134730"
 }
 ]
 }
