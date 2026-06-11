@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 186,
+"review_count": 187,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1677,6 +1677,15 @@
 "rating_text": "C",
 "create_date": "2026-06-11T15:37:33.000Z",
 "review_id": "103134481"
+},
+{
+"critic_name": "Pablo O. Scholz",
+"sentiment": "Fresh",
+"publication": "Clar\u00edn",
+"top_critic": false,
+"rating_text": "4/4",
+"create_date": "2026-06-11T16:58:35.000Z",
+"review_id": "103134501"
 }
 ]
 }
