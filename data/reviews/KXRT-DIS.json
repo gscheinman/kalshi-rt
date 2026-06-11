@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 177,
+"review_count": 178,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1596,6 +1596,15 @@
 "rating_text": "3/5",
 "create_date": "2026-06-11T08:51:21.000Z",
 "review_id": "103134425"
+},
+{
+"critic_name": "Jack Martin",
+"sentiment": "Fresh",
+"publication": "Film Feeder",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-11T09:13:43.000Z",
+"review_id": "103134429"
 }
 ]
 }
