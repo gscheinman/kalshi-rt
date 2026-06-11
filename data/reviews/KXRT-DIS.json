@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 169,
+"review_count": 170,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1524,6 +1524,15 @@
 "rating_text": "4/5",
 "create_date": "2026-06-11T02:25:54.000Z",
 "review_id": "103134401"
+},
+{
+"critic_name": "Charles Koplinski",
+"sentiment": "Rotten",
+"publication": "Reel Talk with Chuck and Pam",
+"top_critic": false,
+"rating_text": "2/4",
+"create_date": "2026-06-11T04:17:16.000Z",
+"review_id": "103134408"
 }
 ]
 }
