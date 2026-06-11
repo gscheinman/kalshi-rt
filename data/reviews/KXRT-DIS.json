@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 185,
+"review_count": 186,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1668,6 +1668,15 @@
 "rating_text": "A-",
 "create_date": "2026-06-11T15:17:37.000Z",
 "review_id": "103134477"
+},
+{
+"critic_name": "Frank Swietek",
+"sentiment": "Rotten",
+"publication": "One Guy's Opinion",
+"top_critic": false,
+"rating_text": "C",
+"create_date": "2026-06-11T15:37:33.000Z",
+"review_id": "103134481"
 }
 ]
 }
