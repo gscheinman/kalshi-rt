@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 198,
+"review_count": 199,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1785,6 +1785,15 @@
 "rating_text": "5/5",
 "create_date": "2026-06-11T19:50:32.000Z",
 "review_id": "103134627"
+},
+{
+"critic_name": "Dana Stevens",
+"sentiment": "Fresh",
+"publication": "Slate",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-11T20:05:38.000Z",
+"review_id": "103134638"
 }
 ]
 }
