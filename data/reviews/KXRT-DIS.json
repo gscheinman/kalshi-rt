@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 195,
+"review_count": 197,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1758,6 +1758,24 @@
 "rating_text": "",
 "create_date": "2026-06-11T19:16:53.000Z",
 "review_id": "103134614"
+},
+{
+"critic_name": "Bradley Gibson",
+"sentiment": "Fresh",
+"publication": "Film Threat",
+"top_critic": false,
+"rating_text": "9/10",
+"create_date": "2026-06-11T19:40:55.000Z",
+"review_id": "103134618"
+},
+{
+"critic_name": "Kristian M. Lin",
+"sentiment": "Rotten",
+"publication": "Fort Worth Weekly",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-11T19:41:50.000Z",
+"review_id": "103134619"
 }
 ]
 }
