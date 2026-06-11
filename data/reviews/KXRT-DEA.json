@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DEA",
 "movie": "The Death of Robin Hood",
 "rt_slug": "m/the_death_of_robin_hood",
-"review_count": 8,
+"review_count": 16,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -75,6 +75,78 @@
 "rating_text": "4/4",
 "create_date": "2026-06-11T21:47:18.000Z",
 "review_id": "103134707"
+},
+{
+"critic_name": "Rocco T. Thompson",
+"sentiment": "Rotten",
+"publication": "Slant Magazine",
+"top_critic": false,
+"rating_text": "2/4",
+"create_date": "2026-06-11T21:55:20.000Z",
+"review_id": "103134710"
+},
+{
+"critic_name": "Pete Hammond",
+"sentiment": "Fresh",
+"publication": "Deadline Hollywood Daily",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-11T21:55:52.000Z",
+"review_id": "103134711"
+},
+{
+"critic_name": "David Ehrlich",
+"sentiment": "Fresh",
+"publication": "IndieWire",
+"top_critic": true,
+"rating_text": "B",
+"create_date": "2026-06-11T21:57:49.000Z",
+"review_id": "103134712"
+},
+{
+"critic_name": "Trace Sauveur",
+"sentiment": "Rotten",
+"publication": "AwardsWatch",
+"top_critic": false,
+"rating_text": "C-",
+"create_date": "2026-06-11T21:57:52.000Z",
+"review_id": "103134713"
+},
+{
+"critic_name": "Guy Lodge",
+"sentiment": "Fresh",
+"publication": "Variety",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-11T21:58:58.000Z",
+"review_id": "103134714"
+},
+{
+"critic_name": "Tim Grierson",
+"sentiment": "Rotten",
+"publication": "Screen International",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-11T22:00:13.000Z",
+"review_id": "103134715"
+},
+{
+"critic_name": "Frank Scheck",
+"sentiment": "Rotten",
+"publication": "The Hollywood Reporter",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-11T22:00:44.000Z",
+"review_id": "103134716"
+},
+{
+"critic_name": "Barry Hertz",
+"sentiment": "Fresh",
+"publication": "Globe and Mail",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-11T22:02:49.000Z",
+"review_id": "103134719"
 }
 ]
 }
