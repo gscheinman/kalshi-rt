@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 191,
+"review_count": 193,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1722,6 +1722,24 @@
 "rating_text": "C",
 "create_date": "2026-06-11T18:11:57.000Z",
 "review_id": "103134566"
+},
+{
+"critic_name": "Justin Chang",
+"sentiment": "Rotten",
+"publication": "The New Yorker",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-11T18:21:47.000Z",
+"review_id": "103134571"
+},
+{
+"critic_name": "Steven Benedict",
+"sentiment": "Fresh",
+"publication": "Film Ireland Magazine",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-11T18:23:02.000Z",
+"review_id": "103134575"
 }
 ]
 }
