@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DEA",
 "movie": "The Death of Robin Hood",
 "rt_slug": "m/the_death_of_robin_hood",
-"review_count": 7,
+"review_count": 8,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -66,6 +66,15 @@
 "rating_text": "7/10",
 "create_date": "2026-06-11T21:27:37.000Z",
 "review_id": "103134701"
+},
+{
+"critic_name": "Bob Strauss",
+"sentiment": "Fresh",
+"publication": "San Francisco Chronicle",
+"top_critic": false,
+"rating_text": "4/4",
+"create_date": "2026-06-11T21:47:18.000Z",
+"review_id": "103134707"
 }
 ]
 }
