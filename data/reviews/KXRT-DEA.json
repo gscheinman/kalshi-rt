@@ -1,0 +1,53 @@
+{
+"event_ticker": "KXRT-DEA",
+"movie": "The Death of Robin Hood",
+"rt_slug": "m/the_death_of_robin_hood",
+"review_count": 5,
+"reviews": [
+{
+"critic_name": "Josh Parham",
+"sentiment": "Fresh",
+"publication": "Next Best Picture",
+"top_critic": false,
+"rating_text": "8/10",
+"create_date": "2026-06-11T21:00:11.000Z",
+"review_id": "103134684"
+},
+{
+"critic_name": "Chris Evangelista",
+"sentiment": "Fresh",
+"publication": "Slashfilm",
+"top_critic": false,
+"rating_text": "7/10",
+"create_date": "2026-06-11T21:02:28.000Z",
+"review_id": "103134685"
+},
+{
+"critic_name": "Kyle Pinion",
+"sentiment": "Rotten",
+"publication": "Screen Rex",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-11T21:02:34.000Z",
+"review_id": "103134686"
+},
+{
+"critic_name": "William Bibbiani",
+"sentiment": "Fresh",
+"publication": "TheWrap",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-11T21:05:53.000Z",
+"review_id": "103134689"
+},
+{
+"critic_name": "Jacob Oller",
+"sentiment": "Rotten",
+"publication": "AV Club",
+"top_critic": false,
+"rating_text": "C",
+"create_date": "2026-06-11T21:06:02.000Z",
+"review_id": "103134690"
+}
+]
+}
