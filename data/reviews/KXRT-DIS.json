@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 181,
+"review_count": 182,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1632,6 +1632,15 @@
 "rating_text": "",
 "create_date": "2026-06-11T13:00:31.000Z",
 "review_id": "103134448"
+},
+{
+"critic_name": "Karen Gordon",
+"sentiment": "Fresh",
+"publication": "Original Cin",
+"top_critic": false,
+"rating_text": "A-",
+"create_date": "2026-06-11T13:08:31.000Z",
+"review_id": "103134455"
 }
 ]
 }
