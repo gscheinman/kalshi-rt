@@ -195,5 +195,18 @@
       "avg_fill": 47.9,
       "contracts": 104.3
     }
+  ],
+  "KXRT-DEA": [
+    {
+      "timestamp": "2026-06-11T23:56:30.216254+00:00",
+      "market_ticker": "KXRT-DEA-70",
+      "direction": "BUY YES",
+      "threshold": 70,
+      "model_prob": 54.2,
+      "edge": 18.0,
+      "suggested_size": 29.12,
+      "avg_fill": 36.2,
+      "contracts": 80.5
+    }
   ]
 }
