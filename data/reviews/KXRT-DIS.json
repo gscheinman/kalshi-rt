@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 194,
+"review_count": 195,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1749,6 +1749,15 @@
 "rating_text": "",
 "create_date": "2026-06-11T18:43:45.000Z",
 "review_id": "103134591"
+},
+{
+"critic_name": "Manohla Dargis",
+"sentiment": "Fresh",
+"publication": "New York Times",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-11T19:16:53.000Z",
+"review_id": "103134614"
 }
 ]
 }
