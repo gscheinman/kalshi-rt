@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-STO",
 "movie": "Stop! That! Train!",
 "rt_slug": "m/stop_that_train",
-"review_count": 14,
+"review_count": 15,
 "reviews": [
 {
 "critic_name": "David Rooney",
@@ -129,6 +129,15 @@
 "rating_text": "",
 "create_date": "2026-06-10T22:59:38.000Z",
 "review_id": "103134389"
+},
+{
+"critic_name": "Pat Mullen",
+"sentiment": "Fresh",
+"publication": "That Shelf",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-11T00:39:16.000Z",
+"review_id": "103134396"
 }
 ]
 }
