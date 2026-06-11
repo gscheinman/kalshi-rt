@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 199,
+"review_count": 200,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1794,6 +1794,15 @@
 "rating_text": "",
 "create_date": "2026-06-11T20:05:38.000Z",
 "review_id": "103134638"
+},
+{
+"critic_name": "Stephanie Zacharek",
+"sentiment": "Fresh",
+"publication": "TIME Magazine",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-11T20:25:18.000Z",
+"review_id": "103134659"
 }
 ]
 }
