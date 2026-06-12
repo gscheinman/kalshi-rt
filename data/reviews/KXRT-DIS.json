@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 236,
+"review_count": 237,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2127,6 +2127,15 @@
 "rating_text": "B+",
 "create_date": "2026-06-12T16:10:48.000Z",
 "review_id": "103134886"
+},
+{
+"critic_name": "Mark Kermode",
+"sentiment": "Fresh",
+"publication": "Kermode and Mayo's Take (YouTube)",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-12T16:38:03.000Z",
+"review_id": "103134893"
 }
 ]
 }
