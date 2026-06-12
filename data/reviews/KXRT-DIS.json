@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 214,
+"review_count": 216,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1929,6 +1929,24 @@
 "rating_text": "A",
 "create_date": "2026-06-12T05:04:31.000Z",
 "review_id": "103134793"
+},
+{
+"critic_name": "Andiee Paviour",
+"sentiment": "Fresh",
+"publication": "Nobody's Reading This But Me",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-12T05:22:55.000Z",
+"review_id": "103134795"
+},
+{
+"critic_name": "Jeffrey Harris",
+"sentiment": "Fresh",
+"publication": "411mania",
+"top_critic": false,
+"rating_text": "8/10",
+"create_date": "2026-06-12T05:24:10.000Z",
+"review_id": "103134796"
 }
 ]
 }
