@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-STO",
 "movie": "Stop! That! Train!",
 "rt_slug": "m/stop_that_train",
-"review_count": 30,
+"review_count": 31,
 "reviews": [
 {
 "critic_name": "David Rooney",
@@ -273,6 +273,15 @@
 "rating_text": "",
 "create_date": "2026-06-12T13:13:13.000Z",
 "review_id": "103134828"
+},
+{
+"critic_name": "Todd Jorgenson",
+"sentiment": "Rotten",
+"publication": "Cinemalogue",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-12T13:49:07.000Z",
+"review_id": "103134842"
 }
 ]
 }
