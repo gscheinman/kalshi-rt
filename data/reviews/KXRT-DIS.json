@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 259,
+"review_count": 260,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2334,6 +2334,15 @@
 "rating_text": "2.5/5",
 "create_date": "2026-06-12T21:26:36.000Z",
 "review_id": "103134983"
+},
+{
+"critic_name": "Manuel S\u00e3o Bento",
+"sentiment": "Fresh",
+"publication": "MSB Reviews (Ghost.io)",
+"top_critic": false,
+"rating_text": "A-",
+"create_date": "2026-06-12T21:41:38.000Z",
+"review_id": "103134999"
 }
 ]
 }

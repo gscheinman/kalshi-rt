@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DEA",
 "movie": "The Death of Robin Hood",
 "rt_slug": "m/the_death_of_robin_hood",
-"review_count": 26,
+"review_count": 27,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -237,6 +237,15 @@
 "rating_text": "4/5",
 "create_date": "2026-06-12T15:47:41.000Z",
 "review_id": "103134872"
+},
+{
+"critic_name": "Ian Freer",
+"sentiment": "Fresh",
+"publication": "Time Out",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-12T21:40:10.000Z",
+"review_id": "103134996"
 }
 ]
 }
