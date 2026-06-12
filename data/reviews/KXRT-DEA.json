@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DEA",
 "movie": "The Death of Robin Hood",
 "rt_slug": "m/the_death_of_robin_hood",
-"review_count": 21,
+"review_count": 22,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -192,6 +192,15 @@
 "rating_text": "8.5/10",
 "create_date": "2026-06-12T00:32:38.000Z",
 "review_id": "103134764"
+},
+{
+"critic_name": "Marshall Shaffer",
+"sentiment": "Rotten",
+"publication": "The Playlist",
+"top_critic": false,
+"rating_text": "C",
+"create_date": "2026-06-12T03:04:28.000Z",
+"review_id": "103134784"
 }
 ]
 }
