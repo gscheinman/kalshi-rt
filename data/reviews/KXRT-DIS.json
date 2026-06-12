@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 229,
+"review_count": 231,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2064,6 +2064,24 @@
 "rating_text": "3/5",
 "create_date": "2026-06-12T14:37:34.000Z",
 "review_id": "103134857"
+},
+{
+"critic_name": "Rain Jokinen",
+"sentiment": "Fresh",
+"publication": "MullingMovies.com",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-12T14:53:58.000Z",
+"review_id": "103134861"
+},
+{
+"critic_name": "Sean Collier",
+"sentiment": "Fresh",
+"publication": "Table Magazine",
+"top_critic": false,
+"rating_text": "6/10",
+"create_date": "2026-06-12T15:06:09.000Z",
+"review_id": "103134864"
 }
 ]
 }
