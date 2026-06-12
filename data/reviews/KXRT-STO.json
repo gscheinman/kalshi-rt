@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-STO",
 "movie": "Stop! That! Train!",
 "rt_slug": "m/stop_that_train",
-"review_count": 36,
+"review_count": 37,
 "reviews": [
 {
 "critic_name": "David Rooney",
@@ -327,6 +327,15 @@
 "rating_text": "",
 "create_date": "2026-06-12T21:57:26.000Z",
 "review_id": "103135004"
+},
+{
+"critic_name": "Coleman Spilde",
+"sentiment": "Fresh",
+"publication": "Salon.com",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-12T23:10:59.000Z",
+"review_id": "103135042"
 }
 ]
 }

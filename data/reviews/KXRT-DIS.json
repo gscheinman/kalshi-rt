@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 264,
+"review_count": 267,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2379,6 +2379,33 @@
 "rating_text": "3/4",
 "create_date": "2026-06-12T22:33:58.000Z",
 "review_id": "103135022"
+},
+{
+"critic_name": "Thelma Adams",
+"sentiment": "Fresh",
+"publication": "AARP Movies for Grownups",
+"top_critic": true,
+"rating_text": "4/5",
+"create_date": "2026-06-12T23:12:32.000Z",
+"review_id": "103135044"
+},
+{
+"critic_name": "Peter Howell",
+"sentiment": "Fresh",
+"publication": "Toronto Star",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-12T23:18:35.000Z",
+"review_id": "103135047"
+},
+{
+"critic_name": "M.V. Moorhead",
+"sentiment": "Fresh",
+"publication": "Phoenix Magazine",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-12T23:19:55.000Z",
+"review_id": "103135048"
 }
 ]
 }
