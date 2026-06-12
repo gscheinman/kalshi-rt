@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 244,
+"review_count": 245,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2199,6 +2199,15 @@
 "rating_text": "",
 "create_date": "2026-06-12T18:22:46.000Z",
 "review_id": "103134924"
+},
+{
+"critic_name": "Ryan Syrek",
+"sentiment": "Rotten",
+"publication": "The Reader (Omaha, NE)",
+"top_critic": false,
+"rating_text": "D",
+"create_date": "2026-06-12T18:38:17.000Z",
+"review_id": "103134929"
 }
 ]
 }
