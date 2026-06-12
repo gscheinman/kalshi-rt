@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 210,
+"review_count": 211,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1893,6 +1893,15 @@
 "rating_text": "3/5",
 "create_date": "2026-06-12T01:30:16.000Z",
 "review_id": "103134771"
+},
+{
+"critic_name": "Dionar Hidalgo",
+"sentiment": "Fresh",
+"publication": "Algo M\u00e1s Que Cine",
+"top_critic": false,
+"rating_text": "7/10",
+"create_date": "2026-06-12T02:36:20.000Z",
+"review_id": "103134776"
 }
 ]
 }
