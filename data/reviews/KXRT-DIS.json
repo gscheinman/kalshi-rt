@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 231,
+"review_count": 234,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2082,6 +2082,33 @@
 "rating_text": "6/10",
 "create_date": "2026-06-12T15:06:09.000Z",
 "review_id": "103134864"
+},
+{
+"critic_name": "Prabhjot Bains",
+"sentiment": "Fresh",
+"publication": "RANGE Magazine",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-12T15:27:13.000Z",
+"review_id": "103134868"
+},
+{
+"critic_name": "Bill Newcott",
+"sentiment": "Fresh",
+"publication": "The Saturday Evening Post",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-12T15:38:04.000Z",
+"review_id": "103134870"
+},
+{
+"critic_name": "Carla Hay",
+"sentiment": "Fresh",
+"publication": "Culture Mix",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-12T15:38:22.000Z",
+"review_id": "103134871"
 }
 ]
 }
