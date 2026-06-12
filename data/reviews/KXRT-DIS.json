@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 241,
+"review_count": 242,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2172,6 +2172,15 @@
 "rating_text": "C",
 "create_date": "2026-06-12T17:55:59.000Z",
 "review_id": "103134915"
+},
+{
+"critic_name": "Jordy Sirkin",
+"sentiment": "Fresh",
+"publication": "Jordy Reviews It",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-12T18:08:06.000Z",
+"review_id": "103134918"
 }
 ]
 }
