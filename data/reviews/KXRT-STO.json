@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-STO",
 "movie": "Stop! That! Train!",
 "rt_slug": "m/stop_that_train",
-"review_count": 37,
+"review_count": 38,
 "reviews": [
 {
 "critic_name": "David Rooney",
@@ -336,6 +336,15 @@
 "rating_text": "",
 "create_date": "2026-06-12T23:10:59.000Z",
 "review_id": "103135042"
+},
+{
+"critic_name": "Thelma Adams",
+"sentiment": "Fresh",
+"publication": "AARP Movies for Grownups",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-12T23:11:47.000Z",
+"review_id": "103135043"
 }
 ]
 }
