@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 237,
+"review_count": 238,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2136,6 +2136,15 @@
 "rating_text": "",
 "create_date": "2026-06-12T16:38:03.000Z",
 "review_id": "103134893"
+},
+{
+"critic_name": "Christopher Lloyd",
+"sentiment": "Rotten",
+"publication": "The Film Yap",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-12T17:29:58.000Z",
+"review_id": "103134902"
 }
 ]
 }
