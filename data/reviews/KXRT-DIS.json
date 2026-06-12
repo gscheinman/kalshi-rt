@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 217,
+"review_count": 220,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1956,6 +1956,33 @@
 "rating_text": "",
 "create_date": "2026-06-12T06:09:33.000Z",
 "review_id": "103134799"
+},
+{
+"critic_name": "Katie Walsh",
+"sentiment": "Fresh",
+"publication": "Tribune News Service",
+"top_critic": true,
+"rating_text": "3.5/4",
+"create_date": "2026-06-12T06:52:07.000Z",
+"review_id": "103134801"
+},
+{
+"critic_name": "William Mullally",
+"sentiment": "Fresh",
+"publication": "The National (UAE)",
+"top_critic": false,
+"rating_text": "4.5/5",
+"create_date": "2026-06-12T07:01:37.000Z",
+"review_id": "103134802"
+},
+{
+"critic_name": "Sparks Lowry",
+"sentiment": "Fresh",
+"publication": "Spectrum Culture",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-12T07:07:58.000Z",
+"review_id": "103134803"
 }
 ]
 }
