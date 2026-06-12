@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 209,
+"review_count": 210,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1884,6 +1884,15 @@
 "rating_text": "6.5/10",
 "create_date": "2026-06-12T00:46:49.000Z",
 "review_id": "103134767"
+},
+{
+"critic_name": "Simon Miraudo",
+"sentiment": "Fresh",
+"publication": "Movie Squad (RTRFM 92.1)",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-12T01:30:16.000Z",
+"review_id": "103134771"
 }
 ]
 }
