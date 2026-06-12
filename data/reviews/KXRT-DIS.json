@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 242,
+"review_count": 244,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2181,6 +2181,24 @@
 "rating_text": "",
 "create_date": "2026-06-12T18:08:06.000Z",
 "review_id": "103134918"
+},
+{
+"critic_name": "Rick Romancito",
+"sentiment": "Fresh",
+"publication": "The Taos News",
+"top_critic": false,
+"rating_text": "A-",
+"create_date": "2026-06-12T18:18:00.000Z",
+"review_id": "103134922"
+},
+{
+"critic_name": "Damond Fudge",
+"sentiment": "Fresh",
+"publication": "KCCI (Des Moines, IA)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-12T18:22:46.000Z",
+"review_id": "103134924"
 }
 ]
 }
