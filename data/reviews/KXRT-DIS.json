@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 260,
+"review_count": 262,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2343,6 +2343,24 @@
 "rating_text": "A-",
 "create_date": "2026-06-12T21:41:38.000Z",
 "review_id": "103134999"
+},
+{
+"critic_name": "Eric Marchen",
+"sentiment": "Fresh",
+"publication": "Rogers TV",
+"top_critic": false,
+"rating_text": "B+",
+"create_date": "2026-06-12T21:50:55.000Z",
+"review_id": "103135001"
+},
+{
+"critic_name": "Ayaan Paul Chowdhury",
+"sentiment": "Fresh",
+"publication": "The Hindu",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-12T22:08:33.000Z",
+"review_id": "103135010"
 }
 ]
 }
