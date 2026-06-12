@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 220,
+"review_count": 221,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1983,6 +1983,15 @@
 "rating_text": "",
 "create_date": "2026-06-12T07:07:58.000Z",
 "review_id": "103134803"
+},
+{
+"critic_name": "Aaron Peterson",
+"sentiment": "Rotten",
+"publication": "The Hollywood Outsider",
+"top_critic": false,
+"rating_text": "5/10",
+"create_date": "2026-06-12T11:09:35.000Z",
+"review_id": "103134817"
 }
 ]
 }
