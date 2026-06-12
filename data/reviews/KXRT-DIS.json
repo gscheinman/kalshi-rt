@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 221,
+"review_count": 223,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1992,6 +1992,24 @@
 "rating_text": "5/10",
 "create_date": "2026-06-12T11:09:35.000Z",
 "review_id": "103134817"
+},
+{
+"critic_name": "Shakyl Lambert",
+"sentiment": "Fresh",
+"publication": "CGMagazine",
+"top_critic": false,
+"rating_text": "7.5/10",
+"create_date": "2026-06-12T12:18:43.000Z",
+"review_id": "103134819"
+},
+{
+"critic_name": "Lee McCoy",
+"sentiment": "Rotten",
+"publication": "DrumDums",
+"top_critic": false,
+"rating_text": "5.5/10",
+"create_date": "2026-06-12T12:20:56.000Z",
+"review_id": "103134820"
 }
 ]
 }
