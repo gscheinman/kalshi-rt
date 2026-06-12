@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 213,
+"review_count": 214,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1920,6 +1920,15 @@
 "rating_text": "4/5",
 "create_date": "2026-06-12T03:22:30.000Z",
 "review_id": "103134785"
+},
+{
+"critic_name": "Allen Almachar",
+"sentiment": "Fresh",
+"publication": "The MacGuffin",
+"top_critic": false,
+"rating_text": "A",
+"create_date": "2026-06-12T05:04:31.000Z",
+"review_id": "103134793"
 }
 ]
 }
