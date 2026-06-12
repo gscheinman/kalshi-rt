@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 226,
+"review_count": 227,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2037,6 +2037,15 @@
 "rating_text": "",
 "create_date": "2026-06-12T13:51:01.000Z",
 "review_id": "103134843"
+},
+{
+"critic_name": "Oscar Goff",
+"sentiment": "Fresh",
+"publication": "Cambridge Day",
+"top_critic": false,
+"rating_text": "3.5/4",
+"create_date": "2026-06-12T14:14:50.000Z",
+"review_id": "103134846"
 }
 ]
 }
