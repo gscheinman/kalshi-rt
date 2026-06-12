@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 227,
+"review_count": 229,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2046,6 +2046,24 @@
 "rating_text": "3.5/4",
 "create_date": "2026-06-12T14:14:50.000Z",
 "review_id": "103134846"
+},
+{
+"critic_name": "Patrick McDonald",
+"sentiment": "Fresh",
+"publication": "HollywoodChicago.com",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-12T14:35:27.000Z",
+"review_id": "103134855"
+},
+{
+"critic_name": "Ruth Maramis",
+"sentiment": "Fresh",
+"publication": "FlixChatter Film Blog",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-12T14:37:34.000Z",
+"review_id": "103134857"
 }
 ]
 }
