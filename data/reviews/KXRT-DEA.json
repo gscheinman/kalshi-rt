@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DEA",
 "movie": "The Death of Robin Hood",
 "rt_slug": "m/the_death_of_robin_hood",
-"review_count": 22,
+"review_count": 23,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -201,6 +201,15 @@
 "rating_text": "C",
 "create_date": "2026-06-12T03:04:28.000Z",
 "review_id": "103134784"
+},
+{
+"critic_name": "Brent Hankins",
+"sentiment": "Fresh",
+"publication": "The Lamplight Review",
+"top_critic": false,
+"rating_text": "9/10",
+"create_date": "2026-06-12T09:26:02.000Z",
+"review_id": "103134806"
 }
 ]
 }
