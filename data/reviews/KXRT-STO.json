@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-STO",
 "movie": "Stop! That! Train!",
 "rt_slug": "m/stop_that_train",
-"review_count": 25,
+"review_count": 28,
 "reviews": [
 {
 "critic_name": "David Rooney",
@@ -228,6 +228,33 @@
 "rating_text": "2.5/4",
 "create_date": "2026-06-11T23:09:47.000Z",
 "review_id": "103134736"
+},
+{
+"critic_name": "Owen Myers",
+"sentiment": "Fresh",
+"publication": "Guardian",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-11T23:47:59.000Z",
+"review_id": "103134745"
+},
+{
+"critic_name": "Odie Henderson",
+"sentiment": "Rotten",
+"publication": "Boston Globe",
+"top_critic": true,
+"rating_text": "2/4",
+"create_date": "2026-06-11T23:49:43.000Z",
+"review_id": "103134747"
+},
+{
+"critic_name": "Pete Hammond",
+"sentiment": "Fresh",
+"publication": "Deadline Hollywood Daily",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-11T23:51:48.000Z",
+"review_id": "103134749"
 }
 ]
 }

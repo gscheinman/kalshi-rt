@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 203,
+"review_count": 207,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1830,6 +1830,42 @@
 "rating_text": "3.5/5",
 "create_date": "2026-06-11T22:46:57.000Z",
 "review_id": "103134730"
+},
+{
+"critic_name": "Abby Olcese",
+"sentiment": "Fresh",
+"publication": "The Pitch",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-11T23:41:44.000Z",
+"review_id": "103134742"
+},
+{
+"critic_name": "Odie Henderson",
+"sentiment": "Fresh",
+"publication": "Boston Globe",
+"top_critic": true,
+"rating_text": "4/4",
+"create_date": "2026-06-11T23:49:02.000Z",
+"review_id": "103134746"
+},
+{
+"critic_name": "Pat Mullen",
+"sentiment": "Fresh",
+"publication": "That Shelf",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-11T23:55:41.000Z",
+"review_id": "103134750"
+},
+{
+"critic_name": "David Sexton",
+"sentiment": "Fresh",
+"publication": "New Statesman",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-11T23:57:15.000Z",
+"review_id": "103134752"
 }
 ]
 }
