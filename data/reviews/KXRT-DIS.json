@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 207,
+"review_count": 208,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1866,6 +1866,15 @@
 "rating_text": "",
 "create_date": "2026-06-11T23:57:15.000Z",
 "review_id": "103134752"
+},
+{
+"critic_name": "Matt Fernandez",
+"sentiment": "Fresh",
+"publication": "Geeks of Color",
+"top_critic": false,
+"rating_text": "7/10",
+"create_date": "2026-06-12T00:06:53.000Z",
+"review_id": "103134756"
 }
 ]
 }
