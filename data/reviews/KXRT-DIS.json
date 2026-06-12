@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 256,
+"review_count": 259,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2307,6 +2307,33 @@
 "rating_text": "",
 "create_date": "2026-06-12T20:49:24.000Z",
 "review_id": "103134968"
+},
+{
+"critic_name": "Kyle Smith",
+"sentiment": "Rotten",
+"publication": "Wall Street Journal",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-12T21:09:57.000Z",
+"review_id": "103134977"
+},
+{
+"critic_name": "Robert Horton",
+"sentiment": "Fresh",
+"publication": "The Scarecrow",
+"top_critic": false,
+"rating_text": "3/4",
+"create_date": "2026-06-12T21:10:22.000Z",
+"review_id": "103134978"
+},
+{
+"critic_name": "Fico Cangiano",
+"sentiment": "Rotten",
+"publication": "CineXpress",
+"top_critic": false,
+"rating_text": "2.5/5",
+"create_date": "2026-06-12T21:26:36.000Z",
+"review_id": "103134983"
 }
 ]
 }
