@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 208,
+"review_count": 209,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1875,6 +1875,15 @@
 "rating_text": "7/10",
 "create_date": "2026-06-12T00:06:53.000Z",
 "review_id": "103134756"
+},
+{
+"critic_name": "Brandon Avery",
+"sentiment": "Fresh",
+"publication": "Just My Opinion Reviews",
+"top_critic": false,
+"rating_text": "6.5/10",
+"create_date": "2026-06-12T00:46:49.000Z",
+"review_id": "103134767"
 }
 ]
 }
