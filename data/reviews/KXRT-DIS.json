@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 212,
+"review_count": 213,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -1911,6 +1911,15 @@
 "rating_text": "2.5/5",
 "create_date": "2026-06-12T02:53:44.000Z",
 "review_id": "103134777"
+},
+{
+"critic_name": "Russ Simmons",
+"sentiment": "Fresh",
+"publication": "KKFI-FM (Kansas City)",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-12T03:22:30.000Z",
+"review_id": "103134785"
 }
 ]
 }
