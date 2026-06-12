@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 245,
+"review_count": 248,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2208,6 +2208,33 @@
 "rating_text": "D",
 "create_date": "2026-06-12T18:38:17.000Z",
 "review_id": "103134929"
+},
+{
+"critic_name": "Carlos Boyero",
+"sentiment": "Rotten",
+"publication": "El Pais (Spain)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-12T18:53:32.000Z",
+"review_id": "103134932"
+},
+{
+"critic_name": "Juanma Fern\u00e1ndez Par\u00eds",
+"sentiment": "Fresh",
+"publication": "El Nuevo D\u00eda (Puerto Rico)",
+"top_critic": false,
+"rating_text": "5/5",
+"create_date": "2026-06-12T19:04:22.000Z",
+"review_id": "103134936"
+},
+{
+"critic_name": "Peter Travers",
+"sentiment": "Fresh",
+"publication": "The Travers Take",
+"top_critic": true,
+"rating_text": "3/4",
+"create_date": "2026-06-12T19:06:46.000Z",
+"review_id": "103134937"
 }
 ]
 }

@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-STO",
 "movie": "Stop! That! Train!",
 "rt_slug": "m/stop_that_train",
-"review_count": 34,
+"review_count": 35,
 "reviews": [
 {
 "critic_name": "David Rooney",
@@ -309,6 +309,15 @@
 "rating_text": "B-",
 "create_date": "2026-06-12T17:12:50.000Z",
 "review_id": "103134898"
+},
+{
+"critic_name": "Peter Travers",
+"sentiment": "Fresh",
+"publication": "The Travers Take",
+"top_critic": true,
+"rating_text": "2.5/4",
+"create_date": "2026-06-12T19:02:25.000Z",
+"review_id": "103134934"
 }
 ]
 }
