@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 239,
+"review_count": 241,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2154,6 +2154,24 @@
 "rating_text": "",
 "create_date": "2026-06-12T17:42:16.000Z",
 "review_id": "103134909"
+},
+{
+"critic_name": "Micheal Compton",
+"sentiment": "Fresh",
+"publication": "Bowling Green Daily News",
+"top_critic": false,
+"rating_text": "B",
+"create_date": "2026-06-12T17:51:27.000Z",
+"review_id": "103134913"
+},
+{
+"critic_name": "Nate Adams",
+"sentiment": "Rotten",
+"publication": "The Only Critic",
+"top_critic": false,
+"rating_text": "C",
+"create_date": "2026-06-12T17:55:59.000Z",
+"review_id": "103134915"
 }
 ]
 }
