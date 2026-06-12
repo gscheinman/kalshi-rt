@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 223,
+"review_count": 224,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2010,6 +2010,15 @@
 "rating_text": "5.5/10",
 "create_date": "2026-06-12T12:20:56.000Z",
 "review_id": "103134820"
+},
+{
+"critic_name": "Leslie Combemale",
+"sentiment": "Fresh",
+"publication": "AWFJ.org",
+"top_critic": false,
+"rating_text": "3/5 stars",
+"create_date": "2026-06-12T13:18:04.000Z",
+"review_id": "103134831"
 }
 ]
 }

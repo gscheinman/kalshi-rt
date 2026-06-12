@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DEA",
 "movie": "The Death of Robin Hood",
 "rt_slug": "m/the_death_of_robin_hood",
-"review_count": 23,
+"review_count": 24,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -210,6 +210,15 @@
 "rating_text": "9/10",
 "create_date": "2026-06-12T09:26:02.000Z",
 "review_id": "103134806"
+},
+{
+"critic_name": "Hoai-Tran Bui",
+"sentiment": "Fresh",
+"publication": "Inverse",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-12T13:14:30.000Z",
+"review_id": "103134830"
 }
 ]
 }

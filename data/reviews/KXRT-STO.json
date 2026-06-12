@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-STO",
 "movie": "Stop! That! Train!",
 "rt_slug": "m/stop_that_train",
-"review_count": 29,
+"review_count": 30,
 "reviews": [
 {
 "critic_name": "David Rooney",
@@ -264,6 +264,15 @@
 "rating_text": "B-",
 "create_date": "2026-06-12T01:52:46.000Z",
 "review_id": "103134773"
+},
+{
+"critic_name": "Katie Rife",
+"sentiment": "Fresh",
+"publication": "Inverse",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-12T13:13:13.000Z",
+"review_id": "103134828"
 }
 ]
 }
