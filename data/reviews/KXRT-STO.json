@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-STO",
 "movie": "Stop! That! Train!",
 "rt_slug": "m/stop_that_train",
-"review_count": 32,
+"review_count": 33,
 "reviews": [
 {
 "critic_name": "David Rooney",
@@ -291,6 +291,15 @@
 "rating_text": "1.5/4",
 "create_date": "2026-06-12T14:27:59.000Z",
 "review_id": "103134849"
+},
+{
+"critic_name": "Kristy Puchko",
+"sentiment": "Fresh",
+"publication": "Mashable",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-12T16:08:48.000Z",
+"review_id": "103134885"
 }
 ]
 }
