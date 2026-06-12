@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 250,
+"review_count": 251,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2253,6 +2253,15 @@
 "rating_text": "C+",
 "create_date": "2026-06-12T19:13:57.000Z",
 "review_id": "103134943"
+},
+{
+"critic_name": "Shalini Langer",
+"sentiment": "Fresh",
+"publication": "The Indian Express",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-06-12T19:42:49.000Z",
+"review_id": "103134950"
 }
 ]
 }
