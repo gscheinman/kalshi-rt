@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 267,
+"review_count": 268,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2406,6 +2406,15 @@
 "rating_text": "",
 "create_date": "2026-06-12T23:19:55.000Z",
 "review_id": "103135048"
+},
+{
+"critic_name": "Armond White",
+"sentiment": "Rotten",
+"publication": "National Review",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-13T00:07:58.000Z",
+"review_id": "103135068"
 }
 ]
 }
