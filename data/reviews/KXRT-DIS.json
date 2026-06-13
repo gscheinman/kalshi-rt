@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 268,
+"review_count": 269,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2415,6 +2415,15 @@
 "rating_text": "",
 "create_date": "2026-06-13T00:07:58.000Z",
 "review_id": "103135068"
+},
+{
+"critic_name": "Matt Rodriguez",
+"sentiment": "Fresh",
+"publication": "Shakefire",
+"top_critic": false,
+"rating_text": "4.5/5",
+"create_date": "2026-06-13T00:22:09.000Z",
+"review_id": "103135070"
 }
 ]
 }
