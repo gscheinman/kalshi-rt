@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 271,
+"review_count": 273,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2442,6 +2442,24 @@
 "rating_text": "",
 "create_date": "2026-06-13T01:03:58.000Z",
 "review_id": "103135074"
+},
+{
+"critic_name": "Luke Goodsell",
+"sentiment": "Fresh",
+"publication": "ABC News (Australia)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-13T02:02:31.000Z",
+"review_id": "103135078"
+},
+{
+"critic_name": "Dana Han-Klein",
+"sentiment": "Rotten",
+"publication": "We're Watching What?!",
+"top_critic": false,
+"rating_text": "3.6/5",
+"create_date": "2026-06-13T02:04:33.000Z",
+"review_id": "103135079"
 }
 ]
 }
