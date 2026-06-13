@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 284,
+"review_count": 286,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2559,6 +2559,24 @@
 "rating_text": "4/5",
 "create_date": "2026-06-13T17:49:46.000Z",
 "review_id": "103135169"
+},
+{
+"critic_name": "Doug Walker",
+"sentiment": "Rotten",
+"publication": "Channel Awesome",
+"top_critic": false,
+"rating_text": "2.5 / 4",
+"create_date": "2026-06-13T20:46:24.000Z",
+"review_id": "103135197"
+},
+{
+"critic_name": "Bill Watters",
+"sentiment": "Fresh",
+"publication": "NERDBOT",
+"top_critic": false,
+"rating_text": "6/10",
+"create_date": "2026-06-13T20:47:42.000Z",
+"review_id": "103135198"
 }
 ]
 }
