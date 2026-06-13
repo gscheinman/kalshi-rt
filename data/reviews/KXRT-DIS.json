@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 286,
+"review_count": 287,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2577,6 +2577,15 @@
 "rating_text": "6/10",
 "create_date": "2026-06-13T20:47:42.000Z",
 "review_id": "103135198"
+},
+{
+"critic_name": "Matthew Jackson",
+"sentiment": "Fresh",
+"publication": "Pop Heist",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-13T21:40:35.000Z",
+"review_id": "103135207"
 }
 ]
 }
