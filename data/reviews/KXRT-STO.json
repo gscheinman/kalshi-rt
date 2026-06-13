@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-STO",
 "movie": "Stop! That! Train!",
 "rt_slug": "m/stop_that_train",
-"review_count": 40,
+"review_count": 41,
 "reviews": [
 {
 "critic_name": "David Rooney",
@@ -363,6 +363,15 @@
 "rating_text": "",
 "create_date": "2026-06-13T08:02:27.000Z",
 "review_id": "103135121"
+},
+{
+"critic_name": "Gary M. Kramer",
+"sentiment": "Fresh",
+"publication": "Gay City News",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-13T11:01:55.000Z",
+"review_id": "103135128"
 }
 ]
 }
