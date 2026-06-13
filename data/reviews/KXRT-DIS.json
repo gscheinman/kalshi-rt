@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 270,
+"review_count": 271,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2433,6 +2433,15 @@
 "rating_text": "8/10",
 "create_date": "2026-06-13T00:25:36.000Z",
 "review_id": "103135071"
+},
+{
+"critic_name": "Cory Woodroof",
+"sentiment": "Fresh",
+"publication": "For the Win at USA Today",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-13T01:03:58.000Z",
+"review_id": "103135074"
 }
 ]
 }
