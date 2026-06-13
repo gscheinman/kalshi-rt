@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 282,
+"review_count": 283,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2541,6 +2541,15 @@
 "rating_text": "",
 "create_date": "2026-06-13T16:57:18.000Z",
 "review_id": "103135152"
+},
+{
+"critic_name": "Mark Jackson",
+"sentiment": "Rotten",
+"publication": "Epoch Times",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-13T17:28:33.000Z",
+"review_id": "103135168"
 }
 ]
 }
