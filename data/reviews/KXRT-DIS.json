@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 279,
+"review_count": 281,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2514,6 +2514,24 @@
 "rating_text": "3/5",
 "create_date": "2026-06-13T14:53:40.000Z",
 "review_id": "103135137"
+},
+{
+"critic_name": "Alfred Castaneda",
+"sentiment": "Fresh",
+"publication": "Shade Studios",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-13T16:16:01.000Z",
+"review_id": "103135150"
+},
+{
+"critic_name": "Gissane Sophia",
+"sentiment": "Fresh",
+"publication": "Lady Geeks Media",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-13T16:20:48.000Z",
+"review_id": "103135151"
 }
 ]
 }
