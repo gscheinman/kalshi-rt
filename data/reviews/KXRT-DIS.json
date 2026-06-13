@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 283,
+"review_count": 284,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2550,6 +2550,15 @@
 "rating_text": "3/5",
 "create_date": "2026-06-13T17:28:33.000Z",
 "review_id": "103135168"
+},
+{
+"critic_name": "Andrea Chase",
+"sentiment": "Fresh",
+"publication": "Killer Movie Reviews",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-13T17:49:46.000Z",
+"review_id": "103135169"
 }
 ]
 }
