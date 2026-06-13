@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 273,
+"review_count": 274,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2460,6 +2460,15 @@
 "rating_text": "3.6/5",
 "create_date": "2026-06-13T02:04:33.000Z",
 "review_id": "103135079"
+},
+{
+"critic_name": "Jericho Tadeo",
+"sentiment": "Fresh",
+"publication": "Exclaim!",
+"top_critic": false,
+"rating_text": "7/10",
+"create_date": "2026-06-13T03:50:10.000Z",
+"review_id": "103135106"
 }
 ]
 }

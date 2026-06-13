@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-STO",
 "movie": "Stop! That! Train!",
 "rt_slug": "m/stop_that_train",
-"review_count": 38,
+"review_count": 39,
 "reviews": [
 {
 "critic_name": "David Rooney",
@@ -345,6 +345,15 @@
 "rating_text": "",
 "create_date": "2026-06-12T23:11:47.000Z",
 "review_id": "103135043"
+},
+{
+"critic_name": "Alexa Margorian",
+"sentiment": "Rotten",
+"publication": "Exclaim!",
+"top_critic": false,
+"rating_text": "1/10",
+"create_date": "2026-06-13T03:51:56.000Z",
+"review_id": "103135108"
 }
 ]
 }
