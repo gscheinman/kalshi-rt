@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 274,
+"review_count": 277,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2469,6 +2469,33 @@
 "rating_text": "7/10",
 "create_date": "2026-06-13T03:50:10.000Z",
 "review_id": "103135106"
+},
+{
+"critic_name": "Daniel Hart",
+"sentiment": "Rotten",
+"publication": "Ready Steady Cut",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-06-13T07:52:44.000Z",
+"review_id": "103135116"
+},
+{
+"critic_name": "Rachel Wagner",
+"sentiment": "Rotten",
+"publication": "Rachel's Reviews (YouTube)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-13T07:55:39.000Z",
+"review_id": "103135117"
+},
+{
+"critic_name": "Jessie Gender",
+"sentiment": "Rotten",
+"publication": "Jessie Gender YouTube Channel",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-13T08:10:30.000Z",
+"review_id": "103135127"
 }
 ]
 }
