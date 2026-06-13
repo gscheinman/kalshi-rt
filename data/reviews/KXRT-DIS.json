@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 277,
+"review_count": 278,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2496,6 +2496,15 @@
 "rating_text": "",
 "create_date": "2026-06-13T08:10:30.000Z",
 "review_id": "103135127"
+},
+{
+"critic_name": "Collin Garbarino",
+"sentiment": "Fresh",
+"publication": "WORLD",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-13T13:50:24.000Z",
+"review_id": "103135135"
 }
 ]
 }
