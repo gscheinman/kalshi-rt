@@ -194,6 +194,17 @@
       "suggested_size": 50.0,
       "avg_fill": 47.9,
       "contracts": 104.3
+    },
+    {
+      "timestamp": "2026-06-13T05:07:56.810777+00:00",
+      "market_ticker": "KXRT-STO-80",
+      "direction": "BUY YES",
+      "threshold": 80,
+      "model_prob": 73.0,
+      "edge": 12.3,
+      "suggested_size": 50.0,
+      "avg_fill": 60.7,
+      "contracts": 82.4
     }
   ],
   "KXRT-DEA": [
