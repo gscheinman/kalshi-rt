@@ -218,6 +218,17 @@
       "suggested_size": 29.12,
       "avg_fill": 36.2,
       "contracts": 80.5
+    },
+    {
+      "timestamp": "2026-06-14T14:56:52.302259+00:00",
+      "market_ticker": "KXRT-DEA-75",
+      "direction": "BUY YES",
+      "threshold": 75,
+      "model_prob": 42.5,
+      "edge": 13.4,
+      "suggested_size": 31.84,
+      "avg_fill": 29.0,
+      "contracts": 109.6
     }
   ]
 }
