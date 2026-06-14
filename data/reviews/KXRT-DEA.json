@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DEA",
 "movie": "The Death of Robin Hood",
 "rt_slug": "m/the_death_of_robin_hood",
-"review_count": 28,
+"review_count": 29,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -255,6 +255,15 @@
 "rating_text": "3/5",
 "create_date": "2026-06-13T03:36:24.000Z",
 "review_id": "103135097"
+},
+{
+"critic_name": "Lady Jenevia",
+"sentiment": "Fresh",
+"publication": "LadyJenevia (YouTube)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-14T13:55:03.000Z",
+"review_id": "103135235"
 }
 ]
 }
