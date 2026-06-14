@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 293,
+"review_count": 294,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2640,6 +2640,15 @@
 "rating_text": "3/5",
 "create_date": "2026-06-14T15:41:51.000Z",
 "review_id": "103135239"
+},
+{
+"critic_name": "Luis Pomales-Diaz",
+"sentiment": "Fresh",
+"publication": "Horror Press",
+"top_critic": false,
+"rating_text": "6/10",
+"create_date": "2026-06-14T16:57:44.000Z",
+"review_id": "103135242"
 }
 ]
 }
