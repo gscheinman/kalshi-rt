@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 297,
+"review_count": 298,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2676,6 +2676,15 @@
 "rating_text": "",
 "create_date": "2026-06-14T18:25:53.000Z",
 "review_id": "103135248"
+},
+{
+"critic_name": "Laura Hiros",
+"sentiment": "Rotten",
+"publication": "Rinc\u00f3n de cine",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-06-14T18:49:24.000Z",
+"review_id": "103135249"
 }
 ]
 }
