@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 294,
+"review_count": 295,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2649,6 +2649,15 @@
 "rating_text": "6/10",
 "create_date": "2026-06-14T16:57:44.000Z",
 "review_id": "103135242"
+},
+{
+"critic_name": "Chris Sawin",
+"sentiment": "Rotten",
+"publication": "Giant Freakin Robot",
+"top_critic": false,
+"rating_text": "1.5/5",
+"create_date": "2026-06-14T17:09:03.000Z",
+"review_id": "103135244"
 }
 ]
 }
