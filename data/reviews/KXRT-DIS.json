@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 300,
+"review_count": 301,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2703,6 +2703,15 @@
 "rating_text": "4/5",
 "create_date": "2026-06-14T19:24:29.000Z",
 "review_id": "103135251"
+},
+{
+"critic_name": "Matthew St. Clair",
+"sentiment": "Fresh",
+"publication": "Cinematic Words of a Chaotic Gemini (Substack)",
+"top_critic": false,
+"rating_text": "A-",
+"create_date": "2026-06-14T21:32:18.000Z",
+"review_id": "103135255"
 }
 ]
 }
