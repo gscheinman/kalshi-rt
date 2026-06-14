@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 292,
+"review_count": 293,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2631,6 +2631,15 @@
 "rating_text": "C",
 "create_date": "2026-06-14T13:37:52.000Z",
 "review_id": "103135234"
+},
+{
+"critic_name": "Michael Ward",
+"sentiment": "Fresh",
+"publication": "Should I See It",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-14T15:41:51.000Z",
+"review_id": "103135239"
 }
 ]
 }
