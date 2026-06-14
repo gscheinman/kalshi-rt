@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 287,
+"review_count": 288,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2586,6 +2586,15 @@
 "rating_text": "",
 "create_date": "2026-06-13T21:40:35.000Z",
 "review_id": "103135207"
+},
+{
+"critic_name": "Joe Friar",
+"sentiment": "Fresh",
+"publication": "Fort Worth Report",
+"top_critic": false,
+"rating_text": "3.5/4",
+"create_date": "2026-06-14T00:53:26.000Z",
+"review_id": "103135212"
 }
 ]
 }
