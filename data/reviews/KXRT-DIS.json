@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 296,
+"review_count": 297,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2667,6 +2667,15 @@
 "rating_text": "",
 "create_date": "2026-06-14T18:00:54.000Z",
 "review_id": "103135246"
+},
+{
+"critic_name": "Dan Scully",
+"sentiment": "Fresh",
+"publication": "ScullyVision",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-14T18:25:53.000Z",
+"review_id": "103135248"
 }
 ]
 }
