@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 303,
+"review_count": 304,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2730,6 +2730,15 @@
 "rating_text": "4.5/5",
 "create_date": "2026-06-15T03:31:35.000Z",
 "review_id": "103135266"
+},
+{
+"critic_name": "Korey Coleman",
+"sentiment": "Fresh",
+"publication": "Double Toasted",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-15T05:21:13.000Z",
+"review_id": "103135270"
 }
 ]
 }
