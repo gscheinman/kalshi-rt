@@ -1,0 +1,17 @@
+{
+"event_ticker": "KXRT-TOY",
+"movie": "Toy Story 5:",
+"rt_slug": "m/toy_story_5",
+"review_count": 1,
+"reviews": [
+{
+"critic_name": "Dionar Hidalgo",
+"sentiment": "Rotten",
+"publication": "Algo M\u00e1s Que Cine",
+"top_critic": false,
+"rating_text": "6/10",
+"create_date": "2026-06-15T23:23:02.000Z",
+"review_id": "103135560"
+}
+]
+}
