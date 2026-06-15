@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 302,
+"review_count": 303,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2721,6 +2721,15 @@
 "rating_text": "",
 "create_date": "2026-06-14T22:07:12.000Z",
 "review_id": "103135257"
+},
+{
+"critic_name": "Sebastian Zavala Kahn",
+"sentiment": "Fresh",
+"publication": "Cinencuentro",
+"top_critic": false,
+"rating_text": "4.5/5",
+"create_date": "2026-06-15T03:31:35.000Z",
+"review_id": "103135266"
 }
 ]
 }
