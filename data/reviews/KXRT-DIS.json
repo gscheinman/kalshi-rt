@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 305,
+"review_count": 306,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2748,6 +2748,15 @@
 "rating_text": "9/10",
 "create_date": "2026-06-15T12:32:22.000Z",
 "review_id": "103135290"
+},
+{
+"critic_name": "Chuck Bowen",
+"sentiment": "Rotten",
+"publication": "Style Weekly (Richmond, VA)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-15T12:59:11.000Z",
+"review_id": "103135296"
 }
 ]
 }
