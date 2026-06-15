@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DIS",
 "movie": "Disclosure Day",
 "rt_slug": "m/disclosure_day",
-"review_count": 304,
+"review_count": 305,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2739,6 +2739,15 @@
 "rating_text": "",
 "create_date": "2026-06-15T05:21:13.000Z",
 "review_id": "103135270"
+},
+{
+"critic_name": "Susan Granger",
+"sentiment": "Fresh",
+"publication": "SSG Syndicate",
+"top_critic": false,
+"rating_text": "9/10",
+"create_date": "2026-06-15T12:32:22.000Z",
+"review_id": "103135290"
 }
 ]
 }
