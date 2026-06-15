@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DEA",
 "movie": "The Death of Robin Hood:",
 "rt_slug": "m/the_death_of_robin_hood",
-"review_count": 29,
+"review_count": 30,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -264,6 +264,15 @@
 "rating_text": "",
 "create_date": "2026-06-14T13:55:03.000Z",
 "review_id": "103135235"
+},
+{
+"critic_name": "Brandon David Wilson",
+"sentiment": "Fresh",
+"publication": "RogerEbert.com",
+"top_critic": false,
+"rating_text": "3.5/4",
+"create_date": "2026-06-15T16:20:18.000Z",
+"review_id": "103135332"
 }
 ]
 }
