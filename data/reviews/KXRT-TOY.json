@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-TOY",
 "movie": "Toy Story 5:",
 "rt_slug": "m/toy_story_5",
-"review_count": 104,
+"review_count": 105,
 "reviews": [
 {
 "critic_name": "Dionar Hidalgo",
@@ -939,6 +939,15 @@
 "rating_text": "3.5/5",
 "create_date": "2026-06-16T21:13:38.000Z",
 "review_id": "103135948"
+},
+{
+"critic_name": "Charles Koplinski",
+"sentiment": "Fresh",
+"publication": "Reel Talk with Chuck and Pam",
+"top_critic": false,
+"rating_text": "3/4",
+"create_date": "2026-06-16T21:30:02.000Z",
+"review_id": "103135954"
 }
 ]
 }
