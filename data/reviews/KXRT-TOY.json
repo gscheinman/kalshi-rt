@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-TOY",
 "movie": "Toy Story 5:",
 "rt_slug": "m/toy_story_5",
-"review_count": 59,
+"review_count": 70,
 "reviews": [
 {
 "critic_name": "Dionar Hidalgo",
@@ -174,6 +174,60 @@
 "rating_text": "3.5/5",
 "create_date": "2026-06-16T16:02:26.000Z",
 "review_id": "103135667"
+},
+{
+"critic_name": "David Rooney",
+"sentiment": "Fresh",
+"publication": "The Hollywood Reporter",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-16T16:03:00.000Z",
+"review_id": "103135668"
+},
+{
+"critic_name": "Taylor Gates",
+"sentiment": "Fresh",
+"publication": "Collider",
+"top_critic": false,
+"rating_text": "8/10",
+"create_date": "2026-06-16T16:03:12.000Z",
+"review_id": "103135669"
+},
+{
+"critic_name": "Peter Bradshaw",
+"sentiment": "Rotten",
+"publication": "Guardian",
+"top_critic": true,
+"rating_text": "2/5",
+"create_date": "2026-06-16T16:03:30.000Z",
+"review_id": "103135670"
+},
+{
+"critic_name": "Matt Singer",
+"sentiment": "Fresh",
+"publication": "ScreenCrush",
+"top_critic": true,
+"rating_text": "8/10",
+"create_date": "2026-06-16T16:03:48.000Z",
+"review_id": "103135671"
+},
+{
+"critic_name": "Casey Chong",
+"sentiment": "Fresh",
+"publication": "Casey's Movie Mania",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-16T16:03:53.000Z",
+"review_id": "103135672"
+},
+{
+"critic_name": "Joe Botten",
+"sentiment": "Fresh",
+"publication": "Loud and Clear Reviews",
+"top_critic": false,
+"rating_text": "4.5",
+"create_date": "2026-06-16T16:03:58.000Z",
+"review_id": "103135673"
 },
 {
 "critic_name": "Chris Bumbray",
@@ -534,6 +588,51 @@
 "rating_text": "2/5",
 "create_date": "2026-06-16T16:22:03.000Z",
 "review_id": "103135720"
+},
+{
+"critic_name": "Donald Clarke",
+"sentiment": "Fresh",
+"publication": "Irish Times",
+"top_critic": true,
+"rating_text": "3/5",
+"create_date": "2026-06-16T16:24:53.000Z",
+"review_id": "103135721"
+},
+{
+"critic_name": "Owen Gleiberman",
+"sentiment": "Fresh",
+"publication": "Variety",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-16T16:28:31.000Z",
+"review_id": "103135722"
+},
+{
+"critic_name": "Shakyl Lambert",
+"sentiment": "Fresh",
+"publication": "CGMagazine",
+"top_critic": false,
+"rating_text": "9/10",
+"create_date": "2026-06-16T16:28:34.000Z",
+"review_id": "103135723"
+},
+{
+"critic_name": "Robert Daniels",
+"sentiment": "Fresh",
+"publication": "RogerEbert.com",
+"top_critic": true,
+"rating_text": "3/4",
+"create_date": "2026-06-16T16:29:45.000Z",
+"review_id": "103135724"
+},
+{
+"critic_name": "Brandon Lewis",
+"sentiment": "Fresh",
+"publication": "When Things Go Pop",
+"top_critic": false,
+"rating_text": "8.5/10",
+"create_date": "2026-06-16T16:30:20.000Z",
+"review_id": "103135725"
 }
 ]
 }
