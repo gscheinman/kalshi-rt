@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/disclosure_day",
-"review_count": 330,
+"review_count": 331,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2973,6 +2973,15 @@
 "rating_text": "4/5",
 "create_date": "2026-06-16T00:13:04.000Z",
 "review_id": "103135570"
+},
+{
+"critic_name": "Nell Minow",
+"sentiment": "Fresh",
+"publication": "Movie Mom",
+"top_critic": true,
+"rating_text": "A-",
+"create_date": "2026-06-16T11:00:46.000Z",
+"review_id": "103135630"
 }
 ]
 }
