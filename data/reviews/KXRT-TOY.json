@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-TOY",
 "movie": "Toy Story 5:",
 "rt_slug": "m/toy_story_5",
-"review_count": 79,
+"review_count": 85,
 "reviews": [
 {
 "critic_name": "Dionar Hidalgo",
@@ -714,6 +714,60 @@
 "rating_text": "",
 "create_date": "2026-06-16T17:12:50.000Z",
 "review_id": "103135772"
+},
+{
+"critic_name": "Francesca Steele",
+"sentiment": "Fresh",
+"publication": "iNews.co.uk",
+"top_critic": false,
+"rating_text": "5/5",
+"create_date": "2026-06-16T17:14:28.000Z",
+"review_id": "103135776"
+},
+{
+"critic_name": "Jackson Weaver",
+"sentiment": "Fresh",
+"publication": "CBC News",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-16T17:14:43.000Z",
+"review_id": "103135777"
+},
+{
+"critic_name": "Luis Mart\u00ednez",
+"sentiment": "Fresh",
+"publication": "El Mundo (Spain)",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-16T17:15:11.000Z",
+"review_id": "103135779"
+},
+{
+"critic_name": "David Crow",
+"sentiment": "Fresh",
+"publication": "Den of Geek",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-16T17:15:51.000Z",
+"review_id": "103135782"
+},
+{
+"critic_name": "Brian Orndorf",
+"sentiment": "Fresh",
+"publication": "Blu-ray.com",
+"top_critic": false,
+"rating_text": "B+",
+"create_date": "2026-06-16T17:16:44.000Z",
+"review_id": "103135783"
+},
+{
+"critic_name": "Andrea G. Bermejo",
+"sentiment": "Fresh",
+"publication": "Cineman\u00eda (Spain)",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-16T17:17:25.000Z",
+"review_id": "103135784"
 }
 ]
 }

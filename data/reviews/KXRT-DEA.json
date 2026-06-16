@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DEA",
 "movie": "The Death of Robin Hood:",
 "rt_slug": "m/the_death_of_robin_hood",
-"review_count": 32,
+"review_count": 33,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -291,6 +291,15 @@
 "rating_text": "3/5",
 "create_date": "2026-06-16T14:57:07.000Z",
 "review_id": "103135645"
+},
+{
+"critic_name": "Brian Orndorf",
+"sentiment": "Fresh",
+"publication": "Blu-ray.com",
+"top_critic": false,
+"rating_text": "B-",
+"create_date": "2026-06-16T17:13:58.000Z",
+"review_id": "103135775"
 }
 ]
 }

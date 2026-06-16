@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/disclosure_day",
-"review_count": 337,
+"review_count": 338,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -3036,6 +3036,15 @@
 "rating_text": "B-",
 "create_date": "2026-06-16T17:12:39.000Z",
 "review_id": "103135771"
+},
+{
+"critic_name": "Eileen Jones",
+"sentiment": "Fresh",
+"publication": "The Jacobin",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-16T17:20:53.000Z",
+"review_id": "103135789"
 }
 ]
 }
