@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-TOY",
 "movie": "Toy Story 5:",
 "rt_slug": "m/toy_story_5",
-"review_count": 88,
+"review_count": 93,
 "reviews": [
 {
 "critic_name": "Dionar Hidalgo",
@@ -795,6 +795,51 @@
 "rating_text": "8/10",
 "create_date": "2026-06-16T17:37:28.000Z",
 "review_id": "103135796"
+},
+{
+"critic_name": "Helen O'Hara",
+"sentiment": "Fresh",
+"publication": "Empire Magazine",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-16T17:49:39.000Z",
+"review_id": "103135805"
+},
+{
+"critic_name": "William Mullally",
+"sentiment": "Fresh",
+"publication": "The National (UAE)",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-06-16T17:56:48.000Z",
+"review_id": "103135810"
+},
+{
+"critic_name": "Fred Topel",
+"sentiment": "Fresh",
+"publication": "United Press International",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-16T18:02:08.000Z",
+"review_id": "103135814"
+},
+{
+"critic_name": "Brandon Avery",
+"sentiment": "Fresh",
+"publication": "Just My Opinion Reviews",
+"top_critic": false,
+"rating_text": "9/10",
+"create_date": "2026-06-16T18:02:26.000Z",
+"review_id": "103135815"
+},
+{
+"critic_name": "Travis Hopson",
+"sentiment": "Fresh",
+"publication": "Punch Drunk Critics",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-16T18:14:25.000Z",
+"review_id": "103135824"
 }
 ]
 }
