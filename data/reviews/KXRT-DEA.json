@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DEA",
 "movie": "The Death of Robin Hood:",
 "rt_slug": "m/the_death_of_robin_hood",
-"review_count": 31,
+"review_count": 32,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -282,6 +282,15 @@
 "rating_text": "",
 "create_date": "2026-06-16T13:06:31.000Z",
 "review_id": "103135634"
+},
+{
+"critic_name": "Patrick Cavanaugh",
+"sentiment": "Fresh",
+"publication": "The Wolfman Cometh",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-16T14:57:07.000Z",
+"review_id": "103135645"
 }
 ]
 }
