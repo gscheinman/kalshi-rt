@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/disclosure_day",
-"review_count": 334,
+"review_count": 337,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -3009,6 +3009,33 @@
 "rating_text": "4/5",
 "create_date": "2026-06-16T16:30:30.000Z",
 "review_id": "103135726"
+},
+{
+"critic_name": "Michael Nordine",
+"sentiment": "Fresh",
+"publication": "Movie Brief",
+"top_critic": false,
+"rating_text": "3.5/4",
+"create_date": "2026-06-16T16:44:14.000Z",
+"review_id": "103135736"
+},
+{
+"critic_name": "Joel Harley",
+"sentiment": "Rotten",
+"publication": "Starburst",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-06-16T16:50:09.000Z",
+"review_id": "103135743"
+},
+{
+"critic_name": "Jared Rasic",
+"sentiment": "Fresh",
+"publication": "Metro Times (Detroit, MI)",
+"top_critic": false,
+"rating_text": "B-",
+"create_date": "2026-06-16T17:12:39.000Z",
+"review_id": "103135771"
 }
 ]
 }
