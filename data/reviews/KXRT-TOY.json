@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-TOY",
 "movie": "Toy Story 5:",
 "rt_slug": "m/toy_story_5",
-"review_count": 85,
+"review_count": 88,
 "reviews": [
 {
 "critic_name": "Dionar Hidalgo",
@@ -768,6 +768,33 @@
 "rating_text": "4/5",
 "create_date": "2026-06-16T17:17:25.000Z",
 "review_id": "103135784"
+},
+{
+"critic_name": "Alistair Harkness",
+"sentiment": "Fresh",
+"publication": "Scotsman",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-16T17:27:38.000Z",
+"review_id": "103135793"
+},
+{
+"critic_name": "Mike Massie",
+"sentiment": "Fresh",
+"publication": "Gone With The Twins",
+"top_critic": false,
+"rating_text": "6/10",
+"create_date": "2026-06-16T17:35:07.000Z",
+"review_id": "103135795"
+},
+{
+"critic_name": "Mike Manalo",
+"sentiment": "Fresh",
+"publication": "Geeks of Color",
+"top_critic": false,
+"rating_text": "8/10",
+"create_date": "2026-06-16T17:37:28.000Z",
+"review_id": "103135796"
 }
 ]
 }
