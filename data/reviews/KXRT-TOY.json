@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-TOY",
 "movie": "Toy Story 5:",
 "rt_slug": "m/toy_story_5",
-"review_count": 98,
+"review_count": 99,
 "reviews": [
 {
 "critic_name": "Dionar Hidalgo",
@@ -885,6 +885,15 @@
 "rating_text": "",
 "create_date": "2026-06-16T19:15:30.000Z",
 "review_id": "103135886"
+},
+{
+"critic_name": "Rendy Jones",
+"sentiment": "Fresh",
+"publication": "Rendy Reviews",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-16T19:26:57.000Z",
+"review_id": "103135891"
 }
 ]
 }
