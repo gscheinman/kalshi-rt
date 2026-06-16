@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-TOY",
 "movie": "Toy Story 5:",
 "rt_slug": "m/toy_story_5",
-"review_count": 102,
+"review_count": 103,
 "reviews": [
 {
 "critic_name": "Dionar Hidalgo",
@@ -921,6 +921,15 @@
 "rating_text": "",
 "create_date": "2026-06-16T20:29:08.000Z",
 "review_id": "103135919"
+},
+{
+"critic_name": "Cole Groth",
+"sentiment": "Fresh",
+"publication": "FandomWire",
+"top_critic": false,
+"rating_text": "9/10",
+"create_date": "2026-06-16T20:50:14.000Z",
+"review_id": "103135937"
 }
 ]
 }
