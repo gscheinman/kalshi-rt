@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/disclosure_day",
-"review_count": 338,
+"review_count": 339,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -3045,6 +3045,15 @@
 "rating_text": "",
 "create_date": "2026-06-16T17:20:53.000Z",
 "review_id": "103135789"
+},
+{
+"critic_name": "Walter Chaw",
+"sentiment": "Fresh",
+"publication": "Film Freak Central",
+"top_critic": false,
+"rating_text": "3/4",
+"create_date": "2026-06-16T17:45:23.000Z",
+"review_id": "103135801"
 }
 ]
 }
