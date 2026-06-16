@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-TOY",
 "movie": "Toy Story 5:",
 "rt_slug": "m/toy_story_5",
-"review_count": 97,
+"review_count": 98,
 "reviews": [
 {
 "critic_name": "Dionar Hidalgo",
@@ -876,6 +876,15 @@
 "rating_text": "9/10",
 "create_date": "2026-06-16T18:41:19.000Z",
 "review_id": "103135856"
+},
+{
+"critic_name": "Avi Offer",
+"sentiment": "Rotten",
+"publication": "NYC Movie Guru",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-16T19:15:30.000Z",
+"review_id": "103135886"
 }
 ]
 }

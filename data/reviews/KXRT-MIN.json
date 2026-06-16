@@ -1,8 +1,8 @@
 {
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
-"rt_slug": "m/disclosure_day",
-"review_count": 341,
+"rt_slug": "m/toy_story_5",
+"review_count": 439,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2966,6 +2966,15 @@
 "review_id": "103135543"
 },
 {
+"critic_name": "Dionar Hidalgo",
+"sentiment": "Rotten",
+"publication": "Algo M\u00e1s Que Cine",
+"top_critic": false,
+"rating_text": "6/10",
+"create_date": "2026-06-15T23:23:02.000Z",
+"review_id": "103135560"
+},
+{
 "critic_name": "Christopher Cross",
 "sentiment": "Fresh",
 "publication": "Asynchronous Media",
@@ -2984,6 +2993,339 @@
 "review_id": "103135630"
 },
 {
+"critic_name": "Lady Jenevia",
+"sentiment": "Fresh",
+"publication": "LadyJenevia (YouTube)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-16T15:49:52.000Z",
+"review_id": "103135649"
+},
+{
+"critic_name": "David Gonzalez",
+"sentiment": "Fresh",
+"publication": "The Cinematic Reel",
+"top_critic": false,
+"rating_text": "5/5",
+"create_date": "2026-06-16T15:59:22.000Z",
+"review_id": "103135651"
+},
+{
+"critic_name": "Jake Cole",
+"sentiment": "Rotten",
+"publication": "Slant Magazine",
+"top_critic": false,
+"rating_text": "2/4",
+"create_date": "2026-06-16T15:59:32.000Z",
+"review_id": "103135652"
+},
+{
+"critic_name": "Liz Shannon Miller",
+"sentiment": "Fresh",
+"publication": "Consequence",
+"top_critic": true,
+"rating_text": "B-",
+"create_date": "2026-06-16T16:00:01.000Z",
+"review_id": "103135653"
+},
+{
+"critic_name": "Allison Rose",
+"sentiment": "Fresh",
+"publication": "FlickDirect",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-06-16T16:00:08.000Z",
+"review_id": "103135654"
+},
+{
+"critic_name": "Matt Oakes",
+"sentiment": "Fresh",
+"publication": "Silver Screen Riot",
+"top_critic": false,
+"rating_text": "A",
+"create_date": "2026-06-16T16:00:10.000Z",
+"review_id": "103135655"
+},
+{
+"critic_name": "Ian Sandwell",
+"sentiment": "Fresh",
+"publication": "Digital Spy",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-16T16:00:15.000Z",
+"review_id": "103135656"
+},
+{
+"critic_name": "Sophia Ciminello",
+"sentiment": "Fresh",
+"publication": "AwardsWatch",
+"top_critic": false,
+"rating_text": "B+",
+"create_date": "2026-06-16T16:00:19.000Z",
+"review_id": "103135657"
+},
+{
+"critic_name": "Michael Sowell",
+"sentiment": "Fresh",
+"publication": "Nerdspin",
+"top_critic": false,
+"rating_text": "A-",
+"create_date": "2026-06-16T16:00:24.000Z",
+"review_id": "103135658"
+},
+{
+"critic_name": "Joshua Mbonu",
+"sentiment": "Fresh",
+"publication": "Geek Vibes Nation",
+"top_critic": false,
+"rating_text": "7/10",
+"create_date": "2026-06-16T16:00:25.000Z",
+"review_id": "103135659"
+},
+{
+"critic_name": "Tessa Smith",
+"sentiment": "Fresh",
+"publication": "Mama's Geeky",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-16T16:00:36.000Z",
+"review_id": "103135660"
+},
+{
+"critic_name": "Nick Schager",
+"sentiment": "Fresh",
+"publication": "The Daily Beast",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-16T16:00:45.000Z",
+"review_id": "103135661"
+},
+{
+"critic_name": "Adam Olinger",
+"sentiment": "Fresh",
+"publication": "Adam Does Movies (YouTube)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-16T16:00:57.000Z",
+"review_id": "103135662"
+},
+{
+"critic_name": "Dan Bayer",
+"sentiment": "Fresh",
+"publication": "Next Best Picture",
+"top_critic": false,
+"rating_text": "8/10",
+"create_date": "2026-06-16T16:01:09.000Z",
+"review_id": "103135663"
+},
+{
+"critic_name": "David Fear",
+"sentiment": "Rotten",
+"publication": "Rolling Stone",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-16T16:01:41.000Z",
+"review_id": "103135664"
+},
+{
+"critic_name": "Brian Eggert",
+"sentiment": "Fresh",
+"publication": "Deep Focus Review",
+"top_critic": false,
+"rating_text": "3.5/4",
+"create_date": "2026-06-16T16:01:49.000Z",
+"review_id": "103135665"
+},
+{
+"critic_name": "Jon Negroni",
+"sentiment": "Fresh",
+"publication": "InBetweenDrafts",
+"top_critic": false,
+"rating_text": "8/10",
+"create_date": "2026-06-16T16:01:57.000Z",
+"review_id": "103135666"
+},
+{
+"critic_name": "Matt Goldberg",
+"sentiment": "Fresh",
+"publication": "Decoding Everything (Substack)",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-06-16T16:02:26.000Z",
+"review_id": "103135667"
+},
+{
+"critic_name": "David Rooney",
+"sentiment": "Fresh",
+"publication": "The Hollywood Reporter",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-16T16:03:00.000Z",
+"review_id": "103135668"
+},
+{
+"critic_name": "Taylor Gates",
+"sentiment": "Fresh",
+"publication": "Collider",
+"top_critic": false,
+"rating_text": "8/10",
+"create_date": "2026-06-16T16:03:12.000Z",
+"review_id": "103135669"
+},
+{
+"critic_name": "Peter Bradshaw",
+"sentiment": "Rotten",
+"publication": "Guardian",
+"top_critic": true,
+"rating_text": "2/5",
+"create_date": "2026-06-16T16:03:30.000Z",
+"review_id": "103135670"
+},
+{
+"critic_name": "Matt Singer",
+"sentiment": "Fresh",
+"publication": "ScreenCrush",
+"top_critic": true,
+"rating_text": "8/10",
+"create_date": "2026-06-16T16:03:48.000Z",
+"review_id": "103135671"
+},
+{
+"critic_name": "Casey Chong",
+"sentiment": "Fresh",
+"publication": "Casey's Movie Mania",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-16T16:03:53.000Z",
+"review_id": "103135672"
+},
+{
+"critic_name": "Joe Botten",
+"sentiment": "Fresh",
+"publication": "Loud and Clear Reviews",
+"top_critic": false,
+"rating_text": "4.5",
+"create_date": "2026-06-16T16:03:58.000Z",
+"review_id": "103135673"
+},
+{
+"critic_name": "Chris Bumbray",
+"sentiment": "Fresh",
+"publication": "JoBlo's Movie Network",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-16T16:04:21.000Z",
+"review_id": "103135674"
+},
+{
+"critic_name": "Brian Truitt",
+"sentiment": "Fresh",
+"publication": "USA Today",
+"top_critic": false,
+"rating_text": "3/4",
+"create_date": "2026-06-16T16:04:26.000Z",
+"review_id": "103135675"
+},
+{
+"critic_name": "Ben Miller",
+"sentiment": "Fresh",
+"publication": "InSession Film",
+"top_critic": false,
+"rating_text": "B",
+"create_date": "2026-06-16T16:05:05.000Z",
+"review_id": "103135676"
+},
+{
+"critic_name": "Gavin Spoors",
+"sentiment": "Fresh",
+"publication": "FILMHOUNDS Magazine",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-16T16:05:14.000Z",
+"review_id": "103135677"
+},
+{
+"critic_name": "Rafer Guzman",
+"sentiment": "Fresh",
+"publication": "Newsday",
+"top_critic": false,
+"rating_text": "3/4",
+"create_date": "2026-06-16T16:05:31.000Z",
+"review_id": "103135678"
+},
+{
+"critic_name": "Reuben Baron",
+"sentiment": "Fresh",
+"publication": "Looper.com",
+"top_critic": false,
+"rating_text": "7.5/10",
+"create_date": "2026-06-16T16:05:40.000Z",
+"review_id": "103135679"
+},
+{
+"critic_name": "David Ehrlich",
+"sentiment": "Fresh",
+"publication": "IndieWire",
+"top_critic": true,
+"rating_text": "B+",
+"create_date": "2026-06-16T16:05:57.000Z",
+"review_id": "103135680"
+},
+{
+"critic_name": "Doug Jamieson",
+"sentiment": "Fresh",
+"publication": "The Jam Report",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-16T16:06:10.000Z",
+"review_id": "103135681"
+},
+{
+"critic_name": "BJ Colangelo",
+"sentiment": "Fresh",
+"publication": "Slashfilm",
+"top_critic": false,
+"rating_text": "7.5/10",
+"create_date": "2026-06-16T16:06:23.000Z",
+"review_id": "103135682"
+},
+{
+"critic_name": "Clint Cage",
+"sentiment": "Fresh",
+"publication": "IGN Movies",
+"top_critic": false,
+"rating_text": "7/10",
+"create_date": "2026-06-16T16:06:31.000Z",
+"review_id": "103135683"
+},
+{
+"critic_name": "Jordan Williams",
+"sentiment": "Fresh",
+"publication": "Screen Rant",
+"top_critic": false,
+"rating_text": "9/10",
+"create_date": "2026-06-16T16:07:00.000Z",
+"review_id": "103135684"
+},
+{
+"critic_name": "Tim Grierson",
+"sentiment": "Fresh",
+"publication": "Screen International",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-16T16:07:07.000Z",
+"review_id": "103135685"
+},
+{
+"critic_name": "Germain Lussier",
+"sentiment": "Fresh",
+"publication": "io9.com",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-16T16:07:14.000Z",
+"review_id": "103135686"
+},
+{
 "critic_name": "Alison Gillmor",
 "sentiment": "Fresh",
 "publication": "Winnipeg Free Press",
@@ -2991,6 +3333,42 @@
 "rating_text": "4/5",
 "create_date": "2026-06-16T16:07:25.000Z",
 "review_id": "103135687"
+},
+{
+"critic_name": "Brian VanHooker",
+"sentiment": "Fresh",
+"publication": "Polygon",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-16T16:07:34.000Z",
+"review_id": "103135688"
+},
+{
+"critic_name": "Sonny Bunch",
+"sentiment": "Fresh",
+"publication": "The Bulwark",
+"top_critic": false,
+"rating_text": "3/4",
+"create_date": "2026-06-16T16:08:10.000Z",
+"review_id": "103135689"
+},
+{
+"critic_name": "Moira MacDonald",
+"sentiment": "Fresh",
+"publication": "Seattle Times",
+"top_critic": false,
+"rating_text": "3.5/4",
+"create_date": "2026-06-16T16:08:11.000Z",
+"review_id": "103135690"
+},
+{
+"critic_name": "Linda Marric",
+"sentiment": "Fresh",
+"publication": "HeyUGuys",
+"top_critic": true,
+"rating_text": "4/5",
+"create_date": "2026-06-16T16:08:19.000Z",
+"review_id": "103135691"
 },
 {
 "critic_name": "Alan Zilberman",
@@ -3002,6 +3380,258 @@
 "review_id": "103135692"
 },
 {
+"critic_name": "William Bibbiani",
+"sentiment": "Fresh",
+"publication": "TheWrap",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-16T16:09:24.000Z",
+"review_id": "103135693"
+},
+{
+"critic_name": "EJ Moreno",
+"sentiment": "Fresh",
+"publication": "Flickering Myth",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-16T16:09:44.000Z",
+"review_id": "103135694"
+},
+{
+"critic_name": "G. Allen Johnson",
+"sentiment": "Fresh",
+"publication": "San Francisco Chronicle",
+"top_critic": false,
+"rating_text": "3/4",
+"create_date": "2026-06-16T16:11:14.000Z",
+"review_id": "103135696"
+},
+{
+"critic_name": "Damon Wise",
+"sentiment": "Fresh",
+"publication": "Deadline Hollywood Daily",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-16T16:11:59.000Z",
+"review_id": "103135697"
+},
+{
+"critic_name": "Aaron Neuwirth",
+"sentiment": "Fresh",
+"publication": "We Live Entertainment",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-16T16:12:05.000Z",
+"review_id": "103135698"
+},
+{
+"critic_name": "Andrew J. Salazar",
+"sentiment": "Fresh",
+"publication": "Discussing Film",
+"top_critic": false,
+"rating_text": "4.5/5",
+"create_date": "2026-06-16T16:12:13.000Z",
+"review_id": "103135699"
+},
+{
+"critic_name": "Eric Goldman",
+"sentiment": "Fresh",
+"publication": "Eric Goldman (YouTube)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-16T16:12:24.000Z",
+"review_id": "103135700"
+},
+{
+"critic_name": "Matt Glasby",
+"sentiment": "Fresh",
+"publication": "South China Morning Post",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-16T16:12:31.000Z",
+"review_id": "103135701"
+},
+{
+"critic_name": "David Jenkins",
+"sentiment": "Fresh",
+"publication": "Little White Lies",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-16T16:13:56.000Z",
+"review_id": "103135703"
+},
+{
+"critic_name": "Chris Tilly",
+"sentiment": "Fresh",
+"publication": "Dexerto",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-16T16:14:11.000Z",
+"review_id": "103135704"
+},
+{
+"critic_name": "Julian Lytle",
+"sentiment": "Fresh",
+"publication": "RIOTUS",
+"top_critic": false,
+"rating_text": "A",
+"create_date": "2026-06-16T16:14:24.000Z",
+"review_id": "103135705"
+},
+{
+"critic_name": "Paul McGuire Grimes",
+"sentiment": "Fresh",
+"publication": "Paul's Trip to the Movies",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-16T16:14:48.000Z",
+"review_id": "103135706"
+},
+{
+"critic_name": "Jonathan Sim",
+"sentiment": "Rotten",
+"publication": "ComingSoon.net",
+"top_critic": false,
+"rating_text": "5/10",
+"create_date": "2026-06-16T16:14:59.000Z",
+"review_id": "103135707"
+},
+{
+"critic_name": "Barry Hertz",
+"sentiment": "Fresh",
+"publication": "Globe and Mail",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-16T16:15:01.000Z",
+"review_id": "103135708"
+},
+{
+"critic_name": "Jason Flatt",
+"sentiment": "Fresh",
+"publication": "But Why Tho?",
+"top_critic": false,
+"rating_text": "9/10",
+"create_date": "2026-06-16T16:15:30.000Z",
+"review_id": "103135709"
+},
+{
+"critic_name": "Siddhant Adlakha",
+"sentiment": "Fresh",
+"publication": "JoySauce.com",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-16T16:15:33.000Z",
+"review_id": "103135711"
+},
+{
+"critic_name": "Freda Cooper",
+"sentiment": "Fresh",
+"publication": "SciFiNow",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-16T16:15:47.000Z",
+"review_id": "103135712"
+},
+{
+"critic_name": "Chris Wasser",
+"sentiment": "Fresh",
+"publication": "Irish Independent",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-16T16:16:21.000Z",
+"review_id": "103135713"
+},
+{
+"critic_name": "Cameron Meier",
+"sentiment": "Fresh",
+"publication": "MeierMovies.com",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-16T16:16:39.000Z",
+"review_id": "103135715"
+},
+{
+"critic_name": "Robbie Collin",
+"sentiment": "Fresh",
+"publication": "Daily Telegraph (UK)",
+"top_critic": true,
+"rating_text": "4/5",
+"create_date": "2026-06-16T16:17:28.000Z",
+"review_id": "103135716"
+},
+{
+"critic_name": "Don Shanahan",
+"sentiment": "Fresh",
+"publication": "Film Obsessive",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-16T16:19:49.000Z",
+"review_id": "103135718"
+},
+{
+"critic_name": "Danny Leigh",
+"sentiment": "Fresh",
+"publication": "Financial Times",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-16T16:20:58.000Z",
+"review_id": "103135719"
+},
+{
+"critic_name": "Clarisse Loughrey",
+"sentiment": "Rotten",
+"publication": "Independent (UK)",
+"top_critic": true,
+"rating_text": "2/5",
+"create_date": "2026-06-16T16:22:03.000Z",
+"review_id": "103135720"
+},
+{
+"critic_name": "Donald Clarke",
+"sentiment": "Fresh",
+"publication": "Irish Times",
+"top_critic": true,
+"rating_text": "3/5",
+"create_date": "2026-06-16T16:24:53.000Z",
+"review_id": "103135721"
+},
+{
+"critic_name": "Owen Gleiberman",
+"sentiment": "Fresh",
+"publication": "Variety",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-16T16:28:31.000Z",
+"review_id": "103135722"
+},
+{
+"critic_name": "Shakyl Lambert",
+"sentiment": "Fresh",
+"publication": "CGMagazine",
+"top_critic": false,
+"rating_text": "9/10",
+"create_date": "2026-06-16T16:28:34.000Z",
+"review_id": "103135723"
+},
+{
+"critic_name": "Robert Daniels",
+"sentiment": "Fresh",
+"publication": "RogerEbert.com",
+"top_critic": true,
+"rating_text": "3/4",
+"create_date": "2026-06-16T16:29:45.000Z",
+"review_id": "103135724"
+},
+{
+"critic_name": "Brandon Lewis",
+"sentiment": "Fresh",
+"publication": "When Things Go Pop",
+"top_critic": false,
+"rating_text": "8.5/10",
+"create_date": "2026-06-16T16:30:20.000Z",
+"review_id": "103135725"
+},
+{
 "critic_name": "Tom Shone",
 "sentiment": "Fresh",
 "publication": "Sunday Times (UK)",
@@ -3009,6 +3639,33 @@
 "rating_text": "4/5",
 "create_date": "2026-06-16T16:30:30.000Z",
 "review_id": "103135726"
+},
+{
+"critic_name": "Peter Martin",
+"sentiment": "Fresh",
+"publication": "DallasFilmNow.com",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-06-16T16:33:38.000Z",
+"review_id": "103135728"
+},
+{
+"critic_name": "Hoai-Tran Bui",
+"sentiment": "Fresh",
+"publication": "Inverse",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-16T16:35:18.000Z",
+"review_id": "103135729"
+},
+{
+"critic_name": "Zach Pope",
+"sentiment": "Fresh",
+"publication": "Zach Pope Reviews",
+"top_critic": false,
+"rating_text": "5/5",
+"create_date": "2026-06-16T16:38:50.000Z",
+"review_id": "103135731"
 },
 {
 "critic_name": "Michael Nordine",
@@ -3020,6 +3677,15 @@
 "review_id": "103135736"
 },
 {
+"critic_name": "Randy Meeks",
+"sentiment": "Fresh",
+"publication": "Espinof",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-16T16:45:20.000Z",
+"review_id": "103135738"
+},
+{
 "critic_name": "Joel Harley",
 "sentiment": "Rotten",
 "publication": "Starburst",
@@ -3027,6 +3693,42 @@
 "rating_text": "2/5",
 "create_date": "2026-06-16T16:50:09.000Z",
 "review_id": "103135743"
+},
+{
+"critic_name": "Mark Keizer",
+"sentiment": "Fresh",
+"publication": "MovieWeb",
+"top_critic": false,
+"rating_text": "4.5/5",
+"create_date": "2026-06-16T16:51:25.000Z",
+"review_id": "103135745"
+},
+{
+"critic_name": "Laura Delaney",
+"sentiment": "Fresh",
+"publication": "RT\u00c9 (Ireland)",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-16T16:53:27.000Z",
+"review_id": "103135748"
+},
+{
+"critic_name": "Nate Adams",
+"sentiment": "Fresh",
+"publication": "The Only Critic",
+"top_critic": false,
+"rating_text": "B+",
+"create_date": "2026-06-16T16:59:55.000Z",
+"review_id": "103135760"
+},
+{
+"critic_name": "Grace Randolph",
+"sentiment": "Fresh",
+"publication": "Beyond the Trailer",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-16T17:01:38.000Z",
+"review_id": "103135762"
 },
 {
 "critic_name": "Jared Rasic",
@@ -3038,6 +3740,69 @@
 "review_id": "103135771"
 },
 {
+"critic_name": "Jeremy Jahns",
+"sentiment": "Fresh",
+"publication": "JeremyJahns.com",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-16T17:12:50.000Z",
+"review_id": "103135772"
+},
+{
+"critic_name": "Francesca Steele",
+"sentiment": "Fresh",
+"publication": "iNews.co.uk",
+"top_critic": false,
+"rating_text": "5/5",
+"create_date": "2026-06-16T17:14:28.000Z",
+"review_id": "103135776"
+},
+{
+"critic_name": "Jackson Weaver",
+"sentiment": "Fresh",
+"publication": "CBC News",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-16T17:14:43.000Z",
+"review_id": "103135777"
+},
+{
+"critic_name": "Luis Mart\u00ednez",
+"sentiment": "Fresh",
+"publication": "El Mundo (Spain)",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-16T17:15:11.000Z",
+"review_id": "103135779"
+},
+{
+"critic_name": "David Crow",
+"sentiment": "Fresh",
+"publication": "Den of Geek",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-16T17:15:51.000Z",
+"review_id": "103135782"
+},
+{
+"critic_name": "Brian Orndorf",
+"sentiment": "Fresh",
+"publication": "Blu-ray.com",
+"top_critic": false,
+"rating_text": "B+",
+"create_date": "2026-06-16T17:16:44.000Z",
+"review_id": "103135783"
+},
+{
+"critic_name": "Andrea G. Bermejo",
+"sentiment": "Fresh",
+"publication": "Cineman\u00eda (Spain)",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-16T17:17:25.000Z",
+"review_id": "103135784"
+},
+{
 "critic_name": "Eileen Jones",
 "sentiment": "Fresh",
 "publication": "The Jacobin",
@@ -3045,6 +3810,33 @@
 "rating_text": "",
 "create_date": "2026-06-16T17:20:53.000Z",
 "review_id": "103135789"
+},
+{
+"critic_name": "Alistair Harkness",
+"sentiment": "Fresh",
+"publication": "Scotsman",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-16T17:27:38.000Z",
+"review_id": "103135793"
+},
+{
+"critic_name": "Mike Massie",
+"sentiment": "Fresh",
+"publication": "Gone With The Twins",
+"top_critic": false,
+"rating_text": "6/10",
+"create_date": "2026-06-16T17:35:07.000Z",
+"review_id": "103135795"
+},
+{
+"critic_name": "Mike Manalo",
+"sentiment": "Fresh",
+"publication": "Geeks of Color",
+"top_critic": false,
+"rating_text": "8/10",
+"create_date": "2026-06-16T17:37:28.000Z",
+"review_id": "103135796"
 },
 {
 "critic_name": "Walter Chaw",
@@ -3056,6 +3848,42 @@
 "review_id": "103135801"
 },
 {
+"critic_name": "Helen O'Hara",
+"sentiment": "Fresh",
+"publication": "Empire Magazine",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-16T17:49:39.000Z",
+"review_id": "103135805"
+},
+{
+"critic_name": "William Mullally",
+"sentiment": "Fresh",
+"publication": "The National (UAE)",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-06-16T17:56:48.000Z",
+"review_id": "103135810"
+},
+{
+"critic_name": "Fred Topel",
+"sentiment": "Fresh",
+"publication": "United Press International",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-16T18:02:08.000Z",
+"review_id": "103135814"
+},
+{
+"critic_name": "Brandon Avery",
+"sentiment": "Fresh",
+"publication": "Just My Opinion Reviews",
+"top_critic": false,
+"rating_text": "9/10",
+"create_date": "2026-06-16T18:02:26.000Z",
+"review_id": "103135815"
+},
+{
 "critic_name": "Khanaphot Saengchai",
 "sentiment": "Fresh",
 "publication": "Bangkok Post",
@@ -3065,6 +3893,24 @@
 "review_id": "103135822"
 },
 {
+"critic_name": "Travis Hopson",
+"sentiment": "Fresh",
+"publication": "Punch Drunk Critics",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-16T18:14:25.000Z",
+"review_id": "103135824"
+},
+{
+"critic_name": "Fran Chico",
+"sentiment": "Fresh",
+"publication": "Fotogramas",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-16T18:16:14.000Z",
+"review_id": "103135825"
+},
+{
 "critic_name": "Cortlyn Kelly",
 "sentiment": "Fresh",
 "publication": "Chicago Reader",
@@ -3072,6 +3918,42 @@
 "rating_text": "",
 "create_date": "2026-06-16T18:17:04.000Z",
 "review_id": "103135826"
+},
+{
+"critic_name": "Diego Batlle",
+"sentiment": "Fresh",
+"publication": "Otroscines.com",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-16T18:22:45.000Z",
+"review_id": "103135832"
+},
+{
+"critic_name": "Daniel Baptista",
+"sentiment": "Fresh",
+"publication": "The Movie Podcast",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-16T18:38:24.000Z",
+"review_id": "103135852"
+},
+{
+"critic_name": "Scott Menzel",
+"sentiment": "Fresh",
+"publication": "Awards Buzz",
+"top_critic": false,
+"rating_text": "9/10",
+"create_date": "2026-06-16T18:41:19.000Z",
+"review_id": "103135856"
+},
+{
+"critic_name": "Avi Offer",
+"sentiment": "Rotten",
+"publication": "NYC Movie Guru",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-16T19:15:30.000Z",
+"review_id": "103135886"
 }
 ]
 }
