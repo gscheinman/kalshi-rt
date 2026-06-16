@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-TOY",
 "movie": "Toy Story 5:",
 "rt_slug": "m/toy_story_5",
-"review_count": 101,
+"review_count": 102,
 "reviews": [
 {
 "critic_name": "Dionar Hidalgo",
@@ -912,6 +912,15 @@
 "rating_text": "7/10",
 "create_date": "2026-06-16T20:06:16.000Z",
 "review_id": "103135913"
+},
+{
+"critic_name": "Tania Lamb",
+"sentiment": "Fresh",
+"publication": "Lola Lambchops",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-16T20:29:08.000Z",
+"review_id": "103135919"
 }
 ]
 }
