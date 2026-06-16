@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 441,
+"review_count": 442,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -3972,6 +3972,15 @@
 "rating_text": "D+",
 "create_date": "2026-06-16T19:55:09.000Z",
 "review_id": "103135909"
+},
+{
+"critic_name": "Scott Mendelson",
+"sentiment": "Fresh",
+"publication": "The Outside Scoop (Substack)",
+"top_critic": false,
+"rating_text": "7/10",
+"create_date": "2026-06-16T20:06:16.000Z",
+"review_id": "103135913"
 }
 ]
 }
