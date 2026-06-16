@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DEA",
 "movie": "The Death of Robin Hood:",
 "rt_slug": "m/the_death_of_robin_hood",
-"review_count": 34,
+"review_count": 35,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -309,6 +309,15 @@
 "rating_text": "3/5",
 "create_date": "2026-06-16T17:53:10.000Z",
 "review_id": "103135808"
+},
+{
+"critic_name": "Jeff York",
+"sentiment": "Fresh",
+"publication": "The Establishing Shot",
+"top_critic": false,
+"rating_text": "3.5/4",
+"create_date": "2026-06-16T18:50:40.000Z",
+"review_id": "103135868"
 }
 ]
 }
