@@ -1,0 +1,35 @@
+{
+"event_ticker": "KXRT-YOUN",
+"movie": "Young Washington",
+"rt_slug": "m/young_washington",
+"review_count": 3,
+"reviews": [
+{
+"critic_name": "Mike McGranaghan",
+"sentiment": "Fresh",
+"publication": "Aisle Seat",
+"top_critic": false,
+"rating_text": "3.5/4",
+"create_date": "2026-06-13T20:22:43.000Z",
+"review_id": "103135190"
+},
+{
+"critic_name": "Rachel Wagner",
+"sentiment": "Fresh",
+"publication": "rachelsreviews.net",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-14T05:47:34.000Z",
+"review_id": "103135219"
+},
+{
+"critic_name": "Hosea Rupprecht",
+"sentiment": "Fresh",
+"publication": "Pauline Media Studies",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-14T23:28:15.000Z",
+"review_id": "103135260"
+}
+]
+}
