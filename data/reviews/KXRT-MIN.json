@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/disclosure_day",
-"review_count": 331,
+"review_count": 333,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -2982,6 +2982,24 @@
 "rating_text": "A-",
 "create_date": "2026-06-16T11:00:46.000Z",
 "review_id": "103135630"
+},
+{
+"critic_name": "Alison Gillmor",
+"sentiment": "Fresh",
+"publication": "Winnipeg Free Press",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-16T16:07:25.000Z",
+"review_id": "103135687"
+},
+{
+"critic_name": "Alan Zilberman",
+"sentiment": "Fresh",
+"publication": "Washington City Paper",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-16T16:09:19.000Z",
+"review_id": "103135692"
 }
 ]
 }

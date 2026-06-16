@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-TOY",
 "movie": "Toy Story 5:",
 "rt_slug": "m/toy_story_5",
-"review_count": 2,
+"review_count": 19,
 "reviews": [
 {
 "critic_name": "Dionar Hidalgo",
@@ -21,6 +21,159 @@
 "rating_text": "",
 "create_date": "2026-06-16T15:49:52.000Z",
 "review_id": "103135649"
+},
+{
+"critic_name": "David Gonzalez",
+"sentiment": "Fresh",
+"publication": "The Cinematic Reel",
+"top_critic": false,
+"rating_text": "5/5",
+"create_date": "2026-06-16T15:59:22.000Z",
+"review_id": "103135651"
+},
+{
+"critic_name": "Jake Cole",
+"sentiment": "Rotten",
+"publication": "Slant Magazine",
+"top_critic": false,
+"rating_text": "2/4",
+"create_date": "2026-06-16T15:59:32.000Z",
+"review_id": "103135652"
+},
+{
+"critic_name": "Liz Shannon Miller",
+"sentiment": "Fresh",
+"publication": "Consequence",
+"top_critic": true,
+"rating_text": "B-",
+"create_date": "2026-06-16T16:00:01.000Z",
+"review_id": "103135653"
+},
+{
+"critic_name": "Allison Rose",
+"sentiment": "Fresh",
+"publication": "FlickDirect",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-06-16T16:00:08.000Z",
+"review_id": "103135654"
+},
+{
+"critic_name": "Matt Oakes",
+"sentiment": "Fresh",
+"publication": "Silver Screen Riot",
+"top_critic": false,
+"rating_text": "A",
+"create_date": "2026-06-16T16:00:10.000Z",
+"review_id": "103135655"
+},
+{
+"critic_name": "Ian Sandwell",
+"sentiment": "Fresh",
+"publication": "Digital Spy",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-16T16:00:15.000Z",
+"review_id": "103135656"
+},
+{
+"critic_name": "Sophia Ciminello",
+"sentiment": "Fresh",
+"publication": "AwardsWatch",
+"top_critic": false,
+"rating_text": "B+",
+"create_date": "2026-06-16T16:00:19.000Z",
+"review_id": "103135657"
+},
+{
+"critic_name": "Michael Sowell",
+"sentiment": "Fresh",
+"publication": "Nerdspin",
+"top_critic": false,
+"rating_text": "A-",
+"create_date": "2026-06-16T16:00:24.000Z",
+"review_id": "103135658"
+},
+{
+"critic_name": "Joshua Mbonu",
+"sentiment": "Fresh",
+"publication": "Geek Vibes Nation",
+"top_critic": false,
+"rating_text": "7/10",
+"create_date": "2026-06-16T16:00:25.000Z",
+"review_id": "103135659"
+},
+{
+"critic_name": "Tessa Smith",
+"sentiment": "Fresh",
+"publication": "Mama's Geeky",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-16T16:00:36.000Z",
+"review_id": "103135660"
+},
+{
+"critic_name": "Nick Schager",
+"sentiment": "Fresh",
+"publication": "The Daily Beast",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-16T16:00:45.000Z",
+"review_id": "103135661"
+},
+{
+"critic_name": "Adam Olinger",
+"sentiment": "Fresh",
+"publication": "Adam Does Movies (YouTube)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-16T16:00:57.000Z",
+"review_id": "103135662"
+},
+{
+"critic_name": "Dan Bayer",
+"sentiment": "Fresh",
+"publication": "Next Best Picture",
+"top_critic": false,
+"rating_text": "8/10",
+"create_date": "2026-06-16T16:01:09.000Z",
+"review_id": "103135663"
+},
+{
+"critic_name": "David Fear",
+"sentiment": "Rotten",
+"publication": "Rolling Stone",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-16T16:01:41.000Z",
+"review_id": "103135664"
+},
+{
+"critic_name": "Brian Eggert",
+"sentiment": "Fresh",
+"publication": "Deep Focus Review",
+"top_critic": false,
+"rating_text": "3.5/4",
+"create_date": "2026-06-16T16:01:49.000Z",
+"review_id": "103135665"
+},
+{
+"critic_name": "Jon Negroni",
+"sentiment": "Fresh",
+"publication": "InBetweenDrafts",
+"top_critic": false,
+"rating_text": "8/10",
+"create_date": "2026-06-16T16:01:57.000Z",
+"review_id": "103135666"
+},
+{
+"critic_name": "Matt Goldberg",
+"sentiment": "Fresh",
+"publication": "Decoding Everything (Substack)",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-06-16T16:02:26.000Z",
+"review_id": "103135667"
 }
 ]
 }
