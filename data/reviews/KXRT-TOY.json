@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-TOY",
 "movie": "Toy Story 5:",
 "rt_slug": "m/toy_story_5",
-"review_count": 93,
+"review_count": 95,
 "reviews": [
 {
 "critic_name": "Dionar Hidalgo",
@@ -840,6 +840,24 @@
 "rating_text": "3/5",
 "create_date": "2026-06-16T18:14:25.000Z",
 "review_id": "103135824"
+},
+{
+"critic_name": "Fran Chico",
+"sentiment": "Fresh",
+"publication": "Fotogramas",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-16T18:16:14.000Z",
+"review_id": "103135825"
+},
+{
+"critic_name": "Diego Batlle",
+"sentiment": "Fresh",
+"publication": "Otroscines.com",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-16T18:22:45.000Z",
+"review_id": "103135832"
 }
 ]
 }
