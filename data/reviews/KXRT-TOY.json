@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-TOY",
 "movie": "Toy Story 5:",
 "rt_slug": "m/toy_story_5",
-"review_count": 113,
+"review_count": 114,
 "reviews": [
 {
 "critic_name": "Dionar Hidalgo",
@@ -1020,6 +1020,15 @@
 "rating_text": "",
 "create_date": "2026-06-17T04:39:37.000Z",
 "review_id": "103136042"
+},
+{
+"critic_name": "Jeanne Kaplan",
+"sentiment": "Fresh",
+"publication": "Kaplan vs. Kaplan",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-17T04:41:05.000Z",
+"review_id": "103136043"
 }
 ]
 }
