@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-TOY",
 "movie": "Toy Story 5:",
 "rt_slug": "m/toy_story_5",
-"review_count": 131,
+"review_count": 134,
 "reviews": [
 {
 "critic_name": "Dionar Hidalgo",
@@ -1182,6 +1182,33 @@
 "rating_text": "",
 "create_date": "2026-06-17T20:36:27.000Z",
 "review_id": "103136183"
+},
+{
+"critic_name": "Pablo O. Scholz",
+"sentiment": "Fresh",
+"publication": "Clar\u00edn",
+"top_critic": false,
+"rating_text": "4/4",
+"create_date": "2026-06-17T20:53:14.000Z",
+"review_id": "103136195"
+},
+{
+"critic_name": "Natalia Trzenko",
+"sentiment": "Fresh",
+"publication": "La Naci\u00f3n (Argentina)",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-17T20:55:33.000Z",
+"review_id": "103136199"
+},
+{
+"critic_name": "Andrea Zamora",
+"sentiment": "Fresh",
+"publication": "Sensacine",
+"top_critic": false,
+"rating_text": "4.5/5",
+"create_date": "2026-06-17T20:57:01.000Z",
+"review_id": "103136202"
 }
 ]
 }
