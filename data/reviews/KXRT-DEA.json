@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DEA",
 "movie": "The Death of Robin Hood:",
 "rt_slug": "m/the_death_of_robin_hood",
-"review_count": 50,
+"review_count": 51,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -453,6 +453,15 @@
 "rating_text": "",
 "create_date": "2026-06-17T21:31:35.000Z",
 "review_id": "103136220"
+},
+{
+"critic_name": "Joseph Robinson",
+"sentiment": "Fresh",
+"publication": "Fish Jelly Films (YouTube)",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-17T21:58:16.000Z",
+"review_id": "103136239"
 }
 ]
 }
