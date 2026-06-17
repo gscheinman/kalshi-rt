@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-GIR",
 "movie": "Girls Like Girls:",
 "rt_slug": "m/girls_like_girls",
-"review_count": 2,
+"review_count": 9,
 "reviews": [
 {
 "critic_name": "Lady Jenevia",
@@ -21,6 +21,69 @@
 "rating_text": "6/10",
 "create_date": "2026-06-17T00:00:17.000Z",
 "review_id": "103136000"
+},
+{
+"critic_name": "Angie Han",
+"sentiment": "Fresh",
+"publication": "The Hollywood Reporter",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-17T00:01:42.000Z",
+"review_id": "103136001"
+},
+{
+"critic_name": "Dan Bayer",
+"sentiment": "Fresh",
+"publication": "Next Best Picture",
+"top_critic": false,
+"rating_text": "7/10",
+"create_date": "2026-06-17T00:02:42.000Z",
+"review_id": "103136003"
+},
+{
+"critic_name": "Guy Lodge",
+"sentiment": "Fresh",
+"publication": "Variety",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-17T00:03:36.000Z",
+"review_id": "103136004"
+},
+{
+"critic_name": "Alison Foreman",
+"sentiment": "Fresh",
+"publication": "IndieWire",
+"top_critic": false,
+"rating_text": "B-",
+"create_date": "2026-06-17T00:05:06.000Z",
+"review_id": "103136005"
+},
+{
+"critic_name": "Alejandra Martinez",
+"sentiment": "Fresh",
+"publication": "Austin Chronicle",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-17T00:06:45.000Z",
+"review_id": "103136006"
+},
+{
+"critic_name": "Moira MacDonald",
+"sentiment": "Fresh",
+"publication": "Seattle Times",
+"top_critic": false,
+"rating_text": "3/4",
+"create_date": "2026-06-17T00:07:18.000Z",
+"review_id": "103136008"
+},
+{
+"critic_name": "Sarah-Tai Black",
+"sentiment": "Rotten",
+"publication": "Globe and Mail",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-17T00:09:11.000Z",
+"review_id": "103136009"
 }
 ]
 }
