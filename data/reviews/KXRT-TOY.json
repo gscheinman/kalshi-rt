@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-TOY",
 "movie": "Toy Story 5:",
 "rt_slug": "m/toy_story_5",
-"review_count": 116,
+"review_count": 117,
 "reviews": [
 {
 "critic_name": "Dionar Hidalgo",
@@ -1047,6 +1047,15 @@
 "rating_text": "A1",
 "create_date": "2026-06-17T08:40:13.000Z",
 "review_id": "103136055"
+},
+{
+"critic_name": "Peter Gray",
+"sentiment": "Fresh",
+"publication": "The AU Review",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-17T08:55:30.000Z",
+"review_id": "103136057"
 }
 ]
 }
