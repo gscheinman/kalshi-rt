@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 471,
+"review_count": 472,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -4242,6 +4242,15 @@
 "rating_text": "4/5",
 "create_date": "2026-06-17T20:26:22.000Z",
 "review_id": "103136178"
+},
+{
+"critic_name": "Sean Burns",
+"sentiment": "Fresh",
+"publication": "Spliced Personality (Substack)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-17T20:36:27.000Z",
+"review_id": "103136183"
 }
 ]
 }
