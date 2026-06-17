@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DEA",
 "movie": "The Death of Robin Hood:",
 "rt_slug": "m/the_death_of_robin_hood",
-"review_count": 44,
+"review_count": 46,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -399,6 +399,24 @@
 "rating_text": "2.5/5",
 "create_date": "2026-06-17T14:00:44.000Z",
 "review_id": "103136096"
+},
+{
+"critic_name": "Fred Topel",
+"sentiment": "Fresh",
+"publication": "United Press International",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-17T15:21:08.000Z",
+"review_id": "103136112"
+},
+{
+"critic_name": "Matt Oakes",
+"sentiment": "Fresh",
+"publication": "Silver Screen Riot",
+"top_critic": false,
+"rating_text": "B",
+"create_date": "2026-06-17T15:27:58.000Z",
+"review_id": "103136116"
 }
 ]
 }
