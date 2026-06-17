@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DEA",
 "movie": "The Death of Robin Hood:",
 "rt_slug": "m/the_death_of_robin_hood",
-"review_count": 42,
+"review_count": 43,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -381,6 +381,15 @@
 "rating_text": "7/10",
 "create_date": "2026-06-17T13:17:22.000Z",
 "review_id": "103136085"
+},
+{
+"critic_name": "Michael Clark",
+"sentiment": "Fresh",
+"publication": "Epoch Times",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-17T13:32:13.000Z",
+"review_id": "103136089"
 }
 ]
 }
