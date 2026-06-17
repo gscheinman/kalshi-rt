@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DEA",
 "movie": "The Death of Robin Hood:",
 "rt_slug": "m/the_death_of_robin_hood",
-"review_count": 43,
+"review_count": 44,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -390,6 +390,15 @@
 "rating_text": "4/5",
 "create_date": "2026-06-17T13:32:13.000Z",
 "review_id": "103136089"
+},
+{
+"critic_name": "Maxance Vincent",
+"sentiment": "Rotten",
+"publication": "Loud and Clear Reviews",
+"top_critic": false,
+"rating_text": "2.5/5",
+"create_date": "2026-06-17T14:00:44.000Z",
+"review_id": "103136096"
 }
 ]
 }
