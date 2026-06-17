@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 464,
+"review_count": 465,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -4179,6 +4179,15 @@
 "rating_text": "9/10",
 "create_date": "2026-06-17T15:13:36.000Z",
 "review_id": "103136107"
+},
+{
+"critic_name": "Anthony Morris",
+"sentiment": "Fresh",
+"publication": "It's Better in the Dark",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-17T16:10:34.000Z",
+"review_id": "103136121"
 }
 ]
 }
