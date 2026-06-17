@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DEA",
 "movie": "The Death of Robin Hood:",
 "rt_slug": "m/the_death_of_robin_hood",
-"review_count": 52,
+"review_count": 53,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -471,6 +471,15 @@
 "rating_text": "3.5/5",
 "create_date": "2026-06-17T22:13:16.000Z",
 "review_id": "103136240"
+},
+{
+"critic_name": "Andiee Paviour",
+"sentiment": "Fresh",
+"publication": "Nobody's Reading This But Me",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-17T23:26:19.000Z",
+"review_id": "103136265"
 }
 ]
 }
