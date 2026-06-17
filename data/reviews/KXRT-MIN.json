@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 480,
+"review_count": 481,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -4323,6 +4323,15 @@
 "rating_text": "",
 "create_date": "2026-06-17T22:21:54.000Z",
 "review_id": "103136244"
+},
+{
+"critic_name": "Alonso Duralde",
+"sentiment": "Fresh",
+"publication": "The Film Verdict",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-17T22:28:08.000Z",
+"review_id": "103136245"
 }
 ]
 }

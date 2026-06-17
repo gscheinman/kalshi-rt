@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-TOY",
 "movie": "Toy Story 5:",
 "rt_slug": "m/toy_story_5",
-"review_count": 139,
+"review_count": 140,
 "reviews": [
 {
 "critic_name": "Dionar Hidalgo",
@@ -1254,6 +1254,15 @@
 "rating_text": "",
 "create_date": "2026-06-17T22:21:54.000Z",
 "review_id": "103136244"
+},
+{
+"critic_name": "Alonso Duralde",
+"sentiment": "Fresh",
+"publication": "The Film Verdict",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-17T22:28:08.000Z",
+"review_id": "103136245"
 }
 ]
 }
