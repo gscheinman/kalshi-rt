@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DEA",
 "movie": "The Death of Robin Hood:",
 "rt_slug": "m/the_death_of_robin_hood",
-"review_count": 48,
+"review_count": 49,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -435,6 +435,15 @@
 "rating_text": "3.5/4",
 "create_date": "2026-06-17T17:06:35.000Z",
 "review_id": "103136124"
+},
+{
+"critic_name": "Kyle Logan",
+"sentiment": "Fresh",
+"publication": "ScreenAnarchy",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-17T20:20:56.000Z",
+"review_id": "103136176"
 }
 ]
 }

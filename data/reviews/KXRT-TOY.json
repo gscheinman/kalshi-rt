@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-TOY",
 "movie": "Toy Story 5:",
 "rt_slug": "m/toy_story_5",
-"review_count": 129,
+"review_count": 130,
 "reviews": [
 {
 "critic_name": "Dionar Hidalgo",
@@ -1164,6 +1164,15 @@
 "rating_text": "3.5/4",
 "create_date": "2026-06-17T18:58:44.000Z",
 "review_id": "103136152"
+},
+{
+"critic_name": "Ruth Maramis",
+"sentiment": "Fresh",
+"publication": "FlixChatter Film Blog",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-17T20:26:22.000Z",
+"review_id": "103136178"
 }
 ]
 }
