@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-TOY",
 "movie": "Toy Story 5:",
 "rt_slug": "m/toy_story_5",
-"review_count": 115,
+"review_count": 116,
 "reviews": [
 {
 "critic_name": "Dionar Hidalgo",
@@ -1038,6 +1038,15 @@
 "rating_text": "3/5",
 "create_date": "2026-06-17T07:30:58.000Z",
 "review_id": "103136053"
+},
+{
+"critic_name": "Laura Clifford",
+"sentiment": "Fresh",
+"publication": "Reeling Reviews",
+"top_critic": false,
+"rating_text": "A1",
+"create_date": "2026-06-17T08:40:13.000Z",
+"review_id": "103136055"
 }
 ]
 }
