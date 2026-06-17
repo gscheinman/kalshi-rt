@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DEA",
 "movie": "The Death of Robin Hood:",
 "rt_slug": "m/the_death_of_robin_hood",
-"review_count": 37,
+"review_count": 38,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -336,6 +336,15 @@
 "rating_text": "4/10",
 "create_date": "2026-06-16T23:58:13.000Z",
 "review_id": "103135997"
+},
+{
+"critic_name": "Aaron Neuwirth",
+"sentiment": "Fresh",
+"publication": "We Live Entertainment",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-17T00:38:15.000Z",
+"review_id": "103136016"
 }
 ]
 }
