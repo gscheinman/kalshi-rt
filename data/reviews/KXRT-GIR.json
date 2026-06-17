@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-GIR",
 "movie": "Girls Like Girls:",
 "rt_slug": "m/girls_like_girls",
-"review_count": 9,
+"review_count": 10,
 "reviews": [
 {
 "critic_name": "Lady Jenevia",
@@ -84,6 +84,15 @@
 "rating_text": "",
 "create_date": "2026-06-17T00:09:11.000Z",
 "review_id": "103136009"
+},
+{
+"critic_name": "Rendy Jones",
+"sentiment": "Fresh",
+"publication": "Rendy Reviews",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-06-17T02:30:37.000Z",
+"review_id": "103136028"
 }
 ]
 }
