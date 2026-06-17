@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DEA",
 "movie": "The Death of Robin Hood:",
 "rt_slug": "m/the_death_of_robin_hood",
-"review_count": 36,
+"review_count": 37,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -327,6 +327,15 @@
 "rating_text": "B-",
 "create_date": "2026-06-16T22:25:06.000Z",
 "review_id": "103135966"
+},
+{
+"critic_name": "Edward Douglas",
+"sentiment": "Rotten",
+"publication": "The Weekend Warrior (Substack)",
+"top_critic": false,
+"rating_text": "4/10",
+"create_date": "2026-06-16T23:58:13.000Z",
+"review_id": "103135997"
 }
 ]
 }

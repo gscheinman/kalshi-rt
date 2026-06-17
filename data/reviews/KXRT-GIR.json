@@ -1,0 +1,26 @@
+{
+"event_ticker": "KXRT-GIR",
+"movie": "Girls Like Girls:",
+"rt_slug": "m/girls_like_girls",
+"review_count": 2,
+"reviews": [
+{
+"critic_name": "Lady Jenevia",
+"sentiment": "Fresh",
+"publication": "LadyJenevia (YouTube)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-16T23:52:59.000Z",
+"review_id": "103135995"
+},
+{
+"critic_name": "Edward Douglas",
+"sentiment": "Rotten",
+"publication": "The Weekend Warrior (Substack)",
+"top_critic": false,
+"rating_text": "6/10",
+"create_date": "2026-06-17T00:00:17.000Z",
+"review_id": "103136000"
+}
+]
+}
