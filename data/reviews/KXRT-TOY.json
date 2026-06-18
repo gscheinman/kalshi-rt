@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-TOY",
 "movie": "Toy Story 5:",
 "rt_slug": "m/toy_story_5",
-"review_count": 148,
+"review_count": 149,
 "reviews": [
 {
 "critic_name": "Dionar Hidalgo",
@@ -1335,6 +1335,15 @@
 "rating_text": "4/5",
 "create_date": "2026-06-18T17:10:52.000Z",
 "review_id": "103136374"
+},
+{
+"critic_name": "Amy Nicholson",
+"sentiment": "Rotten",
+"publication": "Los Angeles Times",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-18T18:43:25.000Z",
+"review_id": "103136430"
 }
 ]
 }

@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DEA",
 "movie": "The Death of Robin Hood:",
 "rt_slug": "m/the_death_of_robin_hood",
-"review_count": 67,
+"review_count": 68,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -606,6 +606,15 @@
 "rating_text": "",
 "create_date": "2026-06-18T18:27:46.000Z",
 "review_id": "103136425"
+},
+{
+"critic_name": "Eric Goldman",
+"sentiment": "Fresh",
+"publication": "Eric Goldman (YouTube)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-18T18:52:16.000Z",
+"review_id": "103136434"
 }
 ]
 }
