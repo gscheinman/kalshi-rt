@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 487,
+"review_count": 488,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -4386,6 +4386,15 @@
 "rating_text": "3.5/5",
 "create_date": "2026-06-18T16:12:20.000Z",
 "review_id": "103136353"
+},
+{
+"critic_name": "Frank Swietek",
+"sentiment": "Fresh",
+"publication": "One Guy's Opinion",
+"top_critic": false,
+"rating_text": "B",
+"create_date": "2026-06-18T16:30:51.000Z",
+"review_id": "103136360"
 }
 ]
 }
