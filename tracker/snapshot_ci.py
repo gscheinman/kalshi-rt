@@ -27,6 +27,7 @@ from model.calibration import calibrate_thresholds
 import config
 
 REPO_SNAPSHOT_FILE = Path(__file__).parent.parent / "data" / "snapshots.jsonl"
+REPO_DEPTH_FILE = Path(__file__).parent.parent / "data" / "orderbook_depth.jsonl"
 
 
 def take_snapshot():
@@ -69,6 +70,9 @@ def take_snapshot():
     # 0-reviews-ever to first-reviews-now. The workflow scans these
     # marker lines and creates a GitHub issue per match.
     first_review_markets = []
+
+    # Orderbook depth ladders for tradeable markets this cycle (separate file).
+    depth_records = []
 
     for event in events:
         ticker = event["event_ticker"]
@@ -167,6 +171,32 @@ def take_snapshot():
             except Exception as e:
                 print(f"  Error modeling {movie}: {e}", flush=True)
 
+        # Capture full orderbook depth ONLY for markets that have reviews (the
+        # tradeable universe). Top-of-book bid/ask can't reconstruct slippage in
+        # thin markets -- depth is the whole game there. This is irreversible:
+        # Kalshi doesn't serve historical orderbooks, so any cycle we skip is
+        # lost forever. Written to a SEPARATE file so snapshots.jsonl stays lean
+        # for the tooling that parses it in full. Gated on model_data so we
+        # don't fire ~15 orderbook calls for every zero-review movie.
+        if model_data:
+            for t, node in market_data.items():
+                mt = node.get("ticker")
+                if not mt:
+                    continue
+                try:
+                    ob = kalshi.get_orderbook(mt)
+                    if ob:
+                        depth_records.append({
+                            "timestamp": timestamp,
+                            "event_ticker": ticker,
+                            "threshold": t,
+                            "market_ticker": mt,
+                            "yes_bids": [[round(p, 4), round(s, 2)] for p, s in ob.get("yes_bids", [])],
+                            "no_bids": [[round(p, 4), round(s, 2)] for p, s in ob.get("no_bids", [])],
+                        })
+                except Exception:
+                    pass
+
         snapshot = {
             "timestamp": timestamp,
             "event_ticker": ticker,
@@ -218,6 +248,14 @@ def take_snapshot():
             f.write(json.dumps(s) + "\n")
 
     print(f"\n{len(snapshots)} snapshots saved to {REPO_SNAPSHOT_FILE}", flush=True)
+
+    # Write orderbook depth ladders (separate file, tradeable markets only).
+    if depth_records:
+        with open(REPO_DEPTH_FILE, "a") as f:
+            for r in depth_records:
+                f.write(json.dumps(r) + "\n")
+        print(f"{len(depth_records)} orderbook depth records saved to {REPO_DEPTH_FILE}", flush=True)
+
     if first_review_markets:
         print(f"\nFIRST-REVIEWS transitions this run: {len(first_review_markets)}", flush=True)
 
