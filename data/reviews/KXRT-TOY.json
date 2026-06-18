@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-TOY",
 "movie": "Toy Story 5:",
 "rt_slug": "m/toy_story_5",
-"review_count": 159,
+"review_count": 161,
 "reviews": [
 {
 "critic_name": "Dionar Hidalgo",
@@ -1434,6 +1434,24 @@
 "rating_text": "B",
 "create_date": "2026-06-18T19:53:38.000Z",
 "review_id": "103136481"
+},
+{
+"critic_name": "Thom Geier",
+"sentiment": "Fresh",
+"publication": "AARP Movies for Grownups",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-18T19:56:35.000Z",
+"review_id": "103136484"
+},
+{
+"critic_name": "Kristian M. Lin",
+"sentiment": "Fresh",
+"publication": "Fort Worth Weekly",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-18T20:03:36.000Z",
+"review_id": "103136493"
 }
 ]
 }
