@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-TOY",
 "movie": "Toy Story 5:",
 "rt_slug": "m/toy_story_5",
-"review_count": 144,
+"review_count": 145,
 "reviews": [
 {
 "critic_name": "Dionar Hidalgo",
@@ -1299,6 +1299,15 @@
 "rating_text": "4.5/5",
 "create_date": "2026-06-18T14:38:46.000Z",
 "review_id": "103136343"
+},
+{
+"critic_name": "Nell Minow",
+"sentiment": "Fresh",
+"publication": "Movie Mom",
+"top_critic": true,
+"rating_text": "A-",
+"create_date": "2026-06-18T15:19:34.000Z",
+"review_id": "103136348"
 }
 ]
 }
