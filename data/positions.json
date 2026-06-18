@@ -229,6 +229,30 @@
       "suggested_size": 31.84,
       "avg_fill": 29.0,
       "contracts": 109.6
+    },
+    {
+      "timestamp": "2026-06-18T12:39:11.599080+00:00",
+      "market_ticker": "KXRT-DEA-72",
+      "direction": "BUY YES",
+      "threshold": 72,
+      "model_prob": 83.2,
+      "edge": 18.2,
+      "suggested_size": 50.0,
+      "avg_fill": 65.0,
+      "contracts": 77.0
+    }
+  ],
+  "KXRT-GIR": [
+    {
+      "timestamp": "2026-06-18T12:39:11.599080+00:00",
+      "market_ticker": "KXRT-GIR-80",
+      "direction": "BUY NO",
+      "threshold": 80,
+      "model_prob": 58.7,
+      "edge": 9.2,
+      "suggested_size": 18.97,
+      "avg_fill": 32.1,
+      "contracts": 59.1
     }
   ]
 }
