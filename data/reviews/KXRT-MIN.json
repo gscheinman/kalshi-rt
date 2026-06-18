@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 505,
+"review_count": 507,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -4548,6 +4548,24 @@
 "rating_text": "",
 "create_date": "2026-06-18T21:10:00.000Z",
 "review_id": "103136536"
+},
+{
+"critic_name": "George M. Thomas",
+"sentiment": "Fresh",
+"publication": "Akron Beacon Journal",
+"top_critic": false,
+"rating_text": "B+",
+"create_date": "2026-06-18T21:54:14.000Z",
+"review_id": "103136561"
+},
+{
+"critic_name": "Preston Barta",
+"sentiment": "Fresh",
+"publication": "Denton Record-Chronicle",
+"top_critic": false,
+"rating_text": "4.5/5",
+"create_date": "2026-06-18T22:01:20.000Z",
+"review_id": "103136568"
 }
 ]
 }
