@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DEA",
 "movie": "The Death of Robin Hood:",
 "rt_slug": "m/the_death_of_robin_hood",
-"review_count": 59,
+"review_count": 63,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -534,6 +534,42 @@
 "rating_text": "3.5/5",
 "create_date": "2026-06-18T17:12:25.000Z",
 "review_id": "103136376"
+},
+{
+"critic_name": "Johnny Oleksinski",
+"sentiment": "Rotten",
+"publication": "New York Post",
+"top_critic": false,
+"rating_text": "1/4",
+"create_date": "2026-06-18T17:16:08.000Z",
+"review_id": "103136378"
+},
+{
+"critic_name": "Don Shanahan",
+"sentiment": "Fresh",
+"publication": "Every Movie Has a Lesson",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-18T17:17:45.000Z",
+"review_id": "103136380"
+},
+{
+"critic_name": "Jake Coyle",
+"sentiment": "Rotten",
+"publication": "Associated Press",
+"top_critic": false,
+"rating_text": "2/4",
+"create_date": "2026-06-18T17:20:21.000Z",
+"review_id": "103136382"
+},
+{
+"critic_name": "Odie Henderson",
+"sentiment": "Rotten",
+"publication": "Boston Globe",
+"top_critic": true,
+"rating_text": "1.5/4",
+"create_date": "2026-06-18T17:21:48.000Z",
+"review_id": "103136383"
 }
 ]
 }
