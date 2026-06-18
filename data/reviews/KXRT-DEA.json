@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DEA",
 "movie": "The Death of Robin Hood:",
 "rt_slug": "m/the_death_of_robin_hood",
-"review_count": 56,
+"review_count": 57,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -507,6 +507,15 @@
 "rating_text": "2.5/4",
 "create_date": "2026-06-18T12:37:32.000Z",
 "review_id": "103136319"
+},
+{
+"critic_name": "Anthony Morris",
+"sentiment": "Fresh",
+"publication": "It's Better in the Dark",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-18T12:42:42.000Z",
+"review_id": "103136320"
 }
 ]
 }
