@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 507,
+"review_count": 509,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -4559,6 +4559,15 @@
 "review_id": "103136561"
 },
 {
+"critic_name": "Kevin Maher",
+"sentiment": "Fresh",
+"publication": "The Times (UK)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-18T21:56:41.000Z",
+"review_id": "103136563"
+},
+{
 "critic_name": "Preston Barta",
 "sentiment": "Fresh",
 "publication": "Denton Record-Chronicle",
@@ -4566,6 +4575,15 @@
 "rating_text": "4.5/5",
 "create_date": "2026-06-18T22:01:20.000Z",
 "review_id": "103136568"
+},
+{
+"critic_name": "Carson Timar",
+"sentiment": "Fresh",
+"publication": "ButteredPopcorn",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-18T23:24:10.000Z",
+"review_id": "103136575"
 }
 ]
 }
