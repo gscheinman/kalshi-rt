@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 481,
+"review_count": 482,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -4332,6 +4332,15 @@
 "rating_text": "",
 "create_date": "2026-06-17T22:28:08.000Z",
 "review_id": "103136245"
+},
+{
+"critic_name": "Danielle Solzman",
+"sentiment": "Fresh",
+"publication": "Solzy at the Movies",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-18T12:13:27.000Z",
+"review_id": "103136313"
 }
 ]
 }
