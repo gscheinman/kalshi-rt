@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-TOY",
 "movie": "Toy Story 5:",
 "rt_slug": "m/toy_story_5",
-"review_count": 163,
+"review_count": 164,
 "reviews": [
 {
 "critic_name": "Dionar Hidalgo",
@@ -1470,6 +1470,15 @@
 "rating_text": "4/5",
 "create_date": "2026-06-18T20:25:39.000Z",
 "review_id": "103136506"
+},
+{
+"critic_name": "Dana Stevens",
+"sentiment": "Fresh",
+"publication": "Slate",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-18T21:10:00.000Z",
+"review_id": "103136536"
 }
 ]
 }
