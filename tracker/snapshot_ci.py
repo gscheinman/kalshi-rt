@@ -267,6 +267,14 @@ def take_snapshot():
     except Exception as e:
         print(f"  (shadow_tracker logging skipped: {e})", flush=True)
 
+    # Log the naive-anchored strategy in parallel so we can judge it
+    # out-of-sample against the model as new movies settle.
+    try:
+        from tracker.naive_tracker import log_naive_trades
+        log_naive_trades()
+    except Exception as e:
+        print(f"  (naive_tracker logging skipped: {e})", flush=True)
+
     return snapshots
 
 

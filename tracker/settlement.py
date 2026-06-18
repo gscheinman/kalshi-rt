@@ -166,6 +166,13 @@ def resolve_event(event_ticker, actual_score):
     except Exception as e:
         print(f"  (shadow scoring: {e})")
 
+    # Score the parallel naive-anchored strategy for the live head-to-head.
+    try:
+        from tracker.naive_tracker import score_naive_trades
+        score_naive_trades(event_ticker, actual_score)
+    except Exception as e:
+        print(f"  (naive scoring: {e})")
+
     # Feed settled movie data back into critic database
     try:
         mapper = TickerMapper()
