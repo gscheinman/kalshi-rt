@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-TOY",
 "movie": "Toy Story 5:",
 "rt_slug": "m/toy_story_5",
-"review_count": 145,
+"review_count": 146,
 "reviews": [
 {
 "critic_name": "Dionar Hidalgo",
@@ -1308,6 +1308,15 @@
 "rating_text": "A-",
 "create_date": "2026-06-18T15:19:34.000Z",
 "review_id": "103136348"
+},
+{
+"critic_name": "Bill Goodykoontz",
+"sentiment": "Fresh",
+"publication": "Arizona Republic",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-06-18T16:12:20.000Z",
+"review_id": "103136353"
 }
 ]
 }
