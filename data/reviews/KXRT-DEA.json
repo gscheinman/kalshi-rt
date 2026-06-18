@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DEA",
 "movie": "The Death of Robin Hood:",
 "rt_slug": "m/the_death_of_robin_hood",
-"review_count": 73,
+"review_count": 75,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -660,6 +660,24 @@
 "rating_text": "2.5/4",
 "create_date": "2026-06-18T20:39:43.000Z",
 "review_id": "103136518"
+},
+{
+"critic_name": "Lynn Venhaus",
+"sentiment": "Rotten",
+"publication": "PopLifeSTL",
+"top_critic": false,
+"rating_text": "C-",
+"create_date": "2026-06-18T22:12:22.000Z",
+"review_id": "103136569"
+},
+{
+"critic_name": "Amy Nicholson",
+"sentiment": "Rotten",
+"publication": "Los Angeles Times",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-18T22:25:01.000Z",
+"review_id": "103136570"
 }
 ]
 }
