@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DEA",
 "movie": "The Death of Robin Hood:",
 "rt_slug": "m/the_death_of_robin_hood",
-"review_count": 63,
+"review_count": 64,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -570,6 +570,15 @@
 "rating_text": "1.5/4",
 "create_date": "2026-06-18T17:21:48.000Z",
 "review_id": "103136383"
+},
+{
+"critic_name": "Luke Y. Thompson",
+"sentiment": "Rotten",
+"publication": "Mortal Cinema (Substack)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-18T18:12:56.000Z",
+"review_id": "103136419"
 }
 ]
 }
