@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-TOY",
 "movie": "Toy Story 5:",
 "rt_slug": "m/toy_story_5",
-"review_count": 149,
+"review_count": 151,
 "reviews": [
 {
 "critic_name": "Dionar Hidalgo",
@@ -1344,6 +1344,24 @@
 "rating_text": "",
 "create_date": "2026-06-18T18:43:25.000Z",
 "review_id": "103136430"
+},
+{
+"critic_name": "Patrick McDonald",
+"sentiment": "Fresh",
+"publication": "HollywoodChicago.com",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-06-18T19:00:59.000Z",
+"review_id": "103136439"
+},
+{
+"critic_name": "Rachel Leishman",
+"sentiment": "Fresh",
+"publication": "The Mary Sue",
+"top_critic": false,
+"rating_text": "4.5/5",
+"create_date": "2026-06-18T19:17:36.000Z",
+"review_id": "103136456"
 }
 ]
 }

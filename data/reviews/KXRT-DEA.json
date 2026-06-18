@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DEA",
 "movie": "The Death of Robin Hood:",
 "rt_slug": "m/the_death_of_robin_hood",
-"review_count": 71,
+"review_count": 72,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -642,6 +642,15 @@
 "rating_text": "",
 "create_date": "2026-06-18T19:01:20.000Z",
 "review_id": "103136440"
+},
+{
+"critic_name": "Frank Swietek",
+"sentiment": "Rotten",
+"publication": "One Guy's Opinion",
+"top_critic": false,
+"rating_text": "C-",
+"create_date": "2026-06-18T19:09:48.000Z",
+"review_id": "103136449"
 }
 ]
 }
