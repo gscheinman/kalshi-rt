@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DEA",
 "movie": "The Death of Robin Hood:",
 "rt_slug": "m/the_death_of_robin_hood",
-"review_count": 68,
+"review_count": 71,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -615,6 +615,33 @@
 "rating_text": "",
 "create_date": "2026-06-18T18:52:16.000Z",
 "review_id": "103136434"
+},
+{
+"critic_name": "Richard Whittaker",
+"sentiment": "Fresh",
+"publication": "Austin Chronicle",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-18T18:54:42.000Z",
+"review_id": "103136436"
+},
+{
+"critic_name": "Alissa Wilkinson",
+"sentiment": "Fresh",
+"publication": "New York Times",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-18T18:57:07.000Z",
+"review_id": "103136437"
+},
+{
+"critic_name": "Bilge Ebiri",
+"sentiment": "Fresh",
+"publication": "New York Magazine/Vulture",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-18T19:01:20.000Z",
+"review_id": "103136440"
 }
 ]
 }

@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-GIR",
 "movie": "Girls Like Girls:",
 "rt_slug": "m/girls_like_girls",
-"review_count": 20,
+"review_count": 21,
 "reviews": [
 {
 "critic_name": "Lady Jenevia",
@@ -183,6 +183,15 @@
 "rating_text": "",
 "create_date": "2026-06-18T18:23:32.000Z",
 "review_id": "103136421"
+},
+{
+"critic_name": "Patrick McDonald",
+"sentiment": "Fresh",
+"publication": "WBGR-FM (93.7 FM - Monroe, WI)",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-06-18T19:04:55.000Z",
+"review_id": "103136445"
 }
 ]
 }
