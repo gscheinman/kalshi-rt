@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-TOY",
 "movie": "Toy Story 5:",
 "rt_slug": "m/toy_story_5",
-"review_count": 151,
+"review_count": 156,
 "reviews": [
 {
 "critic_name": "Dionar Hidalgo",
@@ -1362,6 +1362,51 @@
 "rating_text": "4.5/5",
 "create_date": "2026-06-18T19:17:36.000Z",
 "review_id": "103136456"
+},
+{
+"critic_name": "Jana Monji",
+"sentiment": "Fresh",
+"publication": "Age of the Geek",
+"top_critic": false,
+"rating_text": "5/5",
+"create_date": "2026-06-18T19:21:19.000Z",
+"review_id": "103136462"
+},
+{
+"critic_name": "Alan Ng",
+"sentiment": "Fresh",
+"publication": "Film Threat",
+"top_critic": false,
+"rating_text": "8.5/10",
+"create_date": "2026-06-18T19:21:30.000Z",
+"review_id": "103136463"
+},
+{
+"critic_name": "Leigh Singer",
+"sentiment": "Fresh",
+"publication": "Sight & Sound",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-18T19:22:35.000Z",
+"review_id": "103136464"
+},
+{
+"critic_name": "Manohla Dargis",
+"sentiment": "Fresh",
+"publication": "New York Times",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-18T19:23:44.000Z",
+"review_id": "103136465"
+},
+{
+"critic_name": "Alison Willmore",
+"sentiment": "Fresh",
+"publication": "New York Magazine/Vulture",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-18T19:27:58.000Z",
+"review_id": "103136467"
 }
 ]
 }
