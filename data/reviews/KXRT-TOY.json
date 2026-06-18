@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-TOY",
 "movie": "Toy Story 5:",
 "rt_slug": "m/toy_story_5",
-"review_count": 142,
+"review_count": 144,
 "reviews": [
 {
 "critic_name": "Dionar Hidalgo",
@@ -1281,6 +1281,24 @@
 "rating_text": "3.5/4",
 "create_date": "2026-06-18T14:00:08.000Z",
 "review_id": "103136332"
+},
+{
+"critic_name": "Jim Schembri",
+"sentiment": "Fresh",
+"publication": "jimschembri.com",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-18T14:31:53.000Z",
+"review_id": "103136339"
+},
+{
+"critic_name": "Nagier Chambers",
+"sentiment": "Fresh",
+"publication": "Big Gold Belt Media",
+"top_critic": false,
+"rating_text": "4.5/5",
+"create_date": "2026-06-18T14:38:46.000Z",
+"review_id": "103136343"
 }
 ]
 }
