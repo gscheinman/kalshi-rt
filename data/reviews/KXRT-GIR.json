@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-GIR",
 "movie": "Girls Like Girls:",
 "rt_slug": "m/girls_like_girls",
-"review_count": 19,
+"review_count": 20,
 "reviews": [
 {
 "critic_name": "Lady Jenevia",
@@ -174,6 +174,15 @@
 "rating_text": "2/5",
 "create_date": "2026-06-18T17:31:43.000Z",
 "review_id": "103136390"
+},
+{
+"critic_name": "Lisa Kennedy",
+"sentiment": "Fresh",
+"publication": "New York Times",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-18T18:23:32.000Z",
+"review_id": "103136421"
 }
 ]
 }

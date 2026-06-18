@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DEA",
 "movie": "The Death of Robin Hood:",
 "rt_slug": "m/the_death_of_robin_hood",
-"review_count": 64,
+"review_count": 67,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -579,6 +579,33 @@
 "rating_text": "",
 "create_date": "2026-06-18T18:12:56.000Z",
 "review_id": "103136419"
+},
+{
+"critic_name": "Thelma Adams",
+"sentiment": "Rotten",
+"publication": "AARP Movies for Grownups",
+"top_critic": true,
+"rating_text": "2/5",
+"create_date": "2026-06-18T18:24:18.000Z",
+"review_id": "103136422"
+},
+{
+"critic_name": "Bob Mondello",
+"sentiment": "Fresh",
+"publication": "NPR",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-18T18:26:28.000Z",
+"review_id": "103136424"
+},
+{
+"critic_name": "David Sims",
+"sentiment": "Fresh",
+"publication": "The Atlantic",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-18T18:27:46.000Z",
+"review_id": "103136425"
 }
 ]
 }
