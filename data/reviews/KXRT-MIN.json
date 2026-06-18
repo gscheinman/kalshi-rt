@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 502,
+"review_count": 503,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -4521,6 +4521,15 @@
 "rating_text": "",
 "create_date": "2026-06-18T20:03:36.000Z",
 "review_id": "103136493"
+},
+{
+"critic_name": "Emma Simmonds",
+"sentiment": "Fresh",
+"publication": "Radio Times",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-18T20:04:21.000Z",
+"review_id": "103136494"
 }
 ]
 }
