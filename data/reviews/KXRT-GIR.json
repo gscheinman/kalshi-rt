@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-GIR",
 "movie": "Girls Like Girls:",
 "rt_slug": "m/girls_like_girls",
-"review_count": 16,
+"review_count": 17,
 "reviews": [
 {
 "critic_name": "Lady Jenevia",
@@ -147,6 +147,15 @@
 "rating_text": "",
 "create_date": "2026-06-17T21:50:45.000Z",
 "review_id": "103136233"
+},
+{
+"critic_name": "Courtney Howard",
+"sentiment": "Fresh",
+"publication": "Fresh Fiction",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-18T05:42:29.000Z",
+"review_id": "103136298"
 }
 ]
 }
