@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DEA",
 "movie": "The Death of Robin Hood:",
 "rt_slug": "m/the_death_of_robin_hood",
-"review_count": 86,
+"review_count": 88,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -777,6 +777,24 @@
 "rating_text": "",
 "create_date": "2026-06-19T14:07:20.000Z",
 "review_id": "103136731"
+},
+{
+"critic_name": "Jonathan W. Hickman",
+"sentiment": "Fresh",
+"publication": "The Newnan Times-Herald",
+"top_critic": false,
+"rating_text": "6/10",
+"create_date": "2026-06-19T17:10:53.000Z",
+"review_id": "103136777"
+},
+{
+"critic_name": "Mae Abdulbaki",
+"sentiment": "Fresh",
+"publication": "RIOTUS",
+"top_critic": false,
+"rating_text": "C+",
+"create_date": "2026-06-19T17:11:28.000Z",
+"review_id": "103136778"
 }
 ]
 }
