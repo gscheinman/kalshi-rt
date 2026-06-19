@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-TOY",
 "movie": "Toy Story 5:",
 "rt_slug": "m/toy_story_5",
-"review_count": 179,
+"review_count": 180,
 "reviews": [
 {
 "critic_name": "Dionar Hidalgo",
@@ -1614,6 +1614,15 @@
 "rating_text": "10/10",
 "create_date": "2026-06-19T10:05:42.000Z",
 "review_id": "103136698"
+},
+{
+"critic_name": "Sean Collier",
+"sentiment": "Fresh",
+"publication": "Table Magazine",
+"top_critic": false,
+"rating_text": "6/10",
+"create_date": "2026-06-19T13:11:36.000Z",
+"review_id": "103136716"
 }
 ]
 }
