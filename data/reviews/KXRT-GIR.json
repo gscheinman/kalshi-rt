@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-GIR",
 "movie": "Girls Like Girls:",
 "rt_slug": "m/girls_like_girls",
-"review_count": 30,
+"review_count": 31,
 "reviews": [
 {
 "critic_name": "Lady Jenevia",
@@ -273,6 +273,15 @@
 "rating_text": "",
 "create_date": "2026-06-19T14:53:09.000Z",
 "review_id": "103136743"
+},
+{
+"critic_name": "William Bibbiani",
+"sentiment": "Fresh",
+"publication": "TheWrap",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-19T17:21:58.000Z",
+"review_id": "103136782"
 }
 ]
 }
