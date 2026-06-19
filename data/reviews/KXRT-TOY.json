@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-TOY",
 "movie": "Toy Story 5:",
 "rt_slug": "m/toy_story_5",
-"review_count": 193,
+"review_count": 194,
 "reviews": [
 {
 "critic_name": "Dionar Hidalgo",
@@ -1740,6 +1740,15 @@
 "rating_text": "3/4",
 "create_date": "2026-06-19T20:18:20.000Z",
 "review_id": "103136813"
+},
+{
+"critic_name": "Linda and Al Lerner",
+"sentiment": "Fresh",
+"publication": "Movies and Shakers",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-19T20:44:38.000Z",
+"review_id": "103136814"
 }
 ]
 }
