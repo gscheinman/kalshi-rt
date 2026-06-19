@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-TOY",
 "movie": "Toy Story 5:",
 "rt_slug": "m/toy_story_5",
-"review_count": 172,
+"review_count": 173,
 "reviews": [
 {
 "critic_name": "Dionar Hidalgo",
@@ -1551,6 +1551,15 @@
 "rating_text": "3/4",
 "create_date": "2026-06-19T00:05:06.000Z",
 "review_id": "103136603"
+},
+{
+"critic_name": "Christopher Lloyd",
+"sentiment": "Fresh",
+"publication": "The Film Yap",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-19T00:15:41.000Z",
+"review_id": "103136613"
 }
 ]
 }
