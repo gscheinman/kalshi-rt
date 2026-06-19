@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-GIR",
 "movie": "Girls Like Girls:",
 "rt_slug": "m/girls_like_girls",
-"review_count": 31,
+"review_count": 32,
 "reviews": [
 {
 "critic_name": "Lady Jenevia",
@@ -282,6 +282,15 @@
 "rating_text": "",
 "create_date": "2026-06-19T17:21:58.000Z",
 "review_id": "103136782"
+},
+{
+"critic_name": "Scott Tobias",
+"sentiment": "Fresh",
+"publication": "The Reveal",
+"top_critic": true,
+"rating_text": "3/5",
+"create_date": "2026-06-19T20:10:39.000Z",
+"review_id": "103136809"
 }
 ]
 }
