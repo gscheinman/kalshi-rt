@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-TOY",
 "movie": "Toy Story 5:",
 "rt_slug": "m/toy_story_5",
-"review_count": 180,
+"review_count": 181,
 "reviews": [
 {
 "critic_name": "Dionar Hidalgo",
@@ -1623,6 +1623,15 @@
 "rating_text": "6/10",
 "create_date": "2026-06-19T13:11:36.000Z",
 "review_id": "103136716"
+},
+{
+"critic_name": "Joey Morona",
+"sentiment": "Fresh",
+"publication": "Cleveland Plain Dealer",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-19T13:53:20.000Z",
+"review_id": "103136724"
 }
 ]
 }
