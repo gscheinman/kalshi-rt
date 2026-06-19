@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-GIR",
 "movie": "Girls Like Girls:",
 "rt_slug": "m/girls_like_girls",
-"review_count": 29,
+"review_count": 30,
 "reviews": [
 {
 "critic_name": "Lady Jenevia",
@@ -264,6 +264,15 @@
 "rating_text": "3/4",
 "create_date": "2026-06-19T14:00:06.000Z",
 "review_id": "103136726"
+},
+{
+"critic_name": "DarkSkyLady",
+"sentiment": "Fresh",
+"publication": "DarkSkyLady Reviews",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-19T14:53:09.000Z",
+"review_id": "103136743"
 }
 ]
 }
