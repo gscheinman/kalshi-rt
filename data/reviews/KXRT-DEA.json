@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DEA",
 "movie": "The Death of Robin Hood:",
 "rt_slug": "m/the_death_of_robin_hood",
-"review_count": 78,
+"review_count": 79,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -705,6 +705,15 @@
 "rating_text": "A",
 "create_date": "2026-06-19T00:03:10.000Z",
 "review_id": "103136602"
+},
+{
+"critic_name": "Katie Walsh",
+"sentiment": "Rotten",
+"publication": "Tribune News Service",
+"top_critic": true,
+"rating_text": "2/4",
+"create_date": "2026-06-19T00:41:16.000Z",
+"review_id": "103136631"
 }
 ]
 }
