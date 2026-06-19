@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DEA",
 "movie": "The Death of Robin Hood:",
 "rt_slug": "m/the_death_of_robin_hood",
-"review_count": 80,
+"review_count": 81,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -723,6 +723,15 @@
 "rating_text": "",
 "create_date": "2026-06-19T01:56:00.000Z",
 "review_id": "103136643"
+},
+{
+"critic_name": "Russ Simmons",
+"sentiment": "Rotten",
+"publication": "KKFI-FM (Kansas City)",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-06-19T05:04:37.000Z",
+"review_id": "103136669"
 }
 ]
 }
