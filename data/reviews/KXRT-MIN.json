@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 535,
+"review_count": 536,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -4818,6 +4818,15 @@
 "rating_text": "",
 "create_date": "2026-06-19T20:44:38.000Z",
 "review_id": "103136814"
+},
+{
+"critic_name": "Mike McGranaghan",
+"sentiment": "Fresh",
+"publication": "Aisle Seat",
+"top_critic": false,
+"rating_text": "3.5/4",
+"create_date": "2026-06-19T20:56:31.000Z",
+"review_id": "103136821"
 }
 ]
 }
