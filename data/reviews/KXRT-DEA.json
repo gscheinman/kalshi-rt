@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DEA",
 "movie": "The Death of Robin Hood:",
 "rt_slug": "m/the_death_of_robin_hood",
-"review_count": 83,
+"review_count": 84,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -750,6 +750,15 @@
 "rating_text": "3/5",
 "create_date": "2026-06-19T09:22:29.000Z",
 "review_id": "103136692"
+},
+{
+"critic_name": "Nate Adams",
+"sentiment": "Rotten",
+"publication": "The Only Critic",
+"top_critic": false,
+"rating_text": "C+",
+"create_date": "2026-06-19T12:59:17.000Z",
+"review_id": "103136714"
 }
 ]
 }
