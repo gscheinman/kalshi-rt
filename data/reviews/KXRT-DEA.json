@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DEA",
 "movie": "The Death of Robin Hood:",
 "rt_slug": "m/the_death_of_robin_hood",
-"review_count": 76,
+"review_count": 77,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -687,6 +687,15 @@
 "rating_text": "3.5/5",
 "create_date": "2026-06-18T23:31:45.000Z",
 "review_id": "103136579"
+},
+{
+"critic_name": "Kyle Smith",
+"sentiment": "Rotten",
+"publication": "Wall Street Journal",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-18T23:48:14.000Z",
+"review_id": "103136589"
 }
 ]
 }

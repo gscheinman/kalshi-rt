@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-TOY",
 "movie": "Toy Story 5:",
 "rt_slug": "m/toy_story_5",
-"review_count": 168,
+"review_count": 170,
 "reviews": [
 {
 "critic_name": "Dionar Hidalgo",
@@ -1515,6 +1515,24 @@
 "rating_text": "",
 "create_date": "2026-06-18T23:24:10.000Z",
 "review_id": "103136575"
+},
+{
+"critic_name": "Chase Hutchinson",
+"sentiment": "Rotten",
+"publication": "The Inlander (Spokane, WA)",
+"top_critic": false,
+"rating_text": "1.5",
+"create_date": "2026-06-18T23:49:23.000Z",
+"review_id": "103136590"
+},
+{
+"critic_name": "Kyle Smith",
+"sentiment": "Fresh",
+"publication": "Wall Street Journal",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-18T23:50:59.000Z",
+"review_id": "103136591"
 }
 ]
 }
