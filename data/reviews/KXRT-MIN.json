@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 517,
+"review_count": 518,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -4656,6 +4656,15 @@
 "rating_text": "4/5",
 "create_date": "2026-06-19T05:03:23.000Z",
 "review_id": "103136668"
+},
+{
+"critic_name": "Mario Alegre",
+"sentiment": "Rotten",
+"publication": "Pr\u00f3xima Tanda (Substack)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-19T06:09:49.000Z",
+"review_id": "103136672"
 }
 ]
 }
