@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-GIR",
 "movie": "Girls Like Girls:",
 "rt_slug": "m/girls_like_girls",
-"review_count": 23,
+"review_count": 24,
 "reviews": [
 {
 "critic_name": "Lady Jenevia",
@@ -210,6 +210,15 @@
 "rating_text": "2.5/4",
 "create_date": "2026-06-18T23:51:17.000Z",
 "review_id": "103136593"
+},
+{
+"critic_name": "Tyler Thier",
+"sentiment": "Fresh",
+"publication": "In Review Online",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-19T03:07:20.000Z",
+"review_id": "103136652"
 }
 ]
 }
