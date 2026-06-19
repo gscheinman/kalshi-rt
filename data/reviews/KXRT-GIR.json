@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-GIR",
 "movie": "Girls Like Girls:",
 "rt_slug": "m/girls_like_girls",
-"review_count": 25,
+"review_count": 26,
 "reviews": [
 {
 "critic_name": "Lady Jenevia",
@@ -228,6 +228,15 @@
 "rating_text": "",
 "create_date": "2026-06-19T06:17:35.000Z",
 "review_id": "103136674"
+},
+{
+"critic_name": "Aaron Neuwirth",
+"sentiment": "Fresh",
+"publication": "We Live Entertainment",
+"top_critic": false,
+"rating_text": "7/10",
+"create_date": "2026-06-19T09:12:49.000Z",
+"review_id": "103136685"
 }
 ]
 }
