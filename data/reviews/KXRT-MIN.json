@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 523,
+"review_count": 525,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -4710,6 +4710,24 @@
 "rating_text": "3 / 4",
 "create_date": "2026-06-19T14:52:21.000Z",
 "review_id": "103136742"
+},
+{
+"critic_name": "Ian Thomas Malone",
+"sentiment": "Fresh",
+"publication": "ianthomasmalone.com",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-19T16:28:06.000Z",
+"review_id": "103136764"
+},
+{
+"critic_name": "Stephen Silver",
+"sentiment": "Fresh",
+"publication": "The SS Ben Hecht",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-19T16:32:08.000Z",
+"review_id": "103136769"
 }
 ]
 }
