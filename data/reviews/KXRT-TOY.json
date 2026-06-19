@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-TOY",
 "movie": "Toy Story 5:",
 "rt_slug": "m/toy_story_5",
-"review_count": 185,
+"review_count": 186,
 "reviews": [
 {
 "critic_name": "Dionar Hidalgo",
@@ -1668,6 +1668,15 @@
 "rating_text": "",
 "create_date": "2026-06-19T16:42:58.000Z",
 "review_id": "103136774"
+},
+{
+"critic_name": "Rick Romancito",
+"sentiment": "Fresh",
+"publication": "The Taos News",
+"top_critic": false,
+"rating_text": "A-",
+"create_date": "2026-06-19T16:58:02.000Z",
+"review_id": "103136775"
 }
 ]
 }
