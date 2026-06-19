@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-TOY",
 "movie": "Toy Story 5:",
 "rt_slug": "m/toy_story_5",
-"review_count": 189,
+"review_count": 190,
 "reviews": [
 {
 "critic_name": "Dionar Hidalgo",
@@ -1704,6 +1704,15 @@
 "rating_text": "",
 "create_date": "2026-06-19T18:15:02.000Z",
 "review_id": "103136789"
+},
+{
+"critic_name": "Dana Han-Klein",
+"sentiment": "Fresh",
+"publication": "We're Watching What?!",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-19T19:17:30.000Z",
+"review_id": "103136800"
 }
 ]
 }
