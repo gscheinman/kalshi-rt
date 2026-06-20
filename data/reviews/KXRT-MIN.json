@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 537,
+"review_count": 538,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -4836,6 +4836,15 @@
 "rating_text": "3/4",
 "create_date": "2026-06-19T22:30:25.000Z",
 "review_id": "103136831"
+},
+{
+"critic_name": "Josh Wilding",
+"sentiment": "Fresh",
+"publication": "ComicBookMovie.com",
+"top_critic": false,
+"rating_text": "5/5",
+"create_date": "2026-06-19T23:57:50.000Z",
+"review_id": "103136834"
 }
 ]
 }
