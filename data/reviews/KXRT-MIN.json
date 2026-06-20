@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 546,
+"review_count": 548,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -4917,6 +4917,24 @@
 "rating_text": "3.5/4",
 "create_date": "2026-06-20T16:17:10.000Z",
 "review_id": "103136880"
+},
+{
+"critic_name": "Matthew Huff",
+"sentiment": "Rotten",
+"publication": "The Report Card (Substack)",
+"top_critic": false,
+"rating_text": "C+",
+"create_date": "2026-06-20T17:19:27.000Z",
+"review_id": "103136884"
+},
+{
+"critic_name": "Gissane Sophia",
+"sentiment": "Fresh",
+"publication": "Lady Geeks Media",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-20T17:22:29.000Z",
+"review_id": "103136885"
 }
 ]
 }
