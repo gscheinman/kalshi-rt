@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 539,
+"review_count": 540,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -4854,6 +4854,15 @@
 "rating_text": "",
 "create_date": "2026-06-20T00:13:46.000Z",
 "review_id": "103136835"
+},
+{
+"critic_name": "Rachel Wagner",
+"sentiment": "Fresh",
+"publication": "Rachel's Reviews (YouTube)",
+"top_critic": false,
+"rating_text": "3.5",
+"create_date": "2026-06-20T00:28:22.000Z",
+"review_id": "103136836"
 }
 ]
 }
