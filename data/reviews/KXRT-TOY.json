@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-TOY",
 "movie": "Toy Story 5:",
 "rt_slug": "m/toy_story_5",
-"review_count": 205,
+"review_count": 206,
 "reviews": [
 {
 "critic_name": "Dionar Hidalgo",
@@ -1848,6 +1848,15 @@
 "rating_text": "3.5/4",
 "create_date": "2026-06-20T16:17:10.000Z",
 "review_id": "103136880"
+},
+{
+"critic_name": "Matthew Huff",
+"sentiment": "Rotten",
+"publication": "The Report Card (Substack)",
+"top_critic": false,
+"rating_text": "C+",
+"create_date": "2026-06-20T17:19:27.000Z",
+"review_id": "103136884"
 }
 ]
 }
