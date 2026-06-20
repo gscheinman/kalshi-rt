@@ -253,6 +253,17 @@
       "suggested_size": 18.97,
       "avg_fill": 32.1,
       "contracts": 59.1
+    },
+    {
+      "timestamp": "2026-06-20T04:36:26.716561+00:00",
+      "market_ticker": "KXRT-GIR-85",
+      "direction": "BUY NO",
+      "threshold": 85,
+      "model_prob": 47.0,
+      "edge": 11.8,
+      "suggested_size": 50.0,
+      "avg_fill": 41.1,
+      "contracts": 121.5
     }
   ]
 }
