@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-TOY",
 "movie": "Toy Story 5:",
 "rt_slug": "m/toy_story_5",
-"review_count": 202,
+"review_count": 203,
 "reviews": [
 {
 "critic_name": "Dionar Hidalgo",
@@ -1821,6 +1821,15 @@
 "rating_text": "4/5",
 "create_date": "2026-06-20T14:09:14.000Z",
 "review_id": "103136867"
+},
+{
+"critic_name": "John Urbancich",
+"sentiment": "Fresh",
+"publication": "JMuvies",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-20T14:31:17.000Z",
+"review_id": "103136870"
 }
 ]
 }
