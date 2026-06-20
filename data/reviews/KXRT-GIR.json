@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-GIR",
 "movie": "Girls Like Girls:",
 "rt_slug": "m/girls_like_girls",
-"review_count": 33,
+"review_count": 34,
 "reviews": [
 {
 "critic_name": "Lady Jenevia",
@@ -300,6 +300,15 @@
 "rating_text": "",
 "create_date": "2026-06-20T04:36:17.000Z",
 "review_id": "103136847"
+},
+{
+"critic_name": "Steven Prokopy",
+"sentiment": "Fresh",
+"publication": "Third Coast Review",
+"top_critic": false,
+"rating_text": "2.5/4",
+"create_date": "2026-06-20T15:42:03.000Z",
+"review_id": "103136875"
 }
 ]
 }
