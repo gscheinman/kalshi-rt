@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-GIR",
 "movie": "Girls Like Girls:",
 "rt_slug": "m/girls_like_girls",
-"review_count": 32,
+"review_count": 33,
 "reviews": [
 {
 "critic_name": "Lady Jenevia",
@@ -291,6 +291,15 @@
 "rating_text": "3/5",
 "create_date": "2026-06-19T20:10:39.000Z",
 "review_id": "103136809"
+},
+{
+"critic_name": "Laura Sirikul",
+"sentiment": "Fresh",
+"publication": "Forbes",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-20T04:36:17.000Z",
+"review_id": "103136847"
 }
 ]
 }
