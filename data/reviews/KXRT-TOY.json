@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-TOY",
 "movie": "Toy Story 5:",
 "rt_slug": "m/toy_story_5",
-"review_count": 208,
+"review_count": 209,
 "reviews": [
 {
 "critic_name": "Dionar Hidalgo",
@@ -1875,6 +1875,15 @@
 "rating_text": "4/5",
 "create_date": "2026-06-20T19:15:24.000Z",
 "review_id": "103136893"
+},
+{
+"critic_name": "Maxance Vincent",
+"sentiment": "Fresh",
+"publication": "The Cosmic Circus",
+"top_critic": false,
+"rating_text": "4.5/5",
+"create_date": "2026-06-20T19:46:54.000Z",
+"review_id": "103136897"
 }
 ]
 }
