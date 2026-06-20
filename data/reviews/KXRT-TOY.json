@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-TOY",
 "movie": "Toy Story 5:",
 "rt_slug": "m/toy_story_5",
-"review_count": 207,
+"review_count": 208,
 "reviews": [
 {
 "critic_name": "Dionar Hidalgo",
@@ -1866,6 +1866,15 @@
 "rating_text": "4/5",
 "create_date": "2026-06-20T17:22:29.000Z",
 "review_id": "103136885"
+},
+{
+"critic_name": "Samantha Schuster",
+"sentiment": "Fresh",
+"publication": "Cin\u00e9filo Serial",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-20T19:15:24.000Z",
+"review_id": "103136893"
 }
 ]
 }
