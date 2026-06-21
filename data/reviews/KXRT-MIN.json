@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 554,
+"review_count": 555,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -4989,6 +4989,15 @@
 "rating_text": "8/10",
 "create_date": "2026-06-21T14:28:41.000Z",
 "review_id": "103136962"
+},
+{
+"critic_name": "Sarah Vincent",
+"sentiment": "Fresh",
+"publication": "Sarah G Vincent Views",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-21T15:01:59.000Z",
+"review_id": "103136972"
 }
 ]
 }
