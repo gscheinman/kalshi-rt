@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 556,
+"review_count": 557,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -5007,6 +5007,15 @@
 "rating_text": "B",
 "create_date": "2026-06-21T15:31:09.000Z",
 "review_id": "103136978"
+},
+{
+"critic_name": "Nelson Acosta",
+"sentiment": "Fresh",
+"publication": "Koimoi",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-21T18:41:17.000Z",
+"review_id": "103137003"
 }
 ]
 }
