@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DEA",
 "movie": "The Death of Robin Hood:",
 "rt_slug": "m/the_death_of_robin_hood",
-"review_count": 96,
+"review_count": 97,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -867,6 +867,15 @@
 "rating_text": "",
 "create_date": "2026-06-21T15:21:08.000Z",
 "review_id": "103136976"
+},
+{
+"critic_name": "Korey Coleman",
+"sentiment": "Fresh",
+"publication": "Double Toasted",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-21T20:50:35.000Z",
+"review_id": "103137014"
 }
 ]
 }
