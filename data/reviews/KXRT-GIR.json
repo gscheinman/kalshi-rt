@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-GIR",
 "movie": "Girls Like Girls:",
 "rt_slug": "m/girls_like_girls",
-"review_count": 35,
+"review_count": 36,
 "reviews": [
 {
 "critic_name": "Lady Jenevia",
@@ -318,6 +318,15 @@
 "rating_text": "8/10",
 "create_date": "2026-06-20T21:41:33.000Z",
 "review_id": "103136909"
+},
+{
+"critic_name": "Lyra Hale",
+"sentiment": "Fresh",
+"publication": "Fangirlish",
+"top_critic": false,
+"rating_text": "B",
+"create_date": "2026-06-21T23:13:55.000Z",
+"review_id": "103137025"
 }
 ]
 }
