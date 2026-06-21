@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-TOY",
 "movie": "Toy Story 5:",
 "rt_slug": "m/toy_story_5",
-"review_count": 210,
+"review_count": 211,
 "reviews": [
 {
 "critic_name": "Dionar Hidalgo",
@@ -1893,6 +1893,15 @@
 "rating_text": "7/10",
 "create_date": "2026-06-20T21:42:27.000Z",
 "review_id": "103136910"
+},
+{
+"critic_name": "Michael Ward",
+"sentiment": "Fresh",
+"publication": "Should I See It",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-21T04:53:13.000Z",
+"review_id": "103136919"
 }
 ]
 }

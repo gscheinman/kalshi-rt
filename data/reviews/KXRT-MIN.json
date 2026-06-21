@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 551,
+"review_count": 552,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -4962,6 +4962,15 @@
 "rating_text": "7/10",
 "create_date": "2026-06-20T21:42:27.000Z",
 "review_id": "103136910"
+},
+{
+"critic_name": "Michael Ward",
+"sentiment": "Fresh",
+"publication": "Should I See It",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-21T04:53:13.000Z",
+"review_id": "103136919"
 }
 ]
 }
