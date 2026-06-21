@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-TOY",
 "movie": "Toy Story 5:",
 "rt_slug": "m/toy_story_5",
-"review_count": 211,
+"review_count": 212,
 "reviews": [
 {
 "critic_name": "Dionar Hidalgo",
@@ -1902,6 +1902,15 @@
 "rating_text": "4/5",
 "create_date": "2026-06-21T04:53:13.000Z",
 "review_id": "103136919"
+},
+{
+"critic_name": "Allen Almachar",
+"sentiment": "Fresh",
+"publication": "The MacGuffin",
+"top_critic": false,
+"rating_text": "B",
+"create_date": "2026-06-21T07:24:07.000Z",
+"review_id": "103136920"
 }
 ]
 }
