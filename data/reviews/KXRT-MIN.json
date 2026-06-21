@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 553,
+"review_count": 554,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -4980,6 +4980,15 @@
 "rating_text": "B",
 "create_date": "2026-06-21T07:24:07.000Z",
 "review_id": "103136920"
+},
+{
+"critic_name": "Susan Granger",
+"sentiment": "Fresh",
+"publication": "SSG Syndicate",
+"top_critic": false,
+"rating_text": "8/10",
+"create_date": "2026-06-21T14:28:41.000Z",
+"review_id": "103136962"
 }
 ]
 }
