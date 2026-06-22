@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 562,
+"review_count": 563,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -5061,6 +5061,15 @@
 "rating_text": "4/5",
 "create_date": "2026-06-22T13:31:32.000Z",
 "review_id": "103137098"
+},
+{
+"critic_name": "Joe Friar",
+"sentiment": "Fresh",
+"publication": "Fort Worth Report",
+"top_critic": false,
+"rating_text": "3.5/4",
+"create_date": "2026-06-22T14:59:31.000Z",
+"review_id": "103137107"
 }
 ]
 }
