@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-TOY",
 "movie": "Toy Story 5:",
 "rt_slug": "m/toy_story_5",
-"review_count": 219,
+"review_count": 220,
 "reviews": [
 {
 "critic_name": "Dionar Hidalgo",
@@ -1974,6 +1974,15 @@
 "rating_text": "4 stars",
 "create_date": "2026-06-22T08:09:24.000Z",
 "review_id": "103137081"
+},
+{
+"critic_name": "Sara Michelle Fetters",
+"sentiment": "Fresh",
+"publication": "MovieFreak.com",
+"top_critic": true,
+"rating_text": "3.5/4",
+"create_date": "2026-06-22T10:32:23.000Z",
+"review_id": "103137091"
 }
 ]
 }
