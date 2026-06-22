@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-TOY",
 "movie": "Toy Story 5:",
 "rt_slug": "m/toy_story_5",
-"review_count": 216,
+"review_count": 217,
 "reviews": [
 {
 "critic_name": "Dionar Hidalgo",
@@ -1947,6 +1947,15 @@
 "rating_text": "4/5",
 "create_date": "2026-06-21T18:41:17.000Z",
 "review_id": "103137003"
+},
+{
+"critic_name": "Elliott Collins",
+"sentiment": "Fresh",
+"publication": "Movie Files",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-22T01:10:44.000Z",
+"review_id": "103137043"
 }
 ]
 }
