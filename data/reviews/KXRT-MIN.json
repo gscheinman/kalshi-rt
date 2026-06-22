@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 574,
+"review_count": 575,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -5169,6 +5169,15 @@
 "rating_text": "3.5/5",
 "create_date": "2026-06-22T20:12:17.000Z",
 "review_id": "103137266"
+},
+{
+"critic_name": "Calum Cooper",
+"sentiment": "Fresh",
+"publication": "Cinerama Film",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-22T22:10:44.000Z",
+"review_id": "103137371"
 }
 ]
 }
