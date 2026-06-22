@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 568,
+"review_count": 571,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -5115,6 +5115,33 @@
 "rating_text": "3/5",
 "create_date": "2026-06-22T18:01:50.000Z",
 "review_id": "103137175"
+},
+{
+"critic_name": "Alci Rengifo",
+"sentiment": "Fresh",
+"publication": "Entertainment Voice",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-22T18:28:49.000Z",
+"review_id": "103137196"
+},
+{
+"critic_name": "Nick Johnston",
+"sentiment": "Rotten",
+"publication": "Vanyaland",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-22T18:43:31.000Z",
+"review_id": "103137209"
+},
+{
+"critic_name": "Suvigya Buch",
+"sentiment": "Fresh",
+"publication": "The Hollywood Reporter India",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-22T18:44:29.000Z",
+"review_id": "103137210"
 }
 ]
 }
