@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-DEA",
 "movie": "The Death of Robin Hood:",
 "rt_slug": "m/the_death_of_robin_hood",
-"review_count": 99,
+"review_count": 100,
 "reviews": [
 {
 "critic_name": "Josh Parham",
@@ -894,6 +894,15 @@
 "rating_text": "4/5",
 "create_date": "2026-06-22T01:08:29.000Z",
 "review_id": "103137042"
+},
+{
+"critic_name": "Cate Marquis",
+"sentiment": "Fresh",
+"publication": "We Are Movie Geeks",
+"top_critic": false,
+"rating_text": "3.5/4",
+"create_date": "2026-06-22T02:32:17.000Z",
+"review_id": "103137049"
 }
 ]
 }
