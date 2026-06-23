@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 44,
+"review_count": 45,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -399,6 +399,15 @@
 "rating_text": "5/5",
 "create_date": "2026-06-23T02:02:36.000Z",
 "review_id": "103137411"
+},
+{
+"critic_name": "Joey Magidson",
+"sentiment": "Fresh",
+"publication": "Awards Radar",
+"top_critic": false,
+"rating_text": "3.5/4",
+"create_date": "2026-06-23T04:38:53.000Z",
+"review_id": "103137435"
 }
 ]
 }
