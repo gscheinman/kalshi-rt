@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 49,
+"review_count": 50,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -444,6 +444,15 @@
 "rating_text": "",
 "create_date": "2026-06-23T20:02:20.000Z",
 "review_id": "103137665"
+},
+{
+"critic_name": "Martin Tsai",
+"sentiment": "Rotten",
+"publication": "Critic's Notebook",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-23T20:23:21.000Z",
+"review_id": "103137674"
 }
 ]
 }
