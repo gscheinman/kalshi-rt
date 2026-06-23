@@ -265,5 +265,18 @@
       "avg_fill": 41.1,
       "contracts": 121.5
     }
+  ],
+  "KXRT-INV": [
+    {
+      "timestamp": "2026-06-23T15:40:46.312423+00:00",
+      "market_ticker": "KXRT-INV-90",
+      "direction": "BUY NO",
+      "threshold": 90,
+      "model_prob": 48.1,
+      "edge": 15.4,
+      "suggested_size": 29.13,
+      "avg_fill": 36.4,
+      "contracts": 80.0
+    }
   ]
 }
