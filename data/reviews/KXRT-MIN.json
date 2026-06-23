@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 590,
+"review_count": 591,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -5313,6 +5313,15 @@
 "rating_text": "",
 "create_date": "2026-06-23T17:59:49.000Z",
 "review_id": "103137570"
+},
+{
+"critic_name": "Carlos Boyero",
+"sentiment": "Rotten",
+"publication": "El Pais (Spain)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-23T18:01:59.000Z",
+"review_id": "103137571"
 }
 ]
 }
