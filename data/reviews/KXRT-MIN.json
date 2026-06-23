@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 596,
+"review_count": 599,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -5367,6 +5367,33 @@
 "rating_text": "",
 "create_date": "2026-06-23T19:23:38.000Z",
 "review_id": "103137639"
+},
+{
+"critic_name": "Mae Abdulbaki",
+"sentiment": "Fresh",
+"publication": "Pajiba",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-23T19:38:34.000Z",
+"review_id": "103137649"
+},
+{
+"critic_name": "Tom Shone",
+"sentiment": "Fresh",
+"publication": "Sunday Times (UK)",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-23T19:41:01.000Z",
+"review_id": "103137651"
+},
+{
+"critic_name": "Stephen Thompson",
+"sentiment": "Fresh",
+"publication": "Pop Culture Happy Hour (NPR Podcast)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-23T19:53:20.000Z",
+"review_id": "103137661"
 }
 ]
 }
