@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 589,
+"review_count": 590,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -5304,6 +5304,15 @@
 "rating_text": "3.5/5",
 "create_date": "2026-06-23T17:27:52.000Z",
 "review_id": "103137548"
+},
+{
+"critic_name": "Lisa Laman",
+"sentiment": "Fresh",
+"publication": "The Spool",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-23T17:59:49.000Z",
+"review_id": "103137570"
 }
 ]
 }
