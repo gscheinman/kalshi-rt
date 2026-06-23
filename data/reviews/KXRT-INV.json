@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 45,
+"review_count": 46,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -408,6 +408,15 @@
 "rating_text": "3.5/4",
 "create_date": "2026-06-23T04:38:53.000Z",
 "review_id": "103137435"
+},
+{
+"critic_name": "Jeff Nelson",
+"sentiment": "Fresh",
+"publication": "WeHo Times",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-06-23T08:54:56.000Z",
+"review_id": "103137442"
 }
 ]
 }
