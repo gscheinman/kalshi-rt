@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 585,
+"review_count": 586,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -5268,6 +5268,15 @@
 "rating_text": "",
 "create_date": "2026-06-23T16:12:07.000Z",
 "review_id": "103137477"
+},
+{
+"critic_name": "Sandie Angulo Chen",
+"sentiment": "Fresh",
+"publication": "Common Sense Media",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-23T16:53:56.000Z",
+"review_id": "103137509"
 }
 ]
 }
