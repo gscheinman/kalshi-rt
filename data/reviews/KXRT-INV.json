@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 50,
+"review_count": 53,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -453,6 +453,33 @@
 "rating_text": "",
 "create_date": "2026-06-23T20:23:21.000Z",
 "review_id": "103137674"
+},
+{
+"critic_name": "Justin Chang",
+"sentiment": "Fresh",
+"publication": "The New Yorker",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-23T20:54:40.000Z",
+"review_id": "103137685"
+},
+{
+"critic_name": "Matt Singer",
+"sentiment": "Fresh",
+"publication": "ScreenCrush",
+"top_critic": true,
+"rating_text": "8/10",
+"create_date": "2026-06-23T20:54:41.000Z",
+"review_id": "103137686"
+},
+{
+"critic_name": "Siddhant Adlakha",
+"sentiment": "Fresh",
+"publication": "IGN Movies",
+"top_critic": false,
+"rating_text": "8/10",
+"create_date": "2026-06-23T20:56:49.000Z",
+"review_id": "103137687"
 }
 ]
 }
