@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 47,
+"review_count": 48,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -426,6 +426,15 @@
 "rating_text": "B-",
 "create_date": "2026-06-23T14:21:37.000Z",
 "review_id": "103137462"
+},
+{
+"critic_name": "Alex Godfrey",
+"sentiment": "Fresh",
+"publication": "Empire Magazine",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-23T17:01:35.000Z",
+"review_id": "103137516"
 }
 ]
 }
