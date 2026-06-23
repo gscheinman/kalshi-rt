@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 583,
+"review_count": 584,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -5250,6 +5250,15 @@
 "rating_text": "B",
 "create_date": "2026-06-23T04:10:54.000Z",
 "review_id": "103137434"
+},
+{
+"critic_name": "Yasser Medina",
+"sentiment": "Rotten",
+"publication": "Cinefilia",
+"top_critic": false,
+"rating_text": "5/10",
+"create_date": "2026-06-23T05:08:30.000Z",
+"review_id": "103137436"
 }
 ]
 }
