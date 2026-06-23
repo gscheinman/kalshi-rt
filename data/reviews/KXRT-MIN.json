@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 582,
+"review_count": 583,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -5241,6 +5241,15 @@
 "rating_text": "",
 "create_date": "2026-06-23T01:17:32.000Z",
 "review_id": "103137408"
+},
+{
+"critic_name": "Kiko Martinez",
+"sentiment": "Fresh",
+"publication": "The Cinesnob Podcast",
+"top_critic": false,
+"rating_text": "B",
+"create_date": "2026-06-23T04:10:54.000Z",
+"review_id": "103137434"
 }
 ]
 }
