@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 580,
+"review_count": 581,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -5223,6 +5223,15 @@
 "rating_text": "3/4",
 "create_date": "2026-06-22T23:51:09.000Z",
 "review_id": "103137400"
+},
+{
+"critic_name": "Rick Bentley",
+"sentiment": "Fresh",
+"publication": "KGET-TV (Bakersfield, CA)",
+"top_critic": false,
+"rating_text": "B",
+"create_date": "2026-06-22T23:54:41.000Z",
+"review_id": "103137401"
 }
 ]
 }
