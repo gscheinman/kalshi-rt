@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 581,
+"review_count": 582,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -5232,6 +5232,15 @@
 "rating_text": "B",
 "create_date": "2026-06-22T23:54:41.000Z",
 "review_id": "103137401"
+},
+{
+"critic_name": "Erica Richards",
+"sentiment": "Fresh",
+"publication": "Pop Culture Leftovers",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-23T01:17:32.000Z",
+"review_id": "103137408"
 }
 ]
 }
