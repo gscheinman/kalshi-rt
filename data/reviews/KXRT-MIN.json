@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 593,
+"review_count": 595,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -5340,6 +5340,24 @@
 "rating_text": "3/5",
 "create_date": "2026-06-23T18:53:37.000Z",
 "review_id": "103137603"
+},
+{
+"critic_name": "Alejandro Alem\u00e1n",
+"sentiment": "Fresh",
+"publication": "El Universal",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-23T18:56:59.000Z",
+"review_id": "103137608"
+},
+{
+"critic_name": "Nikki Gemmell",
+"sentiment": "Fresh",
+"publication": "The Australian",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-23T19:05:25.000Z",
+"review_id": "103137620"
 }
 ]
 }
