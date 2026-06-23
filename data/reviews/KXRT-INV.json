@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 48,
+"review_count": 49,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -435,6 +435,15 @@
 "rating_text": "4/5",
 "create_date": "2026-06-23T17:01:35.000Z",
 "review_id": "103137516"
+},
+{
+"critic_name": "Fred Topel",
+"sentiment": "Fresh",
+"publication": "United Press International",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-23T20:02:20.000Z",
+"review_id": "103137665"
 }
 ]
 }
