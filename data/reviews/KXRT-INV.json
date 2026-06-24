@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 56,
+"review_count": 57,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -507,6 +507,15 @@
 "rating_text": "",
 "create_date": "2026-06-24T16:16:16.000Z",
 "review_id": "103137880"
+},
+{
+"critic_name": "Nicholas Bell",
+"sentiment": "Fresh",
+"publication": "Fish Jelly Films (YouTube)",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-24T17:02:51.000Z",
+"review_id": "103137934"
 }
 ]
 }
