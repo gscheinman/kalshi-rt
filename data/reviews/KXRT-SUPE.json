@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 103,
+"review_count": 107,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -930,6 +930,42 @@
 "rating_text": "2.5/4",
 "create_date": "2026-06-24T18:38:47.000Z",
 "review_id": "103137986"
+},
+{
+"critic_name": "Jeremy Jahns",
+"sentiment": "Rotten",
+"publication": "JeremyJahns.com",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-24T18:40:30.000Z",
+"review_id": "103137987"
+},
+{
+"critic_name": "Alan Ng",
+"sentiment": "Rotten",
+"publication": "Film Threat",
+"top_critic": false,
+"rating_text": "2/10",
+"create_date": "2026-06-24T18:43:24.000Z",
+"review_id": "103137989"
+},
+{
+"critic_name": "Manuel S\u00e3o Bento",
+"sentiment": "Fresh",
+"publication": "MSB Reviews (Ghost.io)",
+"top_critic": false,
+"rating_text": "B-",
+"create_date": "2026-06-24T18:47:23.000Z",
+"review_id": "103137995"
+},
+{
+"critic_name": "Diego Batlle",
+"sentiment": "Rotten",
+"publication": "Otroscines.com",
+"top_critic": false,
+"rating_text": "2.5/5",
+"create_date": "2026-06-24T18:50:45.000Z",
+"review_id": "103137996"
 }
 ]
 }
