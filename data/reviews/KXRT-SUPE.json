@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 64,
+"review_count": 73,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -401,6 +401,33 @@
 "review_id": "103137866"
 },
 {
+"critic_name": "Sean Burns",
+"sentiment": "Rotten",
+"publication": "WBUR\u2019s Arts & Culture",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-24T16:11:11.000Z",
+"review_id": "103137867"
+},
+{
+"critic_name": "Tim Grierson",
+"sentiment": "Fresh",
+"publication": "Screen International",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-24T16:12:31.000Z",
+"review_id": "103137870"
+},
+{
+"critic_name": "Anna Stafford",
+"sentiment": "Fresh",
+"publication": "Little White Lies",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-24T16:13:17.000Z",
+"review_id": "103137871"
+},
+{
 "critic_name": "Tyler Taing",
 "sentiment": "Rotten",
 "publication": "Discussing Film",
@@ -579,6 +606,60 @@
 "rating_text": "6/10",
 "create_date": "2026-06-24T16:24:53.000Z",
 "review_id": "103137897"
+},
+{
+"critic_name": "Alistair Harkness",
+"sentiment": "Rotten",
+"publication": "Scotsman",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-06-24T16:25:42.000Z",
+"review_id": "103137898"
+},
+{
+"critic_name": "Edward Douglas",
+"sentiment": "Fresh",
+"publication": "The Weekend Warrior (Substack)",
+"top_critic": false,
+"rating_text": "7/10",
+"create_date": "2026-06-24T16:26:10.000Z",
+"review_id": "103137899"
+},
+{
+"critic_name": "Julian Lytle",
+"sentiment": "Fresh",
+"publication": "RIOTUS",
+"top_critic": false,
+"rating_text": "C",
+"create_date": "2026-06-24T16:26:43.000Z",
+"review_id": "103137900"
+},
+{
+"critic_name": "Robbie Collin",
+"sentiment": "Rotten",
+"publication": "Daily Telegraph (UK)",
+"top_critic": true,
+"rating_text": "2/5",
+"create_date": "2026-06-24T16:26:50.000Z",
+"review_id": "103137901"
+},
+{
+"critic_name": "Joshua Ryan",
+"sentiment": "Fresh",
+"publication": "FandomWire",
+"top_critic": false,
+"rating_text": "7/10",
+"create_date": "2026-06-24T16:31:23.000Z",
+"review_id": "103137902"
+},
+{
+"critic_name": "Zaki Hasan",
+"sentiment": "Fresh",
+"publication": "San Francisco Chronicle",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-24T16:32:09.000Z",
+"review_id": "103137904"
 }
 ]
 }
