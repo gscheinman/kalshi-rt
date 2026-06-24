@@ -1,0 +1,224 @@
+{
+"event_ticker": "KXRT-SUPE",
+"movie": "Supergirl:",
+"rt_slug": "m/supergirl_2026",
+"review_count": 24,
+"reviews": [
+{
+"critic_name": "Rocco T. Thompson",
+"sentiment": "Rotten",
+"publication": "Slant Magazine",
+"top_critic": false,
+"rating_text": "2.5/4",
+"create_date": "2026-06-24T15:59:53.000Z",
+"review_id": "103137819"
+},
+{
+"critic_name": "Brandon Lewis",
+"sentiment": "Fresh",
+"publication": "AwardsWatch",
+"top_critic": false,
+"rating_text": "B-",
+"create_date": "2026-06-24T15:59:59.000Z",
+"review_id": "103137820"
+},
+{
+"critic_name": "Jon Negroni",
+"sentiment": "Rotten",
+"publication": "Thank God for Movies",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-24T16:00:01.000Z",
+"review_id": "103137821"
+},
+{
+"critic_name": "Peter Gray",
+"sentiment": "Fresh",
+"publication": "The AU Review",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-06-24T16:00:02.000Z",
+"review_id": "103137823"
+},
+{
+"critic_name": "Michael Sowell",
+"sentiment": "Fresh",
+"publication": "Nerdspin",
+"top_critic": false,
+"rating_text": "B-",
+"create_date": "2026-06-24T16:00:02.000Z",
+"review_id": "103137822"
+},
+{
+"critic_name": "Matt Oakes",
+"sentiment": "Rotten",
+"publication": "Silver Screen Riot",
+"top_critic": false,
+"rating_text": "C+",
+"create_date": "2026-06-24T16:00:04.000Z",
+"review_id": "103137824"
+},
+{
+"critic_name": "Liz Shannon Miller",
+"sentiment": "Fresh",
+"publication": "Consequence",
+"top_critic": true,
+"rating_text": "B-",
+"create_date": "2026-06-24T16:00:06.000Z",
+"review_id": "103137825"
+},
+{
+"critic_name": "Yasser Medina",
+"sentiment": "Rotten",
+"publication": "Cinefilia",
+"top_critic": false,
+"rating_text": "5/10",
+"create_date": "2026-06-24T16:00:35.000Z",
+"review_id": "103137827"
+},
+{
+"critic_name": "Joey Magidson",
+"sentiment": "Fresh",
+"publication": "Awards Radar",
+"top_critic": false,
+"rating_text": "3/4",
+"create_date": "2026-06-24T16:00:58.000Z",
+"review_id": "103137828"
+},
+{
+"critic_name": "Don Shanahan",
+"sentiment": "Fresh",
+"publication": "Every Movie Has a Lesson",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-24T16:01:06.000Z",
+"review_id": "103137829"
+},
+{
+"critic_name": "Molly Freeman",
+"sentiment": "Fresh",
+"publication": "Screen Rant",
+"top_critic": false,
+"rating_text": "6/10",
+"create_date": "2026-06-24T16:01:12.000Z",
+"review_id": "103137830"
+},
+{
+"critic_name": "Roberto Tyler Ortiz",
+"sentiment": "Fresh",
+"publication": "Geek Vibes Nation",
+"top_critic": false,
+"rating_text": "6/10",
+"create_date": "2026-06-24T16:01:30.000Z",
+"review_id": "103137831"
+},
+{
+"critic_name": "Clint Cage",
+"sentiment": "Fresh",
+"publication": "IGN Movies",
+"top_critic": false,
+"rating_text": "6/10",
+"create_date": "2026-06-24T16:01:41.000Z",
+"review_id": "103137832"
+},
+{
+"critic_name": "Fico Cangiano",
+"sentiment": "Fresh",
+"publication": "CineXpress",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-24T16:01:49.000Z",
+"review_id": "103137833"
+},
+{
+"critic_name": "BJ Colangelo",
+"sentiment": "Fresh",
+"publication": "Slashfilm",
+"top_critic": false,
+"rating_text": "7/10",
+"create_date": "2026-06-24T16:01:50.000Z",
+"review_id": "103137834"
+},
+{
+"critic_name": "Matt Singer",
+"sentiment": "Rotten",
+"publication": "ScreenCrush",
+"top_critic": true,
+"rating_text": "4/10",
+"create_date": "2026-06-24T16:02:06.000Z",
+"review_id": "103137835"
+},
+{
+"critic_name": "Nick Schager",
+"sentiment": "Rotten",
+"publication": "The Daily Beast",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-24T16:02:29.000Z",
+"review_id": "103137837"
+},
+{
+"critic_name": "Kate Erbland",
+"sentiment": "Fresh",
+"publication": "IndieWire",
+"top_critic": true,
+"rating_text": "B",
+"create_date": "2026-06-24T16:03:03.000Z",
+"review_id": "103137838"
+},
+{
+"critic_name": "Jason Flatt",
+"sentiment": "Rotten",
+"publication": "But Why Tho?",
+"top_critic": false,
+"rating_text": "4/10",
+"create_date": "2026-06-24T16:03:37.000Z",
+"review_id": "103137839"
+},
+{
+"critic_name": "Mike Ryan",
+"sentiment": "Fresh",
+"publication": "The Hard Pass (Ghost.io)",
+"top_critic": false,
+"rating_text": "B",
+"create_date": "2026-06-24T16:03:40.000Z",
+"review_id": "103137840"
+},
+{
+"critic_name": "Elliott Collins",
+"sentiment": "Rotten",
+"publication": "Movie Files",
+"top_critic": false,
+"rating_text": "2.5/5",
+"create_date": "2026-06-24T16:04:15.000Z",
+"review_id": "103137843"
+},
+{
+"critic_name": "Owen Gleiberman",
+"sentiment": "Rotten",
+"publication": "Variety",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-24T16:04:45.000Z",
+"review_id": "103137845"
+},
+{
+"critic_name": "Joey Morona",
+"sentiment": "Fresh",
+"publication": "Cleveland Plain Dealer",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-24T16:05:09.000Z",
+"review_id": "103137847"
+},
+{
+"critic_name": "Peter Bradshaw",
+"sentiment": "Fresh",
+"publication": "Guardian",
+"top_critic": true,
+"rating_text": "3/5",
+"create_date": "2026-06-24T16:05:11.000Z",
+"review_id": "103137848"
+}
+]
+}
