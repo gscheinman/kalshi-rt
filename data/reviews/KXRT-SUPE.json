@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 107,
+"review_count": 108,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -966,6 +966,15 @@
 "rating_text": "2.5/5",
 "create_date": "2026-06-24T18:50:45.000Z",
 "review_id": "103137996"
+},
+{
+"critic_name": "Marcelo Stiletano",
+"sentiment": "Rotten",
+"publication": "La Naci\u00f3n (Argentina)",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-06-24T18:56:27.000Z",
+"review_id": "103137998"
 }
 ]
 }
