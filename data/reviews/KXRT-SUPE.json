@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 86,
+"review_count": 91,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -777,6 +777,51 @@
 "rating_text": "2/5",
 "create_date": "2026-06-24T17:19:33.000Z",
 "review_id": "103137939"
+},
+{
+"critic_name": "Dionar Hidalgo",
+"sentiment": "Rotten",
+"publication": "Algo M\u00e1s Que Cine",
+"top_critic": false,
+"rating_text": "5/10",
+"create_date": "2026-06-24T17:26:47.000Z",
+"review_id": "103137941"
+},
+{
+"critic_name": "Rendy Jones",
+"sentiment": "Rotten",
+"publication": "Rendy Reviews",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-06-24T17:26:52.000Z",
+"review_id": "103137942"
+},
+{
+"critic_name": "Shakyl Lambert",
+"sentiment": "Rotten",
+"publication": "CGMagazine",
+"top_critic": false,
+"rating_text": "6/10",
+"create_date": "2026-06-24T17:27:53.000Z",
+"review_id": "103137943"
+},
+{
+"critic_name": "Christian Toto",
+"sentiment": "Rotten",
+"publication": "HollywoodInToto.com",
+"top_critic": false,
+"rating_text": "1/4",
+"create_date": "2026-06-24T17:30:39.000Z",
+"review_id": "103137944"
+},
+{
+"critic_name": "Kyle Wilson",
+"sentiment": "Fresh",
+"publication": "The Lamplight Review",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-24T17:33:12.000Z",
+"review_id": "103137945"
 }
 ]
 }
