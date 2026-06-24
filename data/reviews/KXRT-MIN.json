@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 605,
+"review_count": 607,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -5448,6 +5448,24 @@
 "rating_text": "B+",
 "create_date": "2026-06-24T17:53:16.000Z",
 "review_id": "103137949"
+},
+{
+"critic_name": "Ruben Peralta Rigaud",
+"sentiment": "Fresh",
+"publication": "Cocalecas",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-24T18:07:52.000Z",
+"review_id": "103137960"
+},
+{
+"critic_name": "Tom Meek",
+"sentiment": "Fresh",
+"publication": "Cambridge Day",
+"top_critic": false,
+"rating_text": "3/4",
+"create_date": "2026-06-24T18:11:12.000Z",
+"review_id": "103137962"
 }
 ]
 }
