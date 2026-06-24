@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 114,
+"review_count": 115,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -1029,6 +1029,15 @@
 "rating_text": "",
 "create_date": "2026-06-24T19:38:09.000Z",
 "review_id": "103138019"
+},
+{
+"critic_name": "Bob Chipman",
+"sentiment": "Fresh",
+"publication": "Moviebob Central",
+"top_critic": false,
+"rating_text": "7/10",
+"create_date": "2026-06-24T19:43:46.000Z",
+"review_id": "103138020"
 }
 ]
 }
