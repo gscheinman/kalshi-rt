@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 604,
+"review_count": 605,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -5439,6 +5439,15 @@
 "rating_text": "",
 "create_date": "2026-06-24T16:20:47.000Z",
 "review_id": "103137889"
+},
+{
+"critic_name": "Jesse Hassenger",
+"sentiment": "Fresh",
+"publication": "AV Club",
+"top_critic": false,
+"rating_text": "B+",
+"create_date": "2026-06-24T17:53:16.000Z",
+"review_id": "103137949"
 }
 ]
 }
