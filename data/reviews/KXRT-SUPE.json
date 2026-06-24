@@ -2,8 +2,35 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 24,
+"review_count": 64,
 "reviews": [
+{
+"critic_name": "Ian Sandwell",
+"sentiment": "Fresh",
+"publication": "Digital Spy",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-24T15:55:16.000Z",
+"review_id": "103137814"
+},
+{
+"critic_name": "Lady Jenevia",
+"sentiment": "Fresh",
+"publication": "LadyJenevia (YouTube)",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-24T15:59:06.000Z",
+"review_id": "103137816"
+},
+{
+"critic_name": "Cody Dericks",
+"sentiment": "Rotten",
+"publication": "Next Best Picture",
+"top_critic": false,
+"rating_text": "4/10",
+"create_date": "2026-06-24T15:59:41.000Z",
+"review_id": "103137818"
+},
 {
 "critic_name": "Rocco T. Thompson",
 "sentiment": "Rotten",
@@ -219,6 +246,339 @@
 "rating_text": "3/5",
 "create_date": "2026-06-24T16:05:11.000Z",
 "review_id": "103137848"
+},
+{
+"critic_name": "Pat Bulfamante",
+"sentiment": "Fresh",
+"publication": "The MontyVerse",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-24T16:05:19.000Z",
+"review_id": "103137849"
+},
+{
+"critic_name": "Therese Lacson",
+"sentiment": "Fresh",
+"publication": "Collider",
+"top_critic": false,
+"rating_text": "8/10",
+"create_date": "2026-06-24T16:05:23.000Z",
+"review_id": "103137850"
+},
+{
+"critic_name": "George M. Thomas",
+"sentiment": "Fresh",
+"publication": "Akron Beacon Journal",
+"top_critic": false,
+"rating_text": "B",
+"create_date": "2026-06-24T16:05:24.000Z",
+"review_id": "103137851"
+},
+{
+"critic_name": "Paul McGuire Grimes",
+"sentiment": "Rotten",
+"publication": "Paul's Trip to the Movies",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-06-24T16:05:32.000Z",
+"review_id": "103137852"
+},
+{
+"critic_name": "Jonathan Sim",
+"sentiment": "Fresh",
+"publication": "ComingSoon.net",
+"top_critic": false,
+"rating_text": "7/10",
+"create_date": "2026-06-24T16:06:19.000Z",
+"review_id": "103137853"
+},
+{
+"critic_name": "Kristen Lopez",
+"sentiment": "Fresh",
+"publication": "The Film Maven",
+"top_critic": true,
+"rating_text": "C",
+"create_date": "2026-06-24T16:06:32.000Z",
+"review_id": "103137854"
+},
+{
+"critic_name": "David Rooney",
+"sentiment": "Rotten",
+"publication": "The Hollywood Reporter",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-24T16:06:36.000Z",
+"review_id": "103137855"
+},
+{
+"critic_name": "Tomris Laffly",
+"sentiment": "Rotten",
+"publication": "RogerEbert.com",
+"top_critic": true,
+"rating_text": "1.5/4",
+"create_date": "2026-06-24T16:07:47.000Z",
+"review_id": "103137856"
+},
+{
+"critic_name": "Courtney Howard",
+"sentiment": "Fresh",
+"publication": "Fresh Fiction",
+"top_critic": false,
+"rating_text": "4 / 5",
+"create_date": "2026-06-24T16:08:23.000Z",
+"review_id": "103137857"
+},
+{
+"critic_name": "Pete Hammond",
+"sentiment": "Rotten",
+"publication": "Deadline Hollywood Daily",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-24T16:08:26.000Z",
+"review_id": "103137858"
+},
+{
+"critic_name": "Linda Marric",
+"sentiment": "Fresh",
+"publication": "HeyUGuys",
+"top_critic": true,
+"rating_text": "4/5",
+"create_date": "2026-06-24T16:08:28.000Z",
+"review_id": "103137859"
+},
+{
+"critic_name": "Eric Goldman",
+"sentiment": "Rotten",
+"publication": "Eric Goldman (YouTube)",
+"top_critic": false,
+"rating_text": "6/10",
+"create_date": "2026-06-24T16:09:15.000Z",
+"review_id": "103137860"
+},
+{
+"critic_name": "Matt Goldberg",
+"sentiment": "Rotten",
+"publication": "Commentary Track (Ghost.io)",
+"top_critic": false,
+"rating_text": "2.5/5",
+"create_date": "2026-06-24T16:09:31.000Z",
+"review_id": "103137861"
+},
+{
+"critic_name": "Brian Truitt",
+"sentiment": "Fresh",
+"publication": "USA Today",
+"top_critic": false,
+"rating_text": "3/4",
+"create_date": "2026-06-24T16:09:33.000Z",
+"review_id": "103137862"
+},
+{
+"critic_name": "Tessa Smith",
+"sentiment": "Fresh",
+"publication": "Mama's Geeky",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-24T16:10:27.000Z",
+"review_id": "103137864"
+},
+{
+"critic_name": "Alison Willmore",
+"sentiment": "Rotten",
+"publication": "New York Magazine/Vulture",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-24T16:10:34.000Z",
+"review_id": "103137865"
+},
+{
+"critic_name": "Alistair Ryder",
+"sentiment": "Rotten",
+"publication": "Looper.com",
+"top_critic": false,
+"rating_text": "4/10",
+"create_date": "2026-06-24T16:11:06.000Z",
+"review_id": "103137866"
+},
+{
+"critic_name": "Tyler Taing",
+"sentiment": "Rotten",
+"publication": "Discussing Film",
+"top_critic": false,
+"rating_text": "2.5/5",
+"create_date": "2026-06-24T16:13:35.000Z",
+"review_id": "103137873"
+},
+{
+"critic_name": "Molly Edwards",
+"sentiment": "Fresh",
+"publication": "Total Film",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-06-24T16:14:12.000Z",
+"review_id": "103137874"
+},
+{
+"critic_name": "Laura Clifford",
+"sentiment": "Fresh",
+"publication": "Reeling Reviews",
+"top_critic": false,
+"rating_text": "B-",
+"create_date": "2026-06-24T16:14:38.000Z",
+"review_id": "103137875"
+},
+{
+"critic_name": "Breeze Riley",
+"sentiment": "Fresh",
+"publication": "Multiverse of Color",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-24T16:14:42.000Z",
+"review_id": "103137876"
+},
+{
+"critic_name": "Clarisse Loughrey",
+"sentiment": "Rotten",
+"publication": "Independent (UK)",
+"top_critic": true,
+"rating_text": "2/5",
+"create_date": "2026-06-24T16:14:47.000Z",
+"review_id": "103137877"
+},
+{
+"critic_name": "Chris Wasser",
+"sentiment": "Rotten",
+"publication": "Irish Independent",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-06-24T16:15:38.000Z",
+"review_id": "103137879"
+},
+{
+"critic_name": "Joonatan Itkonen",
+"sentiment": "Rotten",
+"publication": "Region Free",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-06-24T16:15:38.000Z",
+"review_id": "103137878"
+},
+{
+"critic_name": "Jeff York",
+"sentiment": "Rotten",
+"publication": "The Establishing Shot",
+"top_critic": false,
+"rating_text": "2/4",
+"create_date": "2026-06-24T16:17:07.000Z",
+"review_id": "103137882"
+},
+{
+"critic_name": "Julian Roman",
+"sentiment": "Fresh",
+"publication": "MovieWeb",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-24T16:19:05.000Z",
+"review_id": "103137883"
+},
+{
+"critic_name": "Rachel Leishman",
+"sentiment": "Fresh",
+"publication": "The Mary Sue",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-24T16:19:15.000Z",
+"review_id": "103137884"
+},
+{
+"critic_name": "Aaron Neuwirth",
+"sentiment": "Fresh",
+"publication": "We Live Entertainment",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-24T16:19:34.000Z",
+"review_id": "103137885"
+},
+{
+"critic_name": "Travis Hopson",
+"sentiment": "Fresh",
+"publication": "Punch Drunk Critics",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-24T16:19:49.000Z",
+"review_id": "103137886"
+},
+{
+"critic_name": "Carlos Aguilar",
+"sentiment": "Rotten",
+"publication": "The Playlist",
+"top_critic": true,
+"rating_text": "C",
+"create_date": "2026-06-24T16:20:35.000Z",
+"review_id": "103137887"
+},
+{
+"critic_name": "Richard Whittaker",
+"sentiment": "Fresh",
+"publication": "Austin Chronicle",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-24T16:21:03.000Z",
+"review_id": "103137890"
+},
+{
+"critic_name": "Fred Topel",
+"sentiment": "Fresh",
+"publication": "United Press International",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-24T16:21:28.000Z",
+"review_id": "103137891"
+},
+{
+"critic_name": "Kevin Maher",
+"sentiment": "Rotten",
+"publication": "The Times (UK)",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-06-24T16:22:08.000Z",
+"review_id": "103137892"
+},
+{
+"critic_name": "Anthony Morris",
+"sentiment": "Fresh",
+"publication": "It's Better in the Dark",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-06-24T16:23:09.000Z",
+"review_id": "103137893"
+},
+{
+"critic_name": "Jake Coyle",
+"sentiment": "Fresh",
+"publication": "Associated Press",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-24T16:24:34.000Z",
+"review_id": "103137895"
+},
+{
+"critic_name": "Matt Donato",
+"sentiment": "Rotten",
+"publication": "Matt Donato (Authory)",
+"top_critic": false,
+"rating_text": "2.5/5",
+"create_date": "2026-06-24T16:24:35.000Z",
+"review_id": "103137896"
+},
+{
+"critic_name": "Jeffrey Lyles",
+"sentiment": "Fresh",
+"publication": "Lyles' Movie Files",
+"top_critic": false,
+"rating_text": "6/10",
+"create_date": "2026-06-24T16:24:53.000Z",
+"review_id": "103137897"
 }
 ]
 }

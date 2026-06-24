@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 55,
+"review_count": 56,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -498,6 +498,15 @@
 "rating_text": "",
 "create_date": "2026-06-23T22:35:04.000Z",
 "review_id": "103137720"
+},
+{
+"critic_name": "Tessa Smith",
+"sentiment": "Fresh",
+"publication": "Mama's Geeky",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-24T16:16:16.000Z",
+"review_id": "103137880"
 }
 ]
 }
