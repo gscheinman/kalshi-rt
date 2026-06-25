@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 176,
+"review_count": 177,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -1587,6 +1587,15 @@
 "rating_text": "4/5",
 "create_date": "2026-06-25T20:05:42.000Z",
 "review_id": "103138458"
+},
+{
+"critic_name": "Jeanine T. Abraham",
+"sentiment": "Fresh",
+"publication": "VisAbleBlackwoman (Medium)",
+"top_critic": false,
+"rating_text": "3.9",
+"create_date": "2026-06-25T21:34:26.000Z",
+"review_id": "103138485"
 }
 ]
 }
