@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-JAC",
 "movie": "Jackass: Best and Last",
 "rt_slug": "m/jackass_best_and_last",
-"review_count": 5,
+"review_count": 7,
 "reviews": [
 {
 "critic_name": "Giovanni Lago",
@@ -48,6 +48,24 @@
 "rating_text": "3/5",
 "create_date": "2026-06-25T13:08:35.000Z",
 "review_id": "103138187"
+},
+{
+"critic_name": "Matt Singer",
+"sentiment": "Fresh",
+"publication": "ScreenCrush",
+"top_critic": true,
+"rating_text": "6/10",
+"create_date": "2026-06-25T13:26:07.000Z",
+"review_id": "103138190"
+},
+{
+"critic_name": "Fred Topel",
+"sentiment": "Fresh",
+"publication": "United Press International",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-25T13:35:52.000Z",
+"review_id": "103138193"
 }
 ]
 }
