@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 138,
+"review_count": 139,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -1245,6 +1245,15 @@
 "rating_text": "B",
 "create_date": "2026-06-25T06:39:04.000Z",
 "review_id": "103138155"
+},
+{
+"critic_name": "Katie Smith-Wong",
+"sentiment": "Rotten",
+"publication": "Flick Feast",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-06-25T07:57:44.000Z",
+"review_id": "103138157"
 }
 ]
 }
