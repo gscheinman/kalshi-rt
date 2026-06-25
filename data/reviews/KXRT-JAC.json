@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-JAC",
 "movie": "Jackass: Best and Last",
 "rt_slug": "m/jackass_best_and_last",
-"review_count": 20,
+"review_count": 22,
 "reviews": [
 {
 "critic_name": "Giovanni Lago",
@@ -183,6 +183,24 @@
 "rating_text": "",
 "create_date": "2026-06-25T16:16:29.000Z",
 "review_id": "103138288"
+},
+{
+"critic_name": "Richard Crouse",
+"sentiment": "Fresh",
+"publication": "Richard Crouse",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-25T16:38:47.000Z",
+"review_id": "103138300"
+},
+{
+"critic_name": "Shakyl Lambert",
+"sentiment": "Fresh",
+"publication": "CGMagazine",
+"top_critic": false,
+"rating_text": "8/10",
+"create_date": "2026-06-25T16:44:27.000Z",
+"review_id": "103138306"
 }
 ]
 }
