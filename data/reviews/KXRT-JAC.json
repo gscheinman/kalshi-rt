@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-JAC",
 "movie": "Jackass: Best and Last",
 "rt_slug": "m/jackass_best_and_last",
-"review_count": 22,
+"review_count": 24,
 "reviews": [
 {
 "critic_name": "Giovanni Lago",
@@ -201,6 +201,24 @@
 "rating_text": "8/10",
 "create_date": "2026-06-25T16:44:27.000Z",
 "review_id": "103138306"
+},
+{
+"critic_name": "Avi Offer",
+"sentiment": "Rotten",
+"publication": "NYC Movie Guru",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-25T17:05:39.000Z",
+"review_id": "103138317"
+},
+{
+"critic_name": "Eric Goldman",
+"sentiment": "Fresh",
+"publication": "IGN Movies",
+"top_critic": false,
+"rating_text": "7/10",
+"create_date": "2026-06-25T17:08:38.000Z",
+"review_id": "103138318"
 }
 ]
 }
