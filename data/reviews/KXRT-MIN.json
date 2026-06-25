@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 608,
+"review_count": 609,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -5475,6 +5475,15 @@
 "rating_text": "",
 "create_date": "2026-06-24T19:26:20.000Z",
 "review_id": "103138016"
+},
+{
+"critic_name": "Matt Neal",
+"sentiment": "Fresh",
+"publication": "ABC Radio (Australia)",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-25T12:01:00.000Z",
+"review_id": "103138170"
 }
 ]
 }
