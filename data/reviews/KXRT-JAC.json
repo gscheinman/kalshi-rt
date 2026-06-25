@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-JAC",
 "movie": "Jackass: Best and Last",
 "rt_slug": "m/jackass_best_and_last",
-"review_count": 15,
+"review_count": 16,
 "reviews": [
 {
 "critic_name": "Giovanni Lago",
@@ -138,6 +138,15 @@
 "rating_text": "3/5",
 "create_date": "2026-06-25T14:40:07.000Z",
 "review_id": "103138222"
+},
+{
+"critic_name": "Alistair Ryder",
+"sentiment": "Fresh",
+"publication": "Looper.com",
+"top_critic": false,
+"rating_text": "6/10",
+"create_date": "2026-06-25T15:05:20.000Z",
+"review_id": "103138239"
 }
 ]
 }
