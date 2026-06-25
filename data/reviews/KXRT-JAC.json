@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-JAC",
 "movie": "Jackass: Best and Last",
 "rt_slug": "m/jackass_best_and_last",
-"review_count": 34,
+"review_count": 35,
 "reviews": [
 {
 "critic_name": "Giovanni Lago",
@@ -309,6 +309,15 @@
 "rating_text": "3.5/5",
 "create_date": "2026-06-25T21:47:42.000Z",
 "review_id": "103138489"
+},
+{
+"critic_name": "Brian Orndorf",
+"sentiment": "Rotten",
+"publication": "Blu-ray.com",
+"top_critic": false,
+"rating_text": "D+",
+"create_date": "2026-06-25T21:54:39.000Z",
+"review_id": "103138490"
 }
 ]
 }
