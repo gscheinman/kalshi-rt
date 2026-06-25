@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 151,
+"review_count": 152,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -1362,6 +1362,15 @@
 "rating_text": "1.5/4.0",
 "create_date": "2026-06-25T15:26:38.000Z",
 "review_id": "103138261"
+},
+{
+"critic_name": "Mark Meszoros",
+"sentiment": "Rotten",
+"publication": "The News-Herald (Willoughby, OH)",
+"top_critic": false,
+"rating_text": "2/4",
+"create_date": "2026-06-25T15:48:19.000Z",
+"review_id": "103138275"
 }
 ]
 }
