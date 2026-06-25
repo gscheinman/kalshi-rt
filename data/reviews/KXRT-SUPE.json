@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 128,
+"review_count": 129,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -1155,6 +1155,15 @@
 "rating_text": "3/5",
 "create_date": "2026-06-24T23:59:04.000Z",
 "review_id": "103138110"
+},
+{
+"critic_name": "Scott Mendelson",
+"sentiment": "Rotten",
+"publication": "The Outside Scoop (Substack)",
+"top_critic": false,
+"rating_text": "5/10",
+"create_date": "2026-06-25T00:23:36.000Z",
+"review_id": "103138116"
 }
 ]
 }
