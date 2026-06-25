@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 143,
+"review_count": 144,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -1290,6 +1290,15 @@
 "rating_text": "2/4",
 "create_date": "2026-06-25T12:52:10.000Z",
 "review_id": "103138181"
+},
+{
+"critic_name": "Blake Howard",
+"sentiment": "Rotten",
+"publication": "One Heat Minute",
+"top_critic": false,
+"rating_text": "1.5/4",
+"create_date": "2026-06-25T13:22:29.000Z",
+"review_id": "103138189"
 }
 ]
 }
