@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 68,
+"review_count": 70,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -615,6 +615,24 @@
 "rating_text": "3.5/4",
 "create_date": "2026-06-25T18:47:27.000Z",
 "review_id": "103138382"
+},
+{
+"critic_name": "David Crow",
+"sentiment": "Fresh",
+"publication": "Den of Geek",
+"top_critic": false,
+"rating_text": "5/5",
+"create_date": "2026-06-25T20:42:38.000Z",
+"review_id": "103138469"
+},
+{
+"critic_name": "Alfred Castaneda",
+"sentiment": "Fresh",
+"publication": "Shade Studios",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-25T20:44:49.000Z",
+"review_id": "103138471"
 }
 ]
 }

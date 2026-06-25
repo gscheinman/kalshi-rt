@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 613,
+"review_count": 614,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -5520,6 +5520,15 @@
 "rating_text": "3/5",
 "create_date": "2026-06-25T18:16:03.000Z",
 "review_id": "103138353"
+},
+{
+"critic_name": "Marlon Wallace",
+"sentiment": "Rotten",
+"publication": "The M Report (WBOC.com)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-25T20:57:57.000Z",
+"review_id": "103138477"
 }
 ]
 }

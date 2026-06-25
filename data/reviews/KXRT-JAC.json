@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-JAC",
 "movie": "Jackass: Best and Last",
 "rt_slug": "m/jackass_best_and_last",
-"review_count": 30,
+"review_count": 31,
 "reviews": [
 {
 "critic_name": "Giovanni Lago",
@@ -273,6 +273,15 @@
 "rating_text": "2.5/4",
 "create_date": "2026-06-25T20:28:19.000Z",
 "review_id": "103138461"
+},
+{
+"critic_name": "Peter Howell",
+"sentiment": "Fresh",
+"publication": "Night Vision",
+"top_critic": false,
+"rating_text": "2.5/4",
+"create_date": "2026-06-25T20:35:13.000Z",
+"review_id": "103138465"
 }
 ]
 }
