@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-JAC",
 "movie": "Jackass: Best and Last",
 "rt_slug": "m/jackass_best_and_last",
-"review_count": 18,
+"review_count": 20,
 "reviews": [
 {
 "critic_name": "Giovanni Lago",
@@ -165,6 +165,24 @@
 "rating_text": "",
 "create_date": "2026-06-25T15:31:43.000Z",
 "review_id": "103138263"
+},
+{
+"critic_name": "David Ehrlich",
+"sentiment": "Fresh",
+"publication": "IndieWire",
+"top_critic": true,
+"rating_text": "B",
+"create_date": "2026-06-25T15:59:59.000Z",
+"review_id": "103138279"
+},
+{
+"critic_name": "Todd Gilchrist",
+"sentiment": "Fresh",
+"publication": "TheWrap",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-25T16:16:29.000Z",
+"review_id": "103138288"
 }
 ]
 }
