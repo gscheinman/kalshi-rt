@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 610,
+"review_count": 612,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -5493,6 +5493,24 @@
 "rating_text": "B",
 "create_date": "2026-06-25T14:54:00.000Z",
 "review_id": "103138230"
+},
+{
+"critic_name": "Sheraz Farooqi",
+"sentiment": "Fresh",
+"publication": "CinemaDebate",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-25T17:23:42.000Z",
+"review_id": "103138328"
+},
+{
+"critic_name": "Eileen Jones",
+"sentiment": "Fresh",
+"publication": "The Jacobin",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-25T17:30:01.000Z",
+"review_id": "103138333"
 }
 ]
 }
