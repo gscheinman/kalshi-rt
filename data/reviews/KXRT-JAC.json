@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-JAC",
 "movie": "Jackass: Best and Last",
 "rt_slug": "m/jackass_best_and_last",
-"review_count": 32,
+"review_count": 34,
 "reviews": [
 {
 "critic_name": "Giovanni Lago",
@@ -291,6 +291,24 @@
 "rating_text": "2/5",
 "create_date": "2026-06-25T21:15:04.000Z",
 "review_id": "103138481"
+},
+{
+"critic_name": "Lou Thomas",
+"sentiment": "Fresh",
+"publication": "Empire Magazine",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-25T21:42:36.000Z",
+"review_id": "103138487"
+},
+{
+"critic_name": "Travis Hopson",
+"sentiment": "Fresh",
+"publication": "Punch Drunk Critics",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-06-25T21:47:42.000Z",
+"review_id": "103138489"
 }
 ]
 }
