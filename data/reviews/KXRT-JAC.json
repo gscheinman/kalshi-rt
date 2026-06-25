@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-JAC",
 "movie": "Jackass: Best and Last",
 "rt_slug": "m/jackass_best_and_last",
-"review_count": 26,
+"review_count": 27,
 "reviews": [
 {
 "critic_name": "Giovanni Lago",
@@ -237,6 +237,15 @@
 "rating_text": "4/5",
 "create_date": "2026-06-25T17:54:33.000Z",
 "review_id": "103138344"
+},
+{
+"critic_name": "Brandon Zachary",
+"sentiment": "Fresh",
+"publication": "Screen Rant",
+"top_critic": false,
+"rating_text": "7/10",
+"create_date": "2026-06-25T18:07:38.000Z",
+"review_id": "103138349"
 }
 ]
 }
