@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 127,
+"review_count": 128,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -1146,6 +1146,15 @@
 "rating_text": "3/5",
 "create_date": "2026-06-24T23:19:49.000Z",
 "review_id": "103138102"
+},
+{
+"critic_name": "Nadya Martinez",
+"sentiment": "Fresh",
+"publication": "Den of Geek",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-24T23:59:04.000Z",
+"review_id": "103138110"
 }
 ]
 }
