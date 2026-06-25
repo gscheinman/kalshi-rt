@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 167,
+"review_count": 172,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -1506,6 +1506,51 @@
 "rating_text": "3/5",
 "create_date": "2026-06-25T18:20:44.000Z",
 "review_id": "103138361"
+},
+{
+"critic_name": "Robert Denerstein",
+"sentiment": "Rotten",
+"publication": "Denerstein Unleashed",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-25T18:42:50.000Z",
+"review_id": "103138374"
+},
+{
+"critic_name": "Sonny Bunch",
+"sentiment": "Rotten",
+"publication": "The Bulwark",
+"top_critic": false,
+"rating_text": "2/4",
+"create_date": "2026-06-25T18:53:58.000Z",
+"review_id": "103138386"
+},
+{
+"critic_name": "Branyan Towe",
+"sentiment": "Fresh",
+"publication": "Loud and Clear Reviews",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-06-25T18:55:40.000Z",
+"review_id": "103138387"
+},
+{
+"critic_name": "Kristian M. Lin",
+"sentiment": "Fresh",
+"publication": "Fort Worth Weekly",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-25T18:56:08.000Z",
+"review_id": "103138389"
+},
+{
+"critic_name": "Manohla Dargis",
+"sentiment": "Fresh",
+"publication": "New York Times",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-25T18:57:42.000Z",
+"review_id": "103138390"
 }
 ]
 }

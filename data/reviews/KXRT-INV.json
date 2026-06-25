@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 66,
+"review_count": 68,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -597,6 +597,24 @@
 "rating_text": "4/5",
 "create_date": "2026-06-25T18:20:36.000Z",
 "review_id": "103138360"
+},
+{
+"critic_name": "Alissa Wilkinson",
+"sentiment": "Fresh",
+"publication": "New York Times",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-25T18:42:58.000Z",
+"review_id": "103138375"
+},
+{
+"critic_name": "Jake Coyle",
+"sentiment": "Fresh",
+"publication": "Associated Press",
+"top_critic": false,
+"rating_text": "3.5/4",
+"create_date": "2026-06-25T18:47:27.000Z",
+"review_id": "103138382"
 }
 ]
 }
