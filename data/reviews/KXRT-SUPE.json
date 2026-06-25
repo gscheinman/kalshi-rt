@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 145,
+"review_count": 147,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -1308,6 +1308,24 @@
 "rating_text": "3/5",
 "create_date": "2026-06-25T14:06:26.000Z",
 "review_id": "103138212"
+},
+{
+"critic_name": "Tina Kakadelis",
+"sentiment": "Fresh",
+"publication": "Beyond the Cinerama Dome",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-25T14:24:58.000Z",
+"review_id": "103138216"
+},
+{
+"critic_name": "Courtney Small",
+"sentiment": "Fresh",
+"publication": "Exclaim!",
+"top_critic": false,
+"rating_text": "6/10",
+"create_date": "2026-06-25T14:32:33.000Z",
+"review_id": "103138218"
 }
 ]
 }

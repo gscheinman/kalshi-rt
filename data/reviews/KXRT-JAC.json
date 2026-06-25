@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-JAC",
 "movie": "Jackass: Best and Last",
 "rt_slug": "m/jackass_best_and_last",
-"review_count": 14,
+"review_count": 15,
 "reviews": [
 {
 "critic_name": "Giovanni Lago",
@@ -129,6 +129,15 @@
 "rating_text": "",
 "create_date": "2026-06-25T14:06:09.000Z",
 "review_id": "103138210"
+},
+{
+"critic_name": "James Mottram",
+"sentiment": "Fresh",
+"publication": "NME (New Musical Express)",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-25T14:40:07.000Z",
+"review_id": "103138222"
 }
 ]
 }
