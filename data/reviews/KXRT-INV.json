@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 65,
+"review_count": 66,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -588,6 +588,15 @@
 "rating_text": "4.5/5",
 "create_date": "2026-06-25T15:43:00.000Z",
 "review_id": "103138269"
+},
+{
+"critic_name": "Thelma Adams",
+"sentiment": "Fresh",
+"publication": "AARP Movies for Grownups",
+"top_critic": true,
+"rating_text": "4/5",
+"create_date": "2026-06-25T18:20:36.000Z",
+"review_id": "103138360"
 }
 ]
 }

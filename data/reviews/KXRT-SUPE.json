@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 166,
+"review_count": 167,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -1497,6 +1497,15 @@
 "rating_text": "3/5",
 "create_date": "2026-06-25T18:17:38.000Z",
 "review_id": "103138356"
+},
+{
+"critic_name": "Nikki Gemmell",
+"sentiment": "Fresh",
+"publication": "The Australian",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-25T18:20:44.000Z",
+"review_id": "103138361"
 }
 ]
 }
