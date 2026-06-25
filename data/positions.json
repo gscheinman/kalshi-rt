@@ -278,5 +278,18 @@
       "avg_fill": 36.4,
       "contracts": 80.0
     }
+  ],
+  "KXRT-JAC": [
+    {
+      "timestamp": "2026-06-25T18:26:45.011650+00:00",
+      "market_ticker": "KXRT-JAC-85",
+      "direction": "BUY YES",
+      "threshold": 85,
+      "model_prob": 69.0,
+      "edge": 12.0,
+      "suggested_size": 50.0,
+      "avg_fill": 57.0,
+      "contracts": 87.7
+    }
   ]
 }
