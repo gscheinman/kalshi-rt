@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-JAC",
 "movie": "Jackass: Best and Last",
 "rt_slug": "m/jackass_best_and_last",
-"review_count": 25,
+"review_count": 26,
 "reviews": [
 {
 "critic_name": "Giovanni Lago",
@@ -228,6 +228,15 @@
 "rating_text": "4/5",
 "create_date": "2026-06-25T17:46:01.000Z",
 "review_id": "103138340"
+},
+{
+"critic_name": "Alana Anderson",
+"sentiment": "Fresh",
+"publication": "metro.co.uk",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-25T17:54:33.000Z",
+"review_id": "103138344"
 }
 ]
 }
