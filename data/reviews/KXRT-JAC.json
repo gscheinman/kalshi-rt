@@ -1,0 +1,53 @@
+{
+"event_ticker": "KXRT-JAC",
+"movie": "Jackass: Best and Last",
+"rt_slug": "m/jackass_best_and_last",
+"review_count": 5,
+"reviews": [
+{
+"critic_name": "Giovanni Lago",
+"sentiment": "Fresh",
+"publication": "Next Best Picture",
+"top_critic": false,
+"rating_text": "7/10",
+"create_date": "2026-06-25T13:00:04.000Z",
+"review_id": "103138182"
+},
+{
+"critic_name": "Liz Shannon Miller",
+"sentiment": "Fresh",
+"publication": "Consequence",
+"top_critic": true,
+"rating_text": "B+",
+"create_date": "2026-06-25T13:01:23.000Z",
+"review_id": "103138183"
+},
+{
+"critic_name": "Kent M. Wilhelm",
+"sentiment": "Fresh",
+"publication": "The Film Stage",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-25T13:04:30.000Z",
+"review_id": "103138185"
+},
+{
+"critic_name": "Courtney Howard",
+"sentiment": "Fresh",
+"publication": "Fresh Fiction",
+"top_critic": false,
+"rating_text": "B-",
+"create_date": "2026-06-25T13:06:28.000Z",
+"review_id": "103138186"
+},
+{
+"critic_name": "Julian Roman",
+"sentiment": "Fresh",
+"publication": "MovieWeb",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-25T13:08:35.000Z",
+"review_id": "103138187"
+}
+]
+}
