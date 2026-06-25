@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 154,
+"review_count": 156,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -1389,6 +1389,24 @@
 "rating_text": "",
 "create_date": "2026-06-25T16:06:53.000Z",
 "review_id": "103138285"
+},
+{
+"critic_name": "David Kaplan",
+"sentiment": "Fresh",
+"publication": "Kaplan vs. Kaplan",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-25T16:27:46.000Z",
+"review_id": "103138293"
+},
+{
+"critic_name": "Patrick Beatty",
+"sentiment": "Rotten",
+"publication": "See It or Skip It",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-25T16:28:54.000Z",
+"review_id": "103138294"
 }
 ]
 }
