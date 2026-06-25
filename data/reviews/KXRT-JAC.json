@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-JAC",
 "movie": "Jackass: Best and Last",
 "rt_slug": "m/jackass_best_and_last",
-"review_count": 9,
+"review_count": 13,
 "reviews": [
 {
 "critic_name": "Giovanni Lago",
@@ -84,6 +84,42 @@
 "rating_text": "",
 "create_date": "2026-06-25T13:48:59.000Z",
 "review_id": "103138199"
+},
+{
+"critic_name": "Matt Schimkowitz",
+"sentiment": "Fresh",
+"publication": "AV Club",
+"top_critic": false,
+"rating_text": "C+",
+"create_date": "2026-06-25T13:51:08.000Z",
+"review_id": "103138200"
+},
+{
+"critic_name": "Tim Grierson",
+"sentiment": "Fresh",
+"publication": "Screen International",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-25T13:53:27.000Z",
+"review_id": "103138201"
+},
+{
+"critic_name": "Ben Kenigsberg",
+"sentiment": "Fresh",
+"publication": "New York Times",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-25T13:55:24.000Z",
+"review_id": "103138203"
+},
+{
+"critic_name": "Sophie Monks Kaufman",
+"sentiment": "Fresh",
+"publication": "Time Out",
+"top_critic": true,
+"rating_text": "4/5",
+"create_date": "2026-06-25T13:56:48.000Z",
+"review_id": "103138204"
 }
 ]
 }
