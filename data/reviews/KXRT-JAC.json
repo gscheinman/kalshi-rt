@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-JAC",
 "movie": "Jackass: Best and Last",
 "rt_slug": "m/jackass_best_and_last",
-"review_count": 47,
+"review_count": 48,
 "reviews": [
 {
 "critic_name": "Giovanni Lago",
@@ -426,6 +426,15 @@
 "rating_text": "",
 "create_date": "2026-06-26T16:51:27.000Z",
 "review_id": "103138659"
+},
+{
+"critic_name": "Mark Kermode",
+"sentiment": "Fresh",
+"publication": "Kermode and Mayo's Take (YouTube)",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-26T16:52:33.000Z",
+"review_id": "103138660"
 }
 ]
 }
