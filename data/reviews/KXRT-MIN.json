@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 619,
+"review_count": 620,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -5574,6 +5574,15 @@
 "rating_text": "9/10",
 "create_date": "2026-06-26T19:24:53.000Z",
 "review_id": "103138774"
+},
+{
+"critic_name": "Jack Bottomley",
+"sentiment": "Fresh",
+"publication": "Starburst",
+"top_critic": false,
+"rating_text": "5/5",
+"create_date": "2026-06-26T21:48:54.000Z",
+"review_id": "103138835"
 }
 ]
 }
