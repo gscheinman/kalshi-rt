@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 239,
+"review_count": 240,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -2154,6 +2154,15 @@
 "rating_text": "",
 "create_date": "2026-06-26T21:00:12.000Z",
 "review_id": "103138808"
+},
+{
+"critic_name": "Tania Lamb",
+"sentiment": "Fresh",
+"publication": "Lola Lambchops",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-26T21:38:16.000Z",
+"review_id": "103138822"
 }
 ]
 }

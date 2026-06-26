@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 78,
+"review_count": 79,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -705,6 +705,15 @@
 "rating_text": "3.5/4",
 "create_date": "2026-06-26T19:11:14.000Z",
 "review_id": "103138766"
+},
+{
+"critic_name": "Kevin Bourne",
+"sentiment": "Fresh",
+"publication": "SHIFTER",
+"top_critic": false,
+"rating_text": "4.5/5",
+"create_date": "2026-06-26T21:28:04.000Z",
+"review_id": "103138821"
 }
 ]
 }
