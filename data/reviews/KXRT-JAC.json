@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-JAC",
 "movie": "Jackass: Best and Last",
 "rt_slug": "m/jackass_best_and_last",
-"review_count": 42,
+"review_count": 44,
 "reviews": [
 {
 "critic_name": "Giovanni Lago",
@@ -381,6 +381,24 @@
 "rating_text": "",
 "create_date": "2026-06-26T12:50:13.000Z",
 "review_id": "103138584"
+},
+{
+"critic_name": "Nicol\u00e1s Delgadillo",
+"sentiment": "Fresh",
+"publication": "Knotfest",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-26T14:54:36.000Z",
+"review_id": "103138616"
+},
+{
+"critic_name": "Brian Tallerico",
+"sentiment": "Fresh",
+"publication": "RogerEbert.com",
+"top_critic": true,
+"rating_text": "3/4",
+"create_date": "2026-06-26T14:56:28.000Z",
+"review_id": "103138617"
 }
 ]
 }
