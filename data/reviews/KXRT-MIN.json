@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 620,
+"review_count": 621,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -5583,6 +5583,15 @@
 "rating_text": "5/5",
 "create_date": "2026-06-26T21:48:54.000Z",
 "review_id": "103138835"
+},
+{
+"critic_name": "Sarah Knight Adamson",
+"sentiment": "Fresh",
+"publication": "Sarah's Backstage Pass",
+"top_critic": false,
+"rating_text": "4/4",
+"create_date": "2026-06-26T23:19:56.000Z",
+"review_id": "103138891"
 }
 ]
 }
