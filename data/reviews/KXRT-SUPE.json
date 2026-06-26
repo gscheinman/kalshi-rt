@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 198,
+"review_count": 199,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -1785,6 +1785,15 @@
 "rating_text": "7/10",
 "create_date": "2026-06-26T11:42:31.000Z",
 "review_id": "103138578"
+},
+{
+"critic_name": "Jackson Weaver",
+"sentiment": "Rotten",
+"publication": "CBC News",
+"top_critic": false,
+"rating_text": "2.5/5",
+"create_date": "2026-06-26T11:58:31.000Z",
+"review_id": "103138579"
 }
 ]
 }
