@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-JAC",
 "movie": "Jackass: Best and Last",
 "rt_slug": "m/jackass_best_and_last",
-"review_count": 40,
+"review_count": 41,
 "reviews": [
 {
 "critic_name": "Giovanni Lago",
@@ -363,6 +363,15 @@
 "rating_text": "",
 "create_date": "2026-06-26T08:57:54.000Z",
 "review_id": "103138558"
+},
+{
+"critic_name": "Cole Groth",
+"sentiment": "Fresh",
+"publication": "FandomWire",
+"top_critic": false,
+"rating_text": "7/10",
+"create_date": "2026-06-26T11:32:54.000Z",
+"review_id": "103138577"
 }
 ]
 }
