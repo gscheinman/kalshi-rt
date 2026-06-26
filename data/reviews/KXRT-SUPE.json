@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 210,
+"review_count": 216,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -1893,6 +1893,60 @@
 "rating_text": "1.5/5",
 "create_date": "2026-06-26T16:25:16.000Z",
 "review_id": "103138646"
+},
+{
+"critic_name": "Ayaan Paul Chowdhury",
+"sentiment": "Rotten",
+"publication": "The Hindu",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-26T16:28:02.000Z",
+"review_id": "103138650"
+},
+{
+"critic_name": "Chris La Vigna",
+"sentiment": "Fresh",
+"publication": "CBR",
+"top_critic": false,
+"rating_text": "8/10",
+"create_date": "2026-06-26T16:28:13.000Z",
+"review_id": "103138651"
+},
+{
+"critic_name": "Suvigya Buch",
+"sentiment": "Rotten",
+"publication": "The Hollywood Reporter India",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-26T16:44:41.000Z",
+"review_id": "103138654"
+},
+{
+"critic_name": "Luis Mart\u00ednez",
+"sentiment": "Rotten",
+"publication": "El Mundo (Spain)",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-06-26T16:45:22.000Z",
+"review_id": "103138655"
+},
+{
+"critic_name": "Ryan Syrek",
+"sentiment": "Rotten",
+"publication": "The Reader (Omaha, NE)",
+"top_critic": false,
+"rating_text": "F",
+"create_date": "2026-06-26T16:48:51.000Z",
+"review_id": "103138656"
+},
+{
+"critic_name": "Sergio Burstein",
+"sentiment": "Rotten",
+"publication": "Los Angeles Times",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-26T16:50:06.000Z",
+"review_id": "103138658"
 }
 ]
 }

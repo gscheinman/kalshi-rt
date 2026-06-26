@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-JAC",
 "movie": "Jackass: Best and Last",
 "rt_slug": "m/jackass_best_and_last",
-"review_count": 46,
+"review_count": 47,
 "reviews": [
 {
 "critic_name": "Giovanni Lago",
@@ -417,6 +417,15 @@
 "rating_text": "3/5",
 "create_date": "2026-06-26T16:18:05.000Z",
 "review_id": "103138641"
+},
+{
+"critic_name": "Sergio Burstein",
+"sentiment": "Fresh",
+"publication": "Los Angeles Times",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-26T16:51:27.000Z",
+"review_id": "103138659"
 }
 ]
 }
