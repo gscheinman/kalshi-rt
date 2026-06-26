@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 236,
+"review_count": 237,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -2127,6 +2127,15 @@
 "rating_text": "2/4",
 "create_date": "2026-06-26T20:36:23.000Z",
 "review_id": "103138799"
+},
+{
+"critic_name": "Stephanie Zacharek",
+"sentiment": "Rotten",
+"publication": "TIME Magazine",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-26T20:40:34.000Z",
+"review_id": "103138800"
 }
 ]
 }
