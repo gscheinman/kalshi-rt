@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 224,
+"review_count": 225,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -2019,6 +2019,15 @@
 "rating_text": "C+",
 "create_date": "2026-06-26T17:58:10.000Z",
 "review_id": "103138710"
+},
+{
+"critic_name": "Andrea Zamora",
+"sentiment": "Fresh",
+"publication": "Sensacine",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-26T18:31:51.000Z",
+"review_id": "103138740"
 }
 ]
 }
