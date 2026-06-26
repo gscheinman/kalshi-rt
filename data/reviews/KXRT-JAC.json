@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-JAC",
 "movie": "Jackass: Best and Last",
 "rt_slug": "m/jackass_best_and_last",
-"review_count": 48,
+"review_count": 49,
 "reviews": [
 {
 "critic_name": "Giovanni Lago",
@@ -435,6 +435,15 @@
 "rating_text": "",
 "create_date": "2026-06-26T16:52:33.000Z",
 "review_id": "103138660"
+},
+{
+"critic_name": "David Fear",
+"sentiment": "Fresh",
+"publication": "Rolling Stone",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-26T17:48:28.000Z",
+"review_id": "103138704"
 }
 ]
 }
