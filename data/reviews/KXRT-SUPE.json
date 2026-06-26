@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 200,
+"review_count": 201,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -1803,6 +1803,15 @@
 "rating_text": "B",
 "create_date": "2026-06-26T12:59:04.000Z",
 "review_id": "103138587"
+},
+{
+"critic_name": "Aaron Peterson",
+"sentiment": "Fresh",
+"publication": "The Hollywood Outsider",
+"top_critic": false,
+"rating_text": "6.5/10",
+"create_date": "2026-06-26T13:18:23.000Z",
+"review_id": "103138590"
 }
 ]
 }
