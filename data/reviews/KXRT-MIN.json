@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 614,
+"review_count": 615,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -5529,6 +5529,15 @@
 "rating_text": "",
 "create_date": "2026-06-25T20:57:57.000Z",
 "review_id": "103138477"
+},
+{
+"critic_name": "Simon Miraudo",
+"sentiment": "Fresh",
+"publication": "Movie Squad (RTRFM 92.1)",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-26T02:02:47.000Z",
+"review_id": "103138524"
 }
 ]
 }
