@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 75,
+"review_count": 78,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -678,6 +678,33 @@
 "rating_text": "",
 "create_date": "2026-06-26T18:44:04.000Z",
 "review_id": "103138753"
+},
+{
+"critic_name": "Rich Cline",
+"sentiment": "Fresh",
+"publication": "Shadows on the Wall",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-06-26T19:01:42.000Z",
+"review_id": "103138757"
+},
+{
+"critic_name": "Rachel Tolleson",
+"sentiment": "Fresh",
+"publication": "The Mary Sue",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-26T19:02:24.000Z",
+"review_id": "103138758"
+},
+{
+"critic_name": "Peter Travers",
+"sentiment": "Fresh",
+"publication": "The Travers Take",
+"top_critic": true,
+"rating_text": "3.5/4",
+"create_date": "2026-06-26T19:11:14.000Z",
+"review_id": "103138766"
 }
 ]
 }
