@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 79,
+"review_count": 80,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -714,6 +714,15 @@
 "rating_text": "4.5/5",
 "create_date": "2026-06-26T21:28:04.000Z",
 "review_id": "103138821"
+},
+{
+"critic_name": "Eric Goldman",
+"sentiment": "Fresh",
+"publication": "Eric Goldman (YouTube)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-26T21:47:40.000Z",
+"review_id": "103138833"
 }
 ]
 }
