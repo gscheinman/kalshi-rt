@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 81,
+"review_count": 82,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -732,6 +732,15 @@
 "rating_text": "",
 "create_date": "2026-06-26T22:10:00.000Z",
 "review_id": "103138850"
+},
+{
+"critic_name": "Lael Loewenstein",
+"sentiment": "Fresh",
+"publication": "FilmWeek (LAist)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-26T22:11:19.000Z",
+"review_id": "103138851"
 }
 ]
 }
