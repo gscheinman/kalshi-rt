@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-JAC",
 "movie": "Jackass: Best and Last",
 "rt_slug": "m/jackass_best_and_last",
-"review_count": 38,
+"review_count": 39,
 "reviews": [
 {
 "critic_name": "Giovanni Lago",
@@ -345,6 +345,15 @@
 "rating_text": "",
 "create_date": "2026-06-26T00:01:02.000Z",
 "review_id": "103138510"
+},
+{
+"critic_name": "Marshall Shaffer",
+"sentiment": "Fresh",
+"publication": "The Playlist",
+"top_critic": false,
+"rating_text": "B",
+"create_date": "2026-06-26T03:40:51.000Z",
+"review_id": "103138536"
 }
 ]
 }
