@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-JAC",
 "movie": "Jackass: Best and Last",
 "rt_slug": "m/jackass_best_and_last",
-"review_count": 41,
+"review_count": 42,
 "reviews": [
 {
 "critic_name": "Giovanni Lago",
@@ -372,6 +372,15 @@
 "rating_text": "7/10",
 "create_date": "2026-06-26T11:32:54.000Z",
 "review_id": "103138577"
+},
+{
+"critic_name": "Siddhant Adlakha",
+"sentiment": "Fresh",
+"publication": "Inverse",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-26T12:50:13.000Z",
+"review_id": "103138584"
 }
 ]
 }
