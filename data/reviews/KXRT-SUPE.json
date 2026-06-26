@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 243,
+"review_count": 244,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -2190,6 +2190,15 @@
 "rating_text": "3/5",
 "create_date": "2026-06-26T21:55:03.000Z",
 "review_id": "103138840"
+},
+{
+"critic_name": "Reginald Ponder",
+"sentiment": "Fresh",
+"publication": "reggieponder.com",
+"top_critic": false,
+"rating_text": "3/4",
+"create_date": "2026-06-26T22:39:28.000Z",
+"review_id": "103138869"
 }
 ]
 }
