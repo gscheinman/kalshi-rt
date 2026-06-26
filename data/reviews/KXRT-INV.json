@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 73,
+"review_count": 75,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -660,6 +660,24 @@
 "rating_text": "",
 "create_date": "2026-06-26T17:37:47.000Z",
 "review_id": "103138689"
+},
+{
+"critic_name": "Kyle Smith",
+"sentiment": "Fresh",
+"publication": "Wall Street Journal",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-26T18:43:20.000Z",
+"review_id": "103138752"
+},
+{
+"critic_name": "David Fear",
+"sentiment": "Fresh",
+"publication": "Rolling Stone",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-26T18:44:04.000Z",
+"review_id": "103138753"
 }
 ]
 }
