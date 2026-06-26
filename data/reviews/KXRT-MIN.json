@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 616,
+"review_count": 617,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -5547,6 +5547,15 @@
 "rating_text": "B-",
 "create_date": "2026-06-26T13:05:12.000Z",
 "review_id": "103138588"
+},
+{
+"critic_name": "Matthew Passantino",
+"sentiment": "Fresh",
+"publication": "Big Picture Big Sound",
+"top_critic": false,
+"rating_text": "3/4",
+"create_date": "2026-06-26T14:24:01.000Z",
+"review_id": "103138605"
 }
 ]
 }
