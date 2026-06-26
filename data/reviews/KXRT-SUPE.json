@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 190,
+"review_count": 192,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -1713,6 +1713,24 @@
 "rating_text": "2.5/5",
 "create_date": "2026-06-26T02:38:31.000Z",
 "review_id": "103138528"
+},
+{
+"critic_name": "Mark Dujsik",
+"sentiment": "Rotten",
+"publication": "Mark Reviews Movies",
+"top_critic": false,
+"rating_text": "2/4",
+"create_date": "2026-06-26T02:59:44.000Z",
+"review_id": "103138533"
+},
+{
+"critic_name": "Mathew DeKinder",
+"sentiment": "Rotten",
+"publication": "Mat's Entertainment",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-06-26T03:11:09.000Z",
+"review_id": "103138534"
 }
 ]
 }
