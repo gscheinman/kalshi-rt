@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-JAC",
 "movie": "Jackass: Best and Last",
 "rt_slug": "m/jackass_best_and_last",
-"review_count": 49,
+"review_count": 51,
 "reviews": [
 {
 "critic_name": "Giovanni Lago",
@@ -444,6 +444,24 @@
 "rating_text": "",
 "create_date": "2026-06-26T17:48:28.000Z",
 "review_id": "103138704"
+},
+{
+"critic_name": "Jess Phillips",
+"sentiment": "Fresh",
+"publication": "Daily Express (UK)",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-06-26T17:55:42.000Z",
+"review_id": "103138709"
+},
+{
+"critic_name": "Rendy Jones",
+"sentiment": "Fresh",
+"publication": "Rendy Reviews",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-26T18:14:05.000Z",
+"review_id": "103138718"
 }
 ]
 }
