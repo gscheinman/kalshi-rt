@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-JAC",
 "movie": "Jackass: Best and Last",
 "rt_slug": "m/jackass_best_and_last",
-"review_count": 52,
+"review_count": 53,
 "reviews": [
 {
 "critic_name": "Giovanni Lago",
@@ -471,6 +471,15 @@
 "rating_text": "3/5",
 "create_date": "2026-06-26T18:39:12.000Z",
 "review_id": "103138750"
+},
+{
+"critic_name": "Amy Nicholson",
+"sentiment": "Rotten",
+"publication": "Los Angeles Times",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-26T19:34:30.000Z",
+"review_id": "103138777"
 }
 ]
 }

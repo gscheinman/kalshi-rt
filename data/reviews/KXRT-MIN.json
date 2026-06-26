@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 618,
+"review_count": 619,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -5565,6 +5565,15 @@
 "rating_text": "B+",
 "create_date": "2026-06-26T16:04:31.000Z",
 "review_id": "103138636"
+},
+{
+"critic_name": "Mat Brunet",
+"sentiment": "Fresh",
+"publication": "AniMat's Review (YouTube)",
+"top_critic": false,
+"rating_text": "9/10",
+"create_date": "2026-06-26T19:24:53.000Z",
+"review_id": "103138774"
 }
 ]
 }

@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 232,
+"review_count": 233,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -2091,6 +2091,15 @@
 "rating_text": "",
 "create_date": "2026-06-26T19:23:06.000Z",
 "review_id": "103138772"
+},
+{
+"critic_name": "Dana Han-Klein",
+"sentiment": "Fresh",
+"publication": "We're Watching What?!",
+"top_critic": false,
+"rating_text": "3.8/5",
+"create_date": "2026-06-26T19:33:35.000Z",
+"review_id": "103138776"
 }
 ]
 }
