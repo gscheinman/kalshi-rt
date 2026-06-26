@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 227,
+"review_count": 230,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -2046,6 +2046,33 @@
 "rating_text": "",
 "create_date": "2026-06-26T18:48:48.000Z",
 "review_id": "103138756"
+},
+{
+"critic_name": "Shalini Langer",
+"sentiment": "Fresh",
+"publication": "The Indian Express",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-26T19:03:07.000Z",
+"review_id": "103138759"
+},
+{
+"critic_name": "Peter Travers",
+"sentiment": "Rotten",
+"publication": "The Travers Take",
+"top_critic": true,
+"rating_text": "2/4",
+"create_date": "2026-06-26T19:08:52.000Z",
+"review_id": "103138765"
+},
+{
+"critic_name": "Rachel Walshe",
+"sentiment": "Fresh",
+"publication": "Film Ireland Magazine",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-26T19:12:41.000Z",
+"review_id": "103138767"
 }
 ]
 }
