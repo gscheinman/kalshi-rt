@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 244,
+"review_count": 245,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -2199,6 +2199,15 @@
 "rating_text": "3/4",
 "create_date": "2026-06-26T22:39:28.000Z",
 "review_id": "103138869"
+},
+{
+"critic_name": "EJ Moreno",
+"sentiment": "Rotten",
+"publication": "Flickering Myth",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-26T23:04:55.000Z",
+"review_id": "103138888"
 }
 ]
 }
