@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-JAC",
 "movie": "Jackass: Best and Last",
 "rt_slug": "m/jackass_best_and_last",
-"review_count": 57,
+"review_count": 58,
 "reviews": [
 {
 "critic_name": "Giovanni Lago",
@@ -516,6 +516,15 @@
 "rating_text": "3/5",
 "create_date": "2026-06-26T21:07:27.000Z",
 "review_id": "103138811"
+},
+{
+"critic_name": "Ed Potton",
+"sentiment": "Fresh",
+"publication": "The Times (UK)",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-26T22:08:00.000Z",
+"review_id": "103138847"
 }
 ]
 }

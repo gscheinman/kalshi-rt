@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 80,
+"review_count": 81,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -723,6 +723,15 @@
 "rating_text": "",
 "create_date": "2026-06-26T21:47:40.000Z",
 "review_id": "103138833"
+},
+{
+"critic_name": "Peter Rainer",
+"sentiment": "Fresh",
+"publication": "FilmWeek (LAist)",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-26T22:10:00.000Z",
+"review_id": "103138850"
 }
 ]
 }
