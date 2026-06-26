@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 218,
+"review_count": 220,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -1965,6 +1965,24 @@
 "rating_text": "2.5/5",
 "create_date": "2026-06-26T17:11:58.000Z",
 "review_id": "103138670"
+},
+{
+"critic_name": "Emmet Asher-Perrin",
+"sentiment": "Rotten",
+"publication": "Reactor",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-26T17:25:28.000Z",
+"review_id": "103138678"
+},
+{
+"critic_name": "Khanaphot Saengchai",
+"sentiment": "Fresh",
+"publication": "Bangkok Post",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-26T17:29:58.000Z",
+"review_id": "103138681"
 }
 ]
 }
