@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 195,
+"review_count": 196,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -1758,6 +1758,15 @@
 "rating_text": "",
 "create_date": "2026-06-26T06:14:06.000Z",
 "review_id": "103138545"
+},
+{
+"critic_name": "Eric Marchen",
+"sentiment": "Rotten",
+"publication": "Rogers TV",
+"top_critic": false,
+"rating_text": "C-",
+"create_date": "2026-06-26T06:30:41.000Z",
+"review_id": "103138547"
 }
 ]
 }
