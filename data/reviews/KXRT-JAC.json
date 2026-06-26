@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-JAC",
 "movie": "Jackass: Best and Last",
 "rt_slug": "m/jackass_best_and_last",
-"review_count": 53,
+"review_count": 55,
 "reviews": [
 {
 "critic_name": "Giovanni Lago",
@@ -480,6 +480,24 @@
 "rating_text": "",
 "create_date": "2026-06-26T19:34:30.000Z",
 "review_id": "103138777"
+},
+{
+"critic_name": "Dana Han-Klein",
+"sentiment": "Fresh",
+"publication": "We're Watching What?!",
+"top_critic": false,
+"rating_text": "4.1/5",
+"create_date": "2026-06-26T19:43:11.000Z",
+"review_id": "103138778"
+},
+{
+"critic_name": "Ian Thomas Malone",
+"sentiment": "Fresh",
+"publication": "ianthomasmalone.com",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-26T19:51:39.000Z",
+"review_id": "103138781"
 }
 ]
 }
