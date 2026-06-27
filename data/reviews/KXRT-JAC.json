@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-JAC",
 "movie": "Jackass: Best and Last",
 "rt_slug": "m/jackass_best_and_last",
-"review_count": 61,
+"review_count": 62,
 "reviews": [
 {
 "critic_name": "Giovanni Lago",
@@ -552,6 +552,15 @@
 "rating_text": "3/4",
 "create_date": "2026-06-27T15:15:50.000Z",
 "review_id": "103138964"
+},
+{
+"critic_name": "Chris Bumbray",
+"sentiment": "Fresh",
+"publication": "JoBlo's Movie Network",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-27T18:44:26.000Z",
+"review_id": "103138986"
 }
 ]
 }
