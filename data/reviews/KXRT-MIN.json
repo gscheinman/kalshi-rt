@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 626,
+"review_count": 627,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -5637,6 +5637,15 @@
 "rating_text": "4/5",
 "create_date": "2026-06-27T17:06:39.000Z",
 "review_id": "103138977"
+},
+{
+"critic_name": "David Sims",
+"sentiment": "Fresh",
+"publication": "The Atlantic",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-27T19:34:37.000Z",
+"review_id": "103138996"
 }
 ]
 }
