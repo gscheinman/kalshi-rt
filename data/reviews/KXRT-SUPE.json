@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 262,
+"review_count": 263,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -2361,6 +2361,15 @@
 "rating_text": "3/5",
 "create_date": "2026-06-27T17:01:40.000Z",
 "review_id": "103138975"
+},
+{
+"critic_name": "Agust\u00edn P\u00e9rez",
+"sentiment": "Rotten",
+"publication": "Emol.com",
+"top_critic": false,
+"rating_text": "2.5/5",
+"create_date": "2026-06-27T17:20:08.000Z",
+"review_id": "103138980"
 }
 ]
 }
