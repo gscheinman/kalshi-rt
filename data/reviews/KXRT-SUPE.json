@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 248,
+"review_count": 249,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -2235,6 +2235,15 @@
 "rating_text": "",
 "create_date": "2026-06-27T00:28:03.000Z",
 "review_id": "103138911"
+},
+{
+"critic_name": "Josh Wilding",
+"sentiment": "Rotten",
+"publication": "ComicBookMovie.com",
+"top_critic": false,
+"rating_text": "2.5/5",
+"create_date": "2026-06-27T01:10:46.000Z",
+"review_id": "103138915"
 }
 ]
 }
