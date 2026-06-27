@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 264,
+"review_count": 265,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -2379,6 +2379,15 @@
 "rating_text": "2.5/5",
 "create_date": "2026-06-27T17:43:41.000Z",
 "review_id": "103138982"
+},
+{
+"critic_name": "Mark Jackson",
+"sentiment": "Rotten",
+"publication": "Epoch Times",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-27T19:03:49.000Z",
+"review_id": "103138988"
 }
 ]
 }
