@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-YOUN",
 "movie": "Young Washington",
 "rt_slug": "m/young_washington",
-"review_count": 7,
+"review_count": 8,
 "reviews": [
 {
 "critic_name": "Mike McGranaghan",
@@ -66,6 +66,15 @@
 "rating_text": "D+",
 "create_date": "2026-06-24T01:59:27.000Z",
 "review_id": "103137763"
+},
+{
+"critic_name": "Robert Kojder",
+"sentiment": "Rotten",
+"publication": "Flickering Myth",
+"top_critic": false,
+"rating_text": "1.5/5",
+"create_date": "2026-06-27T01:18:14.000Z",
+"review_id": "103138917"
 }
 ]
 }
