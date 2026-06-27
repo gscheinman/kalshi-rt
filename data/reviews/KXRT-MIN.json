@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 624,
+"review_count": 625,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -5619,6 +5619,15 @@
 "rating_text": "3.5/5",
 "create_date": "2026-06-27T01:46:28.000Z",
 "review_id": "103138920"
+},
+{
+"critic_name": "Paul Salfen",
+"sentiment": "Fresh",
+"publication": "AMFM Magazine",
+"top_critic": false,
+"rating_text": "9/10",
+"create_date": "2026-06-27T16:12:16.000Z",
+"review_id": "103138969"
 }
 ]
 }
