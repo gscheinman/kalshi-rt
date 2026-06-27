@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 84,
+"review_count": 85,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -759,6 +759,15 @@
 "rating_text": "9/10",
 "create_date": "2026-06-27T03:12:50.000Z",
 "review_id": "103138926"
+},
+{
+"critic_name": "Courtney Howard",
+"sentiment": "Fresh",
+"publication": "Fresh Fiction",
+"top_critic": false,
+"rating_text": "4.5/5",
+"create_date": "2026-06-27T05:20:54.000Z",
+"review_id": "103138936"
 }
 ]
 }
