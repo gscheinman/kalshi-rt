@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 83,
+"review_count": 84,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -750,6 +750,15 @@
 "rating_text": "16/20",
 "create_date": "2026-06-27T00:06:50.000Z",
 "review_id": "103138903"
+},
+{
+"critic_name": "Rosa Parra",
+"sentiment": "Fresh",
+"publication": "The Latino Slant",
+"top_critic": false,
+"rating_text": "9/10",
+"create_date": "2026-06-27T03:12:50.000Z",
+"review_id": "103138926"
 }
 ]
 }
