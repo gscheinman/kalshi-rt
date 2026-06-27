@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-YOUN",
 "movie": "Young Washington",
 "rt_slug": "m/young_washington",
-"review_count": 8,
+"review_count": 9,
 "reviews": [
 {
 "critic_name": "Mike McGranaghan",
@@ -75,6 +75,15 @@
 "rating_text": "1.5/5",
 "create_date": "2026-06-27T01:18:14.000Z",
 "review_id": "103138917"
+},
+{
+"critic_name": "Michael Clark",
+"sentiment": "Fresh",
+"publication": "Epoch Times",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-27T17:55:50.000Z",
+"review_id": "103138983"
 }
 ]
 }
