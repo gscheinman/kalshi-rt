@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 250,
+"review_count": 251,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -2253,6 +2253,15 @@
 "rating_text": "3/5",
 "create_date": "2026-06-27T01:43:59.000Z",
 "review_id": "103138919"
+},
+{
+"critic_name": "John Flickinger",
+"sentiment": "Rotten",
+"publication": "The Flick Pick (Youtube)",
+"top_critic": false,
+"rating_text": "C-",
+"create_date": "2026-06-27T02:06:29.000Z",
+"review_id": "103138924"
 }
 ]
 }
