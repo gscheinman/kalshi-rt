@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 85,
+"review_count": 86,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -768,6 +768,15 @@
 "rating_text": "4.5/5",
 "create_date": "2026-06-27T05:20:54.000Z",
 "review_id": "103138936"
+},
+{
+"critic_name": "Laura Clifford",
+"sentiment": "Fresh",
+"publication": "Reeling Reviews",
+"top_critic": false,
+"rating_text": "A-",
+"create_date": "2026-06-27T19:32:19.000Z",
+"review_id": "103138994"
 }
 ]
 }
