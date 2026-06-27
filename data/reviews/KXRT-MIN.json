@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 625,
+"review_count": 626,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -5628,6 +5628,15 @@
 "rating_text": "9/10",
 "create_date": "2026-06-27T16:12:16.000Z",
 "review_id": "103138969"
+},
+{
+"critic_name": "Bill Newcott",
+"sentiment": "Fresh",
+"publication": "The Saturday Evening Post",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-27T17:06:39.000Z",
+"review_id": "103138977"
 }
 ]
 }
