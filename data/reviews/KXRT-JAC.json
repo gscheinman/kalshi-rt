@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-JAC",
 "movie": "Jackass: Best and Last",
 "rt_slug": "m/jackass_best_and_last",
-"review_count": 59,
+"review_count": 60,
 "reviews": [
 {
 "critic_name": "Giovanni Lago",
@@ -534,6 +534,15 @@
 "rating_text": "3.5/5",
 "create_date": "2026-06-27T01:22:35.000Z",
 "review_id": "103138918"
+},
+{
+"critic_name": "Jeff Mitchell",
+"sentiment": "Rotten",
+"publication": "Phoenix Film Festival",
+"top_critic": false,
+"rating_text": "2/4",
+"create_date": "2026-06-27T03:41:24.000Z",
+"review_id": "103138930"
 }
 ]
 }
