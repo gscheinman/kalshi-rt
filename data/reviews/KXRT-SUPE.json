@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 265,
+"review_count": 266,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -2388,6 +2388,15 @@
 "rating_text": "3/5",
 "create_date": "2026-06-27T19:03:49.000Z",
 "review_id": "103138988"
+},
+{
+"critic_name": "David Sims",
+"sentiment": "Rotten",
+"publication": "The Atlantic",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-27T19:35:37.000Z",
+"review_id": "103138997"
 }
 ]
 }
