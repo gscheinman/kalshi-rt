@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 82,
+"review_count": 83,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -741,6 +741,15 @@
 "rating_text": "",
 "create_date": "2026-06-26T22:11:19.000Z",
 "review_id": "103138851"
+},
+{
+"critic_name": "Nataliia Serebriakova",
+"sentiment": "Fresh",
+"publication": "FILMINK (Australia)",
+"top_critic": false,
+"rating_text": "16/20",
+"create_date": "2026-06-27T00:06:50.000Z",
+"review_id": "103138903"
 }
 ]
 }
