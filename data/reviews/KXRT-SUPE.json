@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 273,
+"review_count": 274,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -2460,6 +2460,15 @@
 "rating_text": "3/10",
 "create_date": "2026-06-28T04:20:28.000Z",
 "review_id": "103139022"
+},
+{
+"critic_name": "Erick Estrada",
+"sentiment": "Rotten",
+"publication": "Cinegarage",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-28T06:57:57.000Z",
+"review_id": "103139032"
 }
 ]
 }
