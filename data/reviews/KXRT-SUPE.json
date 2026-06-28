@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 271,
+"review_count": 272,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -2442,6 +2442,15 @@
 "rating_text": "",
 "create_date": "2026-06-28T01:07:59.000Z",
 "review_id": "103139016"
+},
+{
+"critic_name": "Ruth Maramis",
+"sentiment": "Fresh",
+"publication": "FlixChatter Film Blog",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-28T04:01:30.000Z",
+"review_id": "103139019"
 }
 ]
 }
