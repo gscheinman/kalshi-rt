@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 274,
+"review_count": 275,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -2469,6 +2469,15 @@
 "rating_text": "",
 "create_date": "2026-06-28T06:57:57.000Z",
 "review_id": "103139032"
+},
+{
+"critic_name": "Romey Norton",
+"sentiment": "Rotten",
+"publication": "InSession Film",
+"top_critic": false,
+"rating_text": "2",
+"create_date": "2026-06-28T08:19:33.000Z",
+"review_id": "103139036"
 }
 ]
 }
