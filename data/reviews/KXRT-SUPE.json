@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 276,
+"review_count": 278,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -2487,6 +2487,24 @@
 "rating_text": "3/5",
 "create_date": "2026-06-28T19:01:35.000Z",
 "review_id": "103139100"
+},
+{
+"critic_name": "Adam Olinger",
+"sentiment": "Rotten",
+"publication": "Adam Does Movies (YouTube)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-28T20:02:10.000Z",
+"review_id": "103139106"
+},
+{
+"critic_name": "Mark Redfern",
+"sentiment": "Fresh",
+"publication": "Under the Radar",
+"top_critic": false,
+"rating_text": "8/10",
+"create_date": "2026-06-28T20:03:07.000Z",
+"review_id": "103139107"
 }
 ]
 }
