@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 268,
+"review_count": 269,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -2415,6 +2415,15 @@
 "rating_text": "3/10",
 "create_date": "2026-06-27T23:29:09.000Z",
 "review_id": "103139007"
+},
+{
+"critic_name": "Brian Eggert",
+"sentiment": "Rotten",
+"publication": "Deep Focus Review",
+"top_critic": false,
+"rating_text": "2/4",
+"create_date": "2026-06-28T00:12:36.000Z",
+"review_id": "103139014"
 }
 ]
 }
