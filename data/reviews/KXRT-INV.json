@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 87,
+"review_count": 88,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -786,6 +786,15 @@
 "rating_text": "",
 "create_date": "2026-06-28T01:34:52.000Z",
 "review_id": "103139018"
+},
+{
+"critic_name": "Jeff York",
+"sentiment": "Rotten",
+"publication": "The Establishing Shot",
+"top_critic": false,
+"rating_text": "1/4",
+"create_date": "2026-06-28T04:47:54.000Z",
+"review_id": "103139026"
 }
 ]
 }
