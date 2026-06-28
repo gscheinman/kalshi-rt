@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 272,
+"review_count": 273,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -2451,6 +2451,15 @@
 "rating_text": "3/5",
 "create_date": "2026-06-28T04:01:30.000Z",
 "review_id": "103139019"
+},
+{
+"critic_name": "Jeffrey Harris",
+"sentiment": "Rotten",
+"publication": "411mania",
+"top_critic": false,
+"rating_text": "3/10",
+"create_date": "2026-06-28T04:20:28.000Z",
+"review_id": "103139022"
 }
 ]
 }
