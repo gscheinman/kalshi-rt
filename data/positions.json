@@ -290,6 +290,17 @@
       "suggested_size": 50.0,
       "avg_fill": 57.0,
       "contracts": 87.7
+    },
+    {
+      "timestamp": "2026-06-28T14:25:24.845795+00:00",
+      "market_ticker": "KXRT-JAC-87",
+      "direction": "BUY NO",
+      "threshold": 87,
+      "model_prob": 52.5,
+      "edge": 11.2,
+      "suggested_size": 31.25,
+      "avg_fill": 36.3,
+      "contracts": 86.0
     }
   ]
 }
