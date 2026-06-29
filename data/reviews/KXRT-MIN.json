@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/toy_story_5",
-"review_count": 629,
+"review_count": 630,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -5664,6 +5664,15 @@
 "rating_text": "3.5/5",
 "create_date": "2026-06-28T18:54:05.000Z",
 "review_id": "103139093"
+},
+{
+"critic_name": "Rene Sanchez",
+"sentiment": "Fresh",
+"publication": "Cine Sin Fronteras",
+"top_critic": false,
+"rating_text": "3.5/4",
+"create_date": "2026-06-29T06:39:44.000Z",
+"review_id": "103139144"
 }
 ]
 }
