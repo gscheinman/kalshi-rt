@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 96,
+"review_count": 98,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -867,6 +867,24 @@
 "rating_text": "9/10",
 "create_date": "2026-06-29T19:18:06.000Z",
 "review_id": "103139334"
+},
+{
+"critic_name": "David Kaplan",
+"sentiment": "Fresh",
+"publication": "Kaplan vs. Kaplan",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-29T21:19:14.000Z",
+"review_id": "103139420"
+},
+{
+"critic_name": "Jeanne Kaplan",
+"sentiment": "Fresh",
+"publication": "Kaplan vs. Kaplan",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-29T21:21:01.000Z",
+"review_id": "103139423"
 }
 ]
 }
