@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 91,
+"review_count": 92,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -822,6 +822,15 @@
 "rating_text": "A",
 "create_date": "2026-06-29T13:25:30.000Z",
 "review_id": "103139173"
+},
+{
+"critic_name": "Eric Marchen",
+"sentiment": "Fresh",
+"publication": "Rogers TV",
+"top_critic": false,
+"rating_text": "A-",
+"create_date": "2026-06-29T16:21:40.000Z",
+"review_id": "103139215"
 }
 ]
 }
