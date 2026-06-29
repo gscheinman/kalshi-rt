@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 280,
+"review_count": 281,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -2523,6 +2523,15 @@
 "rating_text": "",
 "create_date": "2026-06-28T23:05:07.000Z",
 "review_id": "103139116"
+},
+{
+"critic_name": "Sean P. Means",
+"sentiment": "Fresh",
+"publication": "The Movie Cricket",
+"top_critic": false,
+"rating_text": "3/4",
+"create_date": "2026-06-29T04:12:22.000Z",
+"review_id": "103139128"
 }
 ]
 }
