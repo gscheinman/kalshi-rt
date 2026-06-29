@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 92,
+"review_count": 94,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -831,6 +831,24 @@
 "rating_text": "A-",
 "create_date": "2026-06-29T16:21:40.000Z",
 "review_id": "103139215"
+},
+{
+"critic_name": "Alci Rengifo",
+"sentiment": "Fresh",
+"publication": "Entertainment Voice",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-29T17:00:55.000Z",
+"review_id": "103139238"
+},
+{
+"critic_name": "Marya E. Gates",
+"sentiment": "Fresh",
+"publication": "Cool People Have Feelings, Too. (Substack)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-29T17:24:00.000Z",
+"review_id": "103139272"
 }
 ]
 }
