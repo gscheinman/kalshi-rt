@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 281,
+"review_count": 282,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -2532,6 +2532,15 @@
 "rating_text": "3/4",
 "create_date": "2026-06-29T04:12:22.000Z",
 "review_id": "103139128"
+},
+{
+"critic_name": "Carla Renata",
+"sentiment": "Rotten",
+"publication": "The Curvy Film Critic",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-29T05:55:34.000Z",
+"review_id": "103139139"
 }
 ]
 }
