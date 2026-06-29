@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-JAC",
 "movie": "Jackass: Best and Last",
 "rt_slug": "m/jackass_best_and_last",
-"review_count": 67,
+"review_count": 68,
 "reviews": [
 {
 "critic_name": "Giovanni Lago",
@@ -606,6 +606,15 @@
 "rating_text": "",
 "create_date": "2026-06-28T20:05:58.000Z",
 "review_id": "103139109"
+},
+{
+"critic_name": "Alfred Castaneda",
+"sentiment": "Fresh",
+"publication": "Shade Studios",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-06-29T07:32:26.000Z",
+"review_id": "103139149"
 }
 ]
 }

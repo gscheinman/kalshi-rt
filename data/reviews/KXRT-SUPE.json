@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-SUPE",
 "movie": "Supergirl:",
 "rt_slug": "m/supergirl_2026",
-"review_count": 282,
+"review_count": 283,
 "reviews": [
 {
 "critic_name": "Ian Sandwell",
@@ -2541,6 +2541,15 @@
 "rating_text": "",
 "create_date": "2026-06-29T05:55:34.000Z",
 "review_id": "103139139"
+},
+{
+"critic_name": "Guillermo Troncoso",
+"sentiment": "Fresh",
+"publication": "Screen Realm",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-29T07:23:53.000Z",
+"review_id": "103139148"
 }
 ]
 }
