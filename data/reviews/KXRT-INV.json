@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 89,
+"review_count": 91,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -804,6 +804,24 @@
 "rating_text": "4/5",
 "create_date": "2026-06-28T23:19:29.000Z",
 "review_id": "103139117"
+},
+{
+"critic_name": "Stefania Sarrubba",
+"sentiment": "Fresh",
+"publication": "The Skinny",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-06-29T11:49:22.000Z",
+"review_id": "103139157"
+},
+{
+"critic_name": "John Kirk",
+"sentiment": "Fresh",
+"publication": "Original Cin",
+"top_critic": false,
+"rating_text": "A",
+"create_date": "2026-06-29T13:25:30.000Z",
+"review_id": "103139173"
 }
 ]
 }
