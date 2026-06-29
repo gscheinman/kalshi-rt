@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 95,
+"review_count": 96,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -858,6 +858,15 @@
 "rating_text": "",
 "create_date": "2026-06-29T19:09:43.000Z",
 "review_id": "103139329"
+},
+{
+"critic_name": "Deniz Arslan",
+"sentiment": "Fresh",
+"publication": "Battle Royale With Cheese",
+"top_critic": false,
+"rating_text": "9/10",
+"create_date": "2026-06-29T19:18:06.000Z",
+"review_id": "103139334"
 }
 ]
 }
