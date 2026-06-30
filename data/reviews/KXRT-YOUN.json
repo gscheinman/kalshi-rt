@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-YOUN",
 "movie": "Young Washington",
 "rt_slug": "m/young_washington",
-"review_count": 11,
+"review_count": 12,
 "reviews": [
 {
 "critic_name": "Mike McGranaghan",
@@ -102,6 +102,15 @@
 "rating_text": "",
 "create_date": "2026-06-30T04:22:31.000Z",
 "review_id": "103139482"
+},
+{
+"critic_name": "Edward Douglas",
+"sentiment": "Rotten",
+"publication": "The Weekend Warrior (Substack)",
+"top_critic": false,
+"rating_text": "6/10",
+"create_date": "2026-06-30T16:43:02.000Z",
+"review_id": "103139621"
 }
 ]
 }
