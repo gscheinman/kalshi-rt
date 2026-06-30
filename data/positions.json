@@ -314,6 +314,17 @@
       "suggested_size": 41.1,
       "avg_fill": 64.0,
       "contracts": 64.2
+    },
+    {
+      "timestamp": "2026-06-30T17:26:28.343365+00:00",
+      "market_ticker": "KXRT-YOUN-55",
+      "direction": "BUY YES",
+      "threshold": 55,
+      "model_prob": 82.1,
+      "edge": 14.1,
+      "suggested_size": 50.0,
+      "avg_fill": 68.0,
+      "contracts": 73.5
     }
   ]
 }
