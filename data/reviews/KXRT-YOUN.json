@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-YOUN",
 "movie": "Young Washington",
 "rt_slug": "m/young_washington",
-"review_count": 13,
+"review_count": 14,
 "reviews": [
 {
 "critic_name": "Mike McGranaghan",
@@ -120,6 +120,15 @@
 "rating_text": "3/5",
 "create_date": "2026-06-30T22:12:08.000Z",
 "review_id": "103139750"
+},
+{
+"critic_name": "Alonso Duralde",
+"sentiment": "Rotten",
+"publication": "The Film Verdict",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-06-30T23:20:27.000Z",
+"review_id": "103139783"
 }
 ]
 }
