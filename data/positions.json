@@ -302,5 +302,18 @@
       "avg_fill": 36.3,
       "contracts": 86.0
     }
+  ],
+  "KXRT-YOUN": [
+    {
+      "timestamp": "2026-06-30T05:51:52.798427+00:00",
+      "market_ticker": "KXRT-YOUN-60",
+      "direction": "BUY YES",
+      "threshold": 60,
+      "model_prob": 76.9,
+      "edge": 12.9,
+      "suggested_size": 41.1,
+      "avg_fill": 64.0,
+      "contracts": 64.2
+    }
   ]
 }
