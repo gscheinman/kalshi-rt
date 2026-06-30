@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 100,
+"review_count": 101,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -903,6 +903,15 @@
 "rating_text": "3/5",
 "create_date": "2026-06-30T09:07:30.000Z",
 "review_id": "103139565"
+},
+{
+"critic_name": "Rendy Jones",
+"sentiment": "Fresh",
+"publication": "Rendy Reviews",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-06-30T15:21:23.000Z",
+"review_id": "103139596"
 }
 ]
 }
