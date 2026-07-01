@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 109,
+"review_count": 110,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -984,6 +984,15 @@
 "rating_text": "",
 "create_date": "2026-07-01T18:40:40.000Z",
 "review_id": "103139963"
+},
+{
+"critic_name": "Don Shanahan",
+"sentiment": "Fresh",
+"publication": "Every Movie Has a Lesson",
+"top_critic": false,
+"rating_text": "5/5",
+"create_date": "2026-07-01T19:35:44.000Z",
+"review_id": "103140001"
 }
 ]
 }
