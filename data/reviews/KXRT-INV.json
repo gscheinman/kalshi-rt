@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 102,
+"review_count": 103,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -921,6 +921,15 @@
 "rating_text": "4/5",
 "create_date": "2026-07-01T08:52:01.000Z",
 "review_id": "103139826"
+},
+{
+"critic_name": "Peter Bradshaw",
+"sentiment": "Fresh",
+"publication": "Guardian",
+"top_critic": true,
+"rating_text": "4/5",
+"create_date": "2026-07-01T12:46:33.000Z",
+"review_id": "103139849"
 }
 ]
 }

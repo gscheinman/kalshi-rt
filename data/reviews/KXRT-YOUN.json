@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-YOUN",
 "movie": "Young Washington",
 "rt_slug": "m/young_washington",
-"review_count": 16,
+"review_count": 17,
 "reviews": [
 {
 "critic_name": "Mike McGranaghan",
@@ -147,6 +147,15 @@
 "rating_text": "",
 "create_date": "2026-07-01T09:29:02.000Z",
 "review_id": "103139829"
+},
+{
+"critic_name": "Christopher Lloyd",
+"sentiment": "Fresh",
+"publication": "The Film Yap",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-07-01T12:43:24.000Z",
+"review_id": "103139846"
 }
 ]
 }
