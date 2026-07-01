@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 101,
+"review_count": 102,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -912,6 +912,15 @@
 "rating_text": "4/5",
 "create_date": "2026-06-30T15:21:23.000Z",
 "review_id": "103139596"
+},
+{
+"critic_name": "Emma Simmonds",
+"sentiment": "Fresh",
+"publication": "The List",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-07-01T08:52:01.000Z",
+"review_id": "103139826"
 }
 ]
 }
