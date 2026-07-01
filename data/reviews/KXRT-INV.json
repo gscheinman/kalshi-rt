@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 103,
+"review_count": 104,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -930,6 +930,15 @@
 "rating_text": "4/5",
 "create_date": "2026-07-01T12:46:33.000Z",
 "review_id": "103139849"
+},
+{
+"critic_name": "Sherin Nicole",
+"sentiment": "Fresh",
+"publication": "Geek Girl Riot",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-01T14:49:53.000Z",
+"review_id": "103139883"
 }
 ]
 }

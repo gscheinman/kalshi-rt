@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/jackass_best_and_last",
-"review_count": 712,
+"review_count": 714,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -6411,6 +6411,24 @@
 "rating_text": "3/4",
 "create_date": "2026-06-30T18:30:00.000Z",
 "review_id": "103139697"
+},
+{
+"critic_name": "Jim Schembri",
+"sentiment": "Rotten",
+"publication": "jimschembri.com",
+"top_critic": false,
+"rating_text": "1/5",
+"create_date": "2026-07-01T14:53:33.000Z",
+"review_id": "103139886"
+},
+{
+"critic_name": "Stephen Silver",
+"sentiment": "Fresh",
+"publication": "Splice Today",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-01T14:54:01.000Z",
+"review_id": "103139887"
 }
 ]
 }
