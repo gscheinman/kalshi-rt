@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 113,
+"review_count": 114,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1020,6 +1020,15 @@
 "rating_text": "3/4",
 "create_date": "2026-07-01T20:35:00.000Z",
 "review_id": "103140034"
+},
+{
+"critic_name": "Tomris Laffly",
+"sentiment": "Fresh",
+"publication": "Elle",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-07-01T22:38:35.000Z",
+"review_id": "103140057"
 }
 ]
 }
