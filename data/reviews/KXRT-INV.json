@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 119,
+"review_count": 120,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1074,6 +1074,15 @@
 "rating_text": "",
 "create_date": "2026-07-02T10:12:23.000Z",
 "review_id": "103140197"
+},
+{
+"critic_name": "Christian Toto",
+"sentiment": "Fresh",
+"publication": "HollywoodInToto.com",
+"top_critic": false,
+"rating_text": "3.5/4",
+"create_date": "2026-07-02T13:00:50.000Z",
+"review_id": "103140204"
 }
 ]
 }

@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-YOUN",
 "movie": "Young Washington",
 "rt_slug": "m/young_washington",
-"review_count": 20,
+"review_count": 23,
 "reviews": [
 {
 "critic_name": "Mike McGranaghan",
@@ -183,6 +183,33 @@
 "rating_text": "2/4",
 "create_date": "2026-07-02T07:28:03.000Z",
 "review_id": "103140187"
+},
+{
+"critic_name": "Matt Zoller Seitz",
+"sentiment": "Fresh",
+"publication": "RogerEbert.com",
+"top_critic": true,
+"rating_text": "3/4",
+"create_date": "2026-07-02T13:46:51.000Z",
+"review_id": "103140216"
+},
+{
+"critic_name": "Brett McCracken",
+"sentiment": "Fresh",
+"publication": "The Gospel Coalition",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-02T13:48:35.000Z",
+"review_id": "103140217"
+},
+{
+"critic_name": "Mark Dujsik",
+"sentiment": "Rotten",
+"publication": "Mark Reviews Movies",
+"top_critic": false,
+"rating_text": "2/4",
+"create_date": "2026-07-02T14:00:05.000Z",
+"review_id": "103140220"
 }
 ]
 }
