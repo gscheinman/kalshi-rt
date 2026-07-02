@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 115,
+"review_count": 117,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1038,6 +1038,24 @@
 "rating_text": "3.5/4",
 "create_date": "2026-07-01T23:49:50.000Z",
 "review_id": "103140101"
+},
+{
+"critic_name": "Frank Swietek",
+"sentiment": "Fresh",
+"publication": "One Guy's Opinion",
+"top_critic": false,
+"rating_text": "B+",
+"create_date": "2026-07-02T01:51:53.000Z",
+"review_id": "103140171"
+},
+{
+"critic_name": "Brian Eggert",
+"sentiment": "Fresh",
+"publication": "Deep Focus Review",
+"top_critic": false,
+"rating_text": "4/4",
+"create_date": "2026-07-02T02:06:29.000Z",
+"review_id": "103140173"
 }
 ]
 }
