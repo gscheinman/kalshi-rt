@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/minions_and_monsters",
-"review_count": 810,
+"review_count": 811,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -7293,6 +7293,15 @@
 "rating_text": "B-",
 "create_date": "2026-07-02T17:51:57.000Z",
 "review_id": "103140275"
+},
+{
+"critic_name": "Eric Goldman",
+"sentiment": "Fresh",
+"publication": "IGN Movies",
+"top_critic": false,
+"rating_text": "8/10",
+"create_date": "2026-07-02T18:06:25.000Z",
+"review_id": "103140279"
 }
 ]
 }
