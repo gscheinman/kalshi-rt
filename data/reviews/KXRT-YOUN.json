@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-YOUN",
 "movie": "Young Washington",
 "rt_slug": "m/young_washington",
-"review_count": 23,
+"review_count": 24,
 "reviews": [
 {
 "critic_name": "Mike McGranaghan",
@@ -210,6 +210,15 @@
 "rating_text": "2/4",
 "create_date": "2026-07-02T14:00:05.000Z",
 "review_id": "103140220"
+},
+{
+"critic_name": "Josh Parham",
+"sentiment": "Rotten",
+"publication": "Next Best Picture",
+"top_critic": false,
+"rating_text": "3/10",
+"create_date": "2026-07-02T15:31:53.000Z",
+"review_id": "103140238"
 }
 ]
 }

@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 120,
+"review_count": 125,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1083,6 +1083,51 @@
 "rating_text": "3.5/4",
 "create_date": "2026-07-02T13:00:50.000Z",
 "review_id": "103140204"
+},
+{
+"critic_name": "Noah Berlatsky",
+"sentiment": "Fresh",
+"publication": "Everything is Horrible (Substack)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-02T15:07:06.000Z",
+"review_id": "103140229"
+},
+{
+"critic_name": "Richard Crouse",
+"sentiment": "Fresh",
+"publication": "Richard Crouse",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-07-02T15:23:14.000Z",
+"review_id": "103140236"
+},
+{
+"critic_name": "James Mottram",
+"sentiment": "Fresh",
+"publication": "NME (New Musical Express)",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-07-02T15:38:50.000Z",
+"review_id": "103140239"
+},
+{
+"critic_name": "Dana Han-Klein",
+"sentiment": "Fresh",
+"publication": "We're Watching What?!",
+"top_critic": false,
+"rating_text": "4.4/5",
+"create_date": "2026-07-02T15:46:14.000Z",
+"review_id": "103140241"
+},
+{
+"critic_name": "Linda Marric",
+"sentiment": "Fresh",
+"publication": "HeyUGuys",
+"top_critic": true,
+"rating_text": "4/5",
+"create_date": "2026-07-02T15:47:20.000Z",
+"review_id": "103140242"
 }
 ]
 }
