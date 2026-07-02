@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 117,
+"review_count": 118,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1056,6 +1056,15 @@
 "rating_text": "4/4",
 "create_date": "2026-07-02T02:06:29.000Z",
 "review_id": "103140173"
+},
+{
+"critic_name": "Don Kaye",
+"sentiment": "Fresh",
+"publication": "Moviefone",
+"top_critic": false,
+"rating_text": "95/100",
+"create_date": "2026-07-02T08:23:42.000Z",
+"review_id": "103140191"
 }
 ]
 }
