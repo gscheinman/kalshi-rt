@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 129,
+"review_count": 131,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1164,6 +1164,24 @@
 "rating_text": "",
 "create_date": "2026-07-02T19:48:57.000Z",
 "review_id": "103140312"
+},
+{
+"critic_name": "Pat Mullen",
+"sentiment": "Fresh",
+"publication": "That Shelf",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-02T22:24:58.000Z",
+"review_id": "103140341"
+},
+{
+"critic_name": "Wendy Ide",
+"sentiment": "Fresh",
+"publication": "Observer (UK)",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-07-02T22:46:46.000Z",
+"review_id": "103140342"
 }
 ]
 }
