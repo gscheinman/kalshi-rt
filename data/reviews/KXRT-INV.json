@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 118,
+"review_count": 119,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1065,6 +1065,15 @@
 "rating_text": "95/100",
 "create_date": "2026-07-02T08:23:42.000Z",
 "review_id": "103140191"
+},
+{
+"critic_name": "Sean Burns",
+"sentiment": "Rotten",
+"publication": "WBUR\u2019s Arts & Culture",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-02T10:12:23.000Z",
+"review_id": "103140197"
 }
 ]
 }
