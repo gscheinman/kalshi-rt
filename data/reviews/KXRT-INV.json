@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 128,
+"review_count": 129,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1155,6 +1155,15 @@
 "rating_text": "4/5",
 "create_date": "2026-07-02T18:29:04.000Z",
 "review_id": "103140289"
+},
+{
+"critic_name": "Courtney Small",
+"sentiment": "Fresh",
+"publication": "Cinema Axis",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-02T19:48:57.000Z",
+"review_id": "103140312"
 }
 ]
 }
