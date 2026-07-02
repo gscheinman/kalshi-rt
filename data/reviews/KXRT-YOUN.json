@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-YOUN",
 "movie": "Young Washington",
 "rt_slug": "m/young_washington",
-"review_count": 18,
+"review_count": 19,
 "reviews": [
 {
 "critic_name": "Mike McGranaghan",
@@ -165,6 +165,15 @@
 "rating_text": "B",
 "create_date": "2026-07-01T16:20:09.000Z",
 "review_id": "103139896"
+},
+{
+"critic_name": "Russ Simmons",
+"sentiment": "Rotten",
+"publication": "KKFI-FM (Kansas City)",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-07-02T02:55:32.000Z",
+"review_id": "103140179"
 }
 ]
 }
