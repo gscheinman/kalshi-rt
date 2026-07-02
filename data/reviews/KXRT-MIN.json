@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/minions_and_monsters",
-"review_count": 811,
+"review_count": 815,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -7302,6 +7302,42 @@
 "rating_text": "8/10",
 "create_date": "2026-07-02T18:06:25.000Z",
 "review_id": "103140279"
+},
+{
+"critic_name": "Soren Andersen",
+"sentiment": "Fresh",
+"publication": "Seattle Times",
+"top_critic": false,
+"rating_text": "3/4",
+"create_date": "2026-07-02T18:23:03.000Z",
+"review_id": "103140283"
+},
+{
+"critic_name": "Kristian M. Lin",
+"sentiment": "Fresh",
+"publication": "Fort Worth Weekly",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-02T18:23:40.000Z",
+"review_id": "103140285"
+},
+{
+"critic_name": "Jeremy Jahns",
+"sentiment": "Fresh",
+"publication": "JeremyJahns.com",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-02T18:25:43.000Z",
+"review_id": "103140286"
+},
+{
+"critic_name": "Leigh Paatsch",
+"sentiment": "Fresh",
+"publication": "Daily Telegraph (Australia)",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-07-02T18:45:30.000Z",
+"review_id": "103140297"
 }
 ]
 }
