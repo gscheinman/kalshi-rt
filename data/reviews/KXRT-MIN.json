@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/minions_and_monsters",
-"review_count": 806,
+"review_count": 810,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -7257,6 +7257,42 @@
 "rating_text": "B",
 "create_date": "2026-07-02T15:54:08.000Z",
 "review_id": "103140243"
+},
+{
+"critic_name": "Valerie Kalfrin",
+"sentiment": "Fresh",
+"publication": "AWFJ.org",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-02T16:27:19.000Z",
+"review_id": "103140248"
+},
+{
+"critic_name": "Patrick McDonald",
+"sentiment": "Fresh",
+"publication": "WBGR-FM (93.7 FM - Monroe, WI)",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-07-02T17:21:57.000Z",
+"review_id": "103140258"
+},
+{
+"critic_name": "Rendy Jones",
+"sentiment": "Fresh",
+"publication": "Rendy Reviews",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-07-02T17:37:33.000Z",
+"review_id": "103140266"
+},
+{
+"critic_name": "Tom Santilli",
+"sentiment": "Fresh",
+"publication": "Movie Show Plus",
+"top_critic": false,
+"rating_text": "B-",
+"create_date": "2026-07-02T17:51:57.000Z",
+"review_id": "103140275"
 }
 ]
 }

@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 125,
+"review_count": 126,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1128,6 +1128,15 @@
 "rating_text": "4/5",
 "create_date": "2026-07-02T15:47:20.000Z",
 "review_id": "103140242"
+},
+{
+"critic_name": "Patrick McDonald",
+"sentiment": "Fresh",
+"publication": "WBGR-FM (93.7 FM - Monroe, WI)",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-07-02T17:24:09.000Z",
+"review_id": "103140260"
 }
 ]
 }
