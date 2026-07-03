@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 131,
+"review_count": 132,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1182,6 +1182,15 @@
 "rating_text": "",
 "create_date": "2026-07-02T22:46:46.000Z",
 "review_id": "103140342"
+},
+{
+"critic_name": "Radheyan Simonpillai",
+"sentiment": "Fresh",
+"publication": "Globe and Mail",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-07-02T23:37:27.000Z",
+"review_id": "103140353"
 }
 ]
 }
