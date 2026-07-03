@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/minions_and_monsters",
-"review_count": 818,
+"review_count": 821,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -7365,6 +7365,33 @@
 "rating_text": "",
 "create_date": "2026-07-03T04:07:06.000Z",
 "review_id": "103140372"
+},
+{
+"critic_name": "Peter Travers",
+"sentiment": "Fresh",
+"publication": "The Travers Take",
+"top_critic": true,
+"rating_text": "3/4",
+"create_date": "2026-07-03T16:49:14.000Z",
+"review_id": "103140446"
+},
+{
+"critic_name": "Doug Walker",
+"sentiment": "Fresh",
+"publication": "Channel Awesome",
+"top_critic": false,
+"rating_text": "3 / 4",
+"create_date": "2026-07-03T17:15:56.000Z",
+"review_id": "103140449"
+},
+{
+"critic_name": "Jason Miller",
+"sentiment": "Fresh",
+"publication": "Nerdspin",
+"top_critic": false,
+"rating_text": "B",
+"create_date": "2026-07-03T17:28:51.000Z",
+"review_id": "103140451"
 }
 ]
 }
