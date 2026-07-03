@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/minions_and_monsters",
-"review_count": 824,
+"review_count": 825,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -7419,6 +7419,15 @@
 "rating_text": "7/10",
 "create_date": "2026-07-03T20:21:08.000Z",
 "review_id": "103140492"
+},
+{
+"critic_name": "Jana Monji",
+"sentiment": "Fresh",
+"publication": "Age of the Geek",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-07-03T20:53:02.000Z",
+"review_id": "103140499"
 }
 ]
 }

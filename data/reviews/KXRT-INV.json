@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 134,
+"review_count": 135,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1209,6 +1209,15 @@
 "rating_text": "",
 "create_date": "2026-07-03T16:29:43.000Z",
 "review_id": "103140441"
+},
+{
+"critic_name": "Robert Horton",
+"sentiment": "Fresh",
+"publication": "The Scarecrow",
+"top_critic": false,
+"rating_text": "3.5/4",
+"create_date": "2026-07-03T21:22:11.000Z",
+"review_id": "103140500"
 }
 ]
 }
