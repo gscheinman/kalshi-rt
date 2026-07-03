@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 133,
+"review_count": 134,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1200,6 +1200,15 @@
 "rating_text": "4.5/5",
 "create_date": "2026-07-03T02:35:31.000Z",
 "review_id": "103140368"
+},
+{
+"critic_name": "Prabhjot Bains",
+"sentiment": "Fresh",
+"publication": "RANGE Magazine",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-03T16:29:43.000Z",
+"review_id": "103140441"
 }
 ]
 }
