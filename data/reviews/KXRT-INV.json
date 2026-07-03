@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 132,
+"review_count": 133,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1191,6 +1191,15 @@
 "rating_text": "",
 "create_date": "2026-07-02T23:37:27.000Z",
 "review_id": "103140353"
+},
+{
+"critic_name": "Christopher Llewellyn Reed",
+"sentiment": "Fresh",
+"publication": "Film Festival Today",
+"top_critic": false,
+"rating_text": "4.5/5",
+"create_date": "2026-07-03T02:35:31.000Z",
+"review_id": "103140368"
 }
 ]
 }
