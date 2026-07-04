@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/minions_and_monsters",
-"review_count": 827,
+"review_count": 828,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -7446,6 +7446,15 @@
 "rating_text": "8/10",
 "create_date": "2026-07-04T12:32:53.000Z",
 "review_id": "103140576"
+},
+{
+"critic_name": "Jack Martin",
+"sentiment": "Fresh",
+"publication": "Film Feeder",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-07-04T13:32:37.000Z",
+"review_id": "103140600"
 }
 ]
 }
