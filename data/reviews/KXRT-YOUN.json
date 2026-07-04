@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-YOUN",
 "movie": "Young Washington",
 "rt_slug": "m/young_washington",
-"review_count": 36,
+"review_count": 37,
 "reviews": [
 {
 "critic_name": "Mike McGranaghan",
@@ -327,6 +327,15 @@
 "rating_text": "5/10",
 "create_date": "2026-07-04T02:01:11.000Z",
 "review_id": "103140521"
+},
+{
+"critic_name": "Aaron Neuwirth",
+"sentiment": "Rotten",
+"publication": "We Live Entertainment",
+"top_critic": false,
+"rating_text": "5/10",
+"create_date": "2026-07-04T08:04:44.000Z",
+"review_id": "103140548"
 }
 ]
 }
