@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 135,
+"review_count": 136,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1218,6 +1218,15 @@
 "rating_text": "3.5/4",
 "create_date": "2026-07-03T21:22:11.000Z",
 "review_id": "103140500"
+},
+{
+"critic_name": "Chris Knight",
+"sentiment": "Fresh",
+"publication": "National Post",
+"top_critic": false,
+"rating_text": "4.5/5",
+"create_date": "2026-07-05T04:04:34.000Z",
+"review_id": "103140649"
 }
 ]
 }
