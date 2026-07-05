@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/minions_and_monsters",
-"review_count": 835,
+"review_count": 836,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -7518,6 +7518,15 @@
 "rating_text": "",
 "create_date": "2026-07-05T20:17:43.000Z",
 "review_id": "103140713"
+},
+{
+"critic_name": "Oscar Goff",
+"sentiment": "Fresh",
+"publication": "Cambridge Day",
+"top_critic": false,
+"rating_text": "2.5/4",
+"create_date": "2026-07-05T22:56:18.000Z",
+"review_id": "103140720"
 }
 ]
 }
