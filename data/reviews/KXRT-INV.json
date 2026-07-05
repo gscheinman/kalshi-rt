@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 140,
+"review_count": 141,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1263,6 +1263,15 @@
 "rating_text": "9/10",
 "create_date": "2026-07-05T12:52:06.000Z",
 "review_id": "103140666"
+},
+{
+"critic_name": "Sarah Vincent",
+"sentiment": "Fresh",
+"publication": "Sarah G Vincent Views",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-05T17:19:14.000Z",
+"review_id": "103140679"
 }
 ]
 }
