@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 141,
+"review_count": 142,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1272,6 +1272,15 @@
 "rating_text": "",
 "create_date": "2026-07-05T17:19:14.000Z",
 "review_id": "103140679"
+},
+{
+"critic_name": "Lindsey Romain",
+"sentiment": "Fresh",
+"publication": "MovieJawn",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-05T20:15:35.000Z",
+"review_id": "103140712"
 }
 ]
 }

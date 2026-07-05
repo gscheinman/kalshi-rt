@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-YOUN",
 "movie": "Young Washington",
 "rt_slug": "m/young_washington",
-"review_count": 39,
+"review_count": 40,
 "reviews": [
 {
 "critic_name": "Mike McGranaghan",
@@ -354,6 +354,15 @@
 "rating_text": "3/4",
 "create_date": "2026-07-05T17:58:15.000Z",
 "review_id": "103140681"
+},
+{
+"critic_name": "Deniz Arslan",
+"sentiment": "Fresh",
+"publication": "Battle Royale With Cheese",
+"top_critic": false,
+"rating_text": "7/10",
+"create_date": "2026-07-05T20:38:14.000Z",
+"review_id": "103140717"
 }
 ]
 }

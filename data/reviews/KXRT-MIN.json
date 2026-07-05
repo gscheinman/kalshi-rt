@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/minions_and_monsters",
-"review_count": 834,
+"review_count": 835,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -7509,6 +7509,15 @@
 "rating_text": "6/10",
 "create_date": "2026-07-05T12:43:28.000Z",
 "review_id": "103140659"
+},
+{
+"critic_name": "Jaime Davis",
+"sentiment": "Fresh",
+"publication": "MovieJawn",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-05T20:17:43.000Z",
+"review_id": "103140713"
 }
 ]
 }
