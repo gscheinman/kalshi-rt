@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 136,
+"review_count": 138,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1227,6 +1227,24 @@
 "rating_text": "4.5/5",
 "create_date": "2026-07-05T04:04:34.000Z",
 "review_id": "103140649"
+},
+{
+"critic_name": "Eddie Harrison",
+"sentiment": "Fresh",
+"publication": "film-authority.com",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-07-05T08:53:00.000Z",
+"review_id": "103140654"
+},
+{
+"critic_name": "Jack Martin",
+"sentiment": "Fresh",
+"publication": "Film Feeder",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-07-05T09:23:00.000Z",
+"review_id": "103140655"
 }
 ]
 }
