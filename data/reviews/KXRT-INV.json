@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 151,
+"review_count": 152,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1362,6 +1362,15 @@
 "rating_text": "4/5",
 "create_date": "2026-07-06T17:54:27.000Z",
 "review_id": "103140864"
+},
+{
+"critic_name": "Rick Hong",
+"sentiment": "Fresh",
+"publication": "Film Threat",
+"top_critic": false,
+"rating_text": "9/10",
+"create_date": "2026-07-06T21:31:56.000Z",
+"review_id": "103140973"
 }
 ]
 }
