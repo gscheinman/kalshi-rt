@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/minions_and_monsters",
-"review_count": 837,
+"review_count": 838,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -7536,6 +7536,15 @@
 "rating_text": "3 stars",
 "create_date": "2026-07-06T05:12:34.000Z",
 "review_id": "103140757"
+},
+{
+"critic_name": "Marta Medina P\u00e9rez",
+"sentiment": "Fresh",
+"publication": "mundoCine",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-07-06T11:57:31.000Z",
+"review_id": "103140782"
 }
 ]
 }
