@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MIN",
 "movie": "Minions & Monsters",
 "rt_slug": "m/minions_and_monsters",
-"review_count": 836,
+"review_count": 837,
 "reviews": [
 {
 "critic_name": "Max Covill",
@@ -7527,6 +7527,15 @@
 "rating_text": "2.5/4",
 "create_date": "2026-07-05T22:56:18.000Z",
 "review_id": "103140720"
+},
+{
+"critic_name": "Linda Cook",
+"sentiment": "Fresh",
+"publication": "OurQuadCities / WHBF-TV (Illinois)",
+"top_critic": false,
+"rating_text": "3 stars",
+"create_date": "2026-07-06T05:12:34.000Z",
+"review_id": "103140757"
 }
 ]
 }
