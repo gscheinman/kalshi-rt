@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 142,
+"review_count": 143,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1281,6 +1281,15 @@
 "rating_text": "",
 "create_date": "2026-07-05T20:15:35.000Z",
 "review_id": "103140712"
+},
+{
+"critic_name": "Oscar Goff",
+"sentiment": "Fresh",
+"publication": "Boston Hassle",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-06T00:13:20.000Z",
+"review_id": "103140738"
 }
 ]
 }
