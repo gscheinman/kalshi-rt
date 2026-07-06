@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 146,
+"review_count": 147,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1317,6 +1317,15 @@
 "rating_text": "4/5",
 "create_date": "2026-07-06T04:23:52.000Z",
 "review_id": "103140752"
+},
+{
+"critic_name": "Josh Martin",
+"sentiment": "Fresh",
+"publication": "InSession Film",
+"top_critic": false,
+"rating_text": "A-",
+"create_date": "2026-07-06T14:27:36.000Z",
+"review_id": "103140794"
 }
 ]
 }
