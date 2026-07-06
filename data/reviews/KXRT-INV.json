@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 143,
+"review_count": 146,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1290,6 +1290,33 @@
 "rating_text": "",
 "create_date": "2026-07-06T00:13:20.000Z",
 "review_id": "103140738"
+},
+{
+"critic_name": "Andrea Chase",
+"sentiment": "Fresh",
+"publication": "Killer Movie Reviews",
+"top_critic": false,
+"rating_text": "5/5",
+"create_date": "2026-07-06T01:55:55.000Z",
+"review_id": "103140746"
+},
+{
+"critic_name": "Nathalia Aryani",
+"sentiment": "Fresh",
+"publication": "The MovieMaven",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-06T03:58:27.000Z",
+"review_id": "103140750"
+},
+{
+"critic_name": "Tim Robey",
+"sentiment": "Fresh",
+"publication": "Daily Telegraph (UK)",
+"top_critic": true,
+"rating_text": "4/5",
+"create_date": "2026-07-06T04:23:52.000Z",
+"review_id": "103140752"
 }
 ]
 }
