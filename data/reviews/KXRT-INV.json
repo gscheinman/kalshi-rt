@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 153,
+"review_count": 154,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1380,6 +1380,15 @@
 "rating_text": "",
 "create_date": "2026-07-06T22:08:18.000Z",
 "review_id": "103140989"
+},
+{
+"critic_name": "Tom Shone",
+"sentiment": "Fresh",
+"publication": "The Times (UK)",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-07-06T22:37:48.000Z",
+"review_id": "103141001"
 }
 ]
 }
