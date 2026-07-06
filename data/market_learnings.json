@@ -1,274 +1,274 @@
 {
-  "n_trades": 141394,
-  "n_movies": 15,
+  "n_trades": 176210,
+  "n_movies": 17,
   "market_calibration": {
     "5%": {
       "predicted": 5.0,
-      "actual": 1.8,
-      "count": 41179,
-      "error": 3.2
+      "actual": 6.0,
+      "count": 46245,
+      "error": 1.0
     },
     "15%": {
       "predicted": 15.0,
-      "actual": 18.9,
-      "count": 4800,
-      "error": 3.9
+      "actual": 26.2,
+      "count": 7848,
+      "error": 11.2
     },
     "25%": {
       "predicted": 25.0,
-      "actual": 36.9,
-      "count": 3152,
-      "error": 11.9
+      "actual": 41.2,
+      "count": 5039,
+      "error": 16.2
     },
     "35%": {
       "predicted": 35.0,
-      "actual": 44.0,
-      "count": 1827,
-      "error": 9.0
+      "actual": 44.9,
+      "count": 3374,
+      "error": 9.9
     },
     "45%": {
       "predicted": 45.0,
-      "actual": 62.3,
-      "count": 2534,
-      "error": 17.3
+      "actual": 57.2,
+      "count": 4320,
+      "error": 12.2
     },
     "55%": {
       "predicted": 55.0,
-      "actual": 55.8,
-      "count": 2162,
-      "error": 0.8
+      "actual": 53.4,
+      "count": 3855,
+      "error": 1.6
     },
     "65%": {
       "predicted": 65.0,
-      "actual": 74.7,
-      "count": 2525,
-      "error": 9.7
+      "actual": 62.9,
+      "count": 4680,
+      "error": 2.1
     },
     "75%": {
       "predicted": 75.0,
-      "actual": 76.3,
-      "count": 3300,
-      "error": 1.3
+      "actual": 72.6,
+      "count": 5402,
+      "error": 2.4
     },
     "85%": {
       "predicted": 85.0,
-      "actual": 83.1,
-      "count": 4828,
-      "error": 1.9
+      "actual": 76.2,
+      "count": 8664,
+      "error": 8.8
     },
     "95%": {
       "predicted": 95.0,
-      "actual": 99.6,
-      "count": 75087,
-      "error": 4.6
+      "actual": 98.6,
+      "count": 86783,
+      "error": 3.6
     }
   },
   "model_calibration": {
     "5%": {
       "predicted": 5.0,
-      "actual": 0.0,
-      "count": 25934,
-      "error": 5.0
+      "actual": 0.3,
+      "count": 26752,
+      "error": 4.7
     },
     "15%": {
       "predicted": 15.0,
       "actual": 0.1,
-      "count": 4624,
+      "count": 5243,
       "error": 14.9
     },
     "25%": {
       "predicted": 25.0,
-      "actual": 2.9,
-      "count": 5578,
-      "error": 22.1
+      "actual": 2.8,
+      "count": 6895,
+      "error": 22.2
     },
     "35%": {
       "predicted": 35.0,
-      "actual": 9.1,
-      "count": 4559,
-      "error": 25.9
+      "actual": 7.0,
+      "count": 6275,
+      "error": 28.0
     },
     "45%": {
       "predicted": 45.0,
-      "actual": 34.8,
-      "count": 4775,
-      "error": 10.2
+      "actual": 27.5,
+      "count": 6074,
+      "error": 17.5
     },
     "55%": {
       "predicted": 55.0,
-      "actual": 52.5,
-      "count": 5774,
-      "error": 2.5
+      "actual": 40.3,
+      "count": 7850,
+      "error": 14.7
     },
     "65%": {
       "predicted": 65.0,
-      "actual": 68.7,
-      "count": 6078,
-      "error": 3.7
+      "actual": 50.9,
+      "count": 8368,
+      "error": 14.1
     },
     "75%": {
       "predicted": 75.0,
-      "actual": 79.8,
-      "count": 8421,
-      "error": 4.8
+      "actual": 62.8,
+      "count": 11517,
+      "error": 12.2
     },
     "85%": {
       "predicted": 85.0,
-      "actual": 81.5,
-      "count": 8999,
-      "error": 3.5
+      "actual": 87.6,
+      "count": 13615,
+      "error": 2.6
     },
     "95%": {
       "predicted": 95.0,
-      "actual": 99.1,
-      "count": 66652,
-      "error": 4.1
+      "actual": 99.3,
+      "count": 83621,
+      "error": 4.3
     }
   },
   "edge_performance": {
     "0-5%": {
-      "trades": 7072,
-      "win_rate": 16.6,
-      "total_pnl": -211.1131,
-      "avg_pnl_per_trade": -0.0299,
-      "avg_edge": 3.9
+      "trades": 9182,
+      "win_rate": 26.5,
+      "total_pnl": -63.0228,
+      "avg_pnl_per_trade": -0.0069,
+      "avg_edge": 4.0
     },
     "5-10%": {
-      "trades": 11004,
-      "win_rate": 15.6,
-      "total_pnl": -539.5149,
-      "avg_pnl_per_trade": -0.049,
-      "avg_edge": 7.4
+      "trades": 16763,
+      "win_rate": 26.5,
+      "total_pnl": -215.5401,
+      "avg_pnl_per_trade": -0.0129,
+      "avg_edge": 7.5
     },
     "10-15%": {
-      "trades": 8622,
-      "win_rate": 13.7,
-      "total_pnl": -477.1996,
-      "avg_pnl_per_trade": -0.0553,
+      "trades": 13737,
+      "win_rate": 26.8,
+      "total_pnl": 203.5907,
+      "avg_pnl_per_trade": 0.0148,
       "avg_edge": 12.4
     },
     "15-20%": {
-      "trades": 7086,
-      "win_rate": 15.4,
-      "total_pnl": -133.2197,
-      "avg_pnl_per_trade": -0.0188,
-      "avg_edge": 17.5
+      "trades": 10676,
+      "win_rate": 20.1,
+      "total_pnl": 19.3687,
+      "avg_pnl_per_trade": 0.0018,
+      "avg_edge": 17.4
     },
     "20-25%": {
-      "trades": 5439,
-      "win_rate": 12.1,
-      "total_pnl": -106.5136,
-      "avg_pnl_per_trade": -0.0196,
+      "trades": 7583,
+      "win_rate": 19.4,
+      "total_pnl": -0.39,
+      "avg_pnl_per_trade": -0.0001,
       "avg_edge": 22.2
     },
     "25-30%": {
-      "trades": 3265,
-      "win_rate": 21.3,
-      "total_pnl": 111.7416,
-      "avg_pnl_per_trade": 0.0342,
-      "avg_edge": 27.4
+      "trades": 4467,
+      "win_rate": 29.5,
+      "total_pnl": 192.0197,
+      "avg_pnl_per_trade": 0.043,
+      "avg_edge": 27.5
     },
     "30-35%": {
-      "trades": 3318,
-      "win_rate": 28.2,
-      "total_pnl": 345.2196,
-      "avg_pnl_per_trade": 0.104,
-      "avg_edge": 32.7
+      "trades": 4314,
+      "win_rate": 34.0,
+      "total_pnl": 426.7571,
+      "avg_pnl_per_trade": 0.0989,
+      "avg_edge": 32.6
     },
     "35-40%": {
-      "trades": 2908,
-      "win_rate": 33.9,
-      "total_pnl": 553.2341,
-      "avg_pnl_per_trade": 0.1902,
+      "trades": 3626,
+      "win_rate": 39.5,
+      "total_pnl": 675.2525,
+      "avg_pnl_per_trade": 0.1862,
       "avg_edge": 37.3
     },
     "40-45%": {
-      "trades": 2271,
-      "win_rate": 26.2,
-      "total_pnl": 277.3073,
-      "avg_pnl_per_trade": 0.1221,
-      "avg_edge": 42.3
+      "trades": 3057,
+      "win_rate": 29.1,
+      "total_pnl": 329.1831,
+      "avg_pnl_per_trade": 0.1077,
+      "avg_edge": 42.5
     },
     "45-50%": {
-      "trades": 1988,
-      "win_rate": 15.2,
-      "total_pnl": 80.6023,
-      "avg_pnl_per_trade": 0.0405,
-      "avg_edge": 47.5
+      "trades": 2631,
+      "win_rate": 30.1,
+      "total_pnl": 275.5453,
+      "avg_pnl_per_trade": 0.1047,
+      "avg_edge": 47.6
     },
     "50-55%": {
-      "trades": 1284,
-      "win_rate": 22.5,
-      "total_pnl": 131.32,
-      "avg_pnl_per_trade": 0.1023,
-      "avg_edge": 52.2
+      "trades": 2003,
+      "win_rate": 44.6,
+      "total_pnl": 416.85,
+      "avg_pnl_per_trade": 0.2081,
+      "avg_edge": 52.3
     },
     "55-60%": {
-      "trades": 515,
-      "win_rate": 10.7,
-      "total_pnl": -5.3391,
-      "avg_pnl_per_trade": -0.0104,
-      "avg_edge": 57.5
+      "trades": 898,
+      "win_rate": 43.2,
+      "total_pnl": 173.0075,
+      "avg_pnl_per_trade": 0.1927,
+      "avg_edge": 57.6
     },
     "60-65%": {
-      "trades": 617,
-      "win_rate": 0.0,
-      "total_pnl": -44.83,
-      "avg_pnl_per_trade": -0.0727,
-      "avg_edge": 62.7
+      "trades": 1146,
+      "win_rate": 45.5,
+      "total_pnl": 267.0031,
+      "avg_pnl_per_trade": 0.233,
+      "avg_edge": 62.8
     },
     "65-70%": {
-      "trades": 289,
-      "win_rate": 0.7,
-      "total_pnl": -17.9418,
-      "avg_pnl_per_trade": -0.0621,
-      "avg_edge": 66.7
+      "trades": 492,
+      "win_rate": 41.5,
+      "total_pnl": 127.506,
+      "avg_pnl_per_trade": 0.2592,
+      "avg_edge": 66.9
     },
     "70-75%": {
-      "trades": 127,
-      "win_rate": 3.9,
-      "total_pnl": -1.4011,
-      "avg_pnl_per_trade": -0.011,
-      "avg_edge": 72.4
+      "trades": 532,
+      "win_rate": 77.1,
+      "total_pnl": 289.3634,
+      "avg_pnl_per_trade": 0.5439,
+      "avg_edge": 73.4
     },
     "75-80%": {
-      "trades": 70,
-      "win_rate": 38.6,
-      "total_pnl": 23.9356,
-      "avg_pnl_per_trade": 0.3419,
-      "avg_edge": 77.1
+      "trades": 730,
+      "win_rate": 94.1,
+      "total_pnl": 512.7901,
+      "avg_pnl_per_trade": 0.7025,
+      "avg_edge": 77.7
     },
     "80-85%": {
-      "trades": 39,
-      "win_rate": 89.7,
-      "total_pnl": 32.3433,
-      "avg_pnl_per_trade": 0.8293,
-      "avg_edge": 81.0
+      "trades": 856,
+      "win_rate": 99.5,
+      "total_pnl": 671.0673,
+      "avg_pnl_per_trade": 0.784,
+      "avg_edge": 81.8
     },
     "85-90%": {
-      "trades": 15,
-      "win_rate": 26.7,
-      "total_pnl": 3.5177,
-      "avg_pnl_per_trade": 0.2345,
-      "avg_edge": 87.5
+      "trades": 890,
+      "win_rate": 98.3,
+      "total_pnl": 764.1065,
+      "avg_pnl_per_trade": 0.8585,
+      "avg_edge": 87.2
     },
     "90-95%": {
-      "trades": 50,
-      "win_rate": 98.0,
-      "total_pnl": 42.1606,
-      "avg_pnl_per_trade": 0.8432,
-      "avg_edge": 92.0
+      "trades": 1047,
+      "win_rate": 99.9,
+      "total_pnl": 914.5099,
+      "avg_pnl_per_trade": 0.8735,
+      "avg_edge": 92.8
     },
     "95-100%": {
-      "trades": 46,
-      "win_rate": 87.0,
-      "total_pnl": 37.16,
-      "avg_pnl_per_trade": 0.8078,
-      "avg_edge": 98.5
+      "trades": 162,
+      "win_rate": 96.3,
+      "total_pnl": 140.7248,
+      "avg_pnl_per_trade": 0.8687,
+      "avg_edge": 96.7
     }
   },
   "optimal_min_edge": 0.29,
-  "optimal_min_edge_pnl_per_trade": 0.1038,
+  "optimal_min_edge_pnl_per_trade": 0.2588,
   "threshold_efficiency": {
     "15": {
       "trades": 9,
@@ -331,14 +331,14 @@
       "total_pnl": -9.9
     },
     "45": {
-      "trades": 261,
-      "win_rate": 41.0,
-      "total_pnl": 35.7679
+      "trades": 274,
+      "win_rate": 43.8,
+      "total_pnl": 37.9999
     },
     "50": {
-      "trades": 535,
-      "win_rate": 46.0,
-      "total_pnl": 85.1763
+      "trades": 1151,
+      "win_rate": 39.6,
+      "total_pnl": 108.3979
     },
     "52": {
       "trades": 101,
@@ -356,9 +356,9 @@
       "total_pnl": 1.85
     },
     "55": {
-      "trades": 733,
-      "win_rate": 27.1,
-      "total_pnl": -71.9299
+      "trades": 2141,
+      "win_rate": 39.7,
+      "total_pnl": 59.3624
     },
     "56": {
       "trades": 21,
@@ -381,9 +381,9 @@
       "total_pnl": -0.0496
     },
     "60": {
-      "trades": 1236,
-      "win_rate": 37.3,
-      "total_pnl": 206.2898
+      "trades": 3108,
+      "win_rate": 60.6,
+      "total_pnl": 759.0553
     },
     "61": {
       "trades": 57,
@@ -406,9 +406,9 @@
       "total_pnl": -6.92
     },
     "65": {
-      "trades": 1385,
-      "win_rate": 48.2,
-      "total_pnl": 354.32
+      "trades": 3072,
+      "win_rate": 61.8,
+      "total_pnl": 854.8362
     },
     "67": {
       "trades": 277,
@@ -421,9 +421,9 @@
       "total_pnl": 96.4655
     },
     "70": {
-      "trades": 2290,
-      "win_rate": 34.1,
-      "total_pnl": 256.33
+      "trades": 4187,
+      "win_rate": 50.3,
+      "total_pnl": 725.4335
     },
     "72": {
       "trades": 939,
@@ -441,9 +441,9 @@
       "total_pnl": 3.72
     },
     "75": {
-      "trades": 2800,
-      "win_rate": 29.9,
-      "total_pnl": 343.865
+      "trades": 4863,
+      "win_rate": 48.0,
+      "total_pnl": 950.2734
     },
     "77": {
       "trades": 268,
@@ -461,9 +461,9 @@
       "total_pnl": 25.153
     },
     "80": {
-      "trades": 3150,
-      "win_rate": 30.5,
-      "total_pnl": 427.4108
+      "trades": 5792,
+      "win_rate": 42.7,
+      "total_pnl": 1140.4527
     },
     "81": {
       "trades": 785,
@@ -486,9 +486,9 @@
       "total_pnl": -43.087
     },
     "85": {
-      "trades": 3142,
-      "win_rate": 8.2,
-      "total_pnl": -108.0954
+      "trades": 6229,
+      "win_rate": 28.4,
+      "total_pnl": 868.1391
     },
     "86": {
       "trades": 287,
@@ -496,9 +496,9 @@
       "total_pnl": 115.7452
     },
     "87": {
-      "trades": 1647,
-      "win_rate": 2.5,
-      "total_pnl": -121.5173
+      "trades": 1735,
+      "win_rate": 2.6,
+      "total_pnl": -124.2614
     },
     "88": {
       "trades": 364,
@@ -511,9 +511,9 @@
       "total_pnl": 117.5963
     },
     "90": {
-      "trades": 3812,
-      "win_rate": 0.4,
-      "total_pnl": -143.0977
+      "trades": 6855,
+      "win_rate": 22.3,
+      "total_pnl": 1002.8809
     },
     "91": {
       "trades": 123,
@@ -521,9 +521,9 @@
       "total_pnl": -0.41
     },
     "92": {
-      "trades": 461,
-      "win_rate": 28.0,
-      "total_pnl": 3.9562
+      "trades": 609,
+      "win_rate": 21.2,
+      "total_pnl": 0.6962
     },
     "93": {
       "trades": 393,
@@ -548,61 +548,61 @@
   },
   "confidence_performance": {
     "HIGH": {
-      "trades": 25769,
-      "win_rate": 8.4,
-      "avg_pnl": -0.0555
+      "trades": 36183,
+      "win_rate": 32.4,
+      "avg_pnl": 0.1025
     },
     "LOW": {
-      "trades": 7396,
-      "win_rate": 55.0,
-      "avg_pnl": 0.3413
+      "trades": 15036,
+      "win_rate": 36.0,
+      "avg_pnl": 0.1718
     },
     "MEDIUM": {
-      "trades": 1158,
-      "win_rate": 15.4,
-      "avg_pnl": -0.0343
+      "trades": 1668,
+      "win_rate": 12.1,
+      "avg_pnl": -0.075
     }
   },
   "review_count_performance": {
     "0-5": {
-      "trades": 7156,
-      "win_rate": 57.1,
-      "total_pnl": 2244.5717,
-      "avg_pnl_per_trade": 0.3137,
-      "avg_claimed_edge": 30.5,
-      "realized_minus_claimed_edge": 0.0089
+      "trades": 9890,
+      "win_rate": 49.2,
+      "total_pnl": 2447.7424,
+      "avg_pnl_per_trade": 0.2475,
+      "avg_claimed_edge": 25.1,
+      "realized_minus_claimed_edge": -0.0039
     },
     "5-20": {
-      "trades": 5459,
-      "win_rate": 19.9,
-      "total_pnl": 215.7344,
-      "avg_pnl_per_trade": 0.0395,
-      "avg_claimed_edge": 13.9,
-      "realized_minus_claimed_edge": -0.0998
+      "trades": 17123,
+      "win_rate": 22.9,
+      "total_pnl": 696.9787,
+      "avg_pnl_per_trade": 0.0407,
+      "avg_claimed_edge": 15.4,
+      "realized_minus_claimed_edge": -0.1132
     },
     "20-40": {
-      "trades": 9427,
-      "win_rate": 13.2,
-      "total_pnl": -659.8005,
-      "avg_pnl_per_trade": -0.07,
-      "avg_claimed_edge": 12.5,
-      "realized_minus_claimed_edge": -0.1946
+      "trades": 10282,
+      "win_rate": 13.3,
+      "total_pnl": -675.7782,
+      "avg_pnl_per_trade": -0.0657,
+      "avg_claimed_edge": 13.5,
+      "realized_minus_claimed_edge": -0.201
     },
     "40-80": {
-      "trades": 8834,
+      "trades": 8966,
       "win_rate": 11.8,
-      "total_pnl": -276.3097,
-      "avg_pnl_per_trade": -0.0313,
-      "avg_claimed_edge": 19.2,
-      "realized_minus_claimed_edge": -0.2232
+      "total_pnl": -279.4145,
+      "avg_pnl_per_trade": -0.0312,
+      "avg_claimed_edge": 19.3,
+      "realized_minus_claimed_edge": -0.2239
     },
     "80-inf": {
-      "trades": 25149,
-      "win_rate": 9.4,
-      "total_pnl": -1422.7267,
-      "avg_pnl_per_trade": -0.0566,
-      "avg_claimed_edge": 22.3,
-      "realized_minus_claimed_edge": -0.2791
+      "trades": 38531,
+      "win_rate": 38.6,
+      "total_pnl": 3930.1644,
+      "avg_pnl_per_trade": 0.102,
+      "avg_claimed_edge": 29.5,
+      "realized_minus_claimed_edge": -0.1927
     }
   }
 }
