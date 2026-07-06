@@ -1,0 +1,26 @@
+{
+"event_ticker": "KXRT-PIN",
+"movie": "Pinocchio Unstrung",
+"rt_slug": "m/pinocchio_unstrung",
+"review_count": 2,
+"reviews": [
+{
+"critic_name": "Meredith Jill Brown",
+"sentiment": "Fresh",
+"publication": "Upcoming Horror Movies",
+"top_critic": false,
+"rating_text": "8/10",
+"create_date": "2026-07-03T20:41:17.000Z",
+"review_id": "103140497"
+},
+{
+"critic_name": "Luke Y. Thompson",
+"sentiment": "Fresh",
+"publication": "Mortal Cinema (Substack)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-06T17:43:03.000Z",
+"review_id": "103140854"
+}
+]
+}
