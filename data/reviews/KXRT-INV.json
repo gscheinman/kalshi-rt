@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 159,
+"review_count": 160,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1434,6 +1434,15 @@
 "rating_text": "4/5",
 "create_date": "2026-07-07T04:45:56.000Z",
 "review_id": "103141076"
+},
+{
+"critic_name": "Neil Pond",
+"sentiment": "Fresh",
+"publication": "Parade Magazine",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-07-07T12:42:24.000Z",
+"review_id": "103141117"
 }
 ]
 }
