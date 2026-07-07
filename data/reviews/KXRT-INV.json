@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 154,
+"review_count": 156,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1389,6 +1389,24 @@
 "rating_text": "4/5",
 "create_date": "2026-07-06T22:37:48.000Z",
 "review_id": "103141001"
+},
+{
+"critic_name": "Joanna Langfield",
+"sentiment": "Fresh",
+"publication": "The Movie Minute",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-07T01:35:05.000Z",
+"review_id": "103141042"
+},
+{
+"critic_name": "Wenlei Ma",
+"sentiment": "Fresh",
+"publication": "The Nightly (AU)",
+"top_critic": true,
+"rating_text": "4/5",
+"create_date": "2026-07-07T02:24:19.000Z",
+"review_id": "103141057"
 }
 ]
 }
