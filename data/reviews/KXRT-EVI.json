@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-EVI",
 "movie": "Evil Dead Burn",
 "rt_slug": "m/evil_dead_burn",
-"review_count": 47,
+"review_count": 51,
 "reviews": [
 {
 "critic_name": "Rocco T. Thompson",
@@ -426,6 +426,42 @@
 "rating_text": "3/5",
 "create_date": "2026-07-08T18:27:05.000Z",
 "review_id": "103141537"
+},
+{
+"critic_name": "Chris Bumbray",
+"sentiment": "Fresh",
+"publication": "JoBlo's Movie Network",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-08T19:03:34.000Z",
+"review_id": "103141569"
+},
+{
+"critic_name": "Germain Lussier",
+"sentiment": "Fresh",
+"publication": "io9.com",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-08T19:10:27.000Z",
+"review_id": "103141570"
+},
+{
+"critic_name": "Kyle Anderson",
+"sentiment": "Rotten",
+"publication": "Nerdist",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-07-08T19:29:46.000Z",
+"review_id": "103141572"
+},
+{
+"critic_name": "David Crow",
+"sentiment": "Rotten",
+"publication": "Den of Geek",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-07-08T19:35:52.000Z",
+"review_id": "103141573"
 }
 ]
 }
