@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MOA",
 "movie": "Moana",
 "rt_slug": "m/moana_2026",
-"review_count": 50,
+"review_count": 54,
 "reviews": [
 {
 "critic_name": "Cody Dericks",
@@ -453,6 +453,42 @@
 "rating_text": "2/5",
 "create_date": "2026-07-08T17:27:44.000Z",
 "review_id": "103141514"
+},
+{
+"critic_name": "Hanna Flint",
+"sentiment": "Fresh",
+"publication": "IGN Movies",
+"top_critic": false,
+"rating_text": "6/10",
+"create_date": "2026-07-08T17:47:48.000Z",
+"review_id": "103141522"
+},
+{
+"critic_name": "Alonso Duralde",
+"sentiment": "Fresh",
+"publication": "The Film Verdict",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-07-08T18:18:31.000Z",
+"review_id": "103141534"
+},
+{
+"critic_name": "Richard Whittaker",
+"sentiment": "Rotten",
+"publication": "Austin Chronicle",
+"top_critic": false,
+"rating_text": "2.5/5",
+"create_date": "2026-07-08T18:33:14.000Z",
+"review_id": "103141538"
+},
+{
+"critic_name": "Kaitlyn Booth",
+"sentiment": "Rotten",
+"publication": "Bleeding Cool",
+"top_critic": false,
+"rating_text": "5/10",
+"create_date": "2026-07-08T18:38:49.000Z",
+"review_id": "103141542"
 }
 ]
 }
