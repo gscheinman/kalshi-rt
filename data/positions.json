@@ -326,5 +326,18 @@
       "avg_fill": 68.0,
       "contracts": 73.5
     }
+  ],
+  "KXRT-MOA": [
+    {
+      "timestamp": "2026-07-08T15:36:45.226145+00:00",
+      "market_ticker": "KXRT-MOA-27",
+      "direction": "BUY YES",
+      "threshold": 27,
+      "model_prob": 94.6,
+      "edge": 8.6,
+      "suggested_size": 50.0,
+      "avg_fill": 86.0,
+      "contracts": 58.1
+    }
   ]
 }
