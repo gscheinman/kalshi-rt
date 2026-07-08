@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-EVI",
 "movie": "Evil Dead Burn",
 "rt_slug": "m/evil_dead_burn",
-"review_count": 51,
+"review_count": 53,
 "reviews": [
 {
 "critic_name": "Rocco T. Thompson",
@@ -462,6 +462,24 @@
 "rating_text": "2/5",
 "create_date": "2026-07-08T19:35:52.000Z",
 "review_id": "103141573"
+},
+{
+"critic_name": "Robert Kojder",
+"sentiment": "Fresh",
+"publication": "Flickering Myth",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-07-08T19:57:40.000Z",
+"review_id": "103141581"
+},
+{
+"critic_name": "Eric Goldman",
+"sentiment": "Fresh",
+"publication": "Eric Goldman (YouTube)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-08T20:00:26.000Z",
+"review_id": "103141584"
 }
 ]
 }
