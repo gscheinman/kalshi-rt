@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MOA",
 "movie": "Moana",
 "rt_slug": "m/moana_2026",
-"review_count": 58,
+"review_count": 59,
 "reviews": [
 {
 "critic_name": "Cody Dericks",
@@ -525,6 +525,15 @@
 "rating_text": "6/10",
 "create_date": "2026-07-08T20:09:59.000Z",
 "review_id": "103141589"
+},
+{
+"critic_name": "Wendy Lee Szany",
+"sentiment": "Fresh",
+"publication": "The Movie Couple",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-08T21:03:09.000Z",
+"review_id": "103141609"
 }
 ]
 }
