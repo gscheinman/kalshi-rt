@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-EVI",
 "movie": "Evil Dead Burn",
 "rt_slug": "m/evil_dead_burn",
-"review_count": 54,
+"review_count": 55,
 "reviews": [
 {
 "critic_name": "Rocco T. Thompson",
@@ -489,6 +489,15 @@
 "rating_text": "4/5",
 "create_date": "2026-07-08T20:45:17.000Z",
 "review_id": "103141601"
+},
+{
+"critic_name": "Don Kaye",
+"sentiment": "Fresh",
+"publication": "Moviefone",
+"top_critic": false,
+"rating_text": "75/100",
+"create_date": "2026-07-08T21:33:41.000Z",
+"review_id": "103141621"
 }
 ]
 }
