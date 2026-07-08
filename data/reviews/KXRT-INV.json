@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 168,
+"review_count": 171,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1515,6 +1515,33 @@
 "rating_text": "3.5/5",
 "create_date": "2026-07-08T17:51:14.000Z",
 "review_id": "103141523"
+},
+{
+"critic_name": "Moira MacDonald",
+"sentiment": "Fresh",
+"publication": "Seattle Times",
+"top_critic": false,
+"rating_text": "2.5/4",
+"create_date": "2026-07-08T18:34:34.000Z",
+"review_id": "103141540"
+},
+{
+"critic_name": "Leigh Paatsch",
+"sentiment": "Fresh",
+"publication": "Daily Telegraph (Australia)",
+"top_critic": false,
+"rating_text": "4.5/5",
+"create_date": "2026-07-08T18:46:10.000Z",
+"review_id": "103141558"
+},
+{
+"critic_name": "Patrick Cavanaugh",
+"sentiment": "Fresh",
+"publication": "The Wolfman Cometh",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-07-08T18:46:31.000Z",
+"review_id": "103141559"
 }
 ]
 }
