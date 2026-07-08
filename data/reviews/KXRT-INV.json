@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 164,
+"review_count": 165,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1479,6 +1479,15 @@
 "rating_text": "4/5",
 "create_date": "2026-07-07T18:09:43.000Z",
 "review_id": "103141217"
+},
+{
+"critic_name": "Linda and Al Lerner",
+"sentiment": "Fresh",
+"publication": "Movies and Shakers",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-08T03:29:06.000Z",
+"review_id": "103141359"
 }
 ]
 }
