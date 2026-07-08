@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-EVI",
 "movie": "Evil Dead Burn",
 "rt_slug": "m/evil_dead_burn",
-"review_count": 44,
+"review_count": 45,
 "reviews": [
 {
 "critic_name": "Rocco T. Thompson",
@@ -399,6 +399,15 @@
 "rating_text": "C",
 "create_date": "2026-07-08T16:39:03.000Z",
 "review_id": "103141507"
+},
+{
+"critic_name": "Laura Clifford",
+"sentiment": "Fresh",
+"publication": "Reeling Reviews",
+"top_critic": false,
+"rating_text": "B+",
+"create_date": "2026-07-08T17:17:50.000Z",
+"review_id": "103141512"
 }
 ]
 }

@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 166,
+"review_count": 167,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1497,6 +1497,15 @@
 "rating_text": "4/5",
 "create_date": "2026-07-08T14:10:20.000Z",
 "review_id": "103141397"
+},
+{
+"critic_name": "Abhishek Srivastava",
+"sentiment": "Fresh",
+"publication": "The Times of India",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-07-08T17:11:03.000Z",
+"review_id": "103141510"
 }
 ]
 }
