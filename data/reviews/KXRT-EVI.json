@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-EVI",
 "movie": "Evil Dead Burn",
 "rt_slug": "m/evil_dead_burn",
-"review_count": 19,
+"review_count": 44,
 "reviews": [
 {
 "critic_name": "Rocco T. Thompson",
@@ -174,6 +174,231 @@
 "rating_text": "4/5",
 "create_date": "2026-07-08T16:06:26.000Z",
 "review_id": "103141477"
+},
+{
+"critic_name": "Josh Parham",
+"sentiment": "Fresh",
+"publication": "Next Best Picture",
+"top_critic": false,
+"rating_text": "6/10",
+"create_date": "2026-07-08T16:07:25.000Z",
+"review_id": "103141479"
+},
+{
+"critic_name": "Brad Hanson",
+"sentiment": "Fresh",
+"publication": "GamesRadar+",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-07-08T16:07:50.000Z",
+"review_id": "103141480"
+},
+{
+"critic_name": "Matt Donato",
+"sentiment": "Fresh",
+"publication": "Daily Dead",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-07-08T16:08:08.000Z",
+"review_id": "103141481"
+},
+{
+"critic_name": "Sean Boelman",
+"sentiment": "Fresh",
+"publication": "FandomWire",
+"top_critic": false,
+"rating_text": "9/10",
+"create_date": "2026-07-08T16:08:09.000Z",
+"review_id": "103141482"
+},
+{
+"critic_name": "Michael Gingold",
+"sentiment": "Fresh",
+"publication": "Fangoria",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-08T16:08:38.000Z",
+"review_id": "103141484"
+},
+{
+"critic_name": "Tara Brady",
+"sentiment": "Fresh",
+"publication": "Irish Times",
+"top_critic": true,
+"rating_text": "3/5",
+"create_date": "2026-07-08T16:09:06.000Z",
+"review_id": "103141485"
+},
+{
+"critic_name": "Aaron Neuwirth",
+"sentiment": "Fresh",
+"publication": "We Live Entertainment",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-08T16:10:14.000Z",
+"review_id": "103141486"
+},
+{
+"critic_name": "Fred Topel",
+"sentiment": "Fresh",
+"publication": "United Press International",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-08T16:10:45.000Z",
+"review_id": "103141487"
+},
+{
+"critic_name": "Tom Jorgensen",
+"sentiment": "Fresh",
+"publication": "IGN Movies",
+"top_critic": false,
+"rating_text": "5/10",
+"create_date": "2026-07-08T16:11:37.000Z",
+"review_id": "103141488"
+},
+{
+"critic_name": "Owen Gleiberman",
+"sentiment": "Fresh",
+"publication": "Variety",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-07-08T16:13:47.000Z",
+"review_id": "103141490"
+},
+{
+"critic_name": "Karina Adelgaard",
+"sentiment": "Fresh",
+"publication": "Heaven of Horror",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-07-08T16:14:43.000Z",
+"review_id": "103141491"
+},
+{
+"critic_name": "David Rooney",
+"sentiment": "Fresh",
+"publication": "The Hollywood Reporter",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-07-08T16:16:27.000Z",
+"review_id": "103141492"
+},
+{
+"critic_name": "Jamie Jirak",
+"sentiment": "Fresh",
+"publication": "The Mary Sue",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-08T16:17:38.000Z",
+"review_id": "103141493"
+},
+{
+"critic_name": "Julian Roman",
+"sentiment": "Rotten",
+"publication": "MovieWeb",
+"top_critic": false,
+"rating_text": "1.5/5",
+"create_date": "2026-07-08T16:19:49.000Z",
+"review_id": "103141494"
+},
+{
+"critic_name": "Chris Wasser",
+"sentiment": "Rotten",
+"publication": "Irish Independent",
+"top_critic": false,
+"rating_text": "1.5/5",
+"create_date": "2026-07-08T16:23:27.000Z",
+"review_id": "103141495"
+},
+{
+"critic_name": "J Hurtado",
+"sentiment": "Rotten",
+"publication": "ScreenAnarchy",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-08T16:23:43.000Z",
+"review_id": "103141496"
+},
+{
+"critic_name": "Katherine McLaughlin",
+"sentiment": "Fresh",
+"publication": "SciFiNow",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-07-08T16:24:53.000Z",
+"review_id": "103141497"
+},
+{
+"critic_name": "Patrick Cremona",
+"sentiment": "Fresh",
+"publication": "Radio Times",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-07-08T16:25:35.000Z",
+"review_id": "103141498"
+},
+{
+"critic_name": "Lou Thomas",
+"sentiment": "Rotten",
+"publication": "NME (New Musical Express)",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-07-08T16:27:45.000Z",
+"review_id": "103141500"
+},
+{
+"critic_name": "Nikki Baughan",
+"sentiment": "Fresh",
+"publication": "Screen International",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-08T16:28:26.000Z",
+"review_id": "103141502"
+},
+{
+"critic_name": "Jonathan Sim",
+"sentiment": "Fresh",
+"publication": "ComingSoon.net",
+"top_critic": false,
+"rating_text": "8/10",
+"create_date": "2026-07-08T16:28:56.000Z",
+"review_id": "103141503"
+},
+{
+"critic_name": "Maria Loreto",
+"sentiment": "Rotten",
+"publication": "Polygon",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-08T16:32:51.000Z",
+"review_id": "103141504"
+},
+{
+"critic_name": "Trace Sauveur",
+"sentiment": "Fresh",
+"publication": "AwardsWatch",
+"top_critic": false,
+"rating_text": "B+",
+"create_date": "2026-07-08T16:33:22.000Z",
+"review_id": "103141505"
+},
+{
+"critic_name": "Billie Walker",
+"sentiment": "Rotten",
+"publication": "Little White Lies",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-07-08T16:36:56.000Z",
+"review_id": "103141506"
+},
+{
+"critic_name": "Monica Castillo",
+"sentiment": "Rotten",
+"publication": "AV Club",
+"top_critic": true,
+"rating_text": "C",
+"create_date": "2026-07-08T16:39:03.000Z",
+"review_id": "103141507"
 }
 ]
 }

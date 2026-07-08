@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MOA",
 "movie": "Moana",
 "rt_slug": "m/moana_2026",
-"review_count": 44,
+"review_count": 48,
 "reviews": [
 {
 "critic_name": "Cody Dericks",
@@ -399,6 +399,42 @@
 "rating_text": "71/100",
 "create_date": "2026-07-08T15:51:13.000Z",
 "review_id": "103141453"
+},
+{
+"critic_name": "Cole Groth",
+"sentiment": "Rotten",
+"publication": "FandomWire",
+"top_critic": false,
+"rating_text": "4/10",
+"create_date": "2026-07-08T16:06:54.000Z",
+"review_id": "103141478"
+},
+{
+"critic_name": "Aglaia Berlutti",
+"sentiment": "Rotten",
+"publication": "Hipertextual",
+"top_critic": false,
+"rating_text": "C-",
+"create_date": "2026-07-08T16:08:12.000Z",
+"review_id": "103141483"
+},
+{
+"critic_name": "Jonathan Sim",
+"sentiment": "Rotten",
+"publication": "ComingSoon.net",
+"top_critic": false,
+"rating_text": "4/10",
+"create_date": "2026-07-08T16:27:53.000Z",
+"review_id": "103141501"
+},
+{
+"critic_name": "Mark Keizer",
+"sentiment": "Rotten",
+"publication": "MovieWeb",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-07-08T16:43:18.000Z",
+"review_id": "103141508"
 }
 ]
 }
