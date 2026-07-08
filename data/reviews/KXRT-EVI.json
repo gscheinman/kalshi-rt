@@ -1,0 +1,179 @@
+{
+"event_ticker": "KXRT-EVI",
+"movie": "Evil Dead Burn",
+"rt_slug": "m/evil_dead_burn",
+"review_count": 19,
+"reviews": [
+{
+"critic_name": "Rocco T. Thompson",
+"sentiment": "Rotten",
+"publication": "Slant Magazine",
+"top_critic": false,
+"rating_text": "2.5/4",
+"create_date": "2026-07-08T15:59:41.000Z",
+"review_id": "103141457"
+},
+{
+"critic_name": "Matt Oakes",
+"sentiment": "Fresh",
+"publication": "Silver Screen Riot",
+"top_critic": false,
+"rating_text": "A-",
+"create_date": "2026-07-08T15:59:44.000Z",
+"review_id": "103141458"
+},
+{
+"critic_name": "Edward Douglas",
+"sentiment": "Fresh",
+"publication": "The Weekend Warrior (Substack)",
+"top_critic": false,
+"rating_text": "7.5/10",
+"create_date": "2026-07-08T16:00:03.000Z",
+"review_id": "103141459"
+},
+{
+"critic_name": "Joey Magidson",
+"sentiment": "Fresh",
+"publication": "Awards Radar",
+"top_critic": false,
+"rating_text": "3/4",
+"create_date": "2026-07-08T16:00:22.000Z",
+"review_id": "103141460"
+},
+{
+"critic_name": "Peter Gray",
+"sentiment": "Fresh",
+"publication": "The AU Review",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-07-08T16:00:41.000Z",
+"review_id": "103141461"
+},
+{
+"critic_name": "Brian Tallerico",
+"sentiment": "Rotten",
+"publication": "RogerEbert.com",
+"top_critic": true,
+"rating_text": "2/4",
+"create_date": "2026-07-08T16:01:06.000Z",
+"review_id": "103141462"
+},
+{
+"critic_name": "Allison Rose",
+"sentiment": "Fresh",
+"publication": "FlickDirect",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-07-08T16:01:09.000Z",
+"review_id": "103141463"
+},
+{
+"critic_name": "Kat Hughes",
+"sentiment": "Fresh",
+"publication": "THN",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-07-08T16:01:31.000Z",
+"review_id": "103141464"
+},
+{
+"critic_name": "Joshua Mbonu",
+"sentiment": "Fresh",
+"publication": "Geek Vibes Nation",
+"top_critic": false,
+"rating_text": "7/10",
+"create_date": "2026-07-08T16:01:51.000Z",
+"review_id": "103141465"
+},
+{
+"critic_name": "Chris Evangelista",
+"sentiment": "Fresh",
+"publication": "Slashfilm",
+"top_critic": false,
+"rating_text": "7/10",
+"create_date": "2026-07-08T16:02:07.000Z",
+"review_id": "103141466"
+},
+{
+"critic_name": "Alistair Ryder",
+"sentiment": "Fresh",
+"publication": "Looper.com",
+"top_critic": false,
+"rating_text": "7/10",
+"create_date": "2026-07-08T16:02:08.000Z",
+"review_id": "103141468"
+},
+{
+"critic_name": "Nick Schager",
+"sentiment": "Fresh",
+"publication": "The Daily Beast",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-07-08T16:02:19.000Z",
+"review_id": "103141469"
+},
+{
+"critic_name": "Jordan Williams",
+"sentiment": "Fresh",
+"publication": "Screen Rant",
+"top_critic": false,
+"rating_text": "7/10",
+"create_date": "2026-07-08T16:02:25.000Z",
+"review_id": "103141470"
+},
+{
+"critic_name": "Jeremy Jahns",
+"sentiment": "Fresh",
+"publication": "JeremyJahns.com",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-08T16:03:44.000Z",
+"review_id": "103141471"
+},
+{
+"critic_name": "Ian Sandwell",
+"sentiment": "Fresh",
+"publication": "Digital Spy",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-07-08T16:03:52.000Z",
+"review_id": "103141472"
+},
+{
+"critic_name": "William Bibbiani",
+"sentiment": "Fresh",
+"publication": "TheWrap",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-08T16:04:09.000Z",
+"review_id": "103141473"
+},
+{
+"critic_name": "Courtney Howard",
+"sentiment": "Fresh",
+"publication": "Fresh Fiction",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-07-08T16:05:05.000Z",
+"review_id": "103141474"
+},
+{
+"critic_name": "Casey Chong",
+"sentiment": "Fresh",
+"publication": "Fortress of Solitude",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-07-08T16:06:04.000Z",
+"review_id": "103141476"
+},
+{
+"critic_name": "Joel Harley",
+"sentiment": "Fresh",
+"publication": "metro.co.uk",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-07-08T16:06:26.000Z",
+"review_id": "103141477"
+}
+]
+}
