@@ -1,0 +1,287 @@
+{
+"event_ticker": "KXRT-MOA",
+"movie": "Moana",
+"rt_slug": "m/moana_2026",
+"review_count": 31,
+"reviews": [
+{
+"critic_name": "Cody Dericks",
+"sentiment": "Rotten",
+"publication": "AwardsWatch",
+"top_critic": false,
+"rating_text": "C-",
+"create_date": "2026-07-08T14:59:18.000Z",
+"review_id": "103141405"
+},
+{
+"critic_name": "Peter Gray",
+"sentiment": "Rotten",
+"publication": "The AU Review",
+"top_critic": false,
+"rating_text": "2.5/5",
+"create_date": "2026-07-08T15:00:08.000Z",
+"review_id": "103141407"
+},
+{
+"critic_name": "Liz Shannon Miller",
+"sentiment": "Fresh",
+"publication": "Consequence",
+"top_critic": true,
+"rating_text": "B-",
+"create_date": "2026-07-08T15:00:15.000Z",
+"review_id": "103141408"
+},
+{
+"critic_name": "Tyler Taing",
+"sentiment": "Rotten",
+"publication": "Discussing Film",
+"top_critic": false,
+"rating_text": "1/5",
+"create_date": "2026-07-08T15:01:20.000Z",
+"review_id": "103141409"
+},
+{
+"critic_name": "Witney Seibold",
+"sentiment": "Rotten",
+"publication": "Slashfilm",
+"top_critic": false,
+"rating_text": "4/10",
+"create_date": "2026-07-08T15:01:42.000Z",
+"review_id": "103141410"
+},
+{
+"critic_name": "Zach Pope",
+"sentiment": "Rotten",
+"publication": "Zach Pope Reviews",
+"top_critic": false,
+"rating_text": "2.5/5",
+"create_date": "2026-07-08T15:02:42.000Z",
+"review_id": "103141411"
+},
+{
+"critic_name": "Molly Freeman",
+"sentiment": "Fresh",
+"publication": "Screen Rant",
+"top_critic": false,
+"rating_text": "6/10",
+"create_date": "2026-07-08T15:03:06.000Z",
+"review_id": "103141412"
+},
+{
+"critic_name": "Ian Sandwell",
+"sentiment": "Rotten",
+"publication": "Digital Spy",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-07-08T15:04:14.000Z",
+"review_id": "103141413"
+},
+{
+"critic_name": "Tim Grierson",
+"sentiment": "Rotten",
+"publication": "Screen International",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-07-08T15:04:17.000Z",
+"review_id": "103141414"
+},
+{
+"critic_name": "David Rooney",
+"sentiment": "Fresh",
+"publication": "The Hollywood Reporter",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-07-08T15:05:51.000Z",
+"review_id": "103141415"
+},
+{
+"critic_name": "Jacob Oller",
+"sentiment": "Rotten",
+"publication": "AV Club",
+"top_critic": false,
+"rating_text": "C",
+"create_date": "2026-07-08T15:05:56.000Z",
+"review_id": "103141416"
+},
+{
+"critic_name": "Taylor Gates",
+"sentiment": "Rotten",
+"publication": "Collider",
+"top_critic": false,
+"rating_text": "5/10",
+"create_date": "2026-07-08T15:06:18.000Z",
+"review_id": "103141417"
+},
+{
+"critic_name": "Tessa Smith",
+"sentiment": "Fresh",
+"publication": "Mama's Geeky",
+"top_critic": false,
+"rating_text": "7.5/10",
+"create_date": "2026-07-08T15:07:29.000Z",
+"review_id": "103141418"
+},
+{
+"critic_name": "Owen Gleiberman",
+"sentiment": "Fresh",
+"publication": "Variety",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-07-08T15:07:37.000Z",
+"review_id": "103141419"
+},
+{
+"critic_name": "David Crow",
+"sentiment": "Rotten",
+"publication": "Den of Geek",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-07-08T15:09:43.000Z",
+"review_id": "103141420"
+},
+{
+"critic_name": "Nell Minow",
+"sentiment": "Fresh",
+"publication": "RogerEbert.com",
+"top_critic": true,
+"rating_text": "3/4",
+"create_date": "2026-07-08T15:10:14.000Z",
+"review_id": "103141421"
+},
+{
+"critic_name": "Alison Willmore",
+"sentiment": "Rotten",
+"publication": "New York Magazine/Vulture",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-07-08T15:10:27.000Z",
+"review_id": "103141422"
+},
+{
+"critic_name": "William Bibbiani",
+"sentiment": "Rotten",
+"publication": "TheWrap",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-08T15:11:22.000Z",
+"review_id": "103141423"
+},
+{
+"critic_name": "Michael Walsh",
+"sentiment": "Fresh",
+"publication": "Nerdist",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-07-08T15:11:42.000Z",
+"review_id": "103141424"
+},
+{
+"critic_name": "Dan Bayer",
+"sentiment": "Rotten",
+"publication": "Next Best Picture",
+"top_critic": false,
+"rating_text": "5/10",
+"create_date": "2026-07-08T15:11:58.000Z",
+"review_id": "103141425"
+},
+{
+"critic_name": "David Fear",
+"sentiment": "Rotten",
+"publication": "Rolling Stone",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-07-08T15:13:30.000Z",
+"review_id": "103141426"
+},
+{
+"critic_name": "Clarisse Loughrey",
+"sentiment": "Rotten",
+"publication": "Independent (UK)",
+"top_critic": true,
+"rating_text": "1/5",
+"create_date": "2026-07-08T15:14:16.000Z",
+"review_id": "103141427"
+},
+{
+"critic_name": "Kristy Puchko",
+"sentiment": "Rotten",
+"publication": "Mashable",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-07-08T15:15:47.000Z",
+"review_id": "103141428"
+},
+{
+"critic_name": "Marshall Shaffer",
+"sentiment": "Rotten",
+"publication": "The Playlist",
+"top_critic": false,
+"rating_text": "D+",
+"create_date": "2026-07-08T15:16:04.000Z",
+"review_id": "103141429"
+},
+{
+"critic_name": "Emma Simmonds",
+"sentiment": "Rotten",
+"publication": "Radio Times",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-07-08T15:16:30.000Z",
+"review_id": "103141430"
+},
+{
+"critic_name": "Fred Topel",
+"sentiment": "Rotten",
+"publication": "United Press International",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-08T15:17:13.000Z",
+"review_id": "103141431"
+},
+{
+"critic_name": "Peter Bradshaw",
+"sentiment": "Rotten",
+"publication": "Guardian",
+"top_critic": true,
+"rating_text": "2/5",
+"create_date": "2026-07-08T15:18:53.000Z",
+"review_id": "103141432"
+},
+{
+"critic_name": "Kristen Lopez",
+"sentiment": "Rotten",
+"publication": "The Film Maven",
+"top_critic": true,
+"rating_text": "D+",
+"create_date": "2026-07-08T15:19:30.000Z",
+"review_id": "103141433"
+},
+{
+"critic_name": "Rachel Leishman",
+"sentiment": "Fresh",
+"publication": "CBR",
+"top_critic": false,
+"rating_text": "7/10",
+"create_date": "2026-07-08T15:19:51.000Z",
+"review_id": "103141434"
+},
+{
+"critic_name": "Wilson Chapman",
+"sentiment": "Rotten",
+"publication": "IndieWire",
+"top_critic": false,
+"rating_text": "C",
+"create_date": "2026-07-08T15:21:05.000Z",
+"review_id": "103141436"
+},
+{
+"critic_name": "Odie Henderson",
+"sentiment": "Fresh",
+"publication": "Boston Globe",
+"top_critic": true,
+"rating_text": "2.5/4",
+"create_date": "2026-07-08T15:22:45.000Z",
+"review_id": "103141437"
+}
+]
+}
