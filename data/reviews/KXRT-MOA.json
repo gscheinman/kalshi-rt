@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MOA",
 "movie": "Moana",
 "rt_slug": "m/moana_2026",
-"review_count": 61,
+"review_count": 66,
 "reviews": [
 {
 "critic_name": "Cody Dericks",
@@ -552,6 +552,51 @@
 "rating_text": "",
 "create_date": "2026-07-08T22:19:45.000Z",
 "review_id": "103141634"
+},
+{
+"critic_name": "Germain Lussier",
+"sentiment": "Rotten",
+"publication": "io9.com",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-08T22:44:04.000Z",
+"review_id": "103141654"
+},
+{
+"critic_name": "Carla Hay",
+"sentiment": "Rotten",
+"publication": "Culture Mix",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-08T22:59:48.000Z",
+"review_id": "103141656"
+},
+{
+"critic_name": "Jason Flatt",
+"sentiment": "Rotten",
+"publication": "But Why Tho?",
+"top_critic": false,
+"rating_text": "2/10",
+"create_date": "2026-07-08T23:16:19.000Z",
+"review_id": "103141657"
+},
+{
+"critic_name": "Jeanne Kaplan",
+"sentiment": "Fresh",
+"publication": "Kaplan vs. Kaplan",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-08T23:28:39.000Z",
+"review_id": "103141663"
+},
+{
+"critic_name": "Doug Jamieson",
+"sentiment": "Rotten",
+"publication": "The Jam Report",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-07-08T23:30:52.000Z",
+"review_id": "103141664"
 }
 ]
 }
