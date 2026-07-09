@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 177,
+"review_count": 178,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1596,6 +1596,15 @@
 "rating_text": "",
 "create_date": "2026-07-09T20:08:59.000Z",
 "review_id": "103141921"
+},
+{
+"critic_name": "Fico Cangiano",
+"sentiment": "Fresh",
+"publication": "CineXpress",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-07-09T21:19:45.000Z",
+"review_id": "103141982"
 }
 ]
 }
