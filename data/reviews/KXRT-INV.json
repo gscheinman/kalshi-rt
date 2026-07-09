@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 172,
+"review_count": 173,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1551,6 +1551,15 @@
 "rating_text": "4/5",
 "create_date": "2026-07-09T03:48:09.000Z",
 "review_id": "103141686"
+},
+{
+"critic_name": "Peter Gray",
+"sentiment": "Fresh",
+"publication": "The AU Review",
+"top_critic": false,
+"rating_text": "5/5",
+"create_date": "2026-07-09T07:19:50.000Z",
+"review_id": "103141688"
 }
 ]
 }
