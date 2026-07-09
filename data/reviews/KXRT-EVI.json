@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-EVI",
 "movie": "Evil Dead Burn",
 "rt_slug": "m/evil_dead_burn",
-"review_count": 74,
+"review_count": 77,
 "reviews": [
 {
 "critic_name": "Rocco T. Thompson",
@@ -669,6 +669,33 @@
 "rating_text": "",
 "create_date": "2026-07-09T17:36:24.000Z",
 "review_id": "103141829"
+},
+{
+"critic_name": "Harry Guerin",
+"sentiment": "Fresh",
+"publication": "RT\u00c9 (Ireland)",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-07-09T18:00:51.000Z",
+"review_id": "103141848"
+},
+{
+"critic_name": "Ridge Harripersad",
+"sentiment": "Fresh",
+"publication": "CGMagazine",
+"top_critic": false,
+"rating_text": "7.5",
+"create_date": "2026-07-09T18:01:46.000Z",
+"review_id": "103141850"
+},
+{
+"critic_name": "Rich Cline",
+"sentiment": "Fresh",
+"publication": "Shadows on the Wall",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-07-09T18:07:55.000Z",
+"review_id": "103141854"
 }
 ]
 }
