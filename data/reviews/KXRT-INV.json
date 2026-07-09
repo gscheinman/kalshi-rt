@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 178,
+"review_count": 180,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1605,6 +1605,24 @@
 "rating_text": "4/5",
 "create_date": "2026-07-09T21:19:45.000Z",
 "review_id": "103141982"
+},
+{
+"critic_name": "Matthew Creith",
+"sentiment": "Fresh",
+"publication": "Matinee With Matt",
+"top_critic": false,
+"rating_text": "4.5/5",
+"create_date": "2026-07-09T21:42:01.000Z",
+"review_id": "103142004"
+},
+{
+"critic_name": "Lexi Amorello",
+"sentiment": "Fresh",
+"publication": "Movie Recs by Lex",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-09T21:43:58.000Z",
+"review_id": "103142007"
 }
 ]
 }

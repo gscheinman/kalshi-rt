@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-EVI",
 "movie": "Evil Dead Burn",
 "rt_slug": "m/evil_dead_burn",
-"review_count": 84,
+"review_count": 85,
 "reviews": [
 {
 "critic_name": "Rocco T. Thompson",
@@ -759,6 +759,15 @@
 "rating_text": "B+",
 "create_date": "2026-07-09T20:59:59.000Z",
 "review_id": "103141960"
+},
+{
+"critic_name": "Kristy Puchko",
+"sentiment": "Rotten",
+"publication": "Mashable",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-07-09T21:48:43.000Z",
+"review_id": "103142013"
 }
 ]
 }
