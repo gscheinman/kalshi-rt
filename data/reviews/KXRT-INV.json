@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 176,
+"review_count": 177,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1587,6 +1587,15 @@
 "rating_text": "",
 "create_date": "2026-07-09T19:38:05.000Z",
 "review_id": "103141902"
+},
+{
+"critic_name": "Kristian M. Lin",
+"sentiment": "Fresh",
+"publication": "Fort Worth Weekly",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-09T20:08:59.000Z",
+"review_id": "103141921"
 }
 ]
 }

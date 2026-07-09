@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MOA",
 "movie": "Moana",
 "rt_slug": "m/moana_2026",
-"review_count": 98,
+"review_count": 100,
 "reviews": [
 {
 "critic_name": "Cody Dericks",
@@ -885,6 +885,24 @@
 "rating_text": "2.5/5",
 "create_date": "2026-07-09T19:34:26.000Z",
 "review_id": "103141897"
+},
+{
+"critic_name": "Gregory Nussen",
+"sentiment": "Rotten",
+"publication": "Deadline Hollywood Daily",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-09T20:19:41.000Z",
+"review_id": "103141927"
+},
+{
+"critic_name": "Aparita Bhandari",
+"sentiment": "Rotten",
+"publication": "Globe and Mail",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-09T20:35:34.000Z",
+"review_id": "103141943"
 }
 ]
 }
