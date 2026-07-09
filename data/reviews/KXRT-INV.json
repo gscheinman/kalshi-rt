@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 174,
+"review_count": 176,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1569,6 +1569,24 @@
 "rating_text": "3.5/5",
 "create_date": "2026-07-09T13:04:58.000Z",
 "review_id": "103141721"
+},
+{
+"critic_name": "Nikki Gemmell",
+"sentiment": "Fresh",
+"publication": "The Australian",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-07-09T19:36:10.000Z",
+"review_id": "103141900"
+},
+{
+"critic_name": "Robert Denerstein",
+"sentiment": "Fresh",
+"publication": "Denerstein Unleashed",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-09T19:38:05.000Z",
+"review_id": "103141902"
 }
 ]
 }
