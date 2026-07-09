@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-EVI",
 "movie": "Evil Dead Burn",
 "rt_slug": "m/evil_dead_burn",
-"review_count": 85,
+"review_count": 86,
 "reviews": [
 {
 "critic_name": "Rocco T. Thompson",
@@ -768,6 +768,15 @@
 "rating_text": "",
 "create_date": "2026-07-09T21:48:43.000Z",
 "review_id": "103142013"
+},
+{
+"critic_name": "Keri O'Shea",
+"sentiment": "Fresh",
+"publication": "Warped Perspective",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-09T23:19:30.000Z",
+"review_id": "103142038"
 }
 ]
 }
