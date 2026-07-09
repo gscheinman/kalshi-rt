@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-EVI",
 "movie": "Evil Dead Burn",
 "rt_slug": "m/evil_dead_burn",
-"review_count": 58,
+"review_count": 62,
 "reviews": [
 {
 "critic_name": "Rocco T. Thompson",
@@ -525,6 +525,42 @@
 "rating_text": "3.5/5",
 "create_date": "2026-07-09T01:30:54.000Z",
 "review_id": "103141676"
+},
+{
+"critic_name": "Nadine Whitney",
+"sentiment": "Rotten",
+"publication": "The Curb",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-09T02:12:30.000Z",
+"review_id": "103141678"
+},
+{
+"critic_name": "Andrea Chase",
+"sentiment": "Fresh",
+"publication": "Killer Movie Reviews",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-07-09T02:13:43.000Z",
+"review_id": "103141679"
+},
+{
+"critic_name": "Jordy Sirkin",
+"sentiment": "Fresh",
+"publication": "Jordy Reviews It",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-09T02:21:54.000Z",
+"review_id": "103141680"
+},
+{
+"critic_name": "Lisa Laman",
+"sentiment": "Rotten",
+"publication": "The Spool",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-09T03:10:40.000Z",
+"review_id": "103141681"
 }
 ]
 }

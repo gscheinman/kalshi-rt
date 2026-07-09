@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 171,
+"review_count": 172,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1542,6 +1542,15 @@
 "rating_text": "4/5",
 "create_date": "2026-07-08T18:46:31.000Z",
 "review_id": "103141559"
+},
+{
+"critic_name": "Ruth Maramis",
+"sentiment": "Fresh",
+"publication": "FlixChatter Film Blog",
+"top_critic": false,
+"rating_text": "4/5",
+"create_date": "2026-07-09T03:48:09.000Z",
+"review_id": "103141686"
 }
 ]
 }
