@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MOA",
 "movie": "Moana",
 "rt_slug": "m/moana_2026",
-"review_count": 87,
+"review_count": 96,
 "reviews": [
 {
 "critic_name": "Cody Dericks",
@@ -786,6 +786,87 @@
 "rating_text": "",
 "create_date": "2026-07-09T18:00:03.000Z",
 "review_id": "103141847"
+},
+{
+"critic_name": "Ridge Harripersad",
+"sentiment": "Fresh",
+"publication": "CGMagazine",
+"top_critic": false,
+"rating_text": "7/10",
+"create_date": "2026-07-09T18:23:24.000Z",
+"review_id": "103141861"
+},
+{
+"critic_name": "Leah Marilla Thomas",
+"sentiment": "Fresh",
+"publication": "The Mary Sue",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-07-09T18:26:19.000Z",
+"review_id": "103141864"
+},
+{
+"critic_name": "Caroline Siede",
+"sentiment": "Rotten",
+"publication": "Girl Culture (Substack)",
+"top_critic": true,
+"rating_text": "C",
+"create_date": "2026-07-09T18:31:15.000Z",
+"review_id": "103141867"
+},
+{
+"critic_name": "Mario Alegre",
+"sentiment": "Rotten",
+"publication": "Pr\u00f3xima Tanda (Substack)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-09T19:09:49.000Z",
+"review_id": "103141880"
+},
+{
+"critic_name": "Joe Botten",
+"sentiment": "Fresh",
+"publication": "Loud and Clear Reviews",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-07-09T19:14:24.000Z",
+"review_id": "103141883"
+},
+{
+"critic_name": "Jeremy Jahns",
+"sentiment": "Rotten",
+"publication": "JeremyJahns.com",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-09T19:16:00.000Z",
+"review_id": "103141885"
+},
+{
+"critic_name": "Danny Leigh",
+"sentiment": "Rotten",
+"publication": "Financial Times",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-07-09T19:18:58.000Z",
+"review_id": "103141886"
+},
+{
+"critic_name": "Alissa Wilkinson",
+"sentiment": "Rotten",
+"publication": "New York Times",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-07-09T19:20:20.000Z",
+"review_id": "103141888"
+},
+{
+"critic_name": "Soren Andersen",
+"sentiment": "Fresh",
+"publication": "Seattle Times",
+"top_critic": false,
+"rating_text": "3/4",
+"create_date": "2026-07-09T19:21:01.000Z",
+"review_id": "103141890"
 }
 ]
 }
