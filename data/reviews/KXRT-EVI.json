@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-EVI",
 "movie": "Evil Dead Burn",
 "rt_slug": "m/evil_dead_burn",
-"review_count": 62,
+"review_count": 63,
 "reviews": [
 {
 "critic_name": "Rocco T. Thompson",
@@ -561,6 +561,15 @@
 "rating_text": "",
 "create_date": "2026-07-09T03:10:40.000Z",
 "review_id": "103141681"
+},
+{
+"critic_name": "Thom Ernst",
+"sentiment": "Fresh",
+"publication": "Original Cin",
+"top_critic": false,
+"rating_text": "B-",
+"create_date": "2026-07-09T11:48:11.000Z",
+"review_id": "103141712"
 }
 ]
 }

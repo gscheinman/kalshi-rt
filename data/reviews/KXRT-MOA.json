@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MOA",
 "movie": "Moana",
 "rt_slug": "m/moana_2026",
-"review_count": 72,
+"review_count": 76,
 "reviews": [
 {
 "critic_name": "Cody Dericks",
@@ -651,6 +651,42 @@
 "rating_text": "3.5/5",
 "create_date": "2026-07-09T10:59:35.000Z",
 "review_id": "103141701"
+},
+{
+"critic_name": "James Profetto",
+"sentiment": "Rotten",
+"publication": "Reel James (YouTube)",
+"top_critic": false,
+"rating_text": "1/5",
+"create_date": "2026-07-09T12:16:21.000Z",
+"review_id": "103141713"
+},
+{
+"critic_name": "Bob Chipman",
+"sentiment": "Fresh",
+"publication": "Moviebob Central",
+"top_critic": false,
+"rating_text": "7/10",
+"create_date": "2026-07-09T12:45:19.000Z",
+"review_id": "103141717"
+},
+{
+"critic_name": "Jim Schembri",
+"sentiment": "Fresh",
+"publication": "jimschembri.com",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-07-09T13:09:38.000Z",
+"review_id": "103141722"
+},
+{
+"critic_name": "Chris Bumbray",
+"sentiment": "Rotten",
+"publication": "JoBlo's Movie Network",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-09T13:16:32.000Z",
+"review_id": "103141724"
 }
 ]
 }
