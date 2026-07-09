@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-EVI",
 "movie": "Evil Dead Burn",
 "rt_slug": "m/evil_dead_burn",
-"review_count": 66,
+"review_count": 72,
 "reviews": [
 {
 "critic_name": "Rocco T. Thompson",
@@ -597,6 +597,60 @@
 "rating_text": "4/5",
 "create_date": "2026-07-09T16:22:25.000Z",
 "review_id": "103141784"
+},
+{
+"critic_name": "Lady Jenevia",
+"sentiment": "Rotten",
+"publication": "LadyJenevia (YouTube)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-09T16:43:24.000Z",
+"review_id": "103141797"
+},
+{
+"critic_name": "Matthew Jackson",
+"sentiment": "Fresh",
+"publication": "Pop Heist",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-09T16:53:13.000Z",
+"review_id": "103141803"
+},
+{
+"critic_name": "Diego Batlle",
+"sentiment": "Fresh",
+"publication": "Otroscines.com",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-07-09T16:55:16.000Z",
+"review_id": "103141806"
+},
+{
+"critic_name": "Ben Travis",
+"sentiment": "Fresh",
+"publication": "Empire Magazine",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-07-09T17:05:59.000Z",
+"review_id": "103141815"
+},
+{
+"critic_name": "Pablo O. Scholz",
+"sentiment": "Fresh",
+"publication": "Clar\u00edn",
+"top_critic": false,
+"rating_text": "3/4",
+"create_date": "2026-07-09T17:07:32.000Z",
+"review_id": "103141816"
+},
+{
+"critic_name": "Paula V\u00e1zquez Prieto",
+"sentiment": "Rotten",
+"publication": "La Naci\u00f3n (Argentina)",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-07-09T17:11:55.000Z",
+"review_id": "103141817"
 }
 ]
 }

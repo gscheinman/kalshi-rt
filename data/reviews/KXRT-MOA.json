@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MOA",
 "movie": "Moana",
 "rt_slug": "m/moana_2026",
-"review_count": 80,
+"review_count": 84,
 "reviews": [
 {
 "critic_name": "Cody Dericks",
@@ -723,6 +723,42 @@
 "rating_text": "2/10",
 "create_date": "2026-07-09T15:39:44.000Z",
 "review_id": "103141776"
+},
+{
+"critic_name": "Diego Batlle",
+"sentiment": "Rotten",
+"publication": "Otroscines.com",
+"top_critic": false,
+"rating_text": "2.5/5",
+"create_date": "2026-07-09T16:57:44.000Z",
+"review_id": "103141807"
+},
+{
+"critic_name": "Marcelo Stiletano",
+"sentiment": "Fresh",
+"publication": "La Naci\u00f3n (Argentina)",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-07-09T17:14:06.000Z",
+"review_id": "103141818"
+},
+{
+"critic_name": "Andrea Zamora",
+"sentiment": "Fresh",
+"publication": "Sensacine",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-07-09T17:28:58.000Z",
+"review_id": "103141825"
+},
+{
+"critic_name": "Juanma Fern\u00e1ndez Par\u00eds",
+"sentiment": "Fresh",
+"publication": "El Nuevo D\u00eda (Puerto Rico)",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-07-09T17:35:27.000Z",
+"review_id": "103141827"
 }
 ]
 }
