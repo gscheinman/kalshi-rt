@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-EVI",
 "movie": "Evil Dead Burn",
 "rt_slug": "m/evil_dead_burn",
-"review_count": 72,
+"review_count": 74,
 "reviews": [
 {
 "critic_name": "Rocco T. Thompson",
@@ -651,6 +651,24 @@
 "rating_text": "2/5",
 "create_date": "2026-07-09T17:11:55.000Z",
 "review_id": "103141817"
+},
+{
+"critic_name": "Zaki Hasan",
+"sentiment": "Rotten",
+"publication": "San Francisco Chronicle",
+"top_critic": false,
+"rating_text": "2.5/4",
+"create_date": "2026-07-09T17:36:22.000Z",
+"review_id": "103141828"
+},
+{
+"critic_name": "Peter Sobczynski",
+"sentiment": "Rotten",
+"publication": "Auteurist Class (Substack)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-09T17:36:24.000Z",
+"review_id": "103141829"
 }
 ]
 }

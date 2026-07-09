@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MOA",
 "movie": "Moana",
 "rt_slug": "m/moana_2026",
-"review_count": 84,
+"review_count": 87,
 "reviews": [
 {
 "critic_name": "Cody Dericks",
@@ -759,6 +759,33 @@
 "rating_text": "3/5",
 "create_date": "2026-07-09T17:35:27.000Z",
 "review_id": "103141827"
+},
+{
+"critic_name": "G. Allen Johnson",
+"sentiment": "Rotten",
+"publication": "San Francisco Chronicle",
+"top_critic": false,
+"rating_text": "1/4",
+"create_date": "2026-07-09T17:52:59.000Z",
+"review_id": "103141836"
+},
+{
+"critic_name": "Rich Cline",
+"sentiment": "Fresh",
+"publication": "Shadows on the Wall",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-07-09T17:57:42.000Z",
+"review_id": "103141841"
+},
+{
+"critic_name": "Amelia Emberwing",
+"sentiment": "Rotten",
+"publication": "Pickety Witch",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-09T18:00:03.000Z",
+"review_id": "103141847"
 }
 ]
 }
