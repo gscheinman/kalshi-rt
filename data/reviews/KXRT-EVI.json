@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-EVI",
 "movie": "Evil Dead Burn",
 "rt_slug": "m/evil_dead_burn",
-"review_count": 123,
+"review_count": 125,
 "reviews": [
 {
 "critic_name": "Rocco T. Thompson",
@@ -1110,6 +1110,24 @@
 "rating_text": "",
 "create_date": "2026-07-10T22:40:13.000Z",
 "review_id": "103142558"
+},
+{
+"critic_name": "Angelica Jade Basti\u00e9n",
+"sentiment": "Rotten",
+"publication": "New York Magazine/Vulture",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-07-10T22:44:31.000Z",
+"review_id": "103142582"
+},
+{
+"critic_name": "Carla Hay",
+"sentiment": "Fresh",
+"publication": "Culture Mix",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-10T22:59:49.000Z",
+"review_id": "103142588"
 }
 ]
 }

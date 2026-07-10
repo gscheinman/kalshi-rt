@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MOA",
 "movie": "Moana",
 "rt_slug": "m/moana_2026",
-"review_count": 133,
+"review_count": 134,
 "reviews": [
 {
 "critic_name": "Cody Dericks",
@@ -1200,6 +1200,15 @@
 "rating_text": "",
 "create_date": "2026-07-10T22:32:06.000Z",
 "review_id": "103142552"
+},
+{
+"critic_name": "Shawn Edwards",
+"sentiment": "Rotten",
+"publication": "Fox 4 Kansas City",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-07-10T22:33:30.000Z",
+"review_id": "103142555"
 }
 ]
 }
