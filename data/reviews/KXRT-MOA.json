@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MOA",
 "movie": "Moana",
 "rt_slug": "m/moana_2026",
-"review_count": 112,
+"review_count": 117,
 "reviews": [
 {
 "critic_name": "Cody Dericks",
@@ -1011,6 +1011,51 @@
 "rating_text": "2/10",
 "create_date": "2026-07-10T11:06:35.000Z",
 "review_id": "103142204"
+},
+{
+"critic_name": "Jackson Weaver",
+"sentiment": "Rotten",
+"publication": "CBC News",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-07-10T13:27:22.000Z",
+"review_id": "103142271"
+},
+{
+"critic_name": "Sean Collier",
+"sentiment": "Rotten",
+"publication": "Table Magazine",
+"top_critic": false,
+"rating_text": "5/10",
+"create_date": "2026-07-10T14:02:35.000Z",
+"review_id": "103142288"
+},
+{
+"critic_name": "Stephen Silver",
+"sentiment": "Rotten",
+"publication": "Splice Today",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-10T14:11:01.000Z",
+"review_id": "103142291"
+},
+{
+"critic_name": "Nate Adams",
+"sentiment": "Rotten",
+"publication": "The Only Critic",
+"top_critic": false,
+"rating_text": "C",
+"create_date": "2026-07-10T14:30:56.000Z",
+"review_id": "103142296"
+},
+{
+"critic_name": "Jonathan W. Hickman",
+"sentiment": "Fresh",
+"publication": "The Newnan Times-Herald",
+"top_critic": false,
+"rating_text": "6/10",
+"create_date": "2026-07-10T14:40:33.000Z",
+"review_id": "103142302"
 }
 ]
 }

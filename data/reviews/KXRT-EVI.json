@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-EVI",
 "movie": "Evil Dead Burn",
 "rt_slug": "m/evil_dead_burn",
-"review_count": 98,
+"review_count": 101,
 "reviews": [
 {
 "critic_name": "Rocco T. Thompson",
@@ -885,6 +885,33 @@
 "rating_text": "",
 "create_date": "2026-07-10T12:01:46.000Z",
 "review_id": "103142223"
+},
+{
+"critic_name": "William Stottor",
+"sentiment": "Fresh",
+"publication": "Loud and Clear Reviews",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-07-10T13:21:29.000Z",
+"review_id": "103142263"
+},
+{
+"critic_name": "Mark Dujsik",
+"sentiment": "Rotten",
+"publication": "Mark Reviews Movies",
+"top_critic": false,
+"rating_text": "2/4",
+"create_date": "2026-07-10T14:00:06.000Z",
+"review_id": "103142287"
+},
+{
+"critic_name": "Keith Phipps",
+"sentiment": "Rotten",
+"publication": "The Reveal",
+"top_critic": true,
+"rating_text": "2.5/5",
+"create_date": "2026-07-10T14:06:29.000Z",
+"review_id": "103142290"
 }
 ]
 }
