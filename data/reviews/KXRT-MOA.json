@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MOA",
 "movie": "Moana",
 "rt_slug": "m/moana_2026",
-"review_count": 127,
+"review_count": 130,
 "reviews": [
 {
 "critic_name": "Cody Dericks",
@@ -1146,6 +1146,33 @@
 "rating_text": "B",
 "create_date": "2026-07-10T20:05:05.000Z",
 "review_id": "103142480"
+},
+{
+"critic_name": "Dulcie Pearce",
+"sentiment": "Rotten",
+"publication": "The Sun (UK)",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-07-10T20:39:01.000Z",
+"review_id": "103142497"
+},
+{
+"critic_name": "James Berardinelli",
+"sentiment": "Rotten",
+"publication": "ReelViews",
+"top_critic": false,
+"rating_text": "2/4",
+"create_date": "2026-07-10T20:48:57.000Z",
+"review_id": "103142500"
+},
+{
+"critic_name": "Peter Travers",
+"sentiment": "Rotten",
+"publication": "The Travers Take",
+"top_critic": true,
+"rating_text": "2/4",
+"create_date": "2026-07-10T20:59:16.000Z",
+"review_id": "103142511"
 }
 ]
 }
