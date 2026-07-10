@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MOA",
 "movie": "Moana",
 "rt_slug": "m/moana_2026",
-"review_count": 119,
+"review_count": 120,
 "reviews": [
 {
 "critic_name": "Cody Dericks",
@@ -1074,6 +1074,15 @@
 "rating_text": "",
 "create_date": "2026-07-10T15:30:38.000Z",
 "review_id": "103142337"
+},
+{
+"critic_name": "Mark Kermode",
+"sentiment": "Fresh",
+"publication": "Kermode and Mayo's Take (YouTube)",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-07-10T16:49:04.000Z",
+"review_id": "103142382"
 }
 ]
 }

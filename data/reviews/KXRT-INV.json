@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 191,
+"review_count": 195,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1722,6 +1722,42 @@
 "rating_text": "7/10",
 "create_date": "2026-07-10T14:32:47.000Z",
 "review_id": "103142298"
+},
+{
+"critic_name": "Cate Marquis",
+"sentiment": "Fresh",
+"publication": "We Are Movie Geeks",
+"top_critic": false,
+"rating_text": "3/4",
+"create_date": "2026-07-10T15:57:09.000Z",
+"review_id": "103142344"
+},
+{
+"critic_name": "Rosie Fletcher",
+"sentiment": "Fresh",
+"publication": "Radio Times",
+"top_critic": false,
+"rating_text": "5/5",
+"create_date": "2026-07-10T16:11:14.000Z",
+"review_id": "103142356"
+},
+{
+"critic_name": "Micheal Compton",
+"sentiment": "Fresh",
+"publication": "Bowling Green Daily News",
+"top_critic": false,
+"rating_text": "A-",
+"create_date": "2026-07-10T16:23:25.000Z",
+"review_id": "103142366"
+},
+{
+"critic_name": "Frank Wilkins",
+"sentiment": "Fresh",
+"publication": "Reel Reviews",
+"top_critic": false,
+"rating_text": "5/5",
+"create_date": "2026-07-10T16:32:02.000Z",
+"review_id": "103142372"
 }
 ]
 }

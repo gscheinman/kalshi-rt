@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-EVI",
 "movie": "Evil Dead Burn",
 "rt_slug": "m/evil_dead_burn",
-"review_count": 102,
+"review_count": 106,
 "reviews": [
 {
 "critic_name": "Rocco T. Thompson",
@@ -921,6 +921,42 @@
 "rating_text": "C",
 "create_date": "2026-07-10T15:09:06.000Z",
 "review_id": "103142330"
+},
+{
+"critic_name": "Jason Adams",
+"sentiment": "Fresh",
+"publication": "Pajiba",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-10T16:16:24.000Z",
+"review_id": "103142360"
+},
+{
+"critic_name": "Joshua Rothkopf",
+"sentiment": "Rotten",
+"publication": "Los Angeles Times",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-07-10T16:38:17.000Z",
+"review_id": "103142375"
+},
+{
+"critic_name": "Fran Winston",
+"sentiment": "Fresh",
+"publication": "Daily Express (UK)",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-07-10T16:39:08.000Z",
+"review_id": "103142377"
+},
+{
+"critic_name": "Mark Kermode",
+"sentiment": "Rotten",
+"publication": "Kermode and Mayo's Take (YouTube)",
+"top_critic": true,
+"rating_text": "",
+"create_date": "2026-07-10T16:42:44.000Z",
+"review_id": "103142379"
 }
 ]
 }
