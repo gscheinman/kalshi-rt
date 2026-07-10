@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 183,
+"review_count": 186,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1650,6 +1650,33 @@
 "rating_text": "3/5",
 "create_date": "2026-07-10T03:04:30.000Z",
 "review_id": "103142152"
+},
+{
+"critic_name": "Simon Miraudo",
+"sentiment": "Fresh",
+"publication": "Movie Squad (RTRFM 92.1)",
+"top_critic": false,
+"rating_text": "4.5/5",
+"create_date": "2026-07-10T04:33:29.000Z",
+"review_id": "103142160"
+},
+{
+"critic_name": "Allen Almachar",
+"sentiment": "Fresh",
+"publication": "The MacGuffin",
+"top_critic": false,
+"rating_text": "A",
+"create_date": "2026-07-10T04:49:51.000Z",
+"review_id": "103142166"
+},
+{
+"critic_name": "John McDonald",
+"sentiment": "Fresh",
+"publication": "johnmcdonald.net.au",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-10T04:53:26.000Z",
+"review_id": "103142169"
 }
 ]
 }
