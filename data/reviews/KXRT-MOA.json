@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MOA",
 "movie": "Moana",
 "rt_slug": "m/moana_2026",
-"review_count": 107,
+"review_count": 110,
 "reviews": [
 {
 "critic_name": "Cody Dericks",
@@ -966,6 +966,33 @@
 "rating_text": "C",
 "create_date": "2026-07-10T01:49:13.000Z",
 "review_id": "103142109"
+},
+{
+"critic_name": "Russ Simmons",
+"sentiment": "Rotten",
+"publication": "KKFI-FM (Kansas City)",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-07-10T03:06:36.000Z",
+"review_id": "103142154"
+},
+{
+"critic_name": "Linda and Al Lerner",
+"sentiment": "Rotten",
+"publication": "Movies and Shakers",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-10T03:56:58.000Z",
+"review_id": "103142158"
+},
+{
+"critic_name": "Dionar Hidalgo",
+"sentiment": "Rotten",
+"publication": "Algo M\u00e1s Que Cine",
+"top_critic": false,
+"rating_text": "3/10",
+"create_date": "2026-07-10T04:05:13.000Z",
+"review_id": "103142159"
 }
 ]
 }
