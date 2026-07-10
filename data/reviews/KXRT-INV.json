@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 186,
+"review_count": 187,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1677,6 +1677,15 @@
 "rating_text": "",
 "create_date": "2026-07-10T04:53:26.000Z",
 "review_id": "103142169"
+},
+{
+"critic_name": "Rohan Naahar",
+"sentiment": "Fresh",
+"publication": "The Federal",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-10T11:04:01.000Z",
+"review_id": "103142202"
 }
 ]
 }

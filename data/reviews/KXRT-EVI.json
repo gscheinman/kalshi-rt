@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-EVI",
 "movie": "Evil Dead Burn",
 "rt_slug": "m/evil_dead_burn",
-"review_count": 94,
+"review_count": 95,
 "reviews": [
 {
 "critic_name": "Rocco T. Thompson",
@@ -849,6 +849,15 @@
 "rating_text": "1/5",
 "create_date": "2026-07-10T08:21:08.000Z",
 "review_id": "103142184"
+},
+{
+"critic_name": "Jack Martin",
+"sentiment": "Fresh",
+"publication": "Film Feeder",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-07-10T10:13:59.000Z",
+"review_id": "103142197"
 }
 ]
 }
