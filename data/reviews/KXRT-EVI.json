@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-EVI",
 "movie": "Evil Dead Burn",
 "rt_slug": "m/evil_dead_burn",
-"review_count": 109,
+"review_count": 111,
 "reviews": [
 {
 "critic_name": "Rocco T. Thompson",
@@ -984,6 +984,24 @@
 "rating_text": "1.5/4",
 "create_date": "2026-07-10T18:04:32.000Z",
 "review_id": "103142410"
+},
+{
+"critic_name": "Rachel Wagner",
+"sentiment": "Rotten",
+"publication": "Rachel's Reviews (YouTube)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-10T18:59:54.000Z",
+"review_id": "103142436"
+},
+{
+"critic_name": "Aidan Kelley",
+"sentiment": "Fresh",
+"publication": "Collider",
+"top_critic": false,
+"rating_text": "8/10",
+"create_date": "2026-07-10T19:01:36.000Z",
+"review_id": "103142439"
 }
 ]
 }
