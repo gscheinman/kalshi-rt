@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-EVI",
 "movie": "Evil Dead Burn",
 "rt_slug": "m/evil_dead_burn",
-"review_count": 120,
+"review_count": 122,
 "reviews": [
 {
 "critic_name": "Rocco T. Thompson",
@@ -1083,6 +1083,24 @@
 "rating_text": "3/4",
 "create_date": "2026-07-10T20:57:51.000Z",
 "review_id": "103142508"
+},
+{
+"critic_name": "Mike McGranaghan",
+"sentiment": "Fresh",
+"publication": "Aisle Seat",
+"top_critic": false,
+"rating_text": "3/4",
+"create_date": "2026-07-10T21:34:47.000Z",
+"review_id": "103142528"
+},
+{
+"critic_name": "Christopher Cross",
+"sentiment": "Fresh",
+"publication": "Asynchronous Media",
+"top_critic": false,
+"rating_text": "3/5",
+"create_date": "2026-07-10T21:46:42.000Z",
+"review_id": "103142532"
 }
 ]
 }
