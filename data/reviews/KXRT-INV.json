@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 187,
+"review_count": 188,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1686,6 +1686,15 @@
 "rating_text": "",
 "create_date": "2026-07-10T11:04:01.000Z",
 "review_id": "103142202"
+},
+{
+"critic_name": "Sonny Bunch",
+"sentiment": "Fresh",
+"publication": "The Bulwark",
+"top_critic": false,
+"rating_text": "3/4",
+"create_date": "2026-07-10T12:56:52.000Z",
+"review_id": "103142251"
 }
 ]
 }
