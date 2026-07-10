@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-EVI",
 "movie": "Evil Dead Burn",
 "rt_slug": "m/evil_dead_burn",
-"review_count": 93,
+"review_count": 94,
 "reviews": [
 {
 "critic_name": "Rocco T. Thompson",
@@ -840,6 +840,15 @@
 "rating_text": "2.5/5",
 "create_date": "2026-07-10T07:02:34.000Z",
 "review_id": "103142178"
+},
+{
+"critic_name": "Eddie Harrison",
+"sentiment": "Rotten",
+"publication": "film-authority.com",
+"top_critic": false,
+"rating_text": "1/5",
+"create_date": "2026-07-10T08:21:08.000Z",
+"review_id": "103142184"
 }
 ]
 }
