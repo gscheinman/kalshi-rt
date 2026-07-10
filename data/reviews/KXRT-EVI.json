@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-EVI",
 "movie": "Evil Dead Burn",
 "rt_slug": "m/evil_dead_burn",
-"review_count": 122,
+"review_count": 123,
 "reviews": [
 {
 "critic_name": "Rocco T. Thompson",
@@ -1101,6 +1101,15 @@
 "rating_text": "3/5",
 "create_date": "2026-07-10T21:46:42.000Z",
 "review_id": "103142532"
+},
+{
+"critic_name": "Anton Bitel",
+"sentiment": "Fresh",
+"publication": "Sight & Sound",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-10T22:40:13.000Z",
+"review_id": "103142558"
 }
 ]
 }
