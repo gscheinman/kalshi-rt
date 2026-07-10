@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MOA",
 "movie": "Moana",
 "rt_slug": "m/moana_2026",
-"review_count": 134,
+"review_count": 135,
 "reviews": [
 {
 "critic_name": "Cody Dericks",
@@ -1209,6 +1209,15 @@
 "rating_text": "2/5",
 "create_date": "2026-07-10T22:33:30.000Z",
 "review_id": "103142555"
+},
+{
+"critic_name": "Hannah Pettit",
+"sentiment": "Rotten",
+"publication": "London Evening Standard",
+"top_critic": false,
+"rating_text": "1/5",
+"create_date": "2026-07-10T23:35:38.000Z",
+"review_id": "103142601"
 }
 ]
 }
