@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MOA",
 "movie": "Moana",
 "rt_slug": "m/moana_2026",
-"review_count": 104,
+"review_count": 107,
 "reviews": [
 {
 "critic_name": "Cody Dericks",
@@ -939,6 +939,33 @@
 "rating_text": "2/5",
 "create_date": "2026-07-09T23:13:41.000Z",
 "review_id": "103142037"
+},
+{
+"critic_name": "Christopher Lloyd",
+"sentiment": "Fresh",
+"publication": "The Film Yap",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-07-10T00:12:29.000Z",
+"review_id": "103142083"
+},
+{
+"critic_name": "Patrick McDonald",
+"sentiment": "Fresh",
+"publication": "HollywoodChicago.com",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-07-10T00:34:34.000Z",
+"review_id": "103142098"
+},
+{
+"critic_name": "Frank Swietek",
+"sentiment": "Rotten",
+"publication": "One Guy's Opinion",
+"top_critic": false,
+"rating_text": "C",
+"create_date": "2026-07-10T01:49:13.000Z",
+"review_id": "103142109"
 }
 ]
 }

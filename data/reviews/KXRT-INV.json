@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 181,
+"review_count": 182,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1632,6 +1632,15 @@
 "rating_text": "",
 "create_date": "2026-07-09T23:54:08.000Z",
 "review_id": "103142065"
+},
+{
+"critic_name": "Danielle Solzman",
+"sentiment": "Rotten",
+"publication": "Solzy at the Movies",
+"top_critic": false,
+"rating_text": "2.5/5",
+"create_date": "2026-07-10T00:21:49.000Z",
+"review_id": "103142088"
 }
 ]
 }

@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-EVI",
 "movie": "Evil Dead Burn",
 "rt_slug": "m/evil_dead_burn",
-"review_count": 86,
+"review_count": 88,
 "reviews": [
 {
 "critic_name": "Rocco T. Thompson",
@@ -777,6 +777,24 @@
 "rating_text": "",
 "create_date": "2026-07-09T23:19:30.000Z",
 "review_id": "103142038"
+},
+{
+"critic_name": "Meagan Navarro",
+"sentiment": "Rotten",
+"publication": "Bloody Disgusting",
+"top_critic": true,
+"rating_text": "2.5/5",
+"create_date": "2026-07-10T01:29:47.000Z",
+"review_id": "103142104"
+},
+{
+"critic_name": "John Odette",
+"sentiment": "Fresh",
+"publication": "Pop Culture Leftovers",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-10T02:19:41.000Z",
+"review_id": "103142126"
 }
 ]
 }
