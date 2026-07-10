@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MOA",
 "movie": "Moana",
 "rt_slug": "m/moana_2026",
-"review_count": 120,
+"review_count": 127,
 "reviews": [
 {
 "critic_name": "Cody Dericks",
@@ -1083,6 +1083,69 @@
 "rating_text": "",
 "create_date": "2026-07-10T16:49:04.000Z",
 "review_id": "103142382"
+},
+{
+"critic_name": "Rachel Wagner",
+"sentiment": "Rotten",
+"publication": "Rachel's Reviews (YouTube)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-10T19:03:06.000Z",
+"review_id": "103142440"
+},
+{
+"critic_name": "Adam Olinger",
+"sentiment": "Rotten",
+"publication": "Adam Does Movies (YouTube)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-10T19:23:12.000Z",
+"review_id": "103142449"
+},
+{
+"critic_name": "Doug Walker",
+"sentiment": "Rotten",
+"publication": "Channel Awesome",
+"top_critic": false,
+"rating_text": "2 / 4",
+"create_date": "2026-07-10T19:26:19.000Z",
+"review_id": "103142450"
+},
+{
+"critic_name": "Dana Han-Klein",
+"sentiment": "Rotten",
+"publication": "We're Watching What?!",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-07-10T19:28:03.000Z",
+"review_id": "103142452"
+},
+{
+"critic_name": "Nestor Bentancor",
+"sentiment": "Rotten",
+"publication": "Nestor Cine Desde Hollywood",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-10T19:51:06.000Z",
+"review_id": "103142468"
+},
+{
+"critic_name": "Manuel S\u00e3o Bento",
+"sentiment": "Rotten",
+"publication": "MSB Reviews (Ghost.io)",
+"top_critic": false,
+"rating_text": "C",
+"create_date": "2026-07-10T20:00:27.000Z",
+"review_id": "103142472"
+},
+{
+"critic_name": "Rick Romancito",
+"sentiment": "Fresh",
+"publication": "The Taos News",
+"top_critic": false,
+"rating_text": "B",
+"create_date": "2026-07-10T20:05:05.000Z",
+"review_id": "103142480"
 }
 ]
 }

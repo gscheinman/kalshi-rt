@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 195,
+"review_count": 196,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1758,6 +1758,15 @@
 "rating_text": "5/5",
 "create_date": "2026-07-10T16:32:02.000Z",
 "review_id": "103142372"
+},
+{
+"critic_name": "Alex Bentley",
+"sentiment": "Fresh",
+"publication": "CultureMap",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-10T20:24:12.000Z",
+"review_id": "103142485"
 }
 ]
 }
