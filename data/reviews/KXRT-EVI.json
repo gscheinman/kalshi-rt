@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-EVI",
 "movie": "Evil Dead Burn",
 "rt_slug": "m/evil_dead_burn",
-"review_count": 126,
+"review_count": 128,
 "reviews": [
 {
 "critic_name": "Rocco T. Thompson",
@@ -1137,6 +1137,24 @@
 "rating_text": "C",
 "create_date": "2026-07-10T23:44:50.000Z",
 "review_id": "103142605"
+},
+{
+"critic_name": "Simon Foster",
+"sentiment": "Rotten",
+"publication": "Screen-Space (Substack)",
+"top_critic": false,
+"rating_text": "2.5/5",
+"create_date": "2026-07-11T02:37:28.000Z",
+"review_id": "103142632"
+},
+{
+"critic_name": "Lee McCoy",
+"sentiment": "Fresh",
+"publication": "DrumDums",
+"top_critic": false,
+"rating_text": "8.5/10",
+"create_date": "2026-07-11T04:02:31.000Z",
+"review_id": "103142636"
 }
 ]
 }
