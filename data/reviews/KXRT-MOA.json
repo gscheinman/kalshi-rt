@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MOA",
 "movie": "Moana",
 "rt_slug": "m/moana_2026",
-"review_count": 144,
+"review_count": 145,
 "reviews": [
 {
 "critic_name": "Cody Dericks",
@@ -1299,6 +1299,15 @@
 "rating_text": "1/5",
 "create_date": "2026-07-11T16:04:36.000Z",
 "review_id": "103142701"
+},
+{
+"critic_name": "Connor Petrey",
+"sentiment": "Rotten",
+"publication": "Pop Culture Leftovers",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-11T18:07:20.000Z",
+"review_id": "103142704"
 }
 ]
 }
