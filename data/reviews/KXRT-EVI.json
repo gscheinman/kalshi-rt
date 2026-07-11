@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-EVI",
 "movie": "Evil Dead Burn",
 "rt_slug": "m/evil_dead_burn",
-"review_count": 130,
+"review_count": 131,
 "reviews": [
 {
 "critic_name": "Rocco T. Thompson",
@@ -1173,6 +1173,15 @@
 "rating_text": "7/10",
 "create_date": "2026-07-11T13:21:42.000Z",
 "review_id": "103142660"
+},
+{
+"critic_name": "Chuck Bowen",
+"sentiment": "Rotten",
+"publication": "Style Weekly (Richmond, VA)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-11T13:51:35.000Z",
+"review_id": "103142661"
 }
 ]
 }
