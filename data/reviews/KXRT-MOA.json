@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MOA",
 "movie": "Moana",
 "rt_slug": "m/moana_2026",
-"review_count": 143,
+"review_count": 144,
 "reviews": [
 {
 "critic_name": "Cody Dericks",
@@ -1290,6 +1290,15 @@
 "rating_text": "1.5/5",
 "create_date": "2026-07-11T15:14:12.000Z",
 "review_id": "103142685"
+},
+{
+"critic_name": "Jack Martin",
+"sentiment": "Rotten",
+"publication": "Film Feeder",
+"top_critic": false,
+"rating_text": "1/5",
+"create_date": "2026-07-11T16:04:36.000Z",
+"review_id": "103142701"
 }
 ]
 }
