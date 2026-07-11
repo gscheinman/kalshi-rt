@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-EVI",
 "movie": "Evil Dead Burn",
 "rt_slug": "m/evil_dead_burn",
-"review_count": 132,
+"review_count": 133,
 "reviews": [
 {
 "critic_name": "Rocco T. Thompson",
@@ -1191,6 +1191,15 @@
 "rating_text": "7.3/10",
 "create_date": "2026-07-11T18:57:27.000Z",
 "review_id": "103142707"
+},
+{
+"critic_name": "Jeffrey Harris",
+"sentiment": "Fresh",
+"publication": "411mania",
+"top_critic": false,
+"rating_text": "7.5/10",
+"create_date": "2026-07-11T19:58:00.000Z",
+"review_id": "103142711"
 }
 ]
 }
