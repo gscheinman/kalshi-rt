@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MOA",
 "movie": "Moana",
 "rt_slug": "m/moana_2026",
-"review_count": 137,
+"review_count": 138,
 "reviews": [
 {
 "critic_name": "Cody Dericks",
@@ -1236,6 +1236,15 @@
 "rating_text": "3/5",
 "create_date": "2026-07-11T05:58:33.000Z",
 "review_id": "103142641"
+},
+{
+"critic_name": "Eddie Harrison",
+"sentiment": "Rotten",
+"publication": "film-authority.com",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-07-11T08:18:41.000Z",
+"review_id": "103142647"
 }
 ]
 }
