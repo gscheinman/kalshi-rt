@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 204,
+"review_count": 205,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1839,6 +1839,15 @@
 "rating_text": "",
 "create_date": "2026-07-11T16:55:54.000Z",
 "review_id": "103142702"
+},
+{
+"critic_name": "Kimber Myers",
+"sentiment": "Fresh",
+"publication": "Crooked Marquee",
+"top_critic": true,
+"rating_text": "B",
+"create_date": "2026-07-11T21:02:53.000Z",
+"review_id": "103142726"
 }
 ]
 }
