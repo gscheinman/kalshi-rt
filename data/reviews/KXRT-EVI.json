@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-EVI",
 "movie": "Evil Dead Burn",
 "rt_slug": "m/evil_dead_burn",
-"review_count": 125,
+"review_count": 126,
 "reviews": [
 {
 "critic_name": "Rocco T. Thompson",
@@ -1128,6 +1128,15 @@
 "rating_text": "",
 "create_date": "2026-07-10T22:59:49.000Z",
 "review_id": "103142588"
+},
+{
+"critic_name": "Zofia Wijaszka",
+"sentiment": "Fresh",
+"publication": "Nerdspin",
+"top_critic": false,
+"rating_text": "C",
+"create_date": "2026-07-10T23:44:50.000Z",
+"review_id": "103142605"
 }
 ]
 }
