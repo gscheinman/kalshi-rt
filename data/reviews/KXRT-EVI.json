@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-EVI",
 "movie": "Evil Dead Burn",
 "rt_slug": "m/evil_dead_burn",
-"review_count": 131,
+"review_count": 132,
 "reviews": [
 {
 "critic_name": "Rocco T. Thompson",
@@ -1182,6 +1182,15 @@
 "rating_text": "",
 "create_date": "2026-07-11T13:51:35.000Z",
 "review_id": "103142661"
+},
+{
+"critic_name": "Dan Murrell",
+"sentiment": "Fresh",
+"publication": "Dan Murrell Reviews",
+"top_critic": false,
+"rating_text": "7.3/10",
+"create_date": "2026-07-11T18:57:27.000Z",
+"review_id": "103142707"
 }
 ]
 }

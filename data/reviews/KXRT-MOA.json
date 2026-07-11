@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MOA",
 "movie": "Moana",
 "rt_slug": "m/moana_2026",
-"review_count": 145,
+"review_count": 147,
 "reviews": [
 {
 "critic_name": "Cody Dericks",
@@ -1308,6 +1308,24 @@
 "rating_text": "",
 "create_date": "2026-07-11T18:07:20.000Z",
 "review_id": "103142704"
+},
+{
+"critic_name": "Dan Murrell",
+"sentiment": "Rotten",
+"publication": "Dan Murrell Reviews",
+"top_critic": false,
+"rating_text": "5/10",
+"create_date": "2026-07-11T18:53:04.000Z",
+"review_id": "103142706"
+},
+{
+"critic_name": "Maxance Vincent",
+"sentiment": "Rotten",
+"publication": "The Cosmic Circus",
+"top_critic": false,
+"rating_text": "1.5/5",
+"create_date": "2026-07-11T19:22:21.000Z",
+"review_id": "103142708"
 }
 ]
 }
