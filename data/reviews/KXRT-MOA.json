@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MOA",
 "movie": "Moana",
 "rt_slug": "m/moana_2026",
-"review_count": 151,
+"review_count": 152,
 "reviews": [
 {
 "critic_name": "Cody Dericks",
@@ -1362,6 +1362,15 @@
 "rating_text": "B",
 "create_date": "2026-07-12T07:18:28.000Z",
 "review_id": "103142768"
+},
+{
+"critic_name": "Sarah Vincent",
+"sentiment": "Fresh",
+"publication": "Sarah G Vincent Views",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-12T12:23:52.000Z",
+"review_id": "103142774"
 }
 ]
 }
