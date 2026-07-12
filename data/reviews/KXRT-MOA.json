@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MOA",
 "movie": "Moana",
 "rt_slug": "m/moana_2026",
-"review_count": 149,
+"review_count": 150,
 "reviews": [
 {
 "critic_name": "Cody Dericks",
@@ -1344,6 +1344,15 @@
 "rating_text": "3/10",
 "create_date": "2026-07-12T01:51:52.000Z",
 "review_id": "103142736"
+},
+{
+"critic_name": "Korey Coleman",
+"sentiment": "Rotten",
+"publication": "Double Toasted",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-12T06:03:48.000Z",
+"review_id": "103142750"
 }
 ]
 }

@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-EVI",
 "movie": "Evil Dead Burn",
 "rt_slug": "m/evil_dead_burn",
-"review_count": 134,
+"review_count": 136,
 "reviews": [
 {
 "critic_name": "Rocco T. Thompson",
@@ -1209,6 +1209,24 @@
 "rating_text": "4/10",
 "create_date": "2026-07-12T02:04:33.000Z",
 "review_id": "103142746"
+},
+{
+"critic_name": "Marianna Neal",
+"sentiment": "Fresh",
+"publication": "Impression Blend",
+"top_critic": false,
+"rating_text": "8/10",
+"create_date": "2026-07-12T05:06:00.000Z",
+"review_id": "103142747"
+},
+{
+"critic_name": "Korey Coleman",
+"sentiment": "Fresh",
+"publication": "Double Toasted",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-12T05:56:48.000Z",
+"review_id": "103142749"
 }
 ]
 }
