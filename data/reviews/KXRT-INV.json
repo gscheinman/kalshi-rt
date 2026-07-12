@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 205,
+"review_count": 206,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1848,6 +1848,15 @@
 "rating_text": "B",
 "create_date": "2026-07-11T21:02:53.000Z",
 "review_id": "103142726"
+},
+{
+"critic_name": "Allyson Johnson",
+"sentiment": "Fresh",
+"publication": "But Why Tho?",
+"top_critic": false,
+"rating_text": "9/10",
+"create_date": "2026-07-12T14:46:37.000Z",
+"review_id": "103142787"
 }
 ]
 }
