@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 207,
+"review_count": 208,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1866,6 +1866,15 @@
 "rating_text": "4/4",
 "create_date": "2026-07-12T17:06:38.000Z",
 "review_id": "103142801"
+},
+{
+"critic_name": "Ray Pride",
+"sentiment": "Fresh",
+"publication": "Newcity",
+"top_critic": false,
+"rating_text": "9/10",
+"create_date": "2026-07-12T21:27:52.000Z",
+"review_id": "103142827"
 }
 ]
 }
