@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MOA",
 "movie": "Moana",
 "rt_slug": "m/moana_2026",
-"review_count": 150,
+"review_count": 151,
 "reviews": [
 {
 "critic_name": "Cody Dericks",
@@ -1353,6 +1353,15 @@
 "rating_text": "",
 "create_date": "2026-07-12T06:03:48.000Z",
 "review_id": "103142750"
+},
+{
+"critic_name": "Lupe Rodriguez Haas",
+"sentiment": "Fresh",
+"publication": "CineMovie.tv",
+"top_critic": false,
+"rating_text": "B",
+"create_date": "2026-07-12T07:18:28.000Z",
+"review_id": "103142768"
 }
 ]
 }
