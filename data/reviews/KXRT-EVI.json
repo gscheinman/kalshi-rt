@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-EVI",
 "movie": "Evil Dead Burn",
 "rt_slug": "m/evil_dead_burn",
-"review_count": 133,
+"review_count": 134,
 "reviews": [
 {
 "critic_name": "Rocco T. Thompson",
@@ -1200,6 +1200,15 @@
 "rating_text": "7.5/10",
 "create_date": "2026-07-11T19:58:00.000Z",
 "review_id": "103142711"
+},
+{
+"critic_name": "Andrew Parker",
+"sentiment": "Rotten",
+"publication": "The Gate",
+"top_critic": false,
+"rating_text": "4/10",
+"create_date": "2026-07-12T02:04:33.000Z",
+"review_id": "103142746"
 }
 ]
 }
