@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-EVI",
 "movie": "Evil Dead Burn",
 "rt_slug": "m/evil_dead_burn",
-"review_count": 138,
+"review_count": 139,
 "reviews": [
 {
 "critic_name": "Rocco T. Thompson",
@@ -1245,6 +1245,15 @@
 "rating_text": "9/10",
 "create_date": "2026-07-12T15:32:29.000Z",
 "review_id": "103142788"
+},
+{
+"critic_name": "Sean Burns",
+"sentiment": "Rotten",
+"publication": "Spliced Personality (Substack)",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-12T17:52:38.000Z",
+"review_id": "103142812"
 }
 ]
 }
