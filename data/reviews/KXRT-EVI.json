@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-EVI",
 "movie": "Evil Dead Burn",
 "rt_slug": "m/evil_dead_burn",
-"review_count": 137,
+"review_count": 138,
 "reviews": [
 {
 "critic_name": "Rocco T. Thompson",
@@ -1236,6 +1236,15 @@
 "rating_text": "",
 "create_date": "2026-07-12T09:58:58.000Z",
 "review_id": "103142772"
+},
+{
+"critic_name": "Brogan Luke Bouwhuis",
+"sentiment": "Fresh",
+"publication": "But Why Tho?",
+"top_critic": false,
+"rating_text": "9/10",
+"create_date": "2026-07-12T15:32:29.000Z",
+"review_id": "103142788"
 }
 ]
 }
