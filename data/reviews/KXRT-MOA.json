@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-MOA",
 "movie": "Moana",
 "rt_slug": "m/moana_2026",
-"review_count": 156,
+"review_count": 157,
 "reviews": [
 {
 "critic_name": "Cody Dericks",
@@ -1407,6 +1407,15 @@
 "rating_text": "",
 "create_date": "2026-07-13T07:43:07.000Z",
 "review_id": "103142871"
+},
+{
+"critic_name": "Sreeju Sudhakaran",
+"sentiment": "Rotten",
+"publication": "Rediff.com",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-07-13T10:52:09.000Z",
+"review_id": "103142877"
 }
 ]
 }
