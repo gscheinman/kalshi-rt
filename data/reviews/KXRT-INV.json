@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 208,
+"review_count": 209,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1875,6 +1875,15 @@
 "rating_text": "9/10",
 "create_date": "2026-07-12T21:27:52.000Z",
 "review_id": "103142827"
+},
+{
+"critic_name": "James Croot",
+"sentiment": "Fresh",
+"publication": "The Post NZ",
+"top_critic": false,
+"rating_text": "4.5/5",
+"create_date": "2026-07-13T02:36:35.000Z",
+"review_id": "103142854"
 }
 ]
 }

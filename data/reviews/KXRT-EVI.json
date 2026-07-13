@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-EVI",
 "movie": "Evil Dead Burn",
 "rt_slug": "m/evil_dead_burn",
-"review_count": 139,
+"review_count": 140,
 "reviews": [
 {
 "critic_name": "Rocco T. Thompson",
@@ -1254,6 +1254,15 @@
 "rating_text": "",
 "create_date": "2026-07-12T17:52:38.000Z",
 "review_id": "103142812"
+},
+{
+"critic_name": "Graeme Tuckett",
+"sentiment": "Fresh",
+"publication": "The Post NZ",
+"top_critic": false,
+"rating_text": "3.5/5",
+"create_date": "2026-07-13T02:33:41.000Z",
+"review_id": "103142852"
 }
 ]
 }
