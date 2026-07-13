@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-EVI",
 "movie": "Evil Dead Burn",
 "rt_slug": "m/evil_dead_burn",
-"review_count": 141,
+"review_count": 143,
 "reviews": [
 {
 "critic_name": "Rocco T. Thompson",
@@ -1272,6 +1272,24 @@
 "rating_text": "9.5/20",
 "create_date": "2026-07-13T04:57:45.000Z",
 "review_id": "103142861"
+},
+{
+"critic_name": "Lucy Buglass",
+"sentiment": "Rotten",
+"publication": "TechRadar",
+"top_critic": false,
+"rating_text": "2/5",
+"create_date": "2026-07-13T11:24:38.000Z",
+"review_id": "103142880"
+},
+{
+"critic_name": "Siddhant Adlakha",
+"sentiment": "Fresh",
+"publication": "Video Game Town",
+"top_critic": false,
+"rating_text": "",
+"create_date": "2026-07-13T12:53:32.000Z",
+"review_id": "103142884"
 }
 ]
 }
