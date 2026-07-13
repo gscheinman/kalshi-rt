@@ -2,7 +2,7 @@
 "event_ticker": "KXRT-INV",
 "movie": "The Invite",
 "rt_slug": "m/the_invite",
-"review_count": 209,
+"review_count": 210,
 "reviews": [
 {
 "critic_name": "Abe Friedtanzer",
@@ -1884,6 +1884,15 @@
 "rating_text": "4.5/5",
 "create_date": "2026-07-13T02:36:35.000Z",
 "review_id": "103142854"
+},
+{
+"critic_name": "Jason Miller",
+"sentiment": "Fresh",
+"publication": "Nerdspin",
+"top_critic": false,
+"rating_text": "A-",
+"create_date": "2026-07-13T07:04:06.000Z",
+"review_id": "103142868"
 }
 ]
 }
