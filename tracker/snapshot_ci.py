@@ -241,6 +241,15 @@ def take_snapshot():
                 )
         print(f"  {movie}: {status}", flush=True)
 
+    # Roll completed months into gzipped archives before appending, so the
+    # active files never approach GitHub's 100 MB per-file push limit.
+    try:
+        from data.history import rotate_if_needed
+        rotate_if_needed(REPO_SNAPSHOT_FILE, prefix="snapshots")
+        rotate_if_needed(REPO_DEPTH_FILE, prefix="depth")
+    except Exception as e:
+        print(f"  (rotation skipped: {e})", flush=True)
+
     # Write to repo-local file
     REPO_SNAPSHOT_FILE.parent.mkdir(parents=True, exist_ok=True)
     with open(REPO_SNAPSHOT_FILE, "a") as f:

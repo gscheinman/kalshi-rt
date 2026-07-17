@@ -187,13 +187,20 @@ def refresh_from_snapshots():
     Reads data/snapshots.jsonl, finds resolved movies, and calls
     ingest_settled_movie() for each unique resolved movie.
     """
-    if not CI_SNAPSHOTS.exists():
-        print("No snapshots file found")
-        return []
+    # Read the FULL history (gzipped archives + active file) so settled movies
+    # from archived months still feed the critic database.
+    try:
+        from data.history import iter_all_snapshot_lines
+        line_source = iter_all_snapshot_lines()
+    except Exception:
+        if not CI_SNAPSHOTS.exists():
+            print("No snapshots file found")
+            return []
+        line_source = (l.strip() for l in open(CI_SNAPSHOTS))
 
     resolved_movies = {}
-    with open(CI_SNAPSHOTS) as f:
-        for line in f:
+    if True:
+        for line in line_source:
             line = line.strip()
             if not line:
                 continue

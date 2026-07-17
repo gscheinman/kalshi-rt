@@ -312,23 +312,30 @@ def _merge_ci_snapshots():
                 except (json.JSONDecodeError, KeyError):
                     continue
 
+    # Read the FULL CI history (gzipped archives + active file) so learnings
+    # computed after archival still include settled movies from older months.
+    try:
+        from data.history import iter_all_snapshot_lines
+        ci_lines = iter_all_snapshot_lines()
+    except Exception:
+        ci_lines = (l.strip() for l in open(CI_SNAPSHOT_FILE)) if CI_SNAPSHOT_FILE.exists() else iter(())
+
     merged = 0
     SNAPSHOT_DIR.mkdir(parents=True, exist_ok=True)
     with open(SNAPSHOT_FILE, "a") as out:
-        with open(CI_SNAPSHOT_FILE) as ci:
-            for line in ci:
-                line = line.strip()
-                if not line:
-                    continue
-                try:
-                    s = json.loads(line)
-                    key = (s["timestamp"], s["event_ticker"])
-                    if key not in existing_keys:
-                        out.write(json.dumps(s) + "\n")
-                        existing_keys.add(key)
-                        merged += 1
-                except (json.JSONDecodeError, KeyError):
-                    continue
+        for line in ci_lines:
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                s = json.loads(line)
+                key = (s["timestamp"], s["event_ticker"])
+                if key not in existing_keys:
+                    out.write(json.dumps(s) + "\n")
+                    existing_keys.add(key)
+                    merged += 1
+            except (json.JSONDecodeError, KeyError):
+                continue
 
     return merged
 
